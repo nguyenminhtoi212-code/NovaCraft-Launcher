@@ -1,0 +1,1630 @@
+# --- about.tsv ---
+# Dialog Tentang dan Lisensi
+Peluncur ini. Kode sumbernya terbuka dan boleh dipelajari, diubah, dan dibagikan lagi dengan syarat GPL-3.0 yang sama.	This launcher. Its source code is open and may be studied, changed, and shared again under the same GPL-3.0 terms.
+Komponen arsitektur bridge JNI native (ZLBridge), integrasi SDL3 surface, direct gamepad input, penanganan resolusi DNS, dan optimasi eksekusi OpenJDK mobile.	Native JNI bridge architecture (ZLBridge), SDL3 surface integration, direct gamepad input, DNS resolution handling, and mobile OpenJDK execution optimizations.
+Proyek pionir peluncuran Minecraft Java Edition di Android. Menyediakan porting LWJGL 3, GLFW Stubs, AWT stubs, dan integrasi grafis renderer mobile.	The pioneering project for running Minecraft Java Edition on Android. Provides the LWJGL 3 port, GLFW stubs, AWT stubs, and mobile graphics renderer integration.
+NUX Launcher (sumber asal fork)	NUX Launcher (original source of the fork)
+Proyek asal yang di-fork oleh NovaCraft. Kode sumber terbuka di bawah GNU GPL-3.0.	The original project that NovaCraft was forked from. Open source under GNU GPL-3.0.
+Arsitektur runtime JVM, ZLBridge JNI, integrasi SDL3, direct gamepad, dan optimasi Android	JVM runtime architecture, ZLBridge JNI, SDL3 integration, direct gamepad, and Android optimizations
+Mesin peluncuran Java Minecraft Android, LWJGL 3 Android Natives, GLFW Stub	Minecraft Java launching engine for Android, LWJGL 3 Android natives, GLFW stub
+Penerjemah modern OpenGL 4.0 ke OpenGL ES 3.2 untuk Minecraft 1.17+	Modern OpenGL 4.0 to OpenGL ES 3.2 translator for Minecraft 1.17+
+Pustaka binding grafis, audio (OpenAL), dan jendela game Java	Graphics, audio (OpenAL), and window bindings library for Java games
+Manajemen surface rendering native, touch input, dan audio output	Native rendering surface management, touch input, and audio output
+Vulkan-to-OpenGL translation & driver akselerasi GPU mobile	Vulkan-to-OpenGL translation and mobile GPU acceleration drivers
+Mesin penerjemah OpenGL ES berbasis backend Vulkan	OpenGL ES translation engine built on a Vulkan backend
+Dynamic binary instrumentation dan hook Android library	Dynamic binary instrumentation and Android library hooking
+Toolkit UI modern, deklaratif, dan responsif	Modern, declarative, and responsive UI toolkit
+Katalog publik mod, modpack, shaderpack, dan resource pack	Public catalog of mods, modpacks, shaderpacks, and resource packs
+Editor teks dan log penampil performa tinggi	High-performance text editor and log viewer
+Viewer interaktif 3D skin & jubah Minecraft berbasis WebGL	Interactive WebGL 3D viewer for Minecraft skins and capes
+Klien HTTP jaringan performa tinggi	High-performance HTTP networking client
+Ringkasan	Summary
+Pustaka ({0})	Libraries ({0})
+Tentang NovaCraft	About NovaCraft
+Peluncur Minecraft Java modern untuk Android, ringan dan stabil.	A modern, lightweight, and stable Minecraft Java launcher for Android.
+NovaCraft adalah peluncur independen hasil modifikasi dari NUX Launcher, yang sendirinya berasal dari Zalith Launcher 2 dan PojavLauncher. Aplikasi ini bukan aplikasi resmi Zalith Launcher Team, NUX Launcher, maupun Mojang Studios.	NovaCraft is an independent launcher modified from NUX Launcher, which itself originates from Zalith Launcher 2 and PojavLauncher. This app is not an official app of the Zalith Launcher Team, NUX Launcher, or Mojang Studios.
+Proyek dan hak cipta	Projects and copyright
+Penafian Minecraft	Minecraft disclaimer
+Bukan produk resmi Minecraft. Tidak disetujui oleh atau terkait dengan Mojang Studios atau Microsoft. Minecraft adalah merek dagang milik Mojang AB / Microsoft Corporation. Seluruh aset game diunduh langsung dari server distribusi resmi Mojang.	Not an official Minecraft product. Not approved by or associated with Mojang Studios or Microsoft. Minecraft is a trademark of Mojang AB / Microsoft Corporation. All game assets are downloaded directly from Mojang's official distribution servers.
+Pustaka open source	Open source libraries
+Ketuk untuk membuka halaman proyeknya.	Tap to open the project's page.
+Lisensi yang menaungi NovaCraft.	The license that covers NovaCraft.
+Proyek ini dilisensikan di bawah ketentuan GNU General Public License versi 3.0.	This project is licensed under the terms of the GNU General Public License version 3.0.
+Empat kebebasan perangkat lunak bebas	The four essential software freedoms
+Kebebasan untuk menjalankan program untuk keperluan apa pun.	The freedom to run the program for any purpose.
+Kebebasan untuk mempelajari cara kerja program dan menyesuaikannya dengan kebutuhan Anda.	The freedom to study how the program works and adapt it to your needs.
+Kebebasan untuk mendistribusikan kembali salinan untuk membantu sesama.	The freedom to redistribute copies to help others.
+Kebebasan untuk menyempurnakan program dan merilis penyempurnaan tersebut kepada publik.	The freedom to improve the program and release your improvements to the public.
+Ketentuan tambahan (GPLv3 Pasal 7)	Additional terms (GPLv3 Section 7)
+Modifikasi tidak boleh menyalahgunakan nama dagang 'ZalithLauncher' atau 'ZL'.	Modified versions must not misuse the trade name 'ZalithLauncher' or 'ZL'.
+Modifikasi wajib menampilkan keterangan bahwa ini adalah 'Unofficial Modified Version'.	Modified versions must state that this is an 'Unofficial Modified Version'.
+Hak cipta penulis asli (Copyright \u00a9 MovTery & PojavLauncherTeam) tidak boleh dihapus.	The original authors' copyright (Copyright \u00a9 MovTery & PojavLauncherTeam) must not be removed.
+Baca teks lisensi lengkap	Read the full license text
+Versi {0}	Version {0}
+Klien proxy untuk mod kontrol sentuh TouchController	Proxy client for the TouchController touch-control mod
+Implementasi client Minecraft Java berbasis Rust (arm64-v8a)	Rust-based Minecraft Java client implementation (arm64-v8a)
+Tim pengembang	Developer team
+Pengembang Pendamping	Co-Developer
+Mengelola penyesuaian NovaCraft, pembaruan antarmuka modern, penyelarasan 64-bit, dan perbaikan stabilitas.	Manages NovaCraft customizations, modern UI updates, 64-bit alignment, and stability improvements.
+Ucapan terima kasih khusus	Special thanks
+Penulis asli & pelopor	Original authors & pioneers
+Terima kasih sebesar-besarnya kepada ItsVynzzzz (AmberLauncher), IsraaDeveloper (NUX Launcher), MovTery (Zalith Launcher 2), PojavLauncherTeam, serta tim Horizon atas fondasi teknis yang luar biasa.	Heartfelt thanks to ItsVynzzzz (AmberLauncher), IsraaDeveloper (NUX Launcher), MovTery (Zalith Launcher 2), PojavLauncherTeam, and the Horizon team for their extraordinary technical foundation.
+Komunitas Minecraft & sumber terbuka	Minecraft & open-source community
+Terima kasih kepada seluruh komunitas pemain, penguji, pembuat mod, penerjemah, dan kontributor open source yang terus memberi masukan dan menjaga ekosistem Minecraft Java di Android tetap hidup.	Thank you to the entire community of players, testers, mod creators, translators, and open-source contributors who continually provide feedback and keep the Minecraft Java on Android ecosystem alive.
+# --- accounts.tsv ---
+# Akun, login Microsoft dan Ely.by
+Skin & Jubah akun Ely.by dikelola langsung di https://account.ely.by	Ely.by account skins and capes are managed directly at https://account.ely.by
+Belum ada akun tersimpan	No saved accounts yet
+{0} akun tersimpan \u00b7 ketuk untuk berganti	Saved accounts: {0} \u00b7 tap to switch
+Profil aktif	Active profile
+Skin & Jubah	Skin & Cape
+Belum ada profil aktif	No active profile yet
+Pilih atau tambahkan akun untuk mulai bermain.	Choose or add an account to start playing.
+Tambahkan akun Offline, Microsoft, atau Ely.by.	Add an Offline, Microsoft, or Ely.by account.
+Aktif	Active
+Gunakan	Use
+Akun {0} berhasil ditambahkan!	Account {0} added!
+Hapus akun?	Delete account?
+Hapus profil '{0}' ({1}) dari perangkat ini?	Delete profile '{0}' ({1}) from this device?
+Profil '{0}' dihapus	Profile '{0}' deleted
+Akun resmi Microsoft	Official Microsoft account
+Akun terverifikasi Ely.by	Verified Ely.by account
+Akun offline / lokal	Offline / local account
+Pilih cara masuk ke Minecraft	Choose how to sign in to Minecraft
+Lokal \u00b7 tanpa login	Local \u00b7 no sign-in
+Resmi \u00b7 akun Mojang	Official \u00b7 Mojang account
+Browser \u00b7 skin & jubah	Browser \u00b7 skin & cape
+Nama pemain (Steve, Alex...)	Player name (Steve, Alex...)
+Username tidak boleh kosong	Username cannot be empty
+Simpan akun	Save account
+Masuk dengan akun Microsoft / Xbox	Sign in with a Microsoft / Xbox account
+Jendela otorisasi dibuka langsung di launcher, tanpa perlu keluar aplikasi.	The authorization window opens right inside the launcher, so you don't need to leave the app.
+Gagal memulai otorisasi Microsoft.	Failed to start Microsoft authorization.
+Menghubungi...	Connecting...
+Masuk dengan Microsoft	Sign in with Microsoft
+Menunggu otorisasi di browser Ely.by...	Waiting for authorization in the Ely.by browser...
+Kode disalin	Code copied
+Salin	Copy
+Buka lagi	Open again
+Masuk dengan akun Ely.by	Sign in with an Ely.by account
+Browser dibuka otomatis untuk konfirmasi akun Ely.by, tanpa mengetik password.	The browser opens automatically to confirm your Ely.by account, without typing a password.
+Buka browser Ely.by	Open Ely.by in browser
+Menunggu otorisasi akun di halaman web Microsoft...	Waiting for account authorization on the Microsoft web page...
+Kode '{0}' telah disalin!	Code '{0}' copied!
+Token diterima! Memproses autentikasi Minecraft & Xbox...	Token received! Processing Minecraft & Xbox authentication...
+Gagal memproses autentikasi Minecraft.	Failed to process Minecraft authentication.
+Otorisasi Microsoft gagal.	Microsoft authorization failed.
+LOGIN AKUN MICROSOFT	MICROSOFT ACCOUNT SIGN-IN
+Masuk dan konfirmasi langsung di jendela aman ini	Sign in and confirm right here in this secure window
+Kode '{0}' disalin!	Code '{0}' copied!
+KODE:	CODE:
+Salin Kode	Copy code
+Buka di Browser Eksternal	Open in external browser
+Klik 'Lanjutkan' di halaman atas setelah memasukkan kode	Tap 'Continue' on the page above after entering the code
+Gagal memulai otorisasi Ely.by.	Failed to start Ely.by authorization.
+Otorisasi Ely.by gagal.	Ely.by authorization failed.
+Terjadi kesalahan saat login Ely.by.	An error occurred while signing in to Ely.by.
+Gagal memulai login Ely.by Device Code ({0}): {1}	Failed to start Ely.by Device Code sign-in ({0}): {1}
+Login dibatalkan oleh pengguna.	Sign-in was canceled by the user.
+Menunggu konfirmasi di browser...	Waiting for confirmation in the browser...
+Memperlambat polling...	Slowing down polling...
+Waktu otorisasi Ely.by habis.	Ely.by authorization timed out.
+Mengambil informasi akun Ely.by...	Fetching Ely.by account info...
+Gagal mengambil info akun Ely.by ({0})	Failed to fetch Ely.by account info ({0})
+Mengambil UUID Minecraft untuk {0}...	Fetching the Minecraft UUID for {0}...
+Gagal login ke Ely.by (HTTP {0}): {1}	Failed to sign in to Ely.by (HTTP {0}): {1}
+Profil Ely.by tidak ditemukan dalam respon.	The Ely.by profile was not found in the response.
+Gagal memulai login Microsoft (HTTP {0}): {1}	Failed to start Microsoft sign-in (HTTP {0}): {1}
+Token berhasil diterima! Menghubungkan ke Xbox Live...	Token received! Connecting to Xbox Live...
+Menunggu otorisasi di halaman web...	Waiting for authorization on the web page...
+Memperlambat frekuensi polling...	Slowing down polling frequency...
+Kode login kedaluwarsa. Silakan mulai ulang.	The sign-in code has expired. Please start again.
+Kode otorisasi telah digunakan atau kedaluwarsa. Silakan klik Login untuk mendapatkan kode baru.	The authorization code has already been used or has expired. Tap Sign in to get a new code.
+Otorisasi ditolak ({0}): {1}	Authorization denied ({0}): {1}
+Koneksi jaringan terputus berulang kali saat polling. Silakan periksa koneksi internet.	The network connection dropped repeatedly while waiting. Please check your internet connection.
+Waktu otorisasi habis (timeout). Silakan coba lagi.	Authorization timed out. Please try again.
+Autentikasi dengan Xbox Live...	Authenticating with Xbox Live...
+Gagal autentikasi Xbox Live (HTTP {0}): {1}	Xbox Live authentication failed (HTTP {0}): {1}
+Gagal memperoleh token Xbox Live atau UserHash.	Failed to obtain the Xbox Live token or UserHash.
+Meminta otorisasi XSTS Minecraft...	Requesting Minecraft XSTS authorization...
+Akun ini telah dilarang/diblokir dari Xbox Live.	This account has been banned or blocked from Xbox Live.
+Akun dibatasi oleh kontrol orang tua (Restricted).	The account is restricted by parental controls (Restricted).
+Akun Microsoft ini belum memiliki profil Xbox. Silakan buat gamertag di xbox.com terlebih dahulu.	This Microsoft account does not have an Xbox profile yet. Please create a gamertag at xbox.com first.
+Akun belum menyetujui Ketentuan Layanan Xbox Live.	The account has not accepted the Xbox Live Terms of Service.
+Layanan Xbox Live tidak tersedia di negara/wilayah akun Anda.	Xbox Live is not available in your account's country/region.
+Akun memerlukan verifikasi bukti usia dewasa (Proof of Age).	The account requires adult age verification (Proof of Age).
+Batas waktu bermain harian Xbox Live telah tercapai.	The daily Xbox Live play time limit has been reached.
+Akun di bawah umur (Child Account). Harus ditautkan ke akun keluarga (Family Safety) oleh orang tua.	This is a child account. A parent must link it to a family group (Family Safety).
+Otorisasi XSTS gagal (HTTP {0}): {1}	XSTS authorization failed (HTTP {0}): {1}
+Gagal memperoleh token XSTS.	Failed to obtain the XSTS token.
+Menghubungkan ke Mojang Minecraft Services...	Connecting to Mojang Minecraft Services...
+Gagal login ke layanan Minecraft ({0}): {1}	Failed to sign in to the Minecraft service ({0}): {1}
+Layanan Minecraft tidak mengembalikan token akses.	The Minecraft service did not return an access token.
+Mengambil profil pemain Minecraft Java...	Fetching the Minecraft Java player profile...
+Akun Microsoft ini belum memiliki lisensi game Minecraft: Java Edition.	This Microsoft account does not own a Minecraft: Java Edition license.
+Gagal mengambil profil Minecraft ({0}): {1}	Failed to fetch the Minecraft profile ({0}): {1}
+Tidak ada refresh token tersimpan.	No refresh token is saved.
+Gagal memperbarui token Microsoft ({0}): {1}	Failed to refresh the Microsoft token ({0}): {1}
+Token pembaruan kosong.	The refresh token is empty.
+# Login Microsoft: sesi diperbarui otomatis dan pesan galat lebih jelas
+Memperbarui sesi Microsoft...	Refreshing Microsoft session...
+Sesi Microsoft belum bisa diperbarui. Game tetap dijalankan, tetapi fitur online mungkin butuh login ulang.	The Microsoft session could not be refreshed. The game will still start, but online features may need you to sign in again.
+Tidak bisa terhubung ke server Microsoft. Periksa sambungan internet lalu coba lagi.	Could not connect to the Microsoft server. Check your internet connection and try again.
+Gagal memulai login Microsoft (kode {0}). Coba lagi nanti.	Could not start Microsoft sign-in (code {0}). Please try again later.
+Terlalu banyak percobaan login. Tunggu beberapa menit lalu coba lagi.	Too many sign-in attempts. Wait a few minutes and try again.
+Gagal autentikasi Xbox Live (kode {0}). Coba lagi nanti.	Xbox Live authentication failed (code {0}). Please try again later.
+Otorisasi XSTS gagal (kode {0}). Coba lagi nanti.	XSTS authorization failed (code {0}). Please try again later.
+Server Minecraft sedang bermasalah (kode {0}). Coba lagi beberapa menit lagi.	The Minecraft server is having problems (code {0}). Try again in a few minutes.
+Layanan Minecraft menolak login (kode {0}). Coba lagi nanti. Bila terus berulang, laporkan ke pengembang launcher.	The Minecraft service rejected the sign-in (code {0}). Try again later. If it keeps happening, report it to the launcher developer.
+Akun ini belum punya profil Minecraft Java. Pastikan Minecraft: Java Edition (atau Game Pass PC) sudah dimiliki, lalu buat nama pemain di minecraft.net/profile.	This account has no Minecraft Java profile yet. Make sure you own Minecraft: Java Edition (or Game Pass for PC), then create a player name at minecraft.net/profile.
+Gagal mengambil profil Minecraft (kode {0}).	Could not load the Minecraft profile (code {0}).
+Gagal memperbarui sesi Microsoft (kode {0}). Silakan login ulang.	Could not refresh the Microsoft session (code {0}). Please sign in again.
+Kode login tidak dikenali. Silakan mulai ulang.	The sign-in code was not recognized. Please start again.
+Login ditolak di halaman Microsoft. Silakan mulai ulang.	Sign-in was declined on the Microsoft page. Please start again.
+Mojang menolak aplikasi launcher ini (Invalid app registration, kode 403). Client ID login belum disetujui; hubungi pengembang launcher.	Mojang rejected this launcher app (Invalid app registration, code 403). The sign-in Client ID has not been approved; contact the launcher developer.
+Menunggu login di browser...	Waiting for sign-in in the browser...
+Selesaikan login di browser, lalu kembali ke sini	Finish signing in in the browser, then come back here
+Tidak ada browser yang bisa dibuka	No browser available to open
+Kode sudah disalin. Bila kolom kode di browser masih kosong, tempel lalu pilih Lanjutkan.	The code has been copied. If the code field in the browser is still empty, paste it and choose Continue.
+Buka di browser	Open in browser
+# --- common.tsv ---
+# Kata umum
+Tutup	Close
+TUTUP	CLOSE
+Batal	Cancel
+BATAL	CANCEL
+Hapus	Delete
+Keluar	Exit
+Ganti	Change
+Nanti	Later
+Pengaturan	Settings
+Akun	Accounts
+Mod	Mods
+Tentang & Lisensi	About & License
+Tentang & lisensi	About & license
+Bahasa	Language
+Ikuti sistem	Follow system
+Seimbang	Balanced
+Bawaan	Default
+Sistem	System
+Halus	Subtle
+Sedang	Medium
+Kuat	Strong
+Buka folder	Open folder
+Buka pengaturan	Open settings
+Ubah instance	Edit instance
+Hapus instance	Delete instance
+Lihat log	View log
+# --- crash.tsv ---
+# Panel crash: penjelasan sumber crash dan bantuan AI
+NovaCraft berhenti	NovaCraft stopped
+Minecraft berhenti mendadak	Minecraft stopped suddenly
+Aplikasi tertutup karena kesalahan tak terduga	The app closed because of an unexpected error
+Kembali ke launcher	Back to launcher
+Penjelasan	Explanation
+Crash tidak selalu berarti launcher-nya rusak. Mod, RAM HP, dan driver grafis jauh lebih sering menjadi penyebabnya, jadi cari tahu dulu sebelum melapor ke pengembang.	A crash does not always mean the launcher is broken. Mods, the phone's RAM, and the graphics driver are far more often the cause, so find out first before reporting to the developer.
+Launcher berhenti mendadak karena kesalahan tak terduga. Kirim log-nya ke pengembang supaya bisa diperbaiki.	The launcher stopped suddenly because of an unexpected error. Send the log to the developer so it can be fixed.
+Dugaan penyebab	Likely cause
+Kesalahan di dalam NovaCraft	An error inside NovaCraft
+Memori (RAM) HP habis	Phone memory (RAM) ran out
+Renderer atau driver grafis	Renderer or graphics driver
+Mod, versi Java, atau file game	A mod, Java version, or game file
+Belum bisa dipastikan	Cannot be determined yet
+Kali ini launcher sendiri yang berhenti, bukan game atau mod. Laporan ke pengembang sangat membantu supaya bisa diperbaiki.	This time the launcher itself stopped, not the game or a mod. A report to the developer helps get it fixed.
+Game dihentikan sistem karena RAM HP tidak cukup untuk game, mod, atau pengaturan grafis yang dipakai. Biasanya bukan kerusakan launcher. Coba kurangi alokasi RAM game (jangan lebih dari setengah RAM HP), kurangi mod, dan tutup aplikasi lain.	The system stopped the game because the phone does not have enough RAM for the game, mods, or graphics settings in use. This is usually not a launcher fault. Try lowering the game's RAM allocation (no more than half of the phone's RAM), removing some mods, and closing other apps.
+Game berhenti di bagian grafis atau pustaka bawaan HP. Penyebab umumnya renderer yang kurang cocok dengan HP ini. Coba ganti renderer di pengaturan instance. Kalau semua renderer gagal, barulah mungkin masalahnya ada di launcher.	The game stopped in the graphics part or in a library built into the phone. A common cause is a renderer that does not suit this phone. Try changing the renderer in the instance settings. Only if every renderer fails might the problem be in the launcher.
+Game mengalami error saat berjalan. Paling sering karena mod yang tidak cocok dengan versi game atau loader, mod yang kekurangan pendukung (dependency), atau versi Java yang tidak sesuai. Biasanya bukan kerusakan launcher.	The game hit an error while running. Most often it is a mod that does not match the game version or loader, a mod missing its dependencies, or the wrong Java version. This is usually not a launcher fault.
+Penyebabnya baru kelihatan dari isi log. AI bisa membantu membacanya untukmu.	The cause only shows in the log contents. An AI can help read it for you.
+Detail teknis	Technical details
+Kesalahan tak terduga di dalam aplikasi	An unexpected error inside the app
+Status keluar: {~0}	Exit status: {0}
+Cari solusi dengan AI	Find a fix with AI
+Salin log beserta pertanyaannya, lalu tempel di chat AI. Biasanya AI bisa menunjukkan penyebab dan cara memperbaikinya. Kirim teks log, bukan screenshot.	Copy the log along with a ready-made question, then paste it into an AI chat. An AI can usually point out the cause and how to fix it. Send the log text, not a screenshot.
+Salin log untuk AI	Copy log for AI
+Atau buka langsung (log otomatis disalin)	Or open directly (log is copied automatically)
+Lapor ke pengembang	Report to the developer
+Kalau AI menyimpulkan masalahnya ada di launcher, baru laporkan di GitHub. Log disalin otomatis, tinggal tempel di laporan.	If the AI concludes the problem is in the launcher, report it on GitHub. The log is copied automatically, just paste it into the report.
+Laporkan di GitHub supaya bisa diperbaiki. Log disalin otomatis, tinggal tempel di laporan.	Report it on GitHub so it can be fixed. The log is copied automatically, just paste it into the report.
+Lapor di GitHub	Report on GitHub
+Cara lain membagikan log	Other ways to share the log
+Bagikan file	Share file
+Tautan mclo.gs	mclo.gs link
+Mengunggah...	Uploading...
+Buka tautan	Open link
+Log untuk AI disalin. Tempel di kolom chat AI.	Log copied for AI. Paste it into the AI chat box.
+Log disalin. Tempel di laporan.	Log copied. Paste it into the report.
+Tidak bisa membuka tautan.	Could not open the link.
+Halo, Minecraft Java Edition saya crash di HP Android saat dijalankan lewat NovaCraft. Tolong jelaskan penyebabnya dengan bahasa sederhana (saya masih pemula), lalu beri langkah perbaikan satu per satu. Kalau penyebabnya mod, sebutkan mod mana yang perlu dihapus atau diganti.	Hi, my Minecraft Java Edition crashes on my Android phone when launched through NovaCraft. Please explain the cause in simple language (I am a beginner), then give fixes one step at a time. If a mod is the cause, tell me which mod to remove or replace.
+Halo, aplikasi NovaCraft (launcher Minecraft Java Edition untuk Android) berhenti sendiri. Tolong jelaskan penyebabnya dengan bahasa sederhana (saya masih pemula) dan beri saran yang bisa saya coba. Kalau menurutmu ini bug di launcher, tolong katakan.	Hi, the NovaCraft app (a Minecraft Java Edition launcher for Android) stopped on its own. Please explain the cause in simple language (I am a beginner) and suggest what I can try. If you think this is a bug in the launcher, please say so.
+Perangkat: {0}	Device: {0}
+Versi Minecraft: {0}	Minecraft version: {0}
+Grafis: {0}	Graphics: {0}
+Jumlah mod: {0}	Number of mods: {0}
+Daftar mod: {0}	Mod list: {0}
+Isi log crash:	Crash log contents:
+# Pemulihan crash sekali ketuk
+Turunkan RAM ke {0} MB	Lower RAM to {0} MB
+Memberi ruang lebih bagi HP. Bisa dinaikkan lagi di Pengaturan > Memori.	Gives the phone more room. You can raise it again in Settings > Memory.
+Pakai renderer Otomatis	Use the Auto renderer
+Renderer pilihanmu bisa jadi kurang cocok dengan HP ini. Otomatis memilih yang paling sesuai.	The renderer you chose may not suit this phone. Auto picks the best fit.
+Coba renderer {0}	Try the {0} renderer
+Renderer sekarang tampaknya bermasalah di HP ini. Bisa diganti lagi di Pengaturan > Grafis.	The current renderer seems to have problems on this phone. You can change it again in Settings > Graphics.
+Matikan shader	Turn off shaders
+Shader membebani GPU dan memori. Bisa dinyalakan lagi dari menu video game.	Shaders put a heavy load on the GPU and memory. You can turn them back on from the game's video menu.
+Nonaktifkan mod tersangka	Disable suspect mods
+Mod yang disebut di log: {0}. Bisa diaktifkan lagi di menu Mod.	Mods named in the log: {0}. You can enable them again in the Mods menu.
+Reset Java ke Otomatis	Reset Java to Auto
+Versi Java yang dipilih mungkin tidak cocok dengan game ini. Otomatis memilih versi yang sesuai.	The Java version you picked may not match this game. Auto picks a suitable version.
+RAM game diturunkan ke {0} MB.	Game RAM lowered to {0} MB.
+Renderer dikembalikan ke Otomatis.	Renderer set back to Auto.
+Renderer diganti ke {0}.	Renderer changed to {0}.
+Shader dimatikan.	Shaders turned off.
+Mod dinonaktifkan: {0}.	Mods disabled: {0}.
+Java dikembalikan ke Otomatis.	Java set back to Auto.
+Gagal menerapkan. Coba lewat Pengaturan.	Could not apply this. Try it from Settings.
+Pemulihan cepat	Quick recovery
+Ketuk untuk mencoba perbaikan yang paling mungkin membantu. Semuanya bisa dibatalkan.	Tap to try the fixes most likely to help. Everything can be undone.
+Perubahan sudah disimpan. Kembali ke launcher lalu jalankan game lagi.	Changes are saved. Go back to the launcher and start the game again.
+Sudah diterapkan	Already applied
+Game berhenti di bagian grafis atau pustaka bawaan HP. Penyebab umumnya renderer yang kurang cocok dengan HP ini. Coba ganti renderer di Pengaturan > Grafis. Kalau semua renderer gagal, barulah mungkin masalahnya ada di launcher.	The game stopped in the graphics part or in a library built into the phone. A common cause is a renderer that does not suit this phone. Try changing the renderer in Settings > Graphics. Only if every renderer fails might the problem be in the launcher.
+# --- dialogs.tsv ---
+# Crash, Error, pemilih tombol, konfigurasi dan daftar renderer
+Peluncur mengalami kesalahan internal pada komponen UI atau proses background sistem.	The launcher hit an internal error in a UI component or a system background process.
+STATUS PELUNCUR	LAUNCHER STATUS
+INFORMASI SESI GAME	GAME SESSION INFO
+{0} Mod	{0} Mods
+DIAGNOSA KELUAR SISTEM	SYSTEM EXIT DIAGNOSIS
+SOLUSI & SARAN PEMULIHAN	SOLUTIONS & RECOVERY TIPS
+Log berhasil diunggah & tautan disalin!	Log uploaded & link copied!
+Gagal mengunggah: {~0}	Upload failed: {0}
+MENGUNGGAH LOG...	UPLOADING LOG...
+BUKA TAUTAN MCLO.GS	OPEN MCLO.GS LINK
+UNGGAH TAUTAN LOG (MCLO.GS)	UPLOAD LOG LINK (MCLO.GS)
+BAGIKAN	SHARE
+Log disalin ke clipboard!	Log copied to clipboard!
+SALIN	COPY
+LOG CRASH	CRASH LOG
+Disalin ke papan klip!	Copied to clipboard!
+Gagal membaca file log: {0}	Failed to read the log file: {0}
+Tidak ada rincian log yang tersedia.	No log details are available.
+Peluncur mengalami kesalahan internal pada komponen UI atau proses background. Silakan laporkan log stacktrace ini ke pengembang NovaCraft.	The launcher hit an internal error in a UI component or a background process. Please report this stack trace log to the NovaCraft developer.
+Peluncur mengalami kesalahan tak terduga (Uncaught Exception).	The launcher hit an unexpected error (Uncaught Exception).
+JVM dihentikan karena sinyal fatal {0} ({1}).	The JVM was stopped by fatal signal {0} ({1}).
+JVM keluar dengan kode {0} ({1}).	The JVM exited with code {0} ({1}).
+PELUNCUR MENGALAMI KESALAHAN	THE LAUNCHER ENCOUNTERED AN ERROR
+GAME MENGALAMI CRASH	THE GAME CRASHED
+Rotasi Layar	Screen Rotation
+Tautan berhasil diunggah & disalin!	Link uploaded & copied!
+Log berhasil disalin ke clipboard!	Log copied to the clipboard!
+Aplikasi NovaCraft	NovaCraft app
+Lokasi Log: {0}	Log location: {0}
+STATUS PENGHENTIAN PROSES	PROCESS TERMINATION STATUS
+CATATAN ANALISIS LOG	LOG ANALYSIS NOTES
+MENGUNGGAH LOG KE MCLO.GS...	UPLOADING LOG TO MCLO.GS...
+UNGGAH TAUTAN (MCLO.GS)	UPLOAD LINK (MCLO.GS)
+BAGIKAN LOG	SHARE LOG
+SALIN TEKS	COPY TEXT
+MULAI ULANG	RESTART
+MINECRAFT MENGALAMI CRASH	MINECRAFT CRASHED
+JVM keluar dengan kode {0} (Signal: {1}).\nPeriksa file log untuk rincian lebih lanjut.	The JVM exited with code {0} (Signal: {1}).\nCheck the log file for more details.
+Proses game terhenti mendadak (Kemungkinan dihentikan sistem karena kehabisan RAM atau crash driver native).	The game process stopped suddenly (possibly killed by the system for running out of RAM, or a native driver crash).
+SIGILL (Instruksi CPU Tidak Didukung)	SIGILL (Unsupported CPU Instruction)
+SIGBUS (Kesalahan Bus Memori)	SIGBUS (Memory Bus Error)
+SIGFPE (Kesalahan Perhitungan Float)	SIGFPE (Floating-Point Calculation Error)
+SIGKILL (Dihentikan OS / Kehabisan RAM)	SIGKILL (Killed by the OS / Out of RAM)
+SIGSEGV (Akses Memori Ilegal / Segfault)	SIGSEGV (Illegal Memory Access / Segfault)
+SIGTERM (Permintaan Terminasi)	SIGTERM (Termination Request)
+Selesai Normal (0)	Finished Normally (0)
+Kesalahan Inisialisasi Mod / Java Exception (1)	Mod Initialization Error / Java Exception (1)
+Dihentikan Pengguna (SIGINT 130)	Stopped by User (SIGINT 130)
+Kehabisan Memori RAM / OOM (SIGKILL 137)	Out of RAM / OOM (SIGKILL 137)
+Crash Driver Grafis / Segfault (SIGSEGV 139)	Graphics Driver Crash / Segfault (SIGSEGV 139)
+Kegagalan Bootstrap Mesin Virtual (-1)	Virtual Machine Bootstrap Failure (-1)
+Kode Keluar {0}	Exit Code {0}
+Untuk detail penyebabnya, silahkan periksa file log. Jika Anda tidak bisa menyelesaikan masalah sendiri, silakan kirim file log kepada seseorang atau tim yang dapat menganalisisnya. Jangan hanya mengambil screenshot dari layar saat ini, karena screenshot tidak bisa memberikan informasi teknis yang cukup untuk menyelesaikan masalah.	For details on the cause, please check the log file. If you cannot solve the problem yourself, send the log file to someone or a team who can analyze it. Do not just take a screenshot of the current screen, because a screenshot cannot give enough technical information to solve the problem.
+JVM digugurkan karena sinyal fatal {0} ({1}).	The JVM was aborted by fatal signal {0} ({1}).
+File log tidak ditemukan.	Log file not found.
+Log Crash NovaCraft - {0}	NovaCraft Crash Log - {0}
+Bagikan Log Crash: {0}	Share Crash Log: {0}
+Tidak ada aplikasi untuk membagikan file ini.	There is no app to share this file.
+Gagal membagikan file: {0}	Failed to share the file: {0}
+Konten log kosong.	The log content is empty.
+Gagal mengunggah log (HTTP {0}): {1}	Failed to upload the log (HTTP {0}): {1}
+Server mclo.gs tidak mengembalikan URL.	The mclo.gs server did not return a URL.
+File log tidak ditemukan: {0}	Log file not found: {0}
+Tombol kedua	Second key
+Pilih tombol	Choose key
+Ditekan bersamaan dengan tombol utama	Pressed together with the main key
+Ketuk kategori, lalu ketuk tombolnya	Tap a category, then tap the key
+Cari tombol	Search key
+Ketik nama tombol, misalnya Shift atau F3	Type a key name, for example Shift or F3
+Tidak ada yang cocok	No matches
+Cari tombol (W, Shift, F3, Tab...)	Search key (W, Shift, F3, Tab...)
+Gerakan	Movement
+Aksi	Actions
+Angka & Hotbar	Numbers & Hotbar
+Fungsi (F1-F12)	Function (F1-F12)
+Modifier & Kontrol	Modifier & Control
+Navigasi	Navigation
+Alfabet (A - Z)	Alphabet (A - Z)
+Simbol	Symbols
+Umum	General
+Alfabet	Alphabet
+Angka	Numbers
+Mouse Kiri (Attack/Break)	Left Mouse (Attack/Break)
+Mouse Kanan (Use/Place)	Right Mouse (Use/Place)
+Mouse Tengah (Pick Block)	Middle Mouse (Pick Block)
+Mouse Tombol 4	Mouse Button 4
+Mouse Tombol 5	Mouse Button 5
+Scroll Wheel (Slide Naik/Turun)	Scroll Wheel (Slide Up/Down)
+W (Maju)	W (Forward)
+A (Kiri)	A (Left)
+S (Mundur)	S (Back)
+D (Kanan)	D (Right)
+SPACE (Lompat)	SPACE (Jump)
+LEFT SHIFT (Sneak/Jongkok)	LEFT SHIFT (Sneak)
+LEFT CTRL (Sprint/Lari)	LEFT CTRL (Sprint)
+T (Buka Chat)	T (Open Chat)
+/ (Buka Command)	/ (Open Command)
+ENTER (Kirim/Pilih)	ENTER (Send/Select)
+TAB (Daftar Player)	TAB (Player List)
+BACKSPACE (Hapus)	BACKSPACE (Delete)
+F1 (Sembunyikan HUD)	F1 (Hide HUD)
+F3 (Debug Layar)	F3 (Debug Screen)
+F5 (Ubah Perspektif)	F5 (Change Perspective)
+Panah Atas (UP)	Up Arrow (UP)
+Panah Bawah (DOWN)	Down Arrow (DOWN)
+Panah Kiri (LEFT)	Left Arrow (LEFT)
+Panah Kanan (RIGHT)	Right Arrow (RIGHT)
+KURUNG BUKA ( [ { )	OPEN BRACKET ( [ { )
+KURUNG TUTUP ( ] } )	CLOSE BRACKET ( ] } )
+Numpad . (Titik)	Numpad . (Dot)
+Numpad / (Bagi)	Numpad / (Divide)
+Numpad * (Kali)	Numpad * (Multiply)
+Numpad - (Kurang)	Numpad - (Subtract)
+Numpad + (Tambah)	Numpad + (Add)
+Numpad = (Sama Dengan)	Numpad = (Equals)
+KONFIGURASI RENDERER	RENDERER CONFIGURATION
+Tidak dapat membuka panel aplikasi	Could not open the app panel
+Buka Panel Aplikasi {0}	Open {0} App Panel
+Akses pengaturan driver native, benchmark, dan preferensi aplikasi	Access native driver settings, benchmarks, and app preferences
+Tidak ada environment variable yang dapat dikonfigurasi untuk renderer ini.	There are no environment variables that can be configured for this renderer.
+PENGATURAN ENVIRONMENT VARIABLES	ENVIRONMENT VARIABLES SETTINGS
+Pengaturan direset ke default	Settings reset to default
+RESET DEFAULT	RESET TO DEFAULT
+SIMPAN & TUTUP	SAVE & CLOSE
+Nilai aktif: 	Active value: 
+Masukkan nilai (opsional)	Enter a value (optional)
+Auto (Rekomendasi)	Auto (Recommended)
+Otomatis Cerdas	Smart Auto
+Otomatis memilih renderer paling optimal & stabil berdasarkan versi Minecraft yang dijalankan.	Automatically picks the most optimal and stable renderer for the Minecraft version being run.
+Semua Versi Minecraft	All Minecraft Versions
+Rekomendasi Utama (Mali & Adreno)	Top Pick (Mali & Adreno)
+Wrapper modern OpenGL ES 3.x langsung di atas driver resmi sistem. Paling stabil dan FPS maksimal untuk GPU Mali & Adreno di MC modern (1.17 \u2013 26.3).	Modern OpenGL ES 3.x wrapper running directly on the system's official driver. Most stable with maximum FPS for Mali & Adreno GPUs on modern MC (1.17 \u2013 26.3).
+Pustaka grafis OpenGL 4.0 MobileGlues untuk Minecraft 1.17 \u2013 1.21.1. Kompatibilitas tinggi dengan berbagai GPU mobile termasuk Mali.	MobileGlues OpenGL 4.0 graphics library for Minecraft 1.17 \u2013 1.21.1. High compatibility with many mobile GPUs, including Mali.
+Paling Stabil untuk MC Lama	Most Stable for Old MC
+Wrapper OpenGL ES 2.0 klasik. Kompatibel untuk Minecraft 1.7.10 \u2013 1.16.5 dan perangkat spek rendah.	Classic OpenGL ES 2.0 wrapper. Compatible with Minecraft 1.7.10 \u2013 1.16.5 and low-spec devices.
+Menerjemahkan OpenGL desktop 4.6 ke Vulkan. Mendukung mod shader modern (Iris/Oculus) & mod tingkat lanjut.	Translates desktop OpenGL 4.6 to Vulkan. Supports modern shader mods (Iris/Oculus) & advanced mods.
+Khusus GPU Adreno	Adreno GPUs only
+Driver Mesa Gallium Freedreno open-source dioptimalkan khusus untuk chipset Snapdragon / GPU Adreno.	Open-source Mesa Gallium Freedreno driver optimized specifically for Snapdragon chipsets / Adreno GPUs.
+Pustaka grafis MobileGL (Vulkan & GLES backend)	MobileGL graphics library (Vulkan & GLES backend)
+Renderer eksternal dari APK: {0} ({1})	External renderer from APK: {0} ({1})
+Plugin Eksternal	External Plugin
+Renderer APK: {0} ({1})	APK Renderer: {0} ({1})
+Impor layout kontrol?	Import control layout?
+Ganti layout	Replace layout
+Layout tombol saat ini akan diganti dengan {0} tombol dari berkas ini.	Your current button layout will be replaced with the {0} buttons from this file.
+Berkas ini berisi {0} tombol makro yang mengetik chat atau perintah otomatis. Periksa dulu sebelum dipakai di server.	This file contains {0} macro buttons that type chat messages or commands automatically. Check them before using on a server.
+Utama	Main
+Navigasi & Numpad	Navigation & Numpad
+Ketuk tombol yang diinginkan	Tap the key you want
+# --- editor.tsv ---
+# Editor tata letak kontrol
+\u2713 Layout tombol in-game disimpan!	\u2713 In-game button layout saved!
+Selesai	Done
+Kembali	Back
+Tombol baru ditambahkan di tengah layar!	New button added at the center of the screen!
++ TOMBOL	+ BUTTON
+Joystick WASD ditambahkan!	WASD joystick added!
+\u2713 Layout GUI berhasil disimpan!	\u2713 GUI layout saved!
+PENGATURAN TOMBOL	BUTTON SETTINGS
+Posisi: {0}% x {1}%	Position: {0}% x {1}%
+Label Teks Tombol:	Button Text Label:
+\ud83d\udd12 Tetap	\ud83d\udd12 Fixed
+Label tombol...	Button label...
+Tipe Kontrol:	Control Type:
+Analog 8-arah halus menggerakkan karakter menggantikan tombol W, A, S, D.	A smooth 8-direction analog stick that moves the character in place of the W, A, S, D keys.
+Ukuran Joystick (Diameter):	Joystick Size (Diameter):
+Transparansi (Opacity):	Transparency (Opacity):
+Lari otomatis:	Auto sprint:
+Dorong sampai tepi lingkaran untuk berlari. Matikan bila ingin berlari lewat tombol CTRL sendiri.	Push to the edge of the circle to sprint. Turn this off if you want to sprint with your own CTRL button.
+Tombol / Aksi Input:	Button / Input Action:
+Indikator FPS In-Game	In-Game FPS Indicator
+Toggle Keyboard Layar	Toggle On-Screen Keyboard
+Sembunyikan/Tampilkan GUI	Hide/Show GUI
+Buka Menu (pengaturan dan keluar)	Open Menu (settings and exit)
+Aksi Sistem Launcher	Launcher System Action
+Mouse Kiri (Attack)	Left Mouse (Attack)
+Mouse Kanan (Use)	Right Mouse (Use)
+Mouse Tengah (Pick)	Middle Mouse (Pick)
+Ubah >	Change >
+Lebar (Width):	Width:
+Tinggi (Height):	Height:
+Kebulatan Sudut:	Corner Roundness:
+Mode Toggle:	Toggle Mode:
+Sekali tap untuk kunci	Tap once to lock
+\u26a1 FITUR MAKRO	\u26a1 MACRO FEATURE
+Jadikan tombol ini sebagai makro otomatis	Make this button an automatic macro
+Pilih Mode Makro:	Choose Macro Mode:
+\u2328 Chat/Perintah	\u2328 Chat/Command
+Ketik otomatis	Auto-type
+\ud83d\udd17 Kombinasi	\ud83d\udd17 Combo
+Teks / Perintah yang diketik otomatis:	Text / command typed automatically:
+Misal: /gamemode creative atau /home	Example: /gamemode creative or /home
+Template Cepat:	Quick Templates:
+Urutan Key Kombinasi:	Key Combo Sequence:
+Hapus Semua	Clear All
+Belum ada key kombinasi. Tambahkan key di bawah.	No combo keys yet. Add keys below.
+Tambah Key ke Kombinasi	Add Key to Combo
+Tambah Cepat:	Quick Add:
+Dieksekusi berurutan dari atas (#1) ke bawah saat ditekan.	Executed in order from top (#1) to bottom when pressed.
+Interval Auto-Click:	Auto-Click Interval:
+Tombol akan menekan & melepas berulang-ulang sangat cepat secara otomatis saat ditekan.	The button automatically presses and releases repeatedly, very quickly, while it is held.
+Tombol dihapus	Button deleted
+HAPUS TOMBOL	DELETE BUTTON
+\ud83d\udd12 Tombol sistem tidak dapat dihapus	\ud83d\udd12 System buttons cannot be deleted
+MODE IN-GAME \u00b7 Geser tombol sesuai HUD game lalu klik SELESAI	IN-GAME MODE \u00b7 Drag the buttons to match the game HUD, then tap DONE
+Reset Layout GUI?	Reset GUI Layout?
+Semua posisi tombol dan kustomisasi akan dikembalikan ke tata letak awal standar NovaCraft.	All button positions and customizations will be restored to the standard NovaCraft default layout.
+Layout direset ke standar	Layout reset to default
+Tampil saat:	Show when:
+Selalu	Always
+Saat main	In game
+Saat menu	In menus
+Menu = inventori, chat, dan layar lain di dalam game.	Menus = inventory, chat, and other screens inside the game.
+Semua tombol	All buttons
+# --- game.tsv ---
+# Menu in-game, loading, dan dialog kecil
+Tombol	Buttons
+Atur tombol	Edit buttons
+TAMPILAN	DISPLAY
+Resolusi render	Render resolution
+Hemat 50%	Saver 50%
+Seimbang 75%	Balanced 75%
+Penuh 100%	Full 100%
+Pin FPS di layar	Pin FPS on screen
+Tetap tampil saat tombol layar disembunyikan	Stays visible when the on-screen buttons are hidden
+KAMERA DAN KURSOR	CAMERA AND CURSOR
+Kecepatan kamera	Camera speed
+Kecepatan kursor	Cursor speed
+Mode sentuh	Touch mode
+Geser	Slide
+Ketuk	Tap
+Geser: layar jadi trackpad. Ketuk: jari langsung jadi kursor.	Slide: the screen acts as a trackpad. Tap: your finger becomes the cursor directly.
+Tahan tombol pukul atau lompat lalu geser jari untuk memutar kamera. Matikan untuk PvP.	Hold the attack or jump button and slide your finger to turn the camera. Turn off for PvP.
+PINTAS	SHORTCUTS
+Kamera	Camera
+Jeda	Pause
+Pemain	Players
+Sembunyi HUD	Hide HUD
+Keluar dari game	Exit game
+Keluar dari game?	Exit game?
+Minecraft akan dihentikan dan kamu kembali ke launcher. Dunia yang belum tersimpan bisa hilang.	Minecraft will be stopped and you will return to the launcher. Unsaved worlds may be lost.
+sisa RAM	RAM left
+PANAS	HOT
+Ketuk ikon gerigi atau angka FPS di layar untuk membuka menu. Keluar dari game lewat tombol merah di dalam menu.	Tap the gear icon or the FPS number on screen to open the menu. Exit the game with the red button inside the menu.
+Bug itu hal yang biasa, karena tiada yang sepurna melainkan tuhan yang maha kuasa.	Bugs are normal, because nothing is perfect except God Almighty.
+Matikan Vertical Sync (VSync) di pengaturan Renderer jika mengalami stuttering atau layar blank hitam setelah logo Mojang.	Turn off Vertical Sync (VSync) in the Renderer settings if you get stuttering or a black blank screen after the Mojang logo.
+Jika tampilan layar Minecraft terpotong atau vertikal, aktifkan rotasi otomatis HP dan posisikan layar mendatar (Landscape) sebelum menekan Mainkan.	If the Minecraft screen looks cropped or vertical, enable your phone's auto-rotate and hold the screen in landscape before pressing Play.
+Gunakan MobileGlues Renderer untuk efisiensi baterai dan kompatibilitas shaderpack terbaik.	Use the MobileGlues renderer for the best battery efficiency and shaderpack compatibility.
+Jika Minecraft crash saat startup pada GPU Mali/Adreno, coba aktifkan 'DISABLE_SUBGROUP' di pengaturan renderer.	If Minecraft crashes on startup with a Mali/Adreno GPU, try enabling 'DISABLE_SUBGROUP' in the renderer settings.
+Aktifkan OpenGL NoError di pengaturan MobileGlues untuk meningkatkan FPS saat bermain.	Enable OpenGL NoError in the MobileGlues settings to improve FPS while playing.
+Gunakan tombol HIDE GUI untuk menyembunyikan tombol virtual di layar saat bermain dengan keyboard & mouse fisik.	Use the HIDE GUI button to hide the on-screen buttons when playing with a physical keyboard and mouse.
+Atur alokasi RAM sesuai spesifikasi HP: 2GB\u20133GB sudah sangat cukup untuk Minecraft versi 1.20+ tanpa modpack berat.	Set RAM to suit your phone: 2GB\u20133GB is plenty for Minecraft 1.20+ without heavy modpacks.
+Ubah sensitivitas kursor di Pengaturan Kontrol untuk membidik dan mengarahkan pandangan lebih akurat.	Change the cursor sensitivity in the Controls settings to aim and look around more accurately.
+Pilih Vulkan Driver Turnip di perangkat Snapdragon untuk performa grafis dan stabilitas maksimal.	Choose the Turnip Vulkan driver on Snapdragon devices for the best graphics performance and stability.
+Kamu bisa menyesuaikan posisi dan ukuran tombol kontrol sesukamu di menu Kustomisasi Tombol.	You can adjust the position and size of the control buttons as you like in the button customization menu.
+Gunakan fitur Import Addon untuk memasang Modpack (.mrpack), Mod (.jar), dan Resource Pack secara instan!	Use the Import Addon feature to install modpacks (.mrpack), mods (.jar), and resource packs instantly!
+Tekan tombol ESC di layar untuk membuka pause menu atau kembali ke menu sebelumnya.	Tap the ESC button on screen to open the pause menu or go back to the previous menu.
+Tekan tombol F3 untuk melihat informasi koordinat, biome, dan grafik performa FPS di dalam game.	Press the F3 button to see coordinates, biome, and the FPS performance graph in the game.
+Aktifkan mode Fullscreen di Pengaturan untuk mengabaikan notch/kamera depan dan memperluas pandangan.	Enable Fullscreen mode in Settings to ignore the notch/front camera and widen your view.
+Memuat Minecraft {0}	Loading Minecraft {0}
+Tutup loading	Close loading
+Menyiapkan mesin Java dan grafis...	Preparing the Java and graphics engine...
+Izin penyimpanan	Storage permission
+NovaCraft menyimpan dunia, mod, dan pengaturan di folder aplikasi novacraft agar kompatibel penuh dengan Android 11+ tanpa memerlukan izin penyimpanan berlebih.	NovaCraft stores worlds, mods, and settings in the novacraft app folder for full Android 11+ compatibility without extra storage permissions.
+Android tidak lagi memerlukan izin akses semua file pada Android 11+. Gunakan Impor Addon atau pengelola file SAF jika ingin menambahkan mod eksternal.	Android 11+ no longer requires all-files access permission. Use Addon Import or the system file picker (SAF) to add external mods.
+Semua data tersimpan aman di folder novacraft dan otomatis dipindahkan dari lokasi lama bila ada.	All data is stored safely in the novacraft folder and automatically migrated from legacy locations if present.
+Hapus instance?	Delete instance?
+Semua dunia, mod, savegame, dan konfigurasi di instance ini akan dihapus permanen dan tidak bisa dikembalikan.	All worlds, mods, saves, and configuration in this instance will be permanently deleted and cannot be restored.
+Perender tidak cocok	Incompatible renderer
+Tetap jalankan	Run anyway
+Perender ini tidak didukung secara resmi untuk Minecraft {0}. Memaksakannya bisa membuat tampilan rusak, layar membeku, atau game crash. Lanjutkan?	This renderer is not officially supported for Minecraft {0}. Forcing it may cause graphical glitches, a frozen screen, or a game crash. Continue?
+Dukungan resmi: {0}	Official support: {0}
+Mengunduh game	Downloading game
+Menyiapkan file game...	Preparing game files...
+# Rekam layar bawaan
+Rekam layar	Record screen
+Merekam	Recording
+Dijeda	Paused
+Ketuk untuk mulai	Tap to start
+Merekam layar	Recording screen
+Ketuk Berhenti untuk menyimpan rekaman.	Tap Stop to save the recording.
+Berhenti	Stop
+Merekam {0}x{1} \u00b7 {2} fps	Recording {0}x{1} \u00b7 {2} fps
+Izin merekam layar tidak diberikan	Screen recording permission was not granted
+Izin mikrofon ditolak, merekam tanpa suara	Microphone permission denied, recording without sound
+Perekam layar tidak tersedia di HP ini	Screen recorder is not available on this phone
+Perekam layar tidak tersedia di HP ini.	Screen recorder is not available on this phone.
+HP ini tidak punya encoder video perangkat keras. Rekaman dibatalkan supaya game tidak lag.	This phone has no hardware video encoder. Recording was cancelled so the game does not lag.
+Ruang penyimpanan kurang untuk merekam.	Not enough storage space to record.
+Ruang penyimpanan penuh. Rekaman disimpan dan dihentikan.	Storage is full. The recording was saved and stopped.
+Perekam mengalami kesalahan. Rekaman dihentikan.	The recorder hit an error. Recording stopped.
+Tangkap layar dihentikan oleh sistem. Rekaman disimpan.	Screen capture was stopped by the system. The recording was saved.
+Rekaman terlalu singkat, tidak disimpan.	Recording was too short and was not saved.
+Rekaman disimpan di Movies/NovaCraft	Recording saved to Movies/NovaCraft
+Rekaman disimpan: {0}	Recording saved: {0}
+HP terlalu panas. Rekaman disimpan dan dihentikan agar game tetap lancar.	The phone is too hot. The recording was saved and stopped to keep the game smooth.
+Gagal memulai rekaman: {~0}	Failed to start recording: {0}
+Gagal menyiapkan rekaman: {0}	Failed to prepare recording: {0}
+# Pembaruan otomatis dan rekam layar (tambahan)
+REKAM	RECORD
+Berhenti merekam	Stop recording
+Game saja	Game only
+Dengan tombol	With buttons
+Rekaman dijeda selama menu terbuka dan lanjut otomatis saat menu ditutup.	Recording pauses while the menu is open and resumes automatically when it closes.
+Tombol layar ikut terekam di video.	On-screen buttons are included in the video.
+Tombol layar disembunyikan dari video (tetap bisa disentuh).	On-screen buttons are hidden from the video (they still work).
+izin tangkap layar tidak valid	the screen capture permission is not valid
+tidak bisa membuat berkas di Movies	could not create a file in Movies
+tidak bisa membuka berkas rekaman	could not open the recording file
+# --- home.tsv ---
+# Beranda dan sidebar
+Memproses berkas...	Processing file...
+Video dipasang sebagai latar. Suara dan ambient diatur di Pengaturan > Tampilan	Video set as background. Sound and ambient are set in Settings > Display
+Latar belakang diganti	Background changed
+Terlalu besar: foto atau GIF maksimal 30 MB, video maksimal 200 MB dan resolusi 2560 px	Too large: photos or GIFs up to 30 MB, videos up to 200 MB and 2560 px resolution
+Berkas tidak bisa dipakai. Pakai foto, GIF, atau video MP4 (H.264)	This file cannot be used. Use a photo, a GIF, or an MP4 (H.264) video
+Silakan buat atau pilih akun terlebih dahulu!	Please create or select an account first!
+Menyiapkan OpenJDK ({0})...	Preparing OpenJDK ({0})...
+Instalasi selesai! Tekan PLAY untuk bermain.	Installation complete! Press PLAY to start playing.
+Gagal mengunduh: {~0}	Download failed: {0}
+Meluncurkan {0}...	Launching {0}...
+Gagal menyiapkan OpenJDK: {~0}	Failed to prepare OpenJDK: {0}
+Membuka folder instance...	Opening instance folder...
+Latar belakang dikembalikan ke bawaan	Background restored to default
+Instance {0} berhasil dibuat!	Instance {0} created!
+Instance {0} dibuat. Mengunduh game...	Instance {0} created. Downloading the game...
+Unduhan dibatalkan. Tekan UNDUH untuk melanjutkan.	Download canceled. Press DOWNLOAD to continue.
+Instance {0} berhasil dihapus!	Instance {0} deleted!
+Tambah akun	Add account
+Ganti akun	Switch account
+Ganti latar belakang	Change background
+Ganti instance	Switch instance
+UNDUH	DOWNLOAD
+Buka folder instance	Open instance folder
+Belum ada instance	No instances yet
+Buat instance Minecraft pertamamu untuk mulai bermain.	Create your first Minecraft instance to start playing.
+TAMBAH	ADD
+Video tidak bisa diputar di HP ini, latar memakai gambar diam	This phone can't play the video, so the background uses a still image
+LATAR BELAKANG	BACKGROUND
+Foto paling ringan. GIF bergerak dengan ringan. Video paling halus dan bisa HD 60 fps (MP4 H.264, maksimal 200 MB), tapi memakai baterai lebih banyak. Suara video, ambient, dan hemat baterai diatur di Pengaturan > Tampilan.	Photos are the lightest. GIFs move with little load. Videos are the smoothest and can be HD 60 fps (MP4 H.264, up to 200 MB), but use more battery. Video sound, ambient, and battery saver are set in Settings > Display.
+PILIH FOTO / GIF / VIDEO	CHOOSE PHOTO / GIF / VIDEO
+KEMBALI KE BAWAAN	RESTORE DEFAULT
+PILIH INSTANCE	CHOOSE INSTANCE
+Belum ada instance. Buat yang pertama di bawah.	No instances yet. Create your first one below.
+TAMBAH INSTANCE	ADD INSTANCE
+# --- horizon.tsv ---
+# Mesin Rust (Horizon)
+Mesin Rust belum disertakan di build ini. Cara menambahkannya ada di docs/rust-engine.md.	The Rust engine is not included in this build. How to add it: docs/rust-engine.md.
+Mesin Rust butuh Android 9 (API 28) ke atas.	The Rust engine needs Android 9 (API 28) or newer.
+Mesin Rust hanya tersedia untuk perangkat 64-bit (arm64-v8a).	The Rust engine is only available for 64-bit (arm64-v8a) devices.
+RAM HP ini terbatas untuk mesin Rust (disarankan 4 GB ke atas). Game bisa tertutup sendiri.	This phone's RAM is tight for the Rust engine (4 GB or more is recommended). The game may close on its own.
+Mesin Rust gagal dibuka: {0}	Could not open the Rust engine: {0}
+MESIN RUST (HORIZON)	RUST ENGINE (HORIZON)
+Mesin Rust menggantikan seluruh client Java Minecraft: tanpa Java, tanpa mod Fabric, Forge, atau NeoForge.	The Rust engine replaces the whole Java Minecraft client: no Java, and no Fabric, Forge or NeoForge mods.
+Hanya mendukung Minecraft {0}. Sumber daya game (sekitar 500 MiB) diunduh mesinnya sendiri saat pertama dibuka.	Supports Minecraft {0} only. The engine itself downloads the game resources (about 500 MiB) the first time it opens.
+Eksperimental: butuh Android 9 ke atas dan perangkat 64-bit (arm64-v8a).	Experimental: needs Android 9 or newer and a 64-bit (arm64-v8a) device.
+Tanpa Java	No Java
+# Shader dan Resource Pack untuk mesin Rust
+Jenis berkas ini belum didukung mesin Rust.	This file type isn't supported by the Rust engine yet.
+Nama berkas tidak cocok untuk mesin Rust (terlalu panjang atau berisi karakter terlarang).	The file name isn't suitable for the Rust engine (too long or contains forbidden characters).
+Mesin Rust hanya menerima berkas .zip di sini.	The Rust engine only accepts .zip files here.
+Berkas lebih dari 256 MB, terlalu besar untuk mesin Rust.	The file is larger than 256 MB, too big for the Rust engine.
+Arsip rusak atau tidak bisa dibaca.	The archive is damaged or cannot be read.
+Arsip berisi terlalu banyak berkas.	The archive contains too many files.
+Arsip berisi path berbahaya atau ganda, jadi tidak dipasang.	The archive contains unsafe or duplicate paths, so it was not installed.
+Isi arsip terlalu besar setelah dibuka (lebih dari 512 MB).	The archive is too large once unpacked (over 512 MB).
+Metadata resource pack (pack.mcmeta) tidak valid.	The resource pack metadata (pack.mcmeta) is not valid.
+Berkas ini bukan resource pack: pack.mcmeta tidak ditemukan di dasar arsip.	This file is not a resource pack: pack.mcmeta was not found at the top level of the archive.
+Berkas ini bukan shader pack: folder shaders tidak ditemukan di dasar arsip.	This file is not a shader pack: no shaders folder was found at the top level of the archive.
+Ini shader asli Horizon. Pasang dari sumber Horizon di layar Jelajah (format .hshader).	This is a native Horizon shader. Install it from the Horizon source on the Browse screen (.hshader format).
+Tidak ada berkas .zip yang cocok di versi ini.	No matching .zip file in this version.
+Sumber tidak memberi sidik jari berkas, jadi unduhan tidak bisa diperiksa.	The source provides no file checksum, so the download cannot be verified.
+Gagal menyimpan berkas ke folder mesin Rust.	Failed to save the file to the Rust engine folder.
+Pengaturan game belum dibuat. Buka game sekali, masuk ke Pengaturan dan ubah satu opsi, lalu coba lagi.	Game settings have not been created yet. Open the game once, go to Settings and change one option, then try again.
+Gagal menyimpan pilihan ke pengaturan mesin.	Failed to save the choice to the engine settings.
+Memeriksa {0}...	Checking {0}...
+Gagal membuka berkas yang dipilih	Could not open the selected file
+Coba ubah kata kunci	Try changing the keyword
+Mesin Rust: hidupkan saklar di daftar Terpasang untuk memakainya. Berlaku saat game dibuka lagi.	Rust engine: turn on the switch in the Installed list to use it. It applies the next time the game opens.
+Shader di mesin Rust masih tahap uji dan bisa memberatkan HP.	Shaders on the Rust engine are still experimental and may be heavy for this phone.
+# Mod mesin Rust (.hmod), modul bawaan, dan katalog Horizon
+Mod mesin Rust berformat .hmod, bukan .jar Fabric atau Forge.	Rust engine mods use the .hmod format, not Fabric or Forge .jar files.
+Berkas mod lebih dari 32 MB, terlalu besar untuk mesin Rust.	The mod file is over 32 MB, too large for the Rust engine.
+Isi mod terlalu besar setelah dibuka (lebih dari 64 MB).	The mod is too large once unpacked (over 64 MB).
+Ini bukan mod Horizon: horizon-mod.toml tidak ada di dasar arsip.	This is not a Horizon mod: horizon-mod.toml was not found at the top level of the archive.
+Manifest mod (horizon-mod.toml) tidak valid atau tidak didukung.	The mod manifest (horizon-mod.toml) is not valid or not supported.
+Mod ini tidak membawa kode (mod.wasm) dan bukan mod konten (kemampuan registries), jadi tidak bisa dipasang.	This mod has no code (mod.wasm) and is not a content mod (registries capability), so it cannot be installed.
+Kode mod (mod.wasm) lebih dari 32 MB.	The mod code (mod.wasm) is over 32 MB.
+Sudah ada mod berbentuk folder dengan id yang sama. Hapus yang lama dulu.	A folder mod with the same id already exists. Remove the old one first.
+Gagal menyimpan pilihan mod ke pengaturan mesin.	Failed to save the mod choice to the engine settings.
+Mod hanya bisa dihidupkan di APK 64-bit.	Mods can only be turned on in the 64-bit APK.
+Mod tidak ditemukan atau manifest-nya tidak bisa dibaca.	The mod was not found or its manifest could not be read.
+Tahan tombol Z untuk zoom; bisa diatur di Options > Mods dalam game	Hold the Z key to zoom; configurable in Options > Mods in the game
+Peta kecil yang bisa diatur di sudut layar	A configurable map in the screen corner
+Resep dan kegunaan item di samping inventori	Item recipes and uses beside the inventory
+Modul F3 yang bisa diatur untuk layar debug	Configurable modules for the F3 debug screen
+Resep	Recipes
+Katalog Horizon tidak bisa dibaca. Coba lagi nanti.	The Horizon catalog could not be read. Please try again later.
+Katalog Horizon memakai format yang lebih baru. Perbarui NovaCraft.	The Horizon catalog uses a newer format. Please update NovaCraft.
+Tidak ada berkas yang cocok di versi ini.	No matching file in this version.
+Katalog tidak memberi sidik jari SHA-256, jadi unduhan tidak bisa diperiksa.	The catalog gives no SHA-256 checksum, so the download cannot be verified.
+Alamat unduhan tidak dikenali, jadi ditolak.	The download address is not recognized, so it was rejected.
+Ukuran berkas tidak sama dengan yang tertulis di katalog, jadi tidak dipasang.	The file size does not match the catalog, so it was not installed.
+Memuat data dari Horizon...	Loading data from Horizon...
+Gagal memuat dari Horizon	Failed to load from Horizon
+Mod mesin Rust berformat .hmod (bukan .jar Fabric atau Forge). Mod berkode dipasang dalam keadaan mati; hidupkan setelah memeriksa izinnya di Options > Mods dalam game.	Rust engine mods use the .hmod format (not Fabric or Forge .jar files). Mods that contain code are installed turned off; turn them on after reviewing their permissions in Options > Mods in the game.
+Konten	Content
+Berkode	Has code
+# Katalog Horizon untuk shader dan resource pack
+Ini bukan shader asli Horizon: horizon-shaders.toml tidak ditemukan di dasar arsip.	This is not a native Horizon shader: horizon-shaders.toml was not found at the top level of the archive.
+Shader asli Horizon terlalu besar (berkas lebih dari 16 MB, isi lebih dari 8 MB, atau ada berkas yang terlalu besar).	The native Horizon shader is too large (file over 16 MB, contents over 8 MB, or a single file that is too big).
+Sumber Horizon: shader asli mesin Rust (.hshader).	Horizon source: native Rust engine shaders (.hshader).
+Sumber Modrinth: shader klasik, kompatibilitas dengan mesin Rust masih terbatas.	Modrinth source: classic shaders, compatibility with the Rust engine is still limited.
+Sumber Horizon: resource pack yang dibuat atau diuji untuk mesin Rust.	Horizon source: resource packs made or tested for the Rust engine.
+Coba ubah kata kunci atau pindah ke sumber Modrinth	Try changing the keyword or switch to the Modrinth source
+# Panduan Mesin Rust (docs/rust-engine.md)
+Buka panduan (docs/rust-engine.md)	Open guide (docs/rust-engine.md)
+Panduan Mesin Rust (docs/rust-engine.md)	Rust Engine Guide (docs/rust-engine.md)
+Panduan Mesin Rust (Horizon)	Rust Engine Guide (Horizon)
+Syarat perangkat 64-bit, cara membangun mesin, pengaturan Rust, mod .hmod, shader, dan pemecahan masalah.	64-bit requirements, how to build the engine, Rust settings, .hmod mods, shaders, and troubleshooting.
+Buka	Open
+Buka di GitHub	Open on GitHub
+Memuat panduan...	Loading guide...
+Gagal membaca berkas panduan.	Failed to read the guide file.
+Kamu tetap dapat membuka docs/rust-engine.md langsung melalui halaman GitHub proyek.	You can still open docs/rust-engine.md directly on the project's GitHub page.
+Disalin ke papan klip	Copied to clipboard
+Tidak dapat membuka tautan	Could not open link
+Versi aktif real-time Horizon: Minecraft {0} (otomatis diperbarui). Sumber daya game (~500 MiB) diunduh mesin saat pertama dibuka.	Horizon real-time active version: Minecraft {0} (auto-updated). Game resources (~500 MiB) are downloaded by the engine on first launch.
+Mod Horizon eksternal harus berformat .hmod.	External Horizon mods must be in .hmod format.
+Shader Horizon harus berformat .hshader atau .zip.	Horizon shaders must be in .hshader or .zip format.
+Resource pack Horizon harus berformat .zip.	Horizon resource packs must be in .zip format.
+Berkas .hmod / .hshader hanya untuk instance mesin Rust (Horizon).	.hmod / .hshader files are only for Rust engine (Horizon) instances.
+# --- instances.tsv ---
+# Tambah/Ubah instance, unduhan, Java
+Semua	All
+Buat Instance Baru	Create New Instance
+NAMA INSTANCE	INSTANCE NAME
+Memuat loader Fabric...	Loading Fabric loader...
+\u26a0\ufe0f Fabric belum tersedia untuk {0}	\u26a0\ufe0f Fabric is not available yet for {0}
+SPESIFIKASI TARGET	TARGET SPECIFICATIONS
+Memuat Fabric...	Loading Fabric...
+Fabric Tidak Tersedia	Fabric Unavailable
+Buat Instance Sekarang	Create Instance Now
+Cari versi ({0})...	Search versions ({0})...
+DAFTAR VERSI	VERSION LIST
+{0} versi ditemukan	{0} versions found
+Memuat manifest Mojang...	Loading Mojang manifest...
+Tidak ada versi yang cocok	No matching versions
+Nama	Name
+Nama instance	Instance name
+Lihat mod	View mods
+{0} terpasang	{0} installed
+Hapus '{0}'?	Delete '{0}'?
+Semua world, mod, dan file instance dihapus permanen.	All worlds, mods, and instance files will be permanently deleted.
+Ya, hapus	Yes, delete
+Nama instance tidak boleh kosong	Instance name cannot be empty
+Instance berhasil diperbarui!	Instance updated!
+Simpan	Save
+Mengambil metadata versi {0}...	Fetching metadata for version {0}...
+Versi {0} tidak ditemukan di manifest Mojang	Version {0} was not found in the Mojang manifest
+Membaca konfigurasi versi...	Reading version configuration...
+Mengunduh client Minecraft ({0} / {1} MB - {2}%)...	Downloading Minecraft client ({0} / {1} MB - {2}%)...
+Mengunduh libraries ({0}/{1})...	Downloading libraries ({0}/{1})...
+Memverifikasi asset index {0}...	Verifying asset index {0}...
+Mengunduh aset game ({0}/{1})...	Downloading game assets ({0}/{1})...
+Menyiapkan Fabric Loader...	Preparing Fabric Loader...
+Tidak dapat menemukan Fabric loader untuk versi {0}	Could not find a Fabric loader for version {0}
+Mengambil profil Fabric ({0})...	Fetching Fabric profile ({0})...
+Gagal memuat profil Fabric: {~0}	Failed to load Fabric profile: {0}
+Mengunduh library Fabric ({0}/{1})...	Downloading Fabric libraries ({0}/{1})...
+Instalasi selesai!	Installation complete!
+Alamat unduhan ditolak karena tidak memakai HTTPS: {0}	Download address rejected because it does not use HTTPS: {0}
+Isi unduhan tidak cocok dengan sidik jari resmi: {0}	The download does not match the official fingerprint: {0}
+Tidak dapat memuat versi Fabric untuk {0}	Could not load Fabric versions for {0}
+Gagal memuat profil Fabric untuk {0} ({1})	Failed to load the Fabric profile for {0} ({1})
+Mengekstrak Java Runtime ({0} universal)...	Extracting Java Runtime ({0} universal)...
+Mengekstrak runtime universal ({0})	Extracting universal runtime ({0})
+Mengekstrak Java Runtime ({0} bin-{1})...	Extracting Java Runtime ({0} bin-{1})...
+Mengekstrak native binary ({0} {1})	Extracting native binary ({0} {1})
+Memverifikasi izin sistem OpenJDK...	Verifying OpenJDK system permissions...
+Verifikasi OpenJDK {0} tidak lengkap setelah ekstraksi.	OpenJDK {0} verification is incomplete after extraction.
+Ekstraksi OpenJDK {0} selesai!	OpenJDK {0} extraction complete!
+Membongkar bytecode Java 8: {0} ({1}/{2})...	Unpacking Java 8 bytecode: {0} ({1}/{2})...
+Profil Fabric ({0}) belum terpasang. Silakan tekan tombol UNDUH pada instance!	The Fabric profile ({0}) is not installed yet. Please tap the DOWNLOAD button on the instance!
+Lokasi folder disalin ke clipboard:\n{0}	Folder location copied to the clipboard:\n{0}
+Buka Folder	Open Folder
+Memuat versi Forge...	Loading Forge versions...
+\u26a0\ufe0f Forge belum tersedia untuk {0}	\u26a0\ufe0f Forge is not available yet for {0}
+\u26a0\ufe0f Forge hanya untuk Minecraft 1.13 ke atas	\u26a0\ufe0f Forge is only for Minecraft 1.13 and newer
+Disarankan	Recommended
+Terbaru	Latest
+Memuat Forge...	Loading Forge...
+Forge Tidak Tersedia	Forge Unavailable
+Profil Forge ({0}) belum terpasang. Silakan tekan tombol UNDUH pada instance!	The Forge profile ({0}) is not installed yet. Please tap the DOWNLOAD button on the instance!
+Mengunduh installer Forge {0}...	Downloading Forge installer {0}...
+Mengunduh library Forge ({0}/{1})...	Downloading Forge libraries ({0}/{1})...
+Menyiapkan Java ({0})...	Preparing Java ({0})...
+Memasang Forge {0}...	Installing Forge {0}...
+Memasang Forge {0} ({1}/{2})...	Installing Forge {0} ({1}/{2})...
+Forge {0} terpasang	Forge {0} installed
+Tidak dapat menemukan Forge untuk versi {0}	Could not find Forge for version {0}
+Tidak ada versi Forge untuk {0}	No Forge versions for {0}
+Versi Forge belum dipilih	No Forge version selected
+Forge hanya mendukung Minecraft 1.13 ke atas	Forge is only supported for Minecraft 1.13 and newer
+Installer Forge {0} rusak atau tidak lengkap	The Forge installer {0} is corrupted or incomplete
+Format installer Forge ini tidak dikenali (Amber butuh Forge 1.13 ke atas)	This Forge installer format is not recognized (Amber needs Forge 1.13 or newer)
+Installer Forge untuk Minecraft {0}, bukan {1}	This Forge installer is for Minecraft {0}, not {1}
+Gagal mengunduh library Forge: {0}. Periksa koneksi lalu coba lagi.	Failed to download Forge libraries: {0}. Check your connection and try again.
+Installer Forge selesai tetapi jar Minecraft hasil tambalan tidak ditemukan ({0})	The Forge installer finished but the patched Minecraft jar was not found ({0})
+Gagal menyiapkan Java {0}: {1}	Failed to prepare Java {0}: {1}
+Installer Forge gagal (kode {0}): {1}	Forge installer failed (code {0}): {1}
+Installer Forge gagal (kode {0})	Forge installer failed (code {0})
+Mojang tidak menyediakan mappings untuk Minecraft {0}	Mojang does not provide mappings for Minecraft {0}
+Pemasangan Forge	Forge installation
+Memasang Forge	Installing Forge
+Proses ini hanya berjalan sekali per versi Forge.	This runs only once per Forge version.
+Forge dipasang sekali saat instance diunduh pertama kali.	Forge is installed once, when the instance is first downloaded.
+Ruang penyimpanan tidak cukup untuk memasang Forge (tersisa {0} MB, butuh minimal {1} MB)	Not enough storage to install Forge ({0} MB left, at least {1} MB needed)
+Memuat versi NeoForge...	Loading NeoForge versions...
+\u26a0\ufe0f NeoForge belum tersedia untuk {0}	\u26a0\ufe0f NeoForge is not available yet for {0}
+\u26a0\ufe0f NeoForge hanya untuk Minecraft 1.20.2 ke atas	\u26a0\ufe0f NeoForge is only for Minecraft 1.20.2 and newer
+Memuat NeoForge...	Loading NeoForge...
+NeoForge Tidak Tersedia	NeoForge Unavailable
+Profil NeoForge ({0}) belum terpasang. Silakan tekan tombol UNDUH pada instance!	The NeoForge profile ({0}) is not installed yet. Please tap the DOWNLOAD button on the instance!
+Mengunduh installer NeoForge {0}...	Downloading NeoForge installer {0}...
+Mengunduh library NeoForge ({0}/{1})...	Downloading NeoForge libraries ({0}/{1})...
+Memasang NeoForge {0}...	Installing NeoForge {0}...
+Memasang NeoForge {0} ({1}/{2})...	Installing NeoForge {0} ({1}/{2})...
+NeoForge {0} terpasang	NeoForge {0} installed
+Tidak dapat menemukan NeoForge untuk versi {0}	Could not find NeoForge for version {0}
+Tidak ada versi NeoForge untuk {0}	No NeoForge versions for {0}
+Versi NeoForge belum dipilih	No NeoForge version selected
+NeoForge hanya mendukung Minecraft 1.20.2 ke atas	NeoForge is only supported for Minecraft 1.20.2 and newer
+Installer NeoForge {0} rusak atau tidak lengkap	The NeoForge installer {0} is corrupted or incomplete
+Format installer NeoForge ini tidak dikenali (Amber butuh NeoForge 1.20.2 ke atas)	This NeoForge installer format is not recognized (Amber needs NeoForge 1.20.2 or newer)
+Installer NeoForge untuk Minecraft {0}, bukan {1}	This NeoForge installer is for Minecraft {0}, not {1}
+Gagal mengunduh library NeoForge: {0}. Periksa koneksi lalu coba lagi.	Failed to download NeoForge libraries: {0}. Check your connection and try again.
+Installer NeoForge selesai tetapi jar Minecraft hasil tambalan tidak ditemukan ({0})	The NeoForge installer finished but the patched Minecraft jar was not found ({0})
+Installer NeoForge gagal (kode {0}): {1}	NeoForge installer failed (code {0}): {1}
+Installer NeoForge gagal (kode {0})	NeoForge installer failed (code {0})
+Memasang NeoForge	Installing NeoForge
+Proses ini hanya berjalan sekali per versi NeoForge.	This runs only once per NeoForge version.
+NeoForge dipasang sekali saat instance diunduh pertama kali.	NeoForge is installed once, when the instance is first downloaded.
+Ruang penyimpanan tidak cukup untuk memasang NeoForge (tersisa {0} MB, butuh minimal {1} MB)	Not enough storage to install NeoForge ({0} MB left, at least {1} MB needed)
+Buat Instance	Create Instance
+Cari versi...	Search versions...
+Memuat versi Minecraft...	Loading Minecraft versions...
+Memuat versi yang didukung {0}...	Loading versions supported by {0}...
+Gagal memuat daftar versi Minecraft	Failed to load the Minecraft version list
+Dirilis {0}	Released {0}
+LOADER {0}	{0} LOADER
+Memuat loader {0}...	Loading {0} loader...
+Loader {0} belum tersedia untuk Minecraft {1}	{0} loader is not available yet for Minecraft {1}
+Versi terbaru dipilih otomatis. Ketuk versi lain bila butuh loader yang lebih lama.	The newest version is picked automatically. Tap another one if you need an older loader.
+# --- minecraft26.tsv ---
+# Buat Instance: peringatan Minecraft 26.x ke atas dan pengecekan Vulkan HP
+MINECRAFT 26.X KE ATAS	MINECRAFT 26.X AND ABOVE
+Versi ini memakai Java 25 dan mesin grafis baru. Belum semua HP bisa menjalankannya, terutama yang driver Vulkan-nya lama atau kurang lengkap.	This version uses Java 25 and a new graphics engine. Not every phone can run it, especially ones with an old or incomplete Vulkan driver.
+Kalau game gagal dibuka, bisa jadi penyebabnya HP atau versi game ini, bukan launchernya. Coba ganti renderer di Pengaturan, atau pakai Minecraft 1.21.x.	If the game fails to open, the cause may be the phone or this game version, not the launcher. Try a different renderer in Settings, or use Minecraft 1.21.x.
+Memeriksa dukungan Vulkan HP ini...	Checking this phone's Vulkan support...
+Versi ini memakai OpenGL. Vulkan baru dipakai mulai Minecraft 26.2.	This version uses OpenGL. Vulkan is only used from Minecraft 26.2.
+Pengecekan Vulkan tidak tersedia di build ini, jadi dukungan Vulkan HP belum bisa dipastikan.	The Vulkan check is not available in this build, so the phone's Vulkan support can't be confirmed.
+Pengecekan Vulkan tidak selesai. Driver Vulkan HP ini mungkin bermasalah, jadi Minecraft 26.2 ke atas berisiko gagal bila memakai Vulkan.	The Vulkan check did not finish. This phone's Vulkan driver may have problems, so Minecraft 26.2 and above may fail if it uses Vulkan.
+HP ini tidak punya driver Vulkan yang bisa dipakai. Minecraft 26.2 ke atas tidak bisa memakai Vulkan di sini; pilih Prefer OpenGL di pengaturan video game.	This phone has no usable Vulkan driver. Minecraft 26.2 and above can't use Vulkan here; choose Prefer OpenGL in the game's video settings.
+Vulkan HP ini memenuhi syarat Minecraft 26.2 ke atas.	This phone's Vulkan meets the requirements of Minecraft 26.2 and above.
+Vulkan HP ini belum memenuhi syarat Minecraft 26.2 ke atas. Bila game memakai Vulkan, bisa gagal dimulai; pilih Prefer OpenGL di pengaturan video game.	This phone's Vulkan does not meet the requirements of Minecraft 26.2 and above. If the game uses Vulkan, it may fail to start; choose Prefer OpenGL in the game's video settings.
+# --- misc.tsv ---
+# Sisa teks: Home, kategori mod, pesan galat, toast in-game
+RAM bebas {0} GB	{0} GB RAM available
+Renderer {~0}	Renderer {0}
+Otomatis	Auto
+Lokal	Local
+Mengunduh {0}...	Downloading {0}...
+Mengekstrak	Extracting
+{~0}: {1} ({2} file)	{0}: {1} ({2} files)
+Snapdragon 6s 4G Gen 1, Adreno 610, RAM 4 GB, layar 90 Hz	Snapdragon 6s 4G Gen 1, Adreno 610, 4 GB RAM, 90 Hz display
+\ud83d\udccc FPS Di-Pin (Tetap tampil saat GUI disembunyikan)	\ud83d\udccc FPS pinned (stays visible when the GUI is hidden)
+\ud83d\udcdc Menampilkan Live Log Minecraft	\ud83d\udcdc Showing the Minecraft Live Log
+FPS Mode Normal (Mengikuti visibilitas GUI)	FPS normal mode (follows GUI visibility)
+Gagal menyiapkan OpenJDK ({0}): {~1}	Failed to prepare OpenJDK ({0}): {1}
+Forge hanya mendukung Minecraft {0} ke atas	Forge only supports Minecraft {0} and above
+Installer Forge gagal	The Forge installer failed
+version.json di installer Forge tidak terbaca	version.json in the Forge installer could not be read
+Path library Forge tidak aman: {0}	Unsafe Forge library path: {0}
+dan {0} lainnya	and {0} more
+Path mappings tidak aman: {0}	Unsafe mappings path: {0}
+Alamat mappings Mojang kosong	The Mojang mappings address is empty
+install_profile.json tidak ada di installer Forge	install_profile.json is missing from the Forge installer
+install_profile.json tidak terbaca	install_profile.json could not be read
+{0} tidak ada di installer Forge	{0} is missing from the Forge installer
+Tidak bisa membuat {0}	Cannot create {0}
+HTTP {0} dari {1}	HTTP {0} from {1}
+Respons kosong dari {0}	Empty response from {0}
+Unduhan dibatalkan	Download canceled
+Content-Range tidak cocok	Content-Range does not match
+Range ditolak	Range was rejected
+Balasan kosong	Empty response
+Unduhan belum lengkap ({0} dari {1} byte)	Download incomplete ({0} of {1} bytes)
+Berkas kosong	The file is empty
+balasan bukan daftar rilis	the response is not a release list
+NeoForge hanya mendukung Minecraft {0} ke atas	NeoForge only supports Minecraft {0} and above
+Installer NeoForge gagal	The NeoForge installer failed
+version.json di installer NeoForge tidak terbaca	version.json in the NeoForge installer could not be read
+Path library NeoForge tidak aman: {0}	Unsafe NeoForge library path: {0}
+install_profile.json tidak ada di installer NeoForge	install_profile.json is missing from the NeoForge installer
+{0} tidak ada di installer NeoForge	{0} is missing from the NeoForge installer
+# --- mobileglues.tsv ---
+# Pengaturan > Game > Grafis: cache shader MobileGlues
+Cache shader MobileGlues	MobileGlues shader cache
+Menyimpan hasil terjemahan shader di HP, jadi game berikutnya memuat shader lebih cepat dan lebih sedikit patah-patah. Dimatikan = MobileGlues memakai pengaturan bawaannya tanpa cache. Berlaku saat game dijalankan berikutnya.	Keeps the translated shaders on the phone, so the next game loads shaders faster with less stutter. Off = MobileGlues uses its own defaults with no cache. Applies the next time the game starts.
+# --- mods.tsv ---
+# Layar Mod, Mod terpasang, Impor Addon, dan pesan pemasangan
+mods	mods
+modpacks	modpacks
+shaderpacks	shader packs
+resourcepacks	resource packs
+datapacks	data packs
+format yang didukung	supported format
+File "{0}" diabaikan! Format yang didukung untuk {~1} hanya {~2}	File "{0}" was ignored! The only supported format for {1} is {2}
+{0} file diabaikan karena format tidak didukung ({~1})!	{0} file(s) ignored because the format is not supported ({1})!
+Membaca arsip modpack...	Reading modpack archive...
+Berhasil mengimpor dan memasang {0} modpack!	Imported and installed {0} modpack(s)!
+Gagal mengimpor modpack: {~0}	Failed to import modpack: {0}
+Berhasil mengimpor {0} file {~1}!	Imported {0} file(s) ({1})!
+Gagal mengimpor file: {~0}	Failed to import file: {0}
+Mencari versi...	Searching for versions...
+Tidak ada versi cocok untuk {0}!	No compatible version for {0}!
+Mengunduh...	Downloading...
+Modpack {0} berhasil dipasang!	Modpack {0} installed!
+Berhasil memasang {0} beserta {1} dependensi!	Installed {0} along with {1} dependencies!
+Berhasil memasang {0}!	Installed {0}!
+Memulai pengunduhan...	Starting download...
+Gagal terhubung ke Modrinth	Could not connect to Modrinth
+Pilih atau buat instance di Home untuk mulai memasang mod.	Choose or create an instance on Home to start installing mods.
+Kembali ke Home	Back to Home
+Terpasang ({0})	Installed ({0})
+Jelajah	Browse
+Cari di Modrinth...	Search Modrinth...
+Cari di {0} item...	Search {0} items...
+Tidak ada world	No worlds
+Semua versi	All versions
+Pilih instance terlebih dahulu!	Choose an instance first!
+Impor	Import
+Belum ada world di instance ini. Buka game untuk membuat world terlebih dahulu.	There are no worlds in this instance yet. Open the game to create one first.
+Belum ada {~0} terpasang di instance ini	No {0} installed in this instance yet
+Tidak ada item yang cocok	No matching items
+Jelajahi Modrinth	Browse Modrinth
+Memuat data dari Modrinth...	Loading data from Modrinth...
+Gagal memuat dari Modrinth	Failed to load from Modrinth
+Terjadi kesalahan jaringan	A network error occurred
+Tidak ada hasil cocok untuk Minecraft {0} ({1})	No results match Minecraft {0} ({1})
+Tidak ada hasil ditemukan untuk kata kunci ini	No results found for this keyword
+Coba ubah kata kunci atau nonaktifkan filter versi	Try changing the keyword or turning off the version filter
+Cari di semua versi Minecraft	Search all Minecraft versions
+Sebelumnya	Previous
+Selanjutnya	Next
+Pilih instance	Choose instance
+Pilih world	Choose world
+Hapus modpack?	Delete modpack?
+Hapus {~0}?	Delete {0}?
+Yakin ingin menghapus modpack "{0}"? Semua mod yang terpasang dari modpack ini juga akan dihapus dari instance.	Are you sure you want to delete the modpack "{0}"? All mods installed from this modpack will also be removed from the instance.
+Yakin ingin menghapus "{0}" dari instance ini?	Are you sure you want to delete "{0}" from this instance?
+Modpack dan semua mod berhasil dihapus!	Modpack and all its mods deleted!
+{0} berhasil dihapus!	{0} deleted!
+Mengimpor & memasang modpack	Importing & installing modpack
+Membaca daftar mod dan mengunduh file...	Reading the mod list and downloading files...
+{0} / {1} file mod	{0} / {1} mod files
+Launcher sedang membaca daftar mod dan mengunduh modpack. Mohon tunggu.	The launcher is reading the mod list and downloading the modpack. Please wait.
+Tangkapan layar	Screenshot
+Pratinjau gambar	Image preview
+NONAKTIF	DISABLED
+Tidak ada deskripsi	No description
+oleh {0}	by {0}
+Unduh...	Download...
+Terpasang	Installed
+Pasang pack	Install pack
+Versi dipilih	Selected version
+Sedang mengunduh dan memasang...	Downloading and installing...
+Sudah terpasang	Already installed
+Pasang modpack	Install modpack
+Pasang ke instance	Install to instance
+Versi ({0})	Versions ({0})
+Deskripsi	Description
+Tidak ada ringkasan deskripsi.	No summary description.
+Tidak ada versi yang didukung	No supported versions
+Proyek ini tidak punya rilis yang cocok dengan Minecraft {0} ({1}).	This project has no release compatible with Minecraft {0} ({1}).
+Versi {0} \u00b7 MC {1}	Version {0} \u00b7 MC {1}
+Modpack diekstrak langsung ke instance (overrides, konfigurasi, dan manifest).	The modpack is extracted straight into the instance (overrides, configuration, and manifest).
+Dependensi wajib ikut terpasang otomatis.	Required dependencies are installed automatically.
+Mod terpasang	Installed mods
+Belum ada resource pack	No resource packs yet
+Belum ada shader	No shaders yet
+Belum ada mod terpasang	No mods installed yet
+Pasang lewat menu Mod di sidebar.	Install them from the Mods menu in the sidebar.
+Nonaktif \u00b7 {0}	Disabled \u00b7 {0}
+PASANG ADDON EKSTERNAL	INSTALL EXTERNAL ADDON
+Pemasang Addon	Addon Installer
+Tipe file: {0} \u00b7 Siap dipasang	File type: {0} \u00b7 Ready to install
+KATEGORI ADDON	ADDON CATEGORY
+TARGET INSTANCE MINECRAFT	TARGET MINECRAFT INSTANCE
+\u26a0\ufe0f Belum ada instance Minecraft yang dibuat! Buat instance terlebih dahulu di Dashboard.	\u26a0\ufe0f No Minecraft instance has been created yet! Create an instance on Home first.
+Memasang addon...	Installing addon...
+Gagal: {~0}	Failed: {0}
+Mempersiapkan pemasangan...	Preparing installation...
+\u2713 Berhasil memasang "{0}" ke {1}!	\u2713 Installed "{0}" to {1}!
+Terjadi kesalahan yang tidak diketahui	An unknown error occurred
+Gagal memasang: {~0}	Failed to install: {0}
+MEMASANG...	INSTALLING...
+PASANG SEKARANG	INSTALL NOW
+{0} mod terpasang	{0} mods installed
+Menyalin file {0}...	Copying file {0}...
+Gagal membaca file sumber	Could not read the source file
+Membaca daftar modpack...	Reading the modpack list...
+Gagal mengambil detail project: {~0}	Failed to fetch project details: {0}
+Gagal mengambil versi project: {~0}	Failed to fetch project versions: {0}
+Mengekstrak dan menyiapkan modpack...	Extracting and preparing the modpack...
+Menyelesaikan dependensi: {0}...	Resolving dependencies: {0}...
+Membaca daftar modpack ({0} mod ditemukan)...	Reading the modpack list ({0} mods found)...
+Mengunduh mod ({0}/{1}): {2}...	Downloading mod ({0}/{1}): {2}...
+Mod sudah ada ({0}/{1}): {2}	Mod already present ({0}/{1}): {2}
+Mengekstrak konfigurasi modpack...	Extracting modpack configuration...
+Mengekstrak file arsip modpack...	Extracting modpack archive files...
+Selesai! {0} mod berhasil dipasang.	Done! {0} mods installed.
+Selesai dengan catatan: {0} mod terpasang, {1} file gagal atau dilewati. Coba pasang ulang bila ada mod yang kurang.	Finished with notes: {0} mods installed, {1} files failed or were skipped. Try installing again if any mods are missing.
+Modpack ini membutuhkan {0}, sedangkan NovaCraft saat ini hanya mendukung Fabric.	This modpack requires {0}, but NovaCraft currently only supports Fabric.
+Modpack ini membutuhkan Fabric. Buat instance Fabric dulu, lalu pasang modpack di instance itu.	This modpack requires Fabric. Create a Fabric instance first, then install the modpack in it.
+Modpack ini untuk Minecraft {0}, sedangkan instance ini memakai {1}. Pilih atau buat instance dengan versi yang sama.	This modpack is for Minecraft {0}, but this instance uses {1}. Choose or create an instance with the same version.
+Alamat unduhan ditolak karena tidak memakai HTTPS	Download address rejected because it does not use HTTPS
+Gagal mengunduh file: HTTP {0}	Failed to download file: HTTP {0}
+Body stream kosong	Empty body stream
+Gagal menyimpan file unduhan	Failed to save the downloaded file
+Berkas {0} rusak atau berubah di jalan (sidik jari tidak cocok), jadi tidak dipasang.	File {0} is corrupted or was altered in transit (fingerprint mismatch), so it was not installed.
+Isi modpack terlalu besar, pemasangan dibatalkan.	The modpack contents are too large, installation was canceled.
+Modpack ini membutuhkan {0}, sedangkan NovaCraft saat ini hanya mendukung Fabric, Forge, dan NeoForge.	This modpack requires {0}, but NovaCraft currently only supports Fabric, Forge, and NeoForge.
+Modpack ini membutuhkan Forge. Buat instance Forge dulu, lalu pasang modpack di instance itu.	This modpack requires Forge. Create a Forge instance first, then install the modpack in it.
+Modpack ini membutuhkan NeoForge. Buat instance NeoForge dulu, lalu pasang modpack di instance itu.	This modpack requires NeoForge. Create a NeoForge instance first, then install the modpack in it.
+# Tampilan baru layar Mod: filter, sumber, dan label kartu
+Kategori	Category
+Versi	Version
+Urutkan	Sort by
+Relevansi	Relevance
+Unduhan	Downloads
+Pengikut	Followers
+Diperbarui	Recently updated
+Semua loader	All loaders
+Pilih kategori	Choose category
+Pilih versi	Choose version
+Pilih loader	Choose loader
+Cari mod...	Search mods...
+Cari modpack...	Search modpacks...
+Cari shader...	Search shaders...
+Cari resource pack...	Search resource packs...
+Cari datapack...	Search datapacks...
+CurseForge belum tersedia di versi ini	CurseForge is not available in this version yet
+Optimasi	Optimization
+Teknologi	Technology
+Sihir	Magic
+Petualangan	Adventure
+Utilitas	Utility
+Dekorasi	Decoration
+Perlengkapan	Equipment
+Makanan	Food
+Penyimpanan	Storage
+Pustaka	Library
+Realistis	Realistic
+Fantasi	Fantasy
+# Home baru dan layar kelola konten instance
+INSTANCE AKTIF	ACTIVE INSTANCE
+Mod & konten	Mods & content
+Tambah	Add
+Home	Home
+# Layar Akun dan Pengaturan baru
+Tentang	About
+Cari pengaturan...	Search settings...
+Perekaman layar	Screen recording
+Latar	Background
+Foto, GIF, atau video	Photo, GIF, or video
+Redupkan latar	Dim background
+Seberapa gelap latar di layar selain Home.	How dark the background is on screens other than Home.
+Tema	Theme
+Aksen warna	Accent color
+Warna tombol dan penanda terpilih di seluruh launcher.	Color of buttons and selected markers across the launcher.
+Gaya tampilan	Display style
+Default memakai tema AmberLauncher sendiri. Liquid Glass memburamkan latar di belakang panel dan tombol.	Default uses AmberLauncher's own theme. Liquid Glass blurs the background behind panels and buttons.
+Liquid Glass butuh Android 12 ke atas. Di HP ini otomatis memakai Default.	Liquid Glass needs Android 12 or newer. This phone uses Default automatically.
+Bahasa teks di launcher. Berlaku langsung tanpa memulai ulang.	Language of the launcher text. Applies immediately without restarting.
+Pengaturan khusus untuk renderer yang sedang dipakai.	Specific settings for the renderer in use.
+Atur	Configure
+Tata letak kontrol	Control layout
+Aplikasi	App
+Informasi aplikasi, lisensi GPL-3.0, dan kredit.	App information, GPL-3.0 license, and credits.
+Reset ke default	Reset to default
+Semua pengaturan kembali ke bawaan. Perubahan lain tersimpan otomatis.	All settings return to defaults. Other changes are saved automatically.
+Belum ada akun	No accounts yet
+Pilih akun untuk bermain	Choose an account to play
+Akun aktif untuk bermain	Active account for playing
+Jenis akun	Account type
+Status login	Login status
+Tersambung	Connected
+Perlu disegarkan	Needs refresh
+Segarkan login	Refresh login
+Menyegarkan...	Refreshing...
+Login berhasil disegarkan	Login refreshed
+Gagal menyegarkan login	Failed to refresh login
+NOVACRAFT ADDON INSTALLER	NOVACRAFT ADDON INSTALLER
+Impor Mod & Addon Eksternal	Import External Mods & Addons
+Mod Java (.jar)	Java Mod (.jar)
+Mod Horizon (.hmod)	Horizon Mod (.hmod)
+Shader Horizon (.hshader)	Horizon Shader (.hshader)
+worlds	worlds
+Dunia	Worlds
+Rekomendasi Dunia	Recommended Worlds
+Impor Dunia	Import World
+Cari dunia & map di katalog...	Search worlds & maps...
+Pasang dunia	Install world
+Dunia Minecraft Java (.zip)	Minecraft Java World (.zip)
+Dunia {0} berhasil dipasang!	World {0} installed!
+Berhasil mengimpor dan memasang {0} dunia!	Imported and installed {0} world(s)!
+Gagal mengimpor dunia: {~0}	Failed to import world: {0}
+Belum ada dunia tersimpan di instance ini	No saved worlds in this instance yet
+Jelajahi Toko Dunia	Browse World Store
+Mengimpor & memasang dunia	Importing & installing world
+Dunia diekstrak langsung ke folder saves instance ini.	Worlds are extracted directly into this instance's saves folder.
+{0} Dunia	{0} Worlds
+Impor Dunia Java	Import Java World
+Pilih arsip .zip atau folder dunia Minecraft Java (berisi level.dat).	Choose a .zip archive or Minecraft Java world folder (containing level.dat).
+Arsip Dunia Java (.zip)	Java World Archive (.zip)
+Pilih berkas .zip map Minecraft Java	Select a Minecraft Java map .zip file
+Folder Dunia Java	Java World Folder
+Pilih folder save yang berisi level.dat & region/	Select a save folder containing level.dat & region/
+Memeriksa folder dunia Java...	Checking Java world folder...
+Dunia harus memiliki konfigurasi Minecraft Java Edition resmi dari Mojang (level.dat NBT + folder region/).	Worlds must use official Mojang Minecraft Java Edition configuration (NBT level.dat + region/ folder).
+Akses folder dibatasi oleh sistem Android 11+. Pilih folder dunia Java di lokasi yang diizinkan.	Folder access is restricted by Android 11+. Choose a Java world folder in an accessible location.
+# --- news.tsv ---
+# Real-time Minecraft News & Versions dialog
+Berita & Versi Minecraft	Minecraft News & Versions
+Pembaruan langsung dari server resmi Mojang	Live updates directly from Mojang's official servers
+Pembaruan langsung dari server Mojang · {0}	Live from Mojang servers · {0}
+Mengambil berita & versi terbaru dari Mojang...	Fetching live news & latest versions from Mojang...
+Gagal memuat berita waktu nyata	Failed to load real-time news
+Coba lagi	Retry
+Rilis Terbaru	Latest Release
+Snapshot Terbaru	Latest Snapshot
+Versi Java	Java Versions
+Berita	News
+Tidak ada item pada kategori ini	No items in this category
+Lihat catatan perubahan	View patch notes
+Baca selengkapnya	Read more
+Memuat catatan perubahan...	Loading patch notes...
+Buka di Browser	Open in Browser
+Segarkan	Refresh
+Segarkan daftar versi	Refresh version list
+Gagal memperbarui daftar versi terbaru	Failed to refresh the latest version list
+Tidak dapat terhubung ke server resmi Mojang.	Unable to connect to Mojang's official servers.
+Gagal memuat detail catatan rilis.	Failed to load patch note details.
+Rilis resmi terbaru di manifest Mojang ({0}).	Latest official release in the Mojang manifest ({0}).
+Snapshot pengembangan terbaru di manifest Mojang ({0}).	Latest development snapshot in the Mojang manifest ({0}).
+Rilis	Release
+Snapshot	Snapshot
+Cari versi (mis. 1.21.4) atau judul berita...	Search version (e.g. 1.21.4) or news title...
+Tidak ada versi atau berita yang cocok	No matching versions or news found
+Reset pencarian	Reset search
+Menampilkan cache terakhir · Gagal menyegarkan	Showing last cache · Failed to refresh
+Menampilkan cache · Menyinkronkan pembaruan...	Showing cache · Syncing live updates...
+TERBARU	NEW
+Tautan terkait	Related links
+Salin catatan	Copy notes
+Disalin ke papan klip	Copied to clipboard
+Versi	Version
+Tipe	Type
+# --- pelengkap.tsv ---
+# Kalimat yang sebelumnya belum punya terjemahan (hasil audit 10 Nov 2026)
+Penunjuk (Default)	Pointer (Default)
+Penunjuk (Kursor Teks)	Pointer (Text Cursor)
+Penunjuk (Tangan)	Pointer (Hand)
+Penunjuk (Crosshair)	Pointer (Crosshair)
+Penunjuk (Atas/Bawah)	Pointer (Up/Down)
+Penunjuk (Kiri/Kanan)	Pointer (Left/Right)
+Penunjuk (Pindahkan)	Pointer (Move)
+Penunjuk (Tidak Diizinkan)	Pointer (Not Allowed)
+Bentuk biasa. Dipakai di semua versi Minecraft.	Standard shape. Used in all Minecraft versions.
+MC 1.21.9+: dipakai saat kursor di atas kolom teks.	MC 1.21.9+: used when the cursor is over a text field.
+MC 1.21.9+: dipakai saat kursor di atas komponen yang bisa diklik.	MC 1.21.9+: used when the cursor is over a clickable element.
+MC 1.21.9+: bentuk crosshair.	MC 1.21.9+: crosshair shape.
+MC 1.21.9+: dipakai di komponen yang bisa digulir ke atas/bawah.	MC 1.21.9+: used on elements that scroll up/down.
+MC 1.21.9+: dipakai di komponen penggeser (slider).	MC 1.21.9+: used on slider elements.
+MC 1.21.9+: bentuk pindahkan.	MC 1.21.9+: move shape.
+MC 1.21.9+: dipakai di komponen yang dinonaktifkan.	MC 1.21.9+: used on disabled elements.
+Lebih dari separuh RAM HP: game bisa ditutup sendiri oleh Android.	More than half of the phone's RAM: Android may close the game on its own.
+Penunjuk kursor	Cursor pointers
+Mouse fisik	Physical mouse
+Pakai kursor sistem Android	Use the Android system cursor
+Mati (bawaan): mouse menggerakkan kursor launcher di menu game, jadi gambar, ukuran, dan hotspot kursor di atas berlaku. Nyalakan bila mouse lebih nyaman dengan penunjuk bawaan Android.	Off (default): the mouse moves the launcher's cursor in game menus, so the image, size and hotspot set above apply. Turn on if the mouse feels better with the default Android pointer.
+Kecepatan kursor mouse	Mouse cursor speed
+Pengali di atas sensitivitas kursor virtual, hanya untuk mouse fisik di menu game. 100% = sama.	A multiplier on top of the virtual cursor sensitivity, for a physical mouse in game menus only. 100% = unchanged.
+Kecepatan kamera mouse	Mouse camera speed
+Pengali di atas sensitivitas kamera, hanya untuk mouse fisik saat bermain. 100% = sama.	A multiplier on top of the camera sensitivity, for a physical mouse while playing only. 100% = unchanged.
+Gambar tidak bisa dibaca	The image could not be read
+Ganti gambar	Change image
+Pilih gambar	Choose image
+Tutup hotspot	Close hotspot
+Atur hotspot	Set hotspot
+Reset	Reset
+Hotspot adalah titik yang dihitung sebagai ujung kursor saat mengklik (titik merah di pratinjau).	The hotspot is the point counted as the tip of the cursor when clicking (the red dot in the preview).
+Ubah kunci API	Change API key
+Kunci API CurseForge	CurseForge API key
+Kunci sudah tersimpan. Isi kunci baru untuk menggantinya, atau hapus kunci ini.	A key is already saved. Enter a new key to replace it, or delete this key.
+CurseForge butuh kunci API. Tempel kunci dari email CurseForge. Kunci hanya disimpan di HP ini dan hanya dikirim ke CurseForge.	CurseForge needs an API key. Paste the key from the CurseForge email. The key is only stored on this phone and only sent to CurseForge.
+Tempel kunci di sini	Paste the key here
+Kunci API CurseForge belum diisi.	The CurseForge API key has not been entered.
+Kunci API CurseForge ditolak (kode {0}). Periksa kuncinya lalu isi ulang.	The CurseForge API key was rejected (code {0}). Check the key and enter it again.
+CurseForge membatasi permintaan. Tunggu sebentar lalu coba lagi.	CurseForge is rate-limiting requests. Wait a moment and try again.
+CurseForge API error: kode {0}	CurseForge API error: code {0}
+Respons kosong dari CurseForge	Empty response from CurseForge
+Respons CurseForge tidak dikenali	The CurseForge response was not recognized
+CurseForge hanya menampilkan {0} hasil pertama. Persempit pencarian.	CurseForge only shows the first {0} results. Narrow down your search.
+Id CurseForge tidak valid	Invalid CurseForge ID
+Detail CurseForge kosong	The CurseForge details are empty
+Penulis melarang unduhan lewat launcher. Unduh manual dari situs CurseForge.	The author does not allow downloads through the launcher. Download it manually from the CurseForge website.
+File mod harus berformat .jar	A mod file must be in .jar format
+File modpack harus berformat .mrpack atau .zip	A modpack file must be in .mrpack or .zip format
+File {0} harus berformat .zip	A {0} file must be in .zip format
+Mencari alamat unduhan mod dari CurseForge...	Looking up mod download links from CurseForge...
+Mesin Rust baru mendukung akun Offline dan Microsoft. Pilih salah satunya di tab Akun.	The Rust engine only supports Offline and Microsoft accounts for now. Pick one of them in the Accounts tab.
+Nama akun offline untuk mesin Rust harus 1 sampai 16 karakter tanpa spasi. Buat akun offline baru di tab Akun.	An offline account name for the Rust engine must be 1 to 16 characters with no spaces. Create a new offline account in the Accounts tab.
+Akun Microsoft ini belum login lengkap. Masuk lagi lewat tab Akun.	This Microsoft account is not fully signed in. Sign in again from the Accounts tab.
+Pertama kali dibuka: mesin mengunduh sumber daya game (sekitar 500 MiB). Biarkan sampai selesai, game langsung dimulai setelahnya.	First launch: the engine downloads the game assets (about 500 MiB). Let it finish and the game starts right after.
+Folder data mesin tidak bisa dibuat	The engine data folder could not be created
+Berkas peluncuran tidak bisa disimpan	The launch file could not be saved
+Tidak bisa menyimpan {0}	Could not save {0}
+Menyembunyikan bilah navigasi dan bilah status saat bermain. Mati secara bawaan: di sebagian HP bisa membuat game macet.	Hides the navigation bar and status bar while playing. Off by default: on some phones it can make the game freeze.
+Tidak ada versi Forge yang didukung	No supported Forge versions
+Tidak ada versi NeoForge yang didukung	No supported NeoForge versions
+Tidak dapat memuat daftar versi Fabric	Could not load the Fabric version list
+Ruang penyimpanan tinggal {0} MB. Kosongkan minimal 500 MB lalu coba unduh lagi.	Only {0} MB of storage is left. Free up at least 500 MB, then try downloading again.
+Unduhan game	Game downloads
+Mengunduh Minecraft	Downloading Minecraft
+Unduhan lanjut di latar belakang. Jangan tutup paksa aplikasi.	The download continues in the background. Do not force-close the app.
+Menyalakan mode performa stabil sistem dan V-Sync Zink, serta membatasi skala resolusi maksimal {0}%.	Turns on the system stable-performance mode and Zink V-Sync, and caps the maximum resolution scale at {0}%.
+# --- rust-settings.tsv ---
+# Pengaturan > Rust (tab pengaturan mesin Rust)
+Mesin Rust	Rust engine
+Performa	Performance
+Layar	Screen
+Permainan	Gameplay
+Mesin Rust (Horizon)	Rust engine (Horizon)
+Pengganti seluruh client Java: tanpa JVM dan tanpa mod Java.	Replaces the whole Java client: no JVM and no Java mods.
+Tidak tersedia	Unavailable
+Siap	Ready
+Sumber daya game	Game resources
+Diunduh otomatis saat PLAY pertama, sekitar 500 MiB.	Downloaded automatically on the first PLAY, about 500 MiB.
+Belum diunduh	Not downloaded yet
+Versi Minecraft	Minecraft version
+Satu-satunya versi yang dikerjakan mesin ini.	The only version this engine supports.
+Berlaku untuk instance Rust	Applies to Rust instances
+Pilihan di tab ini dipakai instance Rust saja dan berlaku pada PLAY berikutnya. Instance Vanilla, Fabric, dan Forge tidak terpengaruh.	Choices on this tab are used by Rust instances only and take effect on the next PLAY. Vanilla, Fabric and Forge instances are not affected.
+Renderer Rust	Rust renderer
+Kompatibel paling aman untuk semua HP. Vulkan cepat memakai batching GPU. OpenGL ES masih eksperimental.	Compatible is the safest on every phone. Fast Vulkan uses GPU batching. OpenGL ES is still experimental.
+Vulkan kompatibel	Compatible Vulkan
+Vulkan cepat	Fast Vulkan
+Skala resolusi Rust	Rust resolution scale
+Menurunkan resolusi render membuat game lebih ringan, gambar jadi lebih buram.	Lowering the render resolution makes the game lighter, but the picture gets blurrier.
+Laju layar	Refresh rate
+Permintaan ke Android, bukan batas FPS game. Laju yang tidak didukung layar bisa diabaikan.	A request to Android, not an FPS cap. A rate the screen does not support may be ignored.
+Bawaan sistem	System default
+Petunjuk performa	Performance hints
+Memberi tahu Android bahwa game butuh performa stabil. Hanya berguna di HP yang mendukungnya.	Tells Android the game needs steady performance. Only useful on phones that support it.
+Batas pekerja chunk	Chunk worker limit
+Batas pekerja yang membuat dan merakit chunk, bukan semua utas aplikasi. Nilai kecil mengurangi beban CPU tetapi memuat dunia lebih lambat.	Limits the workers that generate and assemble chunks, not every app thread. A small value lowers CPU load but loads the world more slowly.
+Tanpa batas	No limit
+Cache RAM	RAM cache
+Suara yang sudah didekode (80%) dan buffer mesh kosong (20%), dibuat ulang dengan kualitas sama. Bukan batas total RAM atau VRAM. Nilai kecil bisa menambah kerja CPU.	Decoded sounds (80%) and empty mesh buffers (20%), recreated at the same quality. Not a limit on total RAM or VRAM. A small value can add CPU work.
+Bawaan (80 MiB)	Default (80 MiB)
+Arah layar	Screen orientation
+Arah layar saat bermain. Bawaannya landscape.	The screen orientation while playing. Landscape by default.
+Landscape terbalik	Reverse landscape
+Portrait terbalik	Reverse portrait
+Rasio layar	Aspect ratio
+Membatasi tampilan game ke rasio tertentu. Asli mengikuti rasio layar HP.	Limits the game view to a set ratio. Native follows the phone's screen ratio.
+Asli	Native
+Layar penuh imersif	Immersive fullscreen
+Menyembunyikan bilah navigasi dan bilah status saat bermain.	Hides the navigation and status bars while playing.
+Hindari poni layar	Avoid the display cutout
+Menggeser tampilan game agar tidak tertutup lubang kamera atau poni.	Shifts the game view so the camera hole or notch does not cover it.
+Kontrol NovaCraft	NovaCraft controls
+Posisi, ukuran, dan tombol layar mengikuti editor kontrol NovaCraft, jadi hanya ada satu set kontrol. Matikan untuk memakai kontrol bawaan mesin. Berlaku di PLAY berikutnya.	The on-screen buttons follow the NovaCraft control editor (position, size, and buttons), so there is only one set of controls. Turn it off to use the engine's own controls. Applies on the next PLAY.
+Perangkat input	Input device
+Otomatis memilih sendiri antara layar sentuh, keyboard dan mouse, atau gamepad sesuai yang terpasang.	Auto picks between touch, keyboard and mouse, or a gamepad depending on what is connected.
+Layar sentuh	Touch screen
+Keyboard dan mouse	Keyboard and mouse
+Server otomatis	Auto-join server
+Kosongkan untuk bermain di dunia sendiri. Bila diisi, PLAY langsung masuk ke server ini.	Leave empty to play in your own world. If filled in, PLAY joins this server directly.
+Contoh: mc.contoh.com:25565	Example: mc.example.com:25565
+Setel ulang pengaturan Rust	Reset Rust settings
+Mengembalikan semua pilihan di tab ini ke bawaan mesin. Instance dan dunia tidak disentuh.	Puts every choice on this tab back to the engine defaults. Instances and worlds are not touched.
+Setel ulang	Reset
+Pengaturan Rust dikembalikan ke bawaan.	Rust settings were put back to the defaults.
+Mode performa	Performance mode
+Normal memakai bawaan mesin. Super hemat menurunkan jarak render, partikel, awan, dan bayangan. Hemat baterai membatasi 60 FPS dengan VSync. FPS maksimum melepas batas FPS dan mematikan VSync. Mode ini mengubah pengaturan video game saat PLAY.	Normal uses the engine defaults. Super saver lowers render distance, particles, clouds, and shadows. Battery saver caps at 60 FPS with VSync. Max FPS removes the FPS cap and turns VSync off. These modes change the game video settings on PLAY.
+Normal	Normal
+Super hemat	Super saver
+Hemat baterai	Battery saver
+FPS maksimum	Max FPS
+Kurangi animasi game	Reduce game animations
+Mematikan tekstur beranimasi, fade chunk, goyangan kamera saat berjalan, dan blur menu. Lebih ringan di HP lemah.	Turns off animated textures, chunk fade, camera bobbing while walking, and menu blur. Lighter on weak phones.
+Menu garis tiga	Three-line menu
+Tombol bergaris tiga di layar game yang membuka menu cepat mesin (preset, kontrol, pengaturan). Warnanya mengikuti tema NovaCraft. Berlaku di PLAY berikutnya.	The three-line button on the game screen that opens the engine's quick menu (presets, controls, settings). Its colors follow the NovaCraft theme. Applies on the next PLAY.
+Sederhanakan daun (eksperimental)	Simplify leaves (experimental)
+Menyederhanakan dedaunan yang rapat agar lebih ringan. Tampilan daun berubah dan fitur ini masih eksperimental. Berlaku di PLAY berikutnya.	Simplifies dense foliage to make the game lighter. The look of the leaves changes and this feature is still experimental. Applies on the next PLAY.
+Unggah chunk cepat	Fast chunk upload
+Menaikkan jatah unggah mesh chunk ke GPU menjadi 4 MiB per frame, dibuat untuk mengurangi tersendat saat bergerak dan memuat dunia. Menyala secara bawaan. Matikan bila game malah terasa patah-patah. Berlaku di PLAY berikutnya.	Raises the chunk mesh upload budget to the GPU to 4 MiB per frame, meant to reduce stutter while moving and loading the world. On by default. Turn it off if the game feels choppier instead. Applies on the next PLAY.
+Diagnostik	Diagnostics
+Rekam performa	Record performance
+Merekam waktu frame dan pembuatan chunk saat bermain (sampai 30 menit) ke laporan di HP ini. Laporan tidak berisi akun, chat, atau nama dunia. Perekaman menambah sedikit beban, jadi matikan lagi bila tidak diperlukan. Berlaku di PLAY berikutnya.	Records frame times and chunk building while you play (up to 30 minutes) into a report on this phone. The report contains no account, chat, or world names. Recording adds a little load, so turn it off again when you do not need it. Applies on the next PLAY.
+Bagikan laporan performa	Share performance report
+Mengirim laporan rekaman terakhir lewat aplikasi pilihanmu, misalnya untuk dilampirkan saat melaporkan game yang lambat.	Sends the latest recorded report through the app you choose, for example to attach when reporting a slow game.
+Belum ada laporan performa. Nyalakan Rekam performa, mainkan sebentar, lalu coba lagi.	There is no performance report yet. Turn on Record performance, play for a bit, then try again.
+Antarmuka internal Horizon	Horizon internal UI
+Buka menu peluncur bawaan Horizon untuk mengelola profil, dunia, sumber daya, mod Horizon, atau masuk ke game dari dalam Horizon.	Open Horizon's built-in launcher screen to manage profiles, worlds, resources, Horizon mods, or launch from inside Horizon.
+Buka UI	Open UI
+Masuk lewat UI Horizon saat PLAY	Open Horizon UI on PLAY
+Saat menyala, tombol PLAY pada instance Rust akan membuka layar internal Horizon terlebih dahulu daripada langsung masuk ke game.	When enabled, pressing PLAY on a Rust instance opens Horizon's internal screen first instead of jumping straight into the game.
+UI Horizon	Horizon UI
+Versi Minecraft Horizon	Horizon Minecraft version
+Otomatis menerima pembaruan versi Minecraft {0} secara real-time.	Automatically tracks Minecraft {0} updates in real time.
+Sinkron real-time: aktif {0} · Mojang 26.x terbaru {1}.	Real-time sync: active {0} · latest Mojang 26.x {1}.
+{0} · Cek	{0} · Check
+Versi aktif Horizon: {0}	Active Horizon version: {0}
+Gaya UI internal Horizon	Horizon internal UI style
+Tampilan visual baru khusus NovaCraft saat membuka antarmuka internal Horizon.	Distinct NovaCraft visual style when opening Horizon's internal UI.
+Buka menu peluncur bawaan Horizon bergaya NovaCraft untuk mengelola profil, dunia, sumber daya, mod Horizon, atau masuk ke game.	Open Horizon's built-in NovaCraft-styled menu to manage profiles, worlds, resources, Horizon mods, or launch the game.
+# --- settings.tsv ---
+# Pengaturan
+{0} GB RAM \u00b7 {1} inti CPU	{0} GB RAM \u00b7 {1} CPU cores
+Memori	Memory
+Grafis	Graphics
+Kontrol	Controls
+Tampilan	Display
+Memori game (RAM)	Game memory (RAM)
+Terlalu besar untuk HP ini, game dan HP bisa jadi lambat.	Too large for this phone; the game and the phone may become slow.
+Batas memori Java (-Xmx). Lebih besar tidak selalu lebih cepat.	Java memory limit (-Xmx). Bigger is not always faster.
+1,5 GB	1.5 GB
+Argumen JVM tambahan	Extra JVM arguments
+Opsional, untuk pengguna mahir. Salah isi bisa membuat game gagal jalan.	Optional, for advanced users. Wrong values can stop the game from running.
+Contoh: -XX:+UseG1GC	Example: -XX:+UseG1GC
+Konfigurasi renderer	Renderer settings
+Optimasi otomatis options.txt	Auto-optimize options.txt
+Mematikan awan dan bayangan secara otomatis supaya FPS lebih tinggi.	Automatically turns off clouds and shadows for higher FPS.
+Skala resolusi layar	Screen resolution scale
+Lebih kecil = FPS lebih tinggi, gambar lebih buram.	Smaller = higher FPS, blurrier image.
+Driver Vulkan	Vulkan driver
+Pilih implementasi driver Vulkan yang dipakai sistem/game.	Choose the Vulkan driver implementation used by the system/game.
+API grafis	Graphics API
+Atur API grafis yang dipakai Minecraft modern 26.2+.	Sets the graphics API used by modern Minecraft 26.2+.
+Gunakan driver Vulkan sistem	Use the system Vulkan driver
+Paksa pakai driver Vulkan bawaan HP (bukan Turnip). Memengaruhi renderer Zink.	Force the phone's built-in Vulkan driver (not Turnip). Affects the Zink renderer.
+V-Sync Zink	Zink V-Sync
+Sinkronisasi vertikal untuk renderer Kopper Zink lewat antarmuka sistem.	Vertical sync for the Kopper Zink renderer through the system interface.
+Bahasa teks di launcher. Ikuti sistem memakai bahasa HP.	Language of the launcher text. Follow system uses your phone's language.
+Latar Beranda	Home background
+Foto paling ringan, GIF bergerak dengan ringan, video paling halus (HD, bisa 60 fps) tapi memakai baterai lebih banyak.	Photos are the lightest, GIFs move with little load, videos are the smoothest (HD, up to 60 fps) but use more battery.
+Ganti latar	Change background
+Gerakkan GIF dan video	Animate GIFs and videos
+Matikan untuk menampilkan gambar diam saja. Paling hemat baterai dan RAM.	Turn off to show a still image only. Saves the most battery and RAM.
+Jeda saat Hemat Baterai	Pause in Battery Saver
+GIF dan video berhenti otomatis selama mode Hemat Baterai HP menyala.	GIFs and videos pause automatically while the phone's Battery Saver mode is on.
+Suara video	Video sound
+Bawaan mati. Otomatis bisu bila aplikasi lain sedang memutar musik.	Off by default. Automatically muted when another app is playing audio.
+Volume video	Video volume
+Cahaya lembut di sidebar dan tepi kartu Beranda. Warnanya mengikuti isi GIF atau video. Tidak berlaku untuk foto.	A soft glow on the sidebar and the edges of the Home cards. Its color follows the GIF or video. Does not apply to photos.
+Kekuatan ambient	Ambient strength
+Kustomisasi kontrol virtual	Customize virtual controls
+Ubah tata letak tombol, ukuran, transparansi, scroll hotbar, dan pemetaan tombol Minecraft.	Change button layout, size, transparency, hotbar scrolling, and Minecraft key mapping.
+Buka editor	Open editor
+Mode mouse di menu	Mouse mode in menus
+Sentuh tombol atau slot menu langsung di mana jari menekan.	Touch buttons or menu slots directly where your finger presses.
+Geser jari untuk menggerakkan kursor virtual, ketuk layar untuk klik.	Slide your finger to move the virtual cursor, tap the screen to click.
+Click (langsung)	Click (direct)
+Pukul lewat layar	Attack by touching the screen
+Ketuk atau tahan di area kosong layar untuk memukul. Matikan supaya menggeser kamera tidak ikut memukul; pakai tombol pukul.	Tap or hold an empty area of the screen to attack. Turn off so dragging the camera does not attack too; use the attack button instead.
+Sensitivitas kamera	Camera sensitivity
+Kecepatan memutar pandangan di dalam game.	How fast the view turns in the game.
+Sensitivitas kursor virtual	Virtual cursor sensitivity
+Kecepatan kursor saat berada di menu Minecraft.	Cursor speed while in Minecraft menus.
+Ukuran kursor virtual	Virtual cursor size
+Mode mouse fisik (auto-hide)	Physical mouse mode (auto-hide)
+Sembunyikan kursor virtual otomatis jika mouse eksternal tersambung.	Automatically hide the virtual cursor when an external mouse is connected.
+Perubahan tersimpan otomatis	Changes are saved automatically
+Pengaturan di-reset ke default!	Settings were reset to default!
+Reset default	Reset to default
+PILIH RENDERER GRAFIK	CHOOSE GRAPHICS RENDERER
+Sesuaikan backend grafis dengan Minecraft & GPU perangkat	Match the graphics backend to your Minecraft version and your device's GPU
+Renderer diubah ke: {0}	Renderer changed to: {0}
+Konfigurasi {0}	{0} settings
+Kesesuaian: {0}	Compatibility: {0}
+PERINGATAN DRIVER ADRENO	ADRENO DRIVER WARNING
+Launcher mendeteksi perangkatmu menggunakan GPU Adreno. Mengaktifkan opsi ini dapat menyebabkan perender Zink tidak berfungsi atau crash. Apakah Anda yakin ingin mengaktifkannya?	The launcher detected that your device uses an Adreno GPU. Enabling this option can make the Zink renderer stop working or crash. Are you sure you want to enable it?
+AKTIFKAN	ENABLE
+Mode GC (pembersih memori Java)	GC mode (Java memory cleaner)
+Kunci layar 60 Hz	Lock screen to 60 Hz
+# Rekam layar bawaan
+Kualitas rekaman layar	Screen recording quality
+Makin kecil makin ringan untuk HP. Hemat 540p, Ringan 720p, Tajam 1080p.	Smaller is lighter on the phone. Eco 540p, Light 720p, Sharp 1080p.
+Hemat	Eco
+Ringan	Light
+Tajam	Sharp
+FPS rekaman	Recording FPS
+30 fps jauh lebih ringan. 60 fps hanya untuk HP yang kuat.	30 fps is much lighter. 60 fps only for powerful phones.
+Rekam suara mikrofon	Record microphone audio
+Menambahkan suara dari mikrofon ke rekaman. Suara game belum ikut terekam.	Adds microphone audio to the recording. Game sound is not recorded yet.
+Hentikan rekaman saat HP terlalu panas	Stop recording when the phone overheats
+Menyimpan rekaman dan berhenti otomatis supaya game tidak ikut melambat karena panas.	Saves the recording and stops automatically so the game does not slow down from heat.
+# Pembaruan otomatis dan rekam layar (tambahan)
+Isi rekaman	Recording content
+Game saja: tombol layar disembunyikan dari video (tetap bisa disentuh). Dengan tombol: tombol layar ikut terekam. Bisa diganti juga dari menu dalam game.	Game only: on-screen buttons are hidden from the video (they still work). With buttons: on-screen buttons are recorded too. You can also change this from the in-game menu.
+Hotbar sentuh	Touch hotbar
+Ketuk hotbar di bagian bawah layar untuk memilih slot, seperti di Minecraft Bedrock. Posisi slot mengikuti GUI scale game.	Tap the hotbar at the bottom of the screen to select a slot, like in Minecraft Bedrock. Slot positions follow the game's GUI scale.
+Geser kamera dari tombol	Look by dragging buttons
+Menahan tombol pukul, pakai, atau lompat lalu menggeser jari ikut memutar kamera. Matikan supaya pandangan tidak bergeser saat bertarung (PvP).	Holding the attack, use, or jump button and sliding your finger also turns the camera. Turn off so your view doesn't drift during fights (PvP).
+Dukungan TouchController	TouchController support
+Eksperimental. Bila mod TouchController terpasang dan tersambung, sentuhan saat bermain juga diteruskan ke mod. Tombol dan mouse virtual launcher tetap aktif, jadi keduanya bisa dipakai bersamaan.	Experimental. If the TouchController mod is installed and connected, touches while playing are also passed to the mod. The launcher's buttons and virtual mouse stay active, so both can be used at the same time.
+# Mode Hemat, kunci layar 60 Hz umum, dan GC untuk HP RAM kecil
+Optimasi HP RAM kecil	Low-RAM phone tuning
+RAM HP ini {0} MB, jadi cara kerja pembersih memori Java bisa disetel.	This phone has {0} MB of RAM, so how Java's memory cleaner works can be tuned.
+Serial: paling ringan untuk prosesor, jeda GC sedikit lebih panjang. Coba bila game sering tersendat.	Serial: lightest on the processor, with slightly longer GC pauses. Try it if the game often stutters.
+Bawaan: tanpa flag GC tambahan dari launcher.	Default: no extra GC flags from the launcher.
+Otomatis: G1 dengan memori terbatas, cocok untuk kebanyakan HP. Coba ini dulu.	Auto: G1 with limited memory, good for most phones. Try this first.
+Berlaku saat game dijalankan berikutnya. Untuk membandingkan, lihat baris [Kinerja] di log game.	Applies the next time the game starts. To compare, look at the [Kinerja] lines in the game log.
+Mode Hemat	Power Saver Mode
+Untuk HP yang cepat panas atau baterainya cepat habis.	For phones that get hot quickly or drain the battery fast.
+Nyalakan Mode Hemat	Turn on Power Saver Mode
+Menyalakan mode performa stabil sistem dan V-Sync Zink, serta membatasi skala resolusi maksimal 80%.	Turns on the system's sustained performance mode and Zink V-Sync, and caps the resolution scale at 80%.
+Berlaku saat game dijalankan berikutnya. Dimatikan kembali, setelan sebelumnya dipulihkan.	Applies the next time the game starts. Turning it off restores your previous settings.
+Layar 90/120 Hz dikunci 60 Hz saat main supaya gerak lebih rata dan sedikit lebih hemat panas. Cocok bila game jarang mencapai 90 FPS. HUD FPS menampilkan Hz yang aktif.	A 90/120 Hz screen is locked to 60 Hz while playing for smoother motion and slightly less heat. Good if the game rarely reaches 90 FPS. The FPS HUD shows the active Hz.
+Cadangan & bagikan layout	Back up & share layout
+Simpan tata letak tombol ke berkas .json untuk dicadangkan atau dibagikan, atau muat dari berkas milik orang lain.	Save the button layout to a .json file to back it up or share it, or load one from someone else's file.
+Ekspor	Export
+Layout kontrol disimpan ke berkas	Control layout saved to file
+Gagal menyimpan berkas	Failed to save the file
+Berkas terlalu besar untuk layout kontrol	File is too large for a control layout
+Berkas tidak berisi tombol	The file contains no buttons
+Berkas ini bukan layout kontrol yang valid	This file is not a valid control layout
+Layout kontrol diimpor ({0} tombol)	Control layout imported ({0} buttons)
+# Log game: simpan otomatis dan bagikan
+Log game	Game logs
+Setiap keluar dari Minecraft, log sesi itu disimpan otomatis (10 terakhir), tanpa token akun. Bila ada masalah, misalnya shader tidak termuat, bagikan log terbaru ke pengembang.	Each time you leave Minecraft, that session's log is saved automatically (last 10), without account tokens. If something goes wrong, for example shaders do not load, share the latest log with the developer.
+Belum ada log. Mainkan game sekali lalu keluar; log tersimpan otomatis.	No logs yet. Play once and then exit; logs are saved automatically.
+Log terbaru	Latest log
+Log sebelumnya	Earlier log
+Bagikan	Share
+Hapus semua log	Delete all logs
+Ketuk lagi untuk menghapus	Tap again to delete
+Log dihapus.	Logs deleted.
+Log launcher	Launcher log
+Kejadian di dalam launcher di luar game, misalnya unduhan, login, dan pesan galat. Bagikan bila masalahnya muncul sebelum game dimulai.	What happens inside the launcher outside the game, such as downloads, sign-in and error messages. Share it if the problem appears before the game starts.
+Menyiapkan log...	Preparing log...
+Gagal menyiapkan log launcher.	Could not prepare the launcher log.
+Lokasi: {0}	Location: {0}
+Kirim lewat WhatsApp, Telegram, atau Google Drive dari tombol Bagikan, atau ambil langsung dari folder itu lewat pengelola berkas.	Send it through WhatsApp, Telegram or Google Drive with the Share button, or take it straight from that folder with a file manager.
+Plugin native library	Native library plugins
+Belum ada plugin terpasang	No plugins installed
+Pasang APK plugin native library (format Zalith/FCL) yang dibutuhkan mod, misalnya Distant Horizons, lalu ketuk untuk memindai ulang.	Install the native library plugin APK (Zalith/FCL format) that a mod needs, for example Distant Horizons, then tap to scan again.
+Pindai	Scan
+Memindai...	Scanning...
+Pindai ulang plugin	Rescan plugins
+Gunakan setelah memasang atau menghapus plugin. Plugin juga dipindai otomatis tiap game dijalankan.	Use after installing or removing a plugin. Plugins are also scanned automatically every time the game starts.
+Kontrol sentuh	Touch controls
+Kamera dan kursor	Camera and cursor
+Controller dan mouse fisik	Controller and physical mouse
+Lanjutan	Advanced
+Langsung bisa dipakai	Works right away
+Tidak perlu dinyalakan atau diatur. Colok controller (gamepad) lalu main: stick kiri jalan, stick kanan kamera, A lompat, RT pukul, LT pasang, Y inventaris, Start = Esc. Di menu stick menggerakkan kursor. Mouse dan keyboard fisik juga langsung bisa dipakai. Tombol layar tersembunyi sendiri saat controller atau mouse dipakai. Kecepatan stick mengikuti sensitivitas kamera dan kursor di atas. Bila mod controller (mis. Controlify) terdeteksi, controller langsung diserahkan ke mod.	No need to turn anything on or set anything up. Plug in a controller (gamepad) and play: left stick walks, right stick looks, A jumps, RT attacks, LT places/uses, Y opens the inventory, Start = Esc. In menus the stick moves the cursor. A physical mouse and keyboard work right away too. On-screen buttons hide by themselves when a controller or mouse is used. Stick speed follows the camera and cursor sensitivity above. If a controller mod (e.g. Controlify) is detected, the controller is handed straight to the mod.
+Mode tema	Theme mode
+Pilih tampilan Gelap, Terang, atau mengikuti tema sistem Android.	Choose Dark, Light, or follow the Android system theme.
+Gelap	Dark
+Terang	Light
+Izin aplikasi	App permissions
+Izin notifikasi	Notification permission
+Status unduhan, pemasangan mod/loader, dan kontrol rekam layar.	Download status, mod/loader installation, and screen recording controls.
+Diizinkan	Allowed
+Izinkan	Allow
+Izin notifikasi sudah aktif.	Notification permission is already active.
+Izin notifikasi diaktifkan.	Notification permission enabled.
+Izin notifikasi ditolak. Anda bisa mengaturnya lewat Pengaturan sistem.	Notification permission denied. You can enable it in system Settings.
+Izin mikrofon	Microphone permission
+Opsional untuk merekam suara mikrofon saat merekam layar game.	Optional for recording microphone audio during screen capture.
+Izin mikrofon sudah aktif.	Microphone permission is already active.
+Izin mikrofon diaktifkan.	Microphone permission enabled.
+Izin mikrofon ditolak. Anda bisa mengaturnya lewat Pengaturan sistem.	Microphone permission denied. You can enable it in system Settings.
+Izin penyimpanan (Android 11+)	Storage permission (Android 11+)
+Dibatasi aturan Android 11+: memakai folder privat novacraft dan pemilih SAF tanpa melewati pembatasan sistem.	Restricted by Android 11+ rules: uses the private novacraft folder and SAF picker without bypassing system blocks.
+Dibatasi	Restricted
+Pembatasan penyimpanan Android 11+ aktif dan tidak dilewati.	Android 11+ storage restrictions are active and not bypassed.
+Izin penyimpanan	Storage permission
+Akses baca/tulis berkas lokal untuk perangkat Android 10 ke bawah.	Local file read/write access for Android 10 and lower.
+Izin penyimpanan sudah aktif.	Storage permission is already active.
+Izin penyimpanan diaktifkan.	Storage permission enabled.
+Izin penyimpanan ditolak. Anda bisa mengaturnya lewat Pengaturan sistem.	Storage permission denied. You can enable it in system Settings.
+Pengaturan izin sistem	System permission settings
+Buka halaman izin aplikasi Android untuk mengelola akses secara manual.	Open the Android app permissions page to manage access manually.
+Tidak dapat membuka pengaturan izin aplikasi.	Unable to open app permission settings.
+# --- skin.tsv ---
+# Wardrobe: skin dan jubah
+Gagal memuat jubah: {0}	Failed to load cape: {0}
+Memvalidasi skin...	Validating skin...
+Skin dimuat di preview ({0}) \u2014 Klik Simpan untuk menerapkan	Skin loaded in preview ({0}) \u2014 Click Save to apply
+File tidak valid	Invalid file
+Memvalidasi cape...	Validating cape...
+Cape kustom dimuat di preview \u2014 Klik Simpan untuk menerapkan	Custom cape loaded in preview \u2014 Click Save to apply
+File cape tidak valid	Invalid cape file
+Kustomisasi tampilan skin dan jubah pemain Minecraft	Customize the skin and cape of your Minecraft player
+3D (DRAG / PUTAR)	3D (DRAG / ROTATE)
+Putar Otomatis	Auto Rotate
+Reset Kamera	Reset Camera
+Jalan	Walk
+Diam	Idle
+Lari	Run
+Sapa	Wave
+KUSTOM SKIN	CUSTOM SKIN
+JUBAH / CAPE	CAPE
+Sistem Skin & Jubah Ely.by	Ely.by Skin & Cape System
+Akun Ely.by menggunakan server skinsystem terpusat. Untuk mengganti skin atau tipe model lengan, silakan unggah langsung melalui website resmi ely.by agar tersinkronisasi in-game.	Ely.by accounts use a centralized skinsystem server. To change your skin or arm model type, upload it directly on the official ely.by website so it syncs in-game.
+KUNJUNGI ACCOUNT.ELY.BY	VISIT ACCOUNT.ELY.BY
+PILIH FILE SKIN (.PNG)	CHOOSE SKIN FILE (.PNG)
+TIPE MODEL LENGAN:	ARM MODEL TYPE:
+Model Klasik dipilih (Preview) \u2014 Klik Simpan	Classic model selected (Preview) \u2014 Click Save
+Klasik	Classic
+Lengan tebal (4px)	Thick arms (4px)
+Model Slim dipilih (Preview) \u2014 Klik Simpan	Slim model selected (Preview) \u2014 Click Save
+Lengan ramping (3px)	Slim arms (3px)
+Skin direset ke default Steve (Preview) \u2014 Klik Simpan	Skin reset to the default Steve (Preview) \u2014 Click Save
+\u21ba Reset ke Skin Default (Klasik)	\u21ba Reset to Default Skin (Classic)
+JUBAH RESMI MINECRAFT.NET:	OFFICIAL MINECRAFT.NET CAPES:
+Memuat jubah dari Minecraft.net...	Loading capes from Minecraft.net...
+Akun Microsoft Anda belum memiliki jubah resmi di Minecraft.net.	Your Microsoft account does not have any official capes on Minecraft.net yet.
+Jubah dilepas (Preview) \u2014 Klik Simpan	Cape removed (Preview) \u2014 Click Save
+Tanpa Jubah (Lepas Cape)	No Cape (Remove Cape)
+Jubah {0} dipilih (Preview) \u2014 Klik Simpan	{0} cape selected (Preview) \u2014 Click Save
+AKTIF DI MOJANG	ACTIVE ON MOJANG
+Sistem Skin & Cape Ely.by	Ely.by Skin & Cape System
+Akun Ely.by menggunakan server skinsystem resmi. Seluruh skin dan jubah dikelola langsung melalui website ely.by dan akan otomatis tampil di dalam game.	Ely.by accounts use the official skinsystem server. All skins and capes are managed directly on the ely.by website and will appear in-game automatically.
+BUKA WEBSITE ELY.BY	OPEN ELY.BY WEBSITE
+PILIH FILE CAPE KUSTOM (.PNG)	CHOOSE CUSTOM CAPE FILE (.PNG)
+ATAU PILIH PRESET JUBAH:	OR CHOOSE A CAPE PRESET:
+Cape dilepas (Preview) \u2014 Klik Simpan	Cape removed (Preview) \u2014 Click Save
+Menyinkronkan ke Minecraft.net...	Syncing to Minecraft.net...
+Gagal memperbarui Minecraft.net: {~0}	Failed to update Minecraft.net: {0}
+Perubahan berhasil diterapkan ke Minecraft.net!	Changes applied to Minecraft.net!
+Skin & Cape berhasil disimpan!	Skin & Cape saved!
+SIMPAN KE MOJANG	SAVE TO MOJANG
+SIMPAN PERUBAHAN	SAVE CHANGES
+Jubah Resmi Minecraft	Official Minecraft Cape
+Jubah Aktif Minecraft	Active Minecraft Cape
+Gagal memuat jubah Minecraft.	Failed to load Minecraft capes.
+Respon profil kosong	Empty profile response
+Gagal mengubah jubah.	Failed to change the cape.
+Gagal mengunggah skin.	Failed to upload the skin.
+Gagal membaca file dari penyimpanan.	Failed to read the file from storage.
+Format skin tidak valid. Ukuran harus 64x64 atau 64x32 piksel.	Invalid skin format. The size must be 64x64 or 64x32 pixels.
+Format cape tidak valid. Ukuran harus 64x32 atau 128x64 piksel.	Invalid cape format. The size must be 64x32 or 128x64 pixels.
+Tanpa Cape	No Cape
+Reset / Lepas cape	Reset / Remove cape
+Klasik merah resmi Mojang	Classic official Mojang red
+Creeper emas peringatan 15 tahun	Golden Creeper for the 15th anniversary
+Jubah biru kehormatan migrasi	Blue cape of honor for migrating
+Motif sakura edisi 1.20	Cherry blossom pattern, 1.20 edition
+Edisi emas pencipta	Golden creator's edition
+Edisi Java & Bedrock bundle	Java & Bedrock bundle edition
+# --- typing.tsv ---
+# Pengaturan > Kontrol sentuh: preview ketikan (bar di atas keyboard layar)
+Preview ketikan	Typing preview
+Saat keyboard layar terbuka, huruf yang kamu ketik tampil di bar kecil tepat di atas keyboard supaya bisa diperiksa sebelum dikirim. Hanya menampilkan yang kamu ketik sejak keyboard dibuka.	While the on-screen keyboard is open, the letters you type appear in a small bar right above the keyboard so you can check them before sending. It only shows what you typed since the keyboard opened.
+Ketikanmu tampil di sini	What you type shows up here
+# --- update.tsv ---
+# Pembaruan aplikasi (pop-up versi baru dari GitHub)
+Pembaruan tersedia	Update available
+Versi {0} sudah tersedia. Kamu memakai versi {1}.	Version {0} is available. You are on version {1}.
+Yang baru	What's new
+Lewati	Skip
+Unduh	Download
+# Pengecekan, unduhan, dan pemasangan pembaruan
+Unduhan terputus. Ketuk Coba lagi; unduhan dilanjutkan dari bagian yang sudah ada.	Download interrupted. Tap Try again; it continues from where it stopped.
+Ruang penyimpanan tidak cukup. Kosongkan sekitar {0} MB lalu coba lagi.	Not enough storage space. Free up about {0} MB and try again.
+Berkas hasil unduhan rusak (tidak cocok dengan yang di GitHub). Ketuk Coba lagi untuk mengunduh ulang.	The downloaded file is corrupted (it does not match the one on GitHub). Tap Try again to download it again.
+Berkas APK tidak ditemukan di GitHub (kode 404). Mungkin rilisnya sudah dihapus.	The APK file was not found on GitHub (code 404). The release may have been deleted.
+GitHub menolak unduhan (kode 403). Coba lagi nanti.	GitHub refused the download (code 403). Try again later.
+GitHub membalas kode {0} saat mengunduh.	GitHub replied with code {0} while downloading.
+Balasan GitHub kosong.	The GitHub response was empty.
+Balasan GitHub terlalu besar.	The GitHub response is too large.
+GitHub sedang bermasalah (kode {0}). Coba lagi nanti.	GitHub is having problems (code {0}). Try again later.
+GitHub membalas kode {0}.	GitHub replied with code {0}.
+Tidak ada koneksi internet.	No internet connection.
+Koneksi terlalu lambat. Coba lagi.	The connection is too slow. Try again.
+Koneksi aman ke GitHub gagal. Periksa tanggal dan jam HP.	The secure connection to GitHub failed. Check the phone's date and time.
+Koneksi internet terputus. Coba lagi.	The internet connection was lost. Try again.
+Terjadi kesalahan yang tidak terduga.	An unexpected error occurred.
+Batas permintaan GitHub tercapai (biasanya karena banyak orang memakai jaringan yang sama). Coba lagi sekitar pukul {0}.	The GitHub request limit was reached (usually because many people share the same network). Try again around {0}.
+Unduhan gagal: {0}	Download failed: {0}
+Berkas pembaruan hilang. Ketuk Coba lagi untuk mengunduh ulang.	The update file is missing. Tap Try again to download it again.
+Game masih berjalan. Tutup game dulu supaya tidak ada data yang hilang, lalu coba lagi.	The game is still running. Close it first so no data is lost, then try again.
+Pemasangan gagal: {0}	Installation failed: {0}
+Pemasangan dibatalkan.	Installation was cancelled.
+Berkas pembaruan tidak bisa dibaca sebagai APK. Ketuk Coba lagi untuk mengunduh ulang.	The update file cannot be read as an APK. Tap Try again to download it again.
+Berkas ini bukan APK NovaCraft.	This file is not a NovaCraft APK.
+APK ini tidak lebih baru dari versi yang terpasang.	This APK is not newer than the installed version.
+Tanda tangan APK berbeda dari aplikasi yang terpasang, jadi Android akan menolak pembaruan ini.	The APK signature differs from the installed app, so Android will reject this update.
+Pemasangan diblokir oleh sistem atau Play Protect.	Installation was blocked by the system or Play Protect.
+Pemasangan diblokir oleh sistem atau Play Protect.{0}	Installation was blocked by the system or Play Protect.{0}
+Android menolak pembaruan ini: tanda tangan atau versinya tidak cocok dengan aplikasi yang terpasang.	Android rejected this update: its signature or version does not match the installed app.
+Android menolak pembaruan ini: tanda tangan atau versinya tidak cocok dengan aplikasi yang terpasang.{0}	Android rejected this update: its signature or version does not match the installed app.{0}
+APK ini tidak cocok dengan HP kamu.	This APK is not compatible with your phone.
+APK ini tidak cocok dengan HP kamu.{0}	This APK is not compatible with your phone.{0}
+APK rusak atau tidak valid. Ketuk Coba lagi untuk mengunduh ulang.	The APK is corrupted or invalid. Tap Try again to download it again.
+APK rusak atau tidak valid. Ketuk Coba lagi untuk mengunduh ulang.{0}	The APK is corrupted or invalid. Tap Try again to download it again.{0}
+Ruang penyimpanan tidak cukup untuk memasang pembaruan.	Not enough storage space to install the update.
+Ruang penyimpanan tidak cukup untuk memasang pembaruan.{0}	Not enough storage space to install the update.{0}
+Pemasangan gagal.	Installation failed.
+Pemasangan gagal.{0}	Installation failed.{0}
+Balasan GitHub tidak bisa dibaca.	The GitHub response could not be read.
+Daftar rilis tersimpan tidak bisa dibaca.	The saved release list could not be read.
+Pembaruan	Updates
+Versi terpasang	Installed version
+Memeriksa...	Checking...
+Lihat pembaruan	View update
+Buka	Open
+Periksa pembaruan	Check for updates
+Periksa otomatis	Check automatically
+Cek versi baru di GitHub setiap launcher dibuka (hanya beberapa KB). Kalau ada, muncul pop-up untuk mengunduh dan memasangnya.	Looks for a new version on GitHub every time the launcher opens (only a few KB). If there is one, a pop-up offers to download and install it.
+Semua rilis	All releases
+Daftar versi dan catatan perubahannya di GitHub.	The list of versions and their changelogs on GitHub.
+Buka GitHub	Open GitHub
+Pembaruan diunduh dan dipasang dari dalam launcher. Android tetap meminta satu kali konfirmasi pemasangan, dan game harus ditutup dulu.	Updates are downloaded and installed from inside the launcher. Android still asks for one install confirmation, and the game must be closed first.
+Belum diperiksa. Ketuk Periksa pembaruan.	Not checked yet. Tap Check for updates.
+Memeriksa pembaruan...	Checking for updates...
+Sudah versi terbaru. Diperiksa pukul {0}.	You're up to date. Checked at {0}.
+Versi {0} sudah terbit, tetapi APK untuk HP ini ({1}) belum tersedia. Coba lagi nanti.	Version {0} is out, but the APK for this phone ({1}) is not available yet. Try again later.
+Versi {0} tersedia.	Version {0} is available.
+Mengunduh versi {0}... {1}%	Downloading version {0}... {1}%
+Versi {0} siap dipasang.	Version {0} is ready to install.
+Butuh izin memasang aplikasi dari Android.	Android needs your permission to install apps.
+Menunggu konfirmasi pemasangan dari Android...	Waiting for Android's install confirmation...
+Ukuran unduhan: {0} MB	Download size: {0} MB
+Kamu sedang memakai data seluler, unduhan ini memakai kuota.	You are on mobile data; this download uses your data allowance.
+Mengunduh pembaruan	Downloading update
+Sembunyikan	Hide
+Unduhan berjalan selama launcher terbuka. Kalau terputus, ketuk Unduh lagi; lanjut dari bagian yang sudah ada.	The download runs while the launcher is open. If it gets interrupted, tap Download again; it continues from where it stopped.
+Siap dipasang	Ready to install
+Pasang	Install
+Versi {0} sudah diunduh dan diperiksa.	Version {0} has been downloaded and checked.
+Android akan meminta konfirmasi pemasangan. Launcher tertutup selama pemasangan; buka lagi setelah selesai.	Android will ask you to confirm the installation. The launcher closes during installation; reopen it when it finishes.
+Izin pemasangan diperlukan	Install permission required
+Android perlu izin agar NovaCraft bisa memasang pembaruannya sendiri.	Android needs your permission so NovaCraft can install its own updates.
+Nyalakan "Izinkan dari sumber ini", lalu kembali ke sini. Pemasangan dilanjutkan otomatis.	Turn on "Allow from this source", then come back here. Installation continues automatically.
+Memasang pembaruan	Installing update
+Ikuti konfirmasi dari Android. Launcher tertutup otomatis saat pemasangan selesai.	Follow Android's confirmation prompt. The launcher closes automatically when installation finishes.
+Pembaruan gagal	Update failed
+Coba lagi	Try again
+Pemasangan gagal. ({~0})	Installation failed. ({0})
+layar konfirmasi tidak bisa dibuka	the confirmation screen could not be opened

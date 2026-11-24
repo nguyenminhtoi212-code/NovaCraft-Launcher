@@ -1,0 +1,8 @@
+{
+  "name": "novacraft launcher",
+  "description": "Minecraft Java Edition launcher for Android supporting Vanilla, Fabric, Forge, and NeoForge with mod management and custom controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

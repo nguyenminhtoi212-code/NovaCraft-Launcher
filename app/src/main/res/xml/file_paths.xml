@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Hanya folder yang memang perlu dibagikan: salinan log (cache), folder data game di penyimpanan
+    bersama, dan folder data game cadangan. Data pribadi launcher (akun, pengaturan) tidak termasuk.
+-->
+<paths>
+    <cache-path name="shared_logs" path="shared_logs/" />
+    <files-path name="internal_game_data" path="novacraft/" />
+    <files-path name="horizon_data" path="horizon/" />
+    <external-files-path name="external_files" path="." />
+    <external-files-path name="novacraft_game_data" path="novacraft/" />
+</paths>

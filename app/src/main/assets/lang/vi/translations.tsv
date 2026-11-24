@@ -1,0 +1,1712 @@
+# --- about.tsv ---
+# Dialog Tentang dan Lisensi
+Peluncur ini. Kode sumbernya terbuka dan boleh dipelajari, diubah, dan dibagikan lagi dengan syarat GPL-3.0 yang sama.	Launcher n\u00e0y. M\u00e3 ngu\u1ed3n m\u1edf, b\u1ea1n c\u00f3 th\u1ec3 t\u00ecm hi\u1ec3u, ch\u1ec9nh s\u1eeda v\u00e0 chia s\u1ebb l\u1ea1i theo c\u00f9ng \u0111i\u1ec1u kho\u1ea3n GPL-3.0.
+Komponen arsitektur bridge JNI native (ZLBridge), integrasi SDL3 surface, direct gamepad input, penanganan resolusi DNS, dan optimasi eksekusi OpenJDK mobile.	Th\u00e0nh ph\u1ea7n ki\u1ebfn tr\u00fac c\u1ea7u n\u1ed1i JNI g\u1ed1c (ZLBridge), t\u00edch h\u1ee3p b\u1ec1 m\u1eb7t SDL3, nh\u1eadp li\u1ec7u tay c\u1ea7m tr\u1ef1c ti\u1ebfp, x\u1eed l\u00fd ph\u00e2n gi\u1ea3i DNS v\u00e0 t\u1ed1i \u01b0u th\u1ef1c thi OpenJDK tr\u00ean di \u0111\u1ed9ng.
+Proyek pionir peluncuran Minecraft Java Edition di Android. Menyediakan porting LWJGL 3, GLFW Stubs, AWT stubs, dan integrasi grafis renderer mobile.	D\u1ef1 \u00e1n ti\u00ean phong ch\u1ea1y Minecraft Java Edition tr\u00ean Android. Cung c\u1ea5p b\u1ea3n port LWJGL 3, GLFW stubs, AWT stubs v\u00e0 t\u00edch h\u1ee3p tr\u00ecnh k\u1ebft xu\u1ea5t \u0111\u1ed3 h\u1ecda di \u0111\u1ed9ng.
+NUX Launcher (sumber asal fork)	NUX Launcher (nguồn gốc của bản fork)
+Proyek asal yang di-fork oleh NovaCraft. Kode sumber terbuka di bawah GNU GPL-3.0.	Dự án gốc mà NovaCraft được fork từ đó. Mã nguồn mở theo GNU GPL-3.0.
+Arsitektur runtime JVM, ZLBridge JNI, integrasi SDL3, direct gamepad, dan optimasi Android	Ki\u1ebfn tr\u00fac runtime JVM, ZLBridge JNI, t\u00edch h\u1ee3p SDL3, tay c\u1ea7m tr\u1ef1c ti\u1ebfp v\u00e0 t\u1ed1i \u01b0u cho Android
+Mesin peluncuran Java Minecraft Android, LWJGL 3 Android Natives, GLFW Stub	C\u00f4ng c\u1ee5 kh\u1edfi ch\u1ea1y Minecraft Java tr\u00ean Android, LWJGL 3 Android natives, GLFW stub
+Penerjemah modern OpenGL 4.0 ke OpenGL ES 3.2 untuk Minecraft 1.17+	Tr\u00ecnh d\u1ecbch OpenGL 4.0 hi\u1ec7n \u0111\u1ea1i sang OpenGL ES 3.2 cho Minecraft 1.17+
+Pustaka binding grafis, audio (OpenAL), dan jendela game Java	Th\u01b0 vi\u1ec7n binding \u0111\u1ed3 h\u1ecda, \u00e2m thanh (OpenAL) v\u00e0 c\u1eeda s\u1ed5 cho game Java
+Manajemen surface rendering native, touch input, dan audio output	Qu\u1ea3n l\u00fd b\u1ec1 m\u1eb7t k\u1ebft xu\u1ea5t g\u1ed1c, nh\u1eadp li\u1ec7u c\u1ea3m \u1ee9ng v\u00e0 \u0111\u1ea7u ra \u00e2m thanh
+Vulkan-to-OpenGL translation & driver akselerasi GPU mobile	D\u1ecbch Vulkan sang OpenGL v\u00e0 driver t\u0103ng t\u1ed1c GPU di \u0111\u1ed9ng
+Mesin penerjemah OpenGL ES berbasis backend Vulkan	C\u00f4ng c\u1ee5 d\u1ecbch OpenGL ES x\u00e2y d\u1ef1ng tr\u00ean n\u1ec1n Vulkan
+Dynamic binary instrumentation dan hook Android library	Instrumentation nh\u1ecb ph\u00e2n \u0111\u1ed9ng v\u00e0 hook th\u01b0 vi\u1ec7n Android
+Toolkit UI modern, deklaratif, dan responsif	B\u1ed9 c\u00f4ng c\u1ee5 UI hi\u1ec7n \u0111\u1ea1i, theo h\u01b0\u1edbng khai b\u00e1o v\u00e0 \u0111\u00e1p \u1ee9ng t\u1ed1t
+Katalog publik mod, modpack, shaderpack, dan resource pack	Danh m\u1ee5c c\u00f4ng khai c\u00e1c mod, modpack, shaderpack v\u00e0 resource pack
+Editor teks dan log penampil performa tinggi	Tr\u00ecnh so\u1ea1n th\u1ea3o v\u0103n b\u1ea3n v\u00e0 xem log hi\u1ec7u n\u0103ng cao
+Viewer interaktif 3D skin & jubah Minecraft berbasis WebGL	Tr\u00ecnh xem 3D t\u01b0\u01a1ng t\u00e1c cho skin v\u00e0 \u00e1o cho\u00e0ng Minecraft d\u1ef1a tr\u00ean WebGL
+Klien HTTP jaringan performa tinggi	\u1ee8ng d\u1ee5ng kh\u00e1ch m\u1ea1ng HTTP hi\u1ec7u n\u0103ng cao
+Ringkasan	T\u00f3m t\u1eaft
+Pustaka ({0})	Th\u01b0 vi\u1ec7n ({0})
+Tentang NovaCraft	Giới thiệu NovaCraft
+Peluncur Minecraft Java modern untuk Android, ringan dan stabil.	Launcher Minecraft Java hiện đại cho Android, nhẹ và ổn định.
+NovaCraft adalah peluncur independen hasil modifikasi dari NUX Launcher, yang sendirinya berasal dari Zalith Launcher 2 dan PojavLauncher. Aplikasi ini bukan aplikasi resmi Zalith Launcher Team, NUX Launcher, maupun Mojang Studios.	NovaCraft là launcher độc lập được chỉnh sửa từ NUX Launcher, vốn bắt nguồn từ Zalith Launcher 2 và PojavLauncher. Ứng dụng này không phải ứng dụng chính thức của Zalith Launcher Team, NUX Launcher hay Mojang Studios.
+Proyek dan hak cipta	D\u1ef1 \u00e1n v\u00e0 b\u1ea3n quy\u1ec1n
+Penafian Minecraft	Tuy\u00ean b\u1ed1 mi\u1ec5n tr\u1eeb v\u1ec1 Minecraft
+Bukan produk resmi Minecraft. Tidak disetujui oleh atau terkait dengan Mojang Studios atau Microsoft. Minecraft adalah merek dagang milik Mojang AB / Microsoft Corporation. Seluruh aset game diunduh langsung dari server distribusi resmi Mojang.	Kh\u00f4ng ph\u1ea3i s\u1ea3n ph\u1ea9m ch\u00ednh th\u1ee9c c\u1ee7a Minecraft. Kh\u00f4ng \u0111\u01b0\u1ee3c Mojang Studios ho\u1eb7c Microsoft ch\u1ea5p thu\u1eadn hay li\u00ean k\u1ebft. Minecraft l\u00e0 nh\u00e3n hi\u1ec7u c\u1ee7a Mojang AB / Microsoft Corporation. To\u00e0n b\u1ed9 t\u00e0i nguy\u00ean game \u0111\u01b0\u1ee3c t\u1ea3i tr\u1ef1c ti\u1ebfp t\u1eeb m\u00e1y ch\u1ee7 ph\u00e2n ph\u1ed1i ch\u00ednh th\u1ee9c c\u1ee7a Mojang.
+Pustaka open source	Th\u01b0 vi\u1ec7n m\u00e3 ngu\u1ed3n m\u1edf
+Ketuk untuk membuka halaman proyeknya.	Chạm để mở trang của dự án.
+Lisensi yang menaungi NovaCraft.	Giấy phép áp dụng cho NovaCraft.
+Proyek ini dilisensikan di bawah ketentuan GNU General Public License versi 3.0.	D\u1ef1 \u00e1n n\u00e0y \u0111\u01b0\u1ee3c c\u1ea5p ph\u00e9p theo c\u00e1c \u0111i\u1ec1u kho\u1ea3n c\u1ee7a GNU General Public License phi\u00ean b\u1ea3n 3.0.
+Empat kebebasan perangkat lunak bebas	B\u1ed1n quy\u1ec1n t\u1ef1 do thi\u1ebft y\u1ebfu c\u1ee7a ph\u1ea7n m\u1ec1m
+Kebebasan untuk menjalankan program untuk keperluan apa pun.	Quy\u1ec1n t\u1ef1 do ch\u1ea1y ch\u01b0\u01a1ng tr\u00ecnh cho b\u1ea5t k\u1ef3 m\u1ee5c \u0111\u00edch n\u00e0o.
+Kebebasan untuk mempelajari cara kerja program dan menyesuaikannya dengan kebutuhan Anda.	Quy\u1ec1n t\u1ef1 do t\u00ecm hi\u1ec3u c\u00e1ch ch\u01b0\u01a1ng tr\u00ecnh ho\u1ea1t \u0111\u1ed9ng v\u00e0 \u0111i\u1ec1u ch\u1ec9nh theo nhu c\u1ea7u c\u1ee7a b\u1ea1n.
+Kebebasan untuk mendistribusikan kembali salinan untuk membantu sesama.	Quy\u1ec1n t\u1ef1 do ph\u00e2n ph\u1ed1i l\u1ea1i c\u00e1c b\u1ea3n sao \u0111\u1ec3 gi\u00fap \u0111\u1ee1 ng\u01b0\u1eddi kh\u00e1c.
+Kebebasan untuk menyempurnakan program dan merilis penyempurnaan tersebut kepada publik.	Quy\u1ec1n t\u1ef1 do c\u1ea3i ti\u1ebfn ch\u01b0\u01a1ng tr\u00ecnh v\u00e0 ph\u00e1t h\u00e0nh nh\u1eefng c\u1ea3i ti\u1ebfn \u0111\u00f3 cho c\u00f4ng ch\u00fang.
+Ketentuan tambahan (GPLv3 Pasal 7)	\u0110i\u1ec1u kho\u1ea3n b\u1ed5 sung (GPLv3 \u0110i\u1ec1u 7)
+Modifikasi tidak boleh menyalahgunakan nama dagang 'ZalithLauncher' atau 'ZL'.	B\u1ea3n s\u1eeda \u0111\u1ed5i kh\u00f4ng \u0111\u01b0\u1ee3c l\u1ea1m d\u1ee5ng t\u00ean th\u01b0\u01a1ng m\u1ea1i 'ZalithLauncher' ho\u1eb7c 'ZL'.
+Modifikasi wajib menampilkan keterangan bahwa ini adalah 'Unofficial Modified Version'.	B\u1ea3n s\u1eeda \u0111\u1ed5i ph\u1ea3i n\u00eau r\u00f5 \u0111\u00e2y l\u00e0 'Unofficial Modified Version'.
+Hak cipta penulis asli (Copyright \u00a9 MovTery & PojavLauncherTeam) tidak boleh dihapus.	B\u1ea3n quy\u1ec1n c\u1ee7a t\u00e1c gi\u1ea3 g\u1ed1c (Copyright \u00a9 MovTery & PojavLauncherTeam) kh\u00f4ng \u0111\u01b0\u1ee3c x\u00f3a b\u1ecf.
+Baca teks lisensi lengkap	\u0110\u1ecdc to\u00e0n v\u0103n gi\u1ea5y ph\u00e9p
+Versi {0}	Phi\u00ean b\u1ea3n {0}
+Klien proxy untuk mod kontrol sentuh TouchController	Client proxy cho mod điều khiển cảm ứng TouchController
+Implementasi client Minecraft Java berbasis Rust (arm64-v8a)	Client Minecraft Java viết bằng Rust (arm64-v8a)
+Tim pengembang	Đội ngũ phát triển
+Pengembang Pendamping	Nhà phát triển phụ (Co-Developer)
+Mengelola penyesuaian NovaCraft, pembaruan antarmuka modern, penyelarasan 64-bit, dan perbaikan stabilitas.	Quản lý tùy biến NovaCraft, cập nhật giao diện hiện đại, tối ưu cấu hình 64-bit và cải thiện độ ổn định.
+Ucapan terima kasih khusus	Lời cảm ơn đặc biệt
+Penulis asli & pelopor	Tác giả gốc & những người tiên phong
+Terima kasih sebesar-besarnya kepada ItsVynzzzz (AmberLauncher), IsraaDeveloper (NUX Launcher), MovTery (Zalith Launcher 2), PojavLauncherTeam, serta tim Horizon atas fondasi teknis yang luar biasa.	Xin gửi lời cảm ơn chân thành đến ItsVynzzzz (AmberLauncher), IsraaDeveloper (NUX Launcher), MovTery (Zalith Launcher 2), PojavLauncherTeam cùng đội ngũ Horizon vì nền tảng kỹ thuật tuyệt vời.
+Komunitas Minecraft & sumber terbuka	Cộng đồng Minecraft & mã nguồn mở
+Terima kasih kepada seluruh komunitas pemain, penguji, pembuat mod, penerjemah, dan kontributor open source yang terus memberi masukan dan menjaga ekosistem Minecraft Java di Android tetap hidup.	Cảm ơn toàn thể cộng đồng người chơi, người thử nghiệm, tác giả mod, biên dịch viên và các cộng tác viên mã nguồn mở đã luôn đóng góp ý kiến và giữ cho hệ sinh thái Minecraft Java trên Android phát triển bền vững.
+# --- accounts.tsv ---
+# Akun, login Microsoft dan Ely.by
+Skin & Jubah akun Ely.by dikelola langsung di https://account.ely.by	Skin v\u00e0 \u00e1o cho\u00e0ng c\u1ee7a t\u00e0i kho\u1ea3n Ely.by \u0111\u01b0\u1ee3c qu\u1ea3n l\u00fd tr\u1ef1c ti\u1ebfp t\u1ea1i https://account.ely.by
+Belum ada akun tersimpan	Ch\u01b0a c\u00f3 t\u00e0i kho\u1ea3n n\u00e0o \u0111\u01b0\u1ee3c l\u01b0u
+{0} akun tersimpan \u00b7 ketuk untuk berganti	{0} t\u00e0i kho\u1ea3n \u0111\u00e3 l\u01b0u \u00b7 ch\u1ea1m \u0111\u1ec3 \u0111\u1ed5i
+Profil aktif	H\u1ed3 s\u01a1 \u0111ang d\u00f9ng
+Skin & Jubah	Skin & \u00c1o cho\u00e0ng
+Belum ada profil aktif	Ch\u01b0a c\u00f3 h\u1ed3 s\u01a1 n\u00e0o \u0111ang d\u00f9ng
+Pilih atau tambahkan akun untuk mulai bermain.	H\u00e3y ch\u1ecdn ho\u1eb7c th\u00eam t\u00e0i kho\u1ea3n \u0111\u1ec3 b\u1eaft \u0111\u1ea7u ch\u01a1i.
+Tambahkan akun Offline, Microsoft, atau Ely.by.	Th\u00eam t\u00e0i kho\u1ea3n Offline, Microsoft ho\u1eb7c Ely.by.
+Aktif	\u0110ang d\u00f9ng
+Gunakan	D\u00f9ng
+Akun {0} berhasil ditambahkan!	\u0110\u00e3 th\u00eam t\u00e0i kho\u1ea3n {0}!
+Hapus akun?	X\u00f3a t\u00e0i kho\u1ea3n?
+Hapus profil '{0}' ({1}) dari perangkat ini?	X\u00f3a h\u1ed3 s\u01a1 '{0}' ({1}) kh\u1ecfi thi\u1ebft b\u1ecb n\u00e0y?
+Profil '{0}' dihapus	\u0110\u00e3 x\u00f3a h\u1ed3 s\u01a1 '{0}'
+Akun resmi Microsoft	T\u00e0i kho\u1ea3n Microsoft ch\u00ednh th\u1ee9c
+Akun terverifikasi Ely.by	T\u00e0i kho\u1ea3n Ely.by \u0111\u00e3 x\u00e1c minh
+Akun offline / lokal	T\u00e0i kho\u1ea3n offline / c\u1ee5c b\u1ed9
+Pilih cara masuk ke Minecraft	Ch\u1ecdn c\u00e1ch \u0111\u0103ng nh\u1eadp v\u00e0o Minecraft
+Lokal \u00b7 tanpa login	C\u1ee5c b\u1ed9 \u00b7 kh\u00f4ng c\u1ea7n \u0111\u0103ng nh\u1eadp
+Resmi \u00b7 akun Mojang	Ch\u00ednh th\u1ee9c \u00b7 t\u00e0i kho\u1ea3n Mojang
+Browser \u00b7 skin & jubah	Tr\u00ecnh duy\u1ec7t \u00b7 skin & \u00e1o cho\u00e0ng
+Nama pemain (Steve, Alex...)	T\u00ean ng\u01b0\u1eddi ch\u01a1i (Steve, Alex...)
+Username tidak boleh kosong	T\u00ean ng\u01b0\u1eddi d\u00f9ng kh\u00f4ng \u0111\u01b0\u1ee3c \u0111\u1ec3 tr\u1ed1ng
+Simpan akun	L\u01b0u t\u00e0i kho\u1ea3n
+Masuk dengan akun Microsoft / Xbox	\u0110\u0103ng nh\u1eadp b\u1eb1ng t\u00e0i kho\u1ea3n Microsoft / Xbox
+Jendela otorisasi dibuka langsung di launcher, tanpa perlu keluar aplikasi.	C\u1eeda s\u1ed5 \u1ee7y quy\u1ec1n m\u1edf ngay trong launcher, b\u1ea1n kh\u00f4ng c\u1ea7n tho\u00e1t \u1ee9ng d\u1ee5ng.
+Gagal memulai otorisasi Microsoft.	Kh\u00f4ng th\u1ec3 b\u1eaft \u0111\u1ea7u \u1ee7y quy\u1ec1n Microsoft.
+Menghubungi...	\u0110ang k\u1ebft n\u1ed1i...
+Masuk dengan Microsoft	\u0110\u0103ng nh\u1eadp b\u1eb1ng Microsoft
+Menunggu otorisasi di browser Ely.by...	\u0110ang ch\u1edd \u1ee7y quy\u1ec1n tr\u00ean tr\u00ecnh duy\u1ec7t Ely.by...
+Kode disalin	\u0110\u00e3 sao ch\u00e9p m\u00e3
+Salin	Sao ch\u00e9p
+Buka lagi	M\u1edf l\u1ea1i
+Masuk dengan akun Ely.by	\u0110\u0103ng nh\u1eadp b\u1eb1ng t\u00e0i kho\u1ea3n Ely.by
+Browser dibuka otomatis untuk konfirmasi akun Ely.by, tanpa mengetik password.	Tr\u00ecnh duy\u1ec7t t\u1ef1 \u0111\u1ed9ng m\u1edf \u0111\u1ec3 x\u00e1c nh\u1eadn t\u00e0i kho\u1ea3n Ely.by m\u00e0 kh\u00f4ng c\u1ea7n nh\u1eadp m\u1eadt kh\u1ea9u.
+Buka browser Ely.by	M\u1edf Ely.by trong tr\u00ecnh duy\u1ec7t
+Menunggu otorisasi akun di halaman web Microsoft...	\u0110ang ch\u1edd \u1ee7y quy\u1ec1n t\u00e0i kho\u1ea3n tr\u00ean trang web Microsoft...
+Kode '{0}' telah disalin!	\u0110\u00e3 sao ch\u00e9p m\u00e3 '{0}'!
+Token diterima! Memproses autentikasi Minecraft & Xbox...	\u0110\u00e3 nh\u1eadn token! \u0110ang x\u1eed l\u00fd x\u00e1c th\u1ef1c Minecraft & Xbox...
+Gagal memproses autentikasi Minecraft.	Kh\u00f4ng th\u1ec3 x\u1eed l\u00fd x\u00e1c th\u1ef1c Minecraft.
+Otorisasi Microsoft gagal.	\u1ee6y quy\u1ec1n Microsoft th\u1ea5t b\u1ea1i.
+LOGIN AKUN MICROSOFT	\u0110\u0102NG NH\u1eacP T\u00c0I KHO\u1ea2N MICROSOFT
+Masuk dan konfirmasi langsung di jendela aman ini	\u0110\u0103ng nh\u1eadp v\u00e0 x\u00e1c nh\u1eadn ngay trong c\u1eeda s\u1ed5 an to\u00e0n n\u00e0y
+Kode '{0}' disalin!	\u0110\u00e3 sao ch\u00e9p m\u00e3 '{0}'!
+KODE:	M\u00c3:
+Salin Kode	Sao ch\u00e9p m\u00e3
+Buka di Browser Eksternal	M\u1edf b\u1eb1ng tr\u00ecnh duy\u1ec7t ngo\u00e0i
+Klik 'Lanjutkan' di halaman atas setelah memasukkan kode	Nh\u1ea5n 'Ti\u1ebfp t\u1ee5c' tr\u00ean trang ph\u00eda tr\u00ean sau khi nh\u1eadp m\u00e3
+Gagal memulai otorisasi Ely.by.	Kh\u00f4ng th\u1ec3 b\u1eaft \u0111\u1ea7u \u1ee7y quy\u1ec1n Ely.by.
+Otorisasi Ely.by gagal.	\u1ee6y quy\u1ec1n Ely.by th\u1ea5t b\u1ea1i.
+Terjadi kesalahan saat login Ely.by.	\u0110\u00e3 x\u1ea3y ra l\u1ed7i khi \u0111\u0103ng nh\u1eadp Ely.by.
+Gagal memulai login Ely.by Device Code ({0}): {1}	Kh\u00f4ng th\u1ec3 b\u1eaft \u0111\u1ea7u \u0111\u0103ng nh\u1eadp Ely.by Device Code ({0}): {1}
+Login dibatalkan oleh pengguna.	Ng\u01b0\u1eddi d\u00f9ng \u0111\u00e3 h\u1ee7y \u0111\u0103ng nh\u1eadp.
+Menunggu konfirmasi di browser...	\u0110ang ch\u1edd x\u00e1c nh\u1eadn tr\u00ean tr\u00ecnh duy\u1ec7t...
+Memperlambat polling...	\u0110ang gi\u1ea3m t\u1ea7n su\u1ea5t ki\u1ec3m tra...
+Waktu otorisasi Ely.by habis.	H\u1ebft th\u1eddi gian \u1ee7y quy\u1ec1n Ely.by.
+Mengambil informasi akun Ely.by...	\u0110ang l\u1ea5y th\u00f4ng tin t\u00e0i kho\u1ea3n Ely.by...
+Gagal mengambil info akun Ely.by ({0})	Kh\u00f4ng th\u1ec3 l\u1ea5y th\u00f4ng tin t\u00e0i kho\u1ea3n Ely.by ({0})
+Mengambil UUID Minecraft untuk {0}...	\u0110ang l\u1ea5y UUID Minecraft c\u1ee7a {0}...
+Gagal login ke Ely.by (HTTP {0}): {1}	\u0110\u0103ng nh\u1eadp Ely.by th\u1ea5t b\u1ea1i (HTTP {0}): {1}
+Profil Ely.by tidak ditemukan dalam respon.	Kh\u00f4ng t\u00ecm th\u1ea5y h\u1ed3 s\u01a1 Ely.by trong ph\u1ea3n h\u1ed3i.
+Gagal memulai login Microsoft (HTTP {0}): {1}	Kh\u00f4ng th\u1ec3 b\u1eaft \u0111\u1ea7u \u0111\u0103ng nh\u1eadp Microsoft (HTTP {0}): {1}
+Token berhasil diterima! Menghubungkan ke Xbox Live...	\u0110\u00e3 nh\u1eadn token! \u0110ang k\u1ebft n\u1ed1i t\u1edbi Xbox Live...
+Menunggu otorisasi di halaman web...	\u0110ang ch\u1edd \u1ee7y quy\u1ec1n tr\u00ean trang web...
+Memperlambat frekuensi polling...	\u0110ang gi\u1ea3m t\u1ea7n su\u1ea5t ki\u1ec3m tra...
+Kode login kedaluwarsa. Silakan mulai ulang.	M\u00e3 \u0111\u0103ng nh\u1eadp \u0111\u00e3 h\u1ebft h\u1ea1n. H\u00e3y b\u1eaft \u0111\u1ea7u l\u1ea1i.
+Kode otorisasi telah digunakan atau kedaluwarsa. Silakan klik Login untuk mendapatkan kode baru.	M\u00e3 \u1ee7y quy\u1ec1n \u0111\u00e3 \u0111\u01b0\u1ee3c d\u00f9ng ho\u1eb7c \u0111\u00e3 h\u1ebft h\u1ea1n. H\u00e3y nh\u1ea5n \u0110\u0103ng nh\u1eadp \u0111\u1ec3 l\u1ea5y m\u00e3 m\u1edbi.
+Otorisasi ditolak ({0}): {1}	\u1ee6y quy\u1ec1n b\u1ecb t\u1eeb ch\u1ed1i ({0}): {1}
+Koneksi jaringan terputus berulang kali saat polling. Silakan periksa koneksi internet.	K\u1ebft n\u1ed1i m\u1ea1ng b\u1ecb ng\u1eaft nhi\u1ec1u l\u1ea7n khi \u0111ang ch\u1edd. H\u00e3y ki\u1ec3m tra k\u1ebft n\u1ed1i internet.
+Waktu otorisasi habis (timeout). Silakan coba lagi.	H\u1ebft th\u1eddi gian \u1ee7y quy\u1ec1n. H\u00e3y th\u1eed l\u1ea1i.
+Autentikasi dengan Xbox Live...	\u0110ang x\u00e1c th\u1ef1c v\u1edbi Xbox Live...
+Gagal autentikasi Xbox Live (HTTP {0}): {1}	X\u00e1c th\u1ef1c Xbox Live th\u1ea5t b\u1ea1i (HTTP {0}): {1}
+Gagal memperoleh token Xbox Live atau UserHash.	Kh\u00f4ng th\u1ec3 l\u1ea5y token Xbox Live ho\u1eb7c UserHash.
+Meminta otorisasi XSTS Minecraft...	\u0110ang y\u00eau c\u1ea7u \u1ee7y quy\u1ec1n XSTS Minecraft...
+Akun ini telah dilarang/diblokir dari Xbox Live.	T\u00e0i kho\u1ea3n n\u00e0y \u0111\u00e3 b\u1ecb c\u1ea5m ho\u1eb7c b\u1ecb ch\u1eb7n kh\u1ecfi Xbox Live.
+Akun dibatasi oleh kontrol orang tua (Restricted).	T\u00e0i kho\u1ea3n b\u1ecb h\u1ea1n ch\u1ebf b\u1edfi ki\u1ec3m so\u00e1t c\u1ee7a ph\u1ee5 huynh (Restricted).
+Akun Microsoft ini belum memiliki profil Xbox. Silakan buat gamertag di xbox.com terlebih dahulu.	T\u00e0i kho\u1ea3n Microsoft n\u00e0y ch\u01b0a c\u00f3 h\u1ed3 s\u01a1 Xbox. H\u00e3y t\u1ea1o gamertag t\u1ea1i xbox.com tr\u01b0\u1edbc.
+Akun belum menyetujui Ketentuan Layanan Xbox Live.	T\u00e0i kho\u1ea3n ch\u01b0a ch\u1ea5p nh\u1eadn \u0110i\u1ec1u kho\u1ea3n d\u1ecbch v\u1ee5 Xbox Live.
+Layanan Xbox Live tidak tersedia di negara/wilayah akun Anda.	Xbox Live kh\u00f4ng kh\u1ea3 d\u1ee5ng t\u1ea1i qu\u1ed1c gia/khu v\u1ef1c c\u1ee7a t\u00e0i kho\u1ea3n b\u1ea1n.
+Akun memerlukan verifikasi bukti usia dewasa (Proof of Age).	T\u00e0i kho\u1ea3n c\u1ea7n x\u00e1c minh \u0111\u1ed9 tu\u1ed5i ng\u01b0\u1eddi l\u1edbn (Proof of Age).
+Batas waktu bermain harian Xbox Live telah tercapai.	\u0110\u00e3 \u0111\u1ea1t gi\u1edbi h\u1ea1n th\u1eddi gian ch\u01a1i h\u1eb1ng ng\u00e0y c\u1ee7a Xbox Live.
+Akun di bawah umur (Child Account). Harus ditautkan ke akun keluarga (Family Safety) oleh orang tua.	\u0110\u00e2y l\u00e0 t\u00e0i kho\u1ea3n tr\u1ebb em (Child Account). Ph\u1ee5 huynh ph\u1ea3i li\u00ean k\u1ebft n\u00f3 v\u1edbi nh\u00f3m gia \u0111\u00ecnh (Family Safety).
+Otorisasi XSTS gagal (HTTP {0}): {1}	\u1ee6y quy\u1ec1n XSTS th\u1ea5t b\u1ea1i (HTTP {0}): {1}
+Gagal memperoleh token XSTS.	Kh\u00f4ng th\u1ec3 l\u1ea5y token XSTS.
+Menghubungkan ke Mojang Minecraft Services...	\u0110ang k\u1ebft n\u1ed1i t\u1edbi Mojang Minecraft Services...
+Gagal login ke layanan Minecraft ({0}): {1}	\u0110\u0103ng nh\u1eadp d\u1ecbch v\u1ee5 Minecraft th\u1ea5t b\u1ea1i ({0}): {1}
+Layanan Minecraft tidak mengembalikan token akses.	D\u1ecbch v\u1ee5 Minecraft kh\u00f4ng tr\u1ea3 v\u1ec1 token truy c\u1eadp.
+Mengambil profil pemain Minecraft Java...	\u0110ang l\u1ea5y h\u1ed3 s\u01a1 ng\u01b0\u1eddi ch\u01a1i Minecraft Java...
+Akun Microsoft ini belum memiliki lisensi game Minecraft: Java Edition.	T\u00e0i kho\u1ea3n Microsoft n\u00e0y ch\u01b0a s\u1edf h\u1eefu b\u1ea3n quy\u1ec1n Minecraft: Java Edition.
+Gagal mengambil profil Minecraft ({0}): {1}	Kh\u00f4ng th\u1ec3 l\u1ea5y h\u1ed3 s\u01a1 Minecraft ({0}): {1}
+Tidak ada refresh token tersimpan.	Kh\u00f4ng c\u00f3 refresh token n\u00e0o \u0111\u01b0\u1ee3c l\u01b0u.
+Gagal memperbarui token Microsoft ({0}): {1}	Kh\u00f4ng th\u1ec3 l\u00e0m m\u1edbi token Microsoft ({0}): {1}
+Token pembaruan kosong.	Refresh token tr\u1ed1ng.
+Ely.by OAuth Error: {0}	L\u1ed7i OAuth Ely.by: {0}
+Microsoft OAuth Error: {0}	L\u1ed7i OAuth Microsoft: {0}
+# Login Microsoft: sesi diperbarui otomatis dan pesan galat lebih jelas
+Memperbarui sesi Microsoft...	\u0110ang l\u00e0m m\u1edbi phi\u00ean Microsoft...
+Sesi Microsoft belum bisa diperbarui. Game tetap dijalankan, tetapi fitur online mungkin butuh login ulang.	Ch\u01b0a l\u00e0m m\u1edbi \u0111\u01b0\u1ee3c phi\u00ean Microsoft. Game v\u1eabn s\u1ebd ch\u1ea1y, nh\u01b0ng t\u00ednh n\u0103ng tr\u1ef1c tuy\u1ebfn c\u00f3 th\u1ec3 c\u1ea7n \u0111\u0103ng nh\u1eadp l\u1ea1i.
+Tidak bisa terhubung ke server Microsoft. Periksa sambungan internet lalu coba lagi.	Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i t\u1edbi m\u00e1y ch\u1ee7 Microsoft. H\u00e3y ki\u1ec3m tra k\u1ebft n\u1ed1i internet r\u1ed3i th\u1eed l\u1ea1i.
+Gagal memulai login Microsoft (kode {0}). Coba lagi nanti.	Kh\u00f4ng th\u1ec3 b\u1eaft \u0111\u1ea7u \u0111\u0103ng nh\u1eadp Microsoft (m\u00e3 {0}). Vui l\u00f2ng th\u1eed l\u1ea1i sau.
+Terlalu banyak percobaan login. Tunggu beberapa menit lalu coba lagi.	Qu\u00e1 nhi\u1ec1u l\u1ea7n th\u1eed \u0111\u0103ng nh\u1eadp. H\u00e3y ch\u1edd v\u00e0i ph\u00fat r\u1ed3i th\u1eed l\u1ea1i.
+Gagal autentikasi Xbox Live (kode {0}). Coba lagi nanti.	X\u00e1c th\u1ef1c Xbox Live th\u1ea5t b\u1ea1i (m\u00e3 {0}). Vui l\u00f2ng th\u1eed l\u1ea1i sau.
+Otorisasi XSTS gagal (kode {0}). Coba lagi nanti.	\u1ee6y quy\u1ec1n XSTS th\u1ea5t b\u1ea1i (m\u00e3 {0}). Vui l\u00f2ng th\u1eed l\u1ea1i sau.
+Server Minecraft sedang bermasalah (kode {0}). Coba lagi beberapa menit lagi.	M\u00e1y ch\u1ee7 Minecraft \u0111ang g\u1eb7p s\u1ef1 c\u1ed1 (m\u00e3 {0}). H\u00e3y th\u1eed l\u1ea1i sau v\u00e0i ph\u00fat.
+Layanan Minecraft menolak login (kode {0}). Coba lagi nanti. Bila terus berulang, laporkan ke pengembang launcher.	D\u1ecbch v\u1ee5 Minecraft \u0111\u00e3 t\u1eeb ch\u1ed1i \u0111\u0103ng nh\u1eadp (m\u00e3 {0}). H\u00e3y th\u1eed l\u1ea1i sau. N\u1ebfu l\u1ed7i l\u1eb7p l\u1ea1i, h\u00e3y b\u00e1o cho nh\u00e0 ph\u00e1t tri\u1ec3n launcher.
+Akun ini belum punya profil Minecraft Java. Pastikan Minecraft: Java Edition (atau Game Pass PC) sudah dimiliki, lalu buat nama pemain di minecraft.net/profile.	T\u00e0i kho\u1ea3n n\u00e0y ch\u01b0a c\u00f3 h\u1ed3 s\u01a1 Minecraft Java. H\u00e3y \u0111\u1ea3m b\u1ea3o b\u1ea1n s\u1edf h\u1eefu Minecraft: Java Edition (ho\u1eb7c Game Pass cho PC), r\u1ed3i t\u1ea1o t\u00ean ng\u01b0\u1eddi ch\u01a1i t\u1ea1i minecraft.net/profile.
+Gagal mengambil profil Minecraft (kode {0}).	Kh\u00f4ng th\u1ec3 t\u1ea3i h\u1ed3 s\u01a1 Minecraft (m\u00e3 {0}).
+Gagal memperbarui sesi Microsoft (kode {0}). Silakan login ulang.	Kh\u00f4ng th\u1ec3 l\u00e0m m\u1edbi phi\u00ean Microsoft (m\u00e3 {0}). Vui l\u00f2ng \u0111\u0103ng nh\u1eadp l\u1ea1i.
+Kode login tidak dikenali. Silakan mulai ulang.	M\u00e3 \u0111\u0103ng nh\u1eadp kh\u00f4ng h\u1ee3p l\u1ec7. Vui l\u00f2ng b\u1eaft \u0111\u1ea7u l\u1ea1i.
+Login ditolak di halaman Microsoft. Silakan mulai ulang.	\u0110\u0103ng nh\u1eadp b\u1ecb t\u1eeb ch\u1ed1i tr\u00ean trang Microsoft. Vui l\u00f2ng b\u1eaft \u0111\u1ea7u l\u1ea1i.
+Mojang menolak aplikasi launcher ini (Invalid app registration, kode 403). Client ID login belum disetujui; hubungi pengembang launcher.	Mojang \u0111\u00e3 t\u1eeb ch\u1ed1i \u1ee9ng d\u1ee5ng launcher n\u00e0y (Invalid app registration, m\u00e3 403). Client ID \u0111\u0103ng nh\u1eadp ch\u01b0a \u0111\u01b0\u1ee3c duy\u1ec7t; h\u00e3y li\u00ean h\u1ec7 nh\u00e0 ph\u00e1t tri\u1ec3n launcher.
+Menunggu login di browser...	\u0110ang ch\u1edd \u0111\u0103ng nh\u1eadp tr\u00ean tr\u00ecnh duy\u1ec7t...
+Selesaikan login di browser, lalu kembali ke sini	H\u00e3y ho\u00e0n t\u1ea5t \u0111\u0103ng nh\u1eadp tr\u00ean tr\u00ecnh duy\u1ec7t r\u1ed3i quay l\u1ea1i \u0111\u00e2y
+Tidak ada browser yang bisa dibuka	Kh\u00f4ng c\u00f3 tr\u00ecnh duy\u1ec7t n\u00e0o \u0111\u1ec3 m\u1edf
+Kode sudah disalin. Bila kolom kode di browser masih kosong, tempel lalu pilih Lanjutkan.	M\u00e3 \u0111\u00e3 \u0111\u01b0\u1ee3c sao ch\u00e9p. N\u1ebfu \u00f4 m\u00e3 tr\u00ean tr\u00ecnh duy\u1ec7t v\u1eabn tr\u1ed1ng, h\u00e3y d\u00e1n r\u1ed3i ch\u1ecdn Ti\u1ebfp t\u1ee5c.
+Buka di browser	M\u1edf trong tr\u00ecnh duy\u1ec7t
+# --- common.tsv ---
+# Kata umum
+Tutup	\u0110\u00f3ng
+TUTUP	\u0110\u00d3NG
+Batal	H\u1ee7y
+BATAL	H\u1ee6Y
+Hapus	X\u00f3a
+Keluar	Tho\u00e1t
+Ganti	\u0110\u1ed5i
+Nanti	\u0110\u1ec3 sau
+Pengaturan	C\u00e0i \u0111\u1eb7t
+Akun	T\u00e0i kho\u1ea3n
+Mod	Mod
+Tentang & Lisensi	Gi\u1edbi thi\u1ec7u & Gi\u1ea5y ph\u00e9p
+Tentang & lisensi	Gi\u1edbi thi\u1ec7u & gi\u1ea5y ph\u00e9p
+Bahasa	Ng\u00f4n ng\u1eef
+Ikuti sistem	Theo h\u1ec7 th\u1ed1ng
+Seimbang	C\u00e2n b\u1eb1ng
+Bawaan	M\u1eb7c \u0111\u1ecbnh
+Sistem	H\u1ec7 th\u1ed1ng
+Halus	Nh\u1eb9
+Sedang	V\u1eeba
+Kuat	M\u1ea1nh
+Buka folder	M\u1edf th\u01b0 m\u1ee5c
+Buka pengaturan	M\u1edf c\u00e0i \u0111\u1eb7t
+Ubah instance	S\u1eeda instance
+Hapus instance	X\u00f3a instance
+Lihat log	Xem nh\u1eadt k\u00fd
+Home	Trang ch\u1ee7
+PLAY	CH\u01a0I
+Menu	Menu
+Keyboard	B\u00e0n ph\u00edm
+Log	Nh\u1eadt k\u00fd
+Debug	G\u1ee1 l\u1ed7i
+Renderer	Tr\u00ecnh k\u1ebft xu\u1ea5t
+Renderer {0}	Tr\u00ecnh k\u1ebft xu\u1ea5t {0}
+Default	M\u1eb7c \u0111\u1ecbnh
+DEFAULT	M\u1eb6C \u0110\u1ecaNH
+Ambient	\u00c1nh s\u00e1ng m\u00f4i tr\u01b0\u1eddng
+Slide (trackpad)	Tr\u01b0\u1ee3t (trackpad)
+# --- crash.tsv ---
+# Panel crash: penjelasan sumber crash dan bantuan AI
+NovaCraft berhenti	NovaCraft \u0111\u00e3 d\u1eebng
+Minecraft berhenti mendadak	Minecraft d\u1eebng \u0111\u1ed9t ng\u1ed9t
+Aplikasi tertutup karena kesalahan tak terduga	\u1ee8ng d\u1ee5ng \u0111\u00e3 \u0111\u00f3ng do l\u1ed7i b\u1ea5t ng\u1edd
+Kembali ke launcher	Quay l\u1ea1i launcher
+Penjelasan	Gi\u1ea3i th\u00edch
+Crash tidak selalu berarti launcher-nya rusak. Mod, RAM HP, dan driver grafis jauh lebih sering menjadi penyebabnya, jadi cari tahu dulu sebelum melapor ke pengembang.	Crash kh\u00f4ng ph\u1ea3i l\u00fac n\u00e0o c\u0169ng c\u00f3 ngh\u0129a l\u00e0 launcher b\u1ecb h\u1ecfng. Mod, RAM c\u1ee7a \u0111i\u1ec7n tho\u1ea1i v\u00e0 tr\u00ecnh \u0111i\u1ec1u khi\u1ec3n \u0111\u1ed3 h\u1ecda th\u01b0\u1eddng l\u00e0 nguy\u00ean nh\u00e2n h\u01a1n nhi\u1ec1u, n\u00ean h\u00e3y t\u00ecm hi\u1ec3u tr\u01b0\u1edbc khi b\u00e1o cho nh\u00e0 ph\u00e1t tri\u1ec3n.
+Launcher berhenti mendadak karena kesalahan tak terduga. Kirim log-nya ke pengembang supaya bisa diperbaiki.	Launcher d\u1eebng \u0111\u1ed9t ng\u1ed9t do l\u1ed7i b\u1ea5t ng\u1edd. H\u00e3y g\u1eedi nh\u1eadt k\u00fd cho nh\u00e0 ph\u00e1t tri\u1ec3n \u0111\u1ec3 h\u1ecd s\u1eeda l\u1ed7i.
+Dugaan penyebab	Nguy\u00ean nh\u00e2n c\u00f3 th\u1ec3
+Kesalahan di dalam NovaCraft	L\u1ed7i b\u00ean trong NovaCraft
+Memori (RAM) HP habis	\u0110i\u1ec7n tho\u1ea1i h\u1ebft b\u1ed9 nh\u1edb (RAM)
+Renderer atau driver grafis	Tr\u00ecnh k\u1ebft xu\u1ea5t ho\u1eb7c tr\u00ecnh \u0111i\u1ec1u khi\u1ec3n \u0111\u1ed3 h\u1ecda
+Mod, versi Java, atau file game	M\u1ed9t mod, phi\u00ean b\u1ea3n Java ho\u1eb7c t\u1ec7p game
+Belum bisa dipastikan	Ch\u01b0a th\u1ec3 x\u00e1c \u0111\u1ecbnh
+Kali ini launcher sendiri yang berhenti, bukan game atau mod. Laporan ke pengembang sangat membantu supaya bisa diperbaiki.	L\u1ea7n n\u00e0y ch\u00ednh launcher \u0111\u00e3 d\u1eebng, kh\u00f4ng ph\u1ea3i game hay mod. B\u00e1o cho nh\u00e0 ph\u00e1t tri\u1ec3n s\u1ebd gi\u00fap s\u1eeda l\u1ed7i.
+Game dihentikan sistem karena RAM HP tidak cukup untuk game, mod, atau pengaturan grafis yang dipakai. Biasanya bukan kerusakan launcher. Coba kurangi alokasi RAM game (jangan lebih dari setengah RAM HP), kurangi mod, dan tutup aplikasi lain.	H\u1ec7 th\u1ed1ng \u0111\u00e3 d\u1eebng game v\u00ec \u0111i\u1ec7n tho\u1ea1i kh\u00f4ng \u0111\u1ee7 RAM cho game, mod ho\u1eb7c c\u00e0i \u0111\u1eb7t \u0111\u1ed3 h\u1ecda \u0111ang d\u00f9ng. Th\u01b0\u1eddng \u0111\u00e2y kh\u00f4ng ph\u1ea3i l\u1ed7i c\u1ee7a launcher. H\u00e3y th\u1eed gi\u1ea3m RAM c\u1ea5p cho game (kh\u00f4ng qu\u00e1 m\u1ed9t n\u1eeda RAM \u0111i\u1ec7n tho\u1ea1i), b\u1edbt mod v\u00e0 \u0111\u00f3ng c\u00e1c \u1ee9ng d\u1ee5ng kh\u00e1c.
+Game berhenti di bagian grafis atau pustaka bawaan HP. Penyebab umumnya renderer yang kurang cocok dengan HP ini. Coba ganti renderer di pengaturan instance. Kalau semua renderer gagal, barulah mungkin masalahnya ada di launcher.	Game d\u1eebng \u1edf ph\u1ea7n \u0111\u1ed3 h\u1ecda ho\u1eb7c th\u01b0 vi\u1ec7n c\u00f3 s\u1eb5n c\u1ee7a \u0111i\u1ec7n tho\u1ea1i. Nguy\u00ean nh\u00e2n th\u01b0\u1eddng g\u1eb7p l\u00e0 tr\u00ecnh k\u1ebft xu\u1ea5t kh\u00f4ng h\u1ee3p v\u1edbi \u0111i\u1ec7n tho\u1ea1i n\u00e0y. H\u00e3y th\u1eed \u0111\u1ed5i tr\u00ecnh k\u1ebft xu\u1ea5t trong c\u00e0i \u0111\u1eb7t instance. Ch\u1ec9 khi m\u1ecdi tr\u00ecnh k\u1ebft xu\u1ea5t \u0111\u1ec1u l\u1ed7i th\u00ec v\u1ea5n \u0111\u1ec1 m\u1edbi c\u00f3 th\u1ec3 n\u1eb1m \u1edf launcher.
+Game mengalami error saat berjalan. Paling sering karena mod yang tidak cocok dengan versi game atau loader, mod yang kekurangan pendukung (dependency), atau versi Java yang tidak sesuai. Biasanya bukan kerusakan launcher.	Game g\u1eb7p l\u1ed7i khi \u0111ang ch\u1ea1y. Th\u01b0\u1eddng l\u00e0 do mod kh\u00f4ng kh\u1edbp v\u1edbi phi\u00ean b\u1ea3n game ho\u1eb7c loader, mod thi\u1ebfu th\u01b0 vi\u1ec7n ph\u1ee5 thu\u1ed9c, ho\u1eb7c phi\u00ean b\u1ea3n Java kh\u00f4ng ph\u00f9 h\u1ee3p. Th\u01b0\u1eddng \u0111\u00e2y kh\u00f4ng ph\u1ea3i l\u1ed7i c\u1ee7a launcher.
+Penyebabnya baru kelihatan dari isi log. AI bisa membantu membacanya untukmu.	Nguy\u00ean nh\u00e2n ch\u1ec9 l\u1ed9 ra trong n\u1ed9i dung nh\u1eadt k\u00fd. AI c\u00f3 th\u1ec3 gi\u00fap b\u1ea1n \u0111\u1ecdc n\u00f3.
+Detail teknis	Chi ti\u1ebft k\u1ef9 thu\u1eadt
+Kesalahan tak terduga di dalam aplikasi	L\u1ed7i b\u1ea5t ng\u1edd b\u00ean trong \u1ee9ng d\u1ee5ng
+Status keluar: {~0}	Tr\u1ea1ng th\u00e1i tho\u00e1t: {0}
+Cari solusi dengan AI	T\u00ecm c\u00e1ch s\u1eeda b\u1eb1ng AI
+Salin log beserta pertanyaannya, lalu tempel di chat AI. Biasanya AI bisa menunjukkan penyebab dan cara memperbaikinya. Kirim teks log, bukan screenshot.	Sao ch\u00e9p nh\u1eadt k\u00fd k\u00e8m c\u00e2u h\u1ecfi so\u1ea1n s\u1eb5n r\u1ed3i d\u00e1n v\u00e0o khung chat c\u1ee7a AI. AI th\u01b0\u1eddng ch\u1ec9 ra \u0111\u01b0\u1ee3c nguy\u00ean nh\u00e2n v\u00e0 c\u00e1ch s\u1eeda. H\u00e3y g\u1eedi v\u0103n b\u1ea3n nh\u1eadt k\u00fd, \u0111\u1eebng g\u1eedi \u1ea3nh ch\u1ee5p m\u00e0n h\u00ecnh.
+Salin log untuk AI	Sao ch\u00e9p nh\u1eadt k\u00fd cho AI
+Atau buka langsung (log otomatis disalin)	Ho\u1eb7c m\u1edf tr\u1ef1c ti\u1ebfp (nh\u1eadt k\u00fd t\u1ef1 \u0111\u1ed9ng \u0111\u01b0\u1ee3c sao ch\u00e9p)
+Lapor ke pengembang	B\u00e1o cho nh\u00e0 ph\u00e1t tri\u1ec3n
+Kalau AI menyimpulkan masalahnya ada di launcher, baru laporkan di GitHub. Log disalin otomatis, tinggal tempel di laporan.	N\u1ebfu AI k\u1ebft lu\u1eadn v\u1ea5n \u0111\u1ec1 n\u1eb1m \u1edf launcher, h\u00e3y b\u00e1o tr\u00ean GitHub. Nh\u1eadt k\u00fd \u0111\u01b0\u1ee3c sao ch\u00e9p t\u1ef1 \u0111\u1ed9ng, ch\u1ec9 c\u1ea7n d\u00e1n v\u00e0o b\u00e1o c\u00e1o.
+Laporkan di GitHub supaya bisa diperbaiki. Log disalin otomatis, tinggal tempel di laporan.	H\u00e3y b\u00e1o tr\u00ean GitHub \u0111\u1ec3 l\u1ed7i \u0111\u01b0\u1ee3c s\u1eeda. Nh\u1eadt k\u00fd \u0111\u01b0\u1ee3c sao ch\u00e9p t\u1ef1 \u0111\u1ed9ng, ch\u1ec9 c\u1ea7n d\u00e1n v\u00e0o b\u00e1o c\u00e1o.
+Lapor di GitHub	B\u00e1o l\u1ed7i tr\u00ean GitHub
+Cara lain membagikan log	C\u00e1ch kh\u00e1c \u0111\u1ec3 chia s\u1ebb nh\u1eadt k\u00fd
+Bagikan file	Chia s\u1ebb t\u1ec7p
+Tautan mclo.gs	Li\u00ean k\u1ebft mclo.gs
+Mengunggah...	\u0110ang t\u1ea3i l\u00ean...
+Buka tautan	M\u1edf li\u00ean k\u1ebft
+Log untuk AI disalin. Tempel di kolom chat AI.	\u0110\u00e3 sao ch\u00e9p nh\u1eadt k\u00fd cho AI. H\u00e3y d\u00e1n v\u00e0o khung chat c\u1ee7a AI.
+Log disalin. Tempel di laporan.	\u0110\u00e3 sao ch\u00e9p nh\u1eadt k\u00fd. H\u00e3y d\u00e1n v\u00e0o b\u00e1o c\u00e1o.
+Tidak bisa membuka tautan.	Kh\u00f4ng th\u1ec3 m\u1edf li\u00ean k\u1ebft.
+Halo, Minecraft Java Edition saya crash di HP Android saat dijalankan lewat NovaCraft. Tolong jelaskan penyebabnya dengan bahasa sederhana (saya masih pemula), lalu beri langkah perbaikan satu per satu. Kalau penyebabnya mod, sebutkan mod mana yang perlu dihapus atau diganti.	Xin ch\u00e0o, Minecraft Java Edition c\u1ee7a t\u00f4i b\u1ecb crash tr\u00ean \u0111i\u1ec7n tho\u1ea1i Android khi ch\u1ea1y b\u1eb1ng NovaCraft. H\u00e3y gi\u1ea3i th\u00edch nguy\u00ean nh\u00e2n b\u1eb1ng ng\u00f4n ng\u1eef \u0111\u01a1n gi\u1ea3n (t\u00f4i l\u00e0 ng\u01b0\u1eddi m\u1edbi) r\u1ed3i h\u01b0\u1edbng d\u1eabn c\u00e1ch s\u1eeda t\u1eebng b\u01b0\u1edbc. N\u1ebfu nguy\u00ean nh\u00e2n l\u00e0 mod, h\u00e3y cho t\u00f4i bi\u1ebft n\u00ean x\u00f3a ho\u1eb7c thay mod n\u00e0o.
+Halo, aplikasi NovaCraft (launcher Minecraft Java Edition untuk Android) berhenti sendiri. Tolong jelaskan penyebabnya dengan bahasa sederhana (saya masih pemula) dan beri saran yang bisa saya coba. Kalau menurutmu ini bug di launcher, tolong katakan.	Xin ch\u00e0o, \u1ee9ng d\u1ee5ng NovaCraft (launcher Minecraft Java Edition cho Android) t\u1ef1 d\u1eebng. H\u00e3y gi\u1ea3i th\u00edch nguy\u00ean nh\u00e2n b\u1eb1ng ng\u00f4n ng\u1eef \u0111\u01a1n gi\u1ea3n (t\u00f4i l\u00e0 ng\u01b0\u1eddi m\u1edbi) v\u00e0 g\u1ee3i \u00fd nh\u1eefng g\u00ec t\u00f4i c\u00f3 th\u1ec3 th\u1eed. N\u1ebfu b\u1ea1n cho r\u1eb1ng \u0111\u00e2y l\u00e0 l\u1ed7i c\u1ee7a launcher, h\u00e3y n\u00f3i r\u00f5.
+Perangkat: {0}	Thi\u1ebft b\u1ecb: {0}
+Versi Minecraft: {0}	Phi\u00ean b\u1ea3n Minecraft: {0}
+Grafis: {0}	\u0110\u1ed3 h\u1ecda: {0}
+Jumlah mod: {0}	S\u1ed1 l\u01b0\u1ee3ng mod: {0}
+Daftar mod: {0}	Danh s\u00e1ch mod: {0}
+Isi log crash:	N\u1ed9i dung nh\u1eadt k\u00fd crash:
+# Pemulihan crash sekali ketuk
+Turunkan RAM ke {0} MB	H\u1ea1 RAM xu\u1ed1ng {0} MB
+Memberi ruang lebih bagi HP. Bisa dinaikkan lagi di Pengaturan > Memori.	Gi\u00fap \u0111i\u1ec7n tho\u1ea1i c\u00f3 th\u00eam ch\u1ed7 tr\u1ed1ng. B\u1ea1n c\u00f3 th\u1ec3 t\u0103ng l\u1ea1i trong C\u00e0i \u0111\u1eb7t > B\u1ed9 nh\u1edb.
+Pakai renderer Otomatis	D\u00f9ng tr\u00ecnh k\u1ebft xu\u1ea5t T\u1ef1 \u0111\u1ed9ng
+Renderer pilihanmu bisa jadi kurang cocok dengan HP ini. Otomatis memilih yang paling sesuai.	Tr\u00ecnh k\u1ebft xu\u1ea5t b\u1ea1n ch\u1ecdn c\u00f3 th\u1ec3 kh\u00f4ng h\u1ee3p v\u1edbi \u0111i\u1ec7n tho\u1ea1i n\u00e0y. T\u1ef1 \u0111\u1ed9ng s\u1ebd ch\u1ecdn lo\u1ea1i ph\u00f9 h\u1ee3p nh\u1ea5t.
+Coba renderer {0}	Th\u1eed tr\u00ecnh k\u1ebft xu\u1ea5t {0}
+Renderer sekarang tampaknya bermasalah di HP ini. Bisa diganti lagi di Pengaturan > Grafis.	Tr\u00ecnh k\u1ebft xu\u1ea5t hi\u1ec7n t\u1ea1i c\u00f3 v\u1ebb g\u1eb7p v\u1ea5n \u0111\u1ec1 tr\u00ean \u0111i\u1ec7n tho\u1ea1i n\u00e0y. B\u1ea1n c\u00f3 th\u1ec3 \u0111\u1ed5i l\u1ea1i trong C\u00e0i \u0111\u1eb7t > \u0110\u1ed3 h\u1ecda.
+Matikan shader	T\u1eaft shader
+Shader membebani GPU dan memori. Bisa dinyalakan lagi dari menu video game.	Shader l\u00e0m GPU v\u00e0 b\u1ed9 nh\u1edb ch\u1ecbu t\u1ea3i n\u1eb7ng. B\u1ea1n c\u00f3 th\u1ec3 b\u1eadt l\u1ea1i t\u1eeb menu video c\u1ee7a game.
+Nonaktifkan mod tersangka	V\u00f4 hi\u1ec7u h\u00f3a mod nghi v\u1ea5n
+Mod yang disebut di log: {0}. Bisa diaktifkan lagi di menu Mod.	C\u00e1c mod \u0111\u01b0\u1ee3c nh\u1eafc trong nh\u1eadt k\u00fd: {0}. B\u1ea1n c\u00f3 th\u1ec3 b\u1eadt l\u1ea1i trong menu Mod.
+Reset Java ke Otomatis	\u0110\u1eb7t l\u1ea1i Java v\u1ec1 T\u1ef1 \u0111\u1ed9ng
+Versi Java yang dipilih mungkin tidak cocok dengan game ini. Otomatis memilih versi yang sesuai.	Phi\u00ean b\u1ea3n Java b\u1ea1n ch\u1ecdn c\u00f3 th\u1ec3 kh\u00f4ng kh\u1edbp v\u1edbi game n\u00e0y. T\u1ef1 \u0111\u1ed9ng s\u1ebd ch\u1ecdn phi\u00ean b\u1ea3n ph\u00f9 h\u1ee3p.
+RAM game diturunkan ke {0} MB.	\u0110\u00e3 h\u1ea1 RAM game xu\u1ed1ng {0} MB.
+Renderer dikembalikan ke Otomatis.	\u0110\u00e3 \u0111\u1eb7t l\u1ea1i tr\u00ecnh k\u1ebft xu\u1ea5t v\u1ec1 T\u1ef1 \u0111\u1ed9ng.
+Renderer diganti ke {0}.	\u0110\u00e3 \u0111\u1ed5i tr\u00ecnh k\u1ebft xu\u1ea5t sang {0}.
+Shader dimatikan.	\u0110\u00e3 t\u1eaft shader.
+Mod dinonaktifkan: {0}.	\u0110\u00e3 v\u00f4 hi\u1ec7u h\u00f3a mod: {0}.
+Java dikembalikan ke Otomatis.	\u0110\u00e3 \u0111\u1eb7t l\u1ea1i Java v\u1ec1 T\u1ef1 \u0111\u1ed9ng.
+Gagal menerapkan. Coba lewat Pengaturan.	Kh\u00f4ng \u00e1p d\u1ee5ng \u0111\u01b0\u1ee3c. H\u00e3y th\u1eed trong C\u00e0i \u0111\u1eb7t.
+Pemulihan cepat	Kh\u1eafc ph\u1ee5c nhanh
+Ketuk untuk mencoba perbaikan yang paling mungkin membantu. Semuanya bisa dibatalkan.	Ch\u1ea1m \u0111\u1ec3 th\u1eed c\u00e1c c\u00e1ch s\u1eeda c\u00f3 kh\u1ea3 n\u0103ng gi\u00fap nh\u1ea5t. M\u1ecdi thay \u0111\u1ed5i \u0111\u1ec1u c\u00f3 th\u1ec3 ho\u00e0n t\u00e1c.
+Perubahan sudah disimpan. Kembali ke launcher lalu jalankan game lagi.	\u0110\u00e3 l\u01b0u thay \u0111\u1ed5i. Quay l\u1ea1i launcher r\u1ed3i ch\u1ea1y game l\u1ea1i.
+Sudah diterapkan	\u0110\u00e3 \u00e1p d\u1ee5ng
+Game berhenti di bagian grafis atau pustaka bawaan HP. Penyebab umumnya renderer yang kurang cocok dengan HP ini. Coba ganti renderer di Pengaturan > Grafis. Kalau semua renderer gagal, barulah mungkin masalahnya ada di launcher.	Game d\u1eebng \u1edf ph\u1ea7n \u0111\u1ed3 h\u1ecda ho\u1eb7c th\u01b0 vi\u1ec7n c\u00f3 s\u1eb5n c\u1ee7a \u0111i\u1ec7n tho\u1ea1i. Nguy\u00ean nh\u00e2n th\u01b0\u1eddng g\u1eb7p l\u00e0 tr\u00ecnh k\u1ebft xu\u1ea5t kh\u00f4ng h\u1ee3p v\u1edbi \u0111i\u1ec7n tho\u1ea1i n\u00e0y. H\u00e3y th\u1eed \u0111\u1ed5i tr\u00ecnh k\u1ebft xu\u1ea5t trong C\u00e0i \u0111\u1eb7t > \u0110\u1ed3 h\u1ecda. Ch\u1ec9 khi m\u1ecdi tr\u00ecnh k\u1ebft xu\u1ea5t \u0111\u1ec1u l\u1ed7i th\u00ec v\u1ea5n \u0111\u1ec1 m\u1edbi c\u00f3 th\u1ec3 n\u1eb1m \u1edf launcher.
+# --- dialogs.tsv ---
+# Crash, Error, pemilih tombol, konfigurasi dan daftar renderer
+Peluncur mengalami kesalahan internal pada komponen UI atau proses background sistem.	Launcher g\u1eb7p l\u1ed7i n\u1ed9i b\u1ed9 \u1edf m\u1ed9t th\u00e0nh ph\u1ea7n giao di\u1ec7n ho\u1eb7c ti\u1ebfn tr\u00ecnh n\u1ec1n c\u1ee7a h\u1ec7 th\u1ed1ng.
+INCIDENT DIAGNOSTICS \u00b7 JVM TERMINATION	CH\u1ea8N \u0110O\u00c1N S\u1ef0 C\u1ed0 \u00b7 JVM B\u1eca D\u1eeaNG
+STATUS PELUNCUR	TR\u1ea0NG TH\u00c1I LAUNCHER
+INFORMASI SESI GAME	TH\u00d4NG TIN PHI\u00caN CH\u01a0I
+{0} Mod	{0} mod
+Log: {0}	Nh\u1eadt k\u00fd: {0}
+DIAGNOSA KELUAR SISTEM	CH\u1ea8N \u0110O\u00c1N L\u00daC THO\u00c1T H\u1ec6 TH\u1ed0NG
+SOLUSI & SARAN PEMULIHAN	GI\u1ea2I PH\u00c1P & G\u1ee2I \u00dd KH\u1eaeC PH\u1ee4C
+Log berhasil diunggah & tautan disalin!	\u0110\u00e3 t\u1ea3i nh\u1eadt k\u00fd l\u00ean v\u00e0 sao ch\u00e9p li\u00ean k\u1ebft!
+Gagal mengunggah: {~0}	T\u1ea3i l\u00ean th\u1ea5t b\u1ea1i: {0}
+MENGUNGGAH LOG...	\u0110ANG T\u1ea2I NH\u1eacT K\u00dd L\u00caN...
+BUKA TAUTAN MCLO.GS	M\u1ede LI\u00caN K\u1ebeT MCLO.GS
+UNGGAH TAUTAN LOG (MCLO.GS)	T\u1ea2I LI\u00caN K\u1ebeT NH\u1eacT K\u00dd (MCLO.GS)
+BAGIKAN	CHIA S\u1eba
+Log disalin ke clipboard!	\u0110\u00e3 sao ch\u00e9p nh\u1eadt k\u00fd v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m!
+SALIN	SAO CH\u00c9P
+LOG CRASH	NH\u1eacT K\u00dd CRASH
+Disalin ke papan klip!	\u0110\u00e3 sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m!
+Gagal membaca file log: {0}	Kh\u00f4ng th\u1ec3 \u0111\u1ecdc t\u1ec7p nh\u1eadt k\u00fd: {0}
+Tidak ada rincian log yang tersedia.	Kh\u00f4ng c\u00f3 chi ti\u1ebft nh\u1eadt k\u00fd.
+Peluncur mengalami kesalahan internal pada komponen UI atau proses background. Silakan laporkan log stacktrace ini ke pengembang NovaCraft.	Launcher gặp lỗi nội bộ ở một thành phần giao diện hoặc tiến trình nền. Hãy báo nhật ký stack trace này cho nhà phát triển NovaCraft.
+Peluncur mengalami kesalahan tak terduga (Uncaught Exception).	Launcher g\u1eb7p l\u1ed7i kh\u00f4ng mong mu\u1ed1n (Uncaught Exception).
+JVM dihentikan karena sinyal fatal {0} ({1}).	JVM b\u1ecb d\u1eebng do t\u00edn hi\u1ec7u nghi\u00eam tr\u1ecdng {0} ({1}).
+JVM keluar dengan kode {0} ({1}).	JVM \u0111\u00e3 tho\u00e1t v\u1edbi m\u00e3 {0} ({1}).
+PELUNCUR MENGALAMI KESALAHAN	LAUNCHER G\u1eb6P L\u1ed6I
+GAME MENGALAMI CRASH	GAME B\u1eca CRASH
+Rotasi Layar	Xoay m\u00e0n h\u00ecnh
+Tautan berhasil diunggah & disalin!	\u0110\u00e3 t\u1ea3i li\u00ean k\u1ebft l\u00ean v\u00e0 sao ch\u00e9p!
+Log berhasil disalin ke clipboard!	\u0110\u00e3 sao ch\u00e9p nh\u1eadt k\u00fd v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m!
+Aplikasi NovaCraft	Ứng dụng NovaCraft
+Lokasi Log: {0}	V\u1ecb tr\u00ed nh\u1eadt k\u00fd: {0}
+STATUS PENGHENTIAN PROSES	TR\u1ea0NG TH\u00c1I K\u1ebeT TH\u00daC TI\u1ebeN TR\u00ccNH
+CATATAN ANALISIS LOG	GHI CH\u00da PH\u00c2N T\u00cdCH NH\u1eacT K\u00dd
+MENGUNGGAH LOG KE MCLO.GS...	\u0110ANG T\u1ea2I NH\u1eacT K\u00dd L\u00caN MCLO.GS...
+UNGGAH TAUTAN (MCLO.GS)	T\u1ea2I LI\u00caN K\u1ebeT (MCLO.GS)
+BAGIKAN LOG	CHIA S\u1eba NH\u1eacT K\u00dd
+SALIN TEKS	SAO CH\u00c9P V\u0102N B\u1ea2N
+MULAI ULANG	KH\u1edeI \u0110\u1ed8NG L\u1ea0I
+Unknown	Kh\u00f4ng r\u00f5
+MINECRAFT MENGALAMI CRASH	MINECRAFT B\u1eca CRASH
+JVM keluar dengan kode {0} (Signal: {1}).\nPeriksa file log untuk rincian lebih lanjut.	JVM \u0111\u00e3 tho\u00e1t v\u1edbi m\u00e3 {0} (Signal: {1}).\nH\u00e3y xem t\u1ec7p nh\u1eadt k\u00fd \u0111\u1ec3 bi\u1ebft th\u00eam chi ti\u1ebft.
+Proses game terhenti mendadak (Kemungkinan dihentikan sistem karena kehabisan RAM atau crash driver native).	Ti\u1ebfn tr\u00ecnh game d\u1eebng \u0111\u1ed9t ng\u1ed9t (c\u00f3 th\u1ec3 b\u1ecb h\u1ec7 th\u1ed1ng d\u1eebng do h\u1ebft RAM ho\u1eb7c driver g\u1ed1c b\u1ecb crash).
+SIGILL (Instruksi CPU Tidak Didukung)	SIGILL (L\u1ec7nh CPU kh\u00f4ng \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3)
+SIGABRT (Native Assertion / Abort)	SIGABRT (Assertion g\u1ed1c / H\u1ee7y)
+SIGBUS (Kesalahan Bus Memori)	SIGBUS (L\u1ed7i bus b\u1ed9 nh\u1edb)
+SIGFPE (Kesalahan Perhitungan Float)	SIGFPE (L\u1ed7i t\u00ednh to\u00e1n s\u1ed1 th\u1ef1c)
+SIGKILL (Dihentikan OS / Kehabisan RAM)	SIGKILL (B\u1ecb h\u1ec7 \u0111i\u1ec1u h\u00e0nh d\u1eebng / H\u1ebft RAM)
+SIGSEGV (Akses Memori Ilegal / Segfault)	SIGSEGV (Truy c\u1eadp b\u1ed9 nh\u1edb tr\u00e1i ph\u00e9p / Segfault)
+SIGTERM (Permintaan Terminasi)	SIGTERM (Y\u00eau c\u1ea7u k\u1ebft th\u00fac)
+Selesai Normal (0)	K\u1ebft th\u00fac b\u00ecnh th\u01b0\u1eddng (0)
+Kesalahan Inisialisasi Mod / Java Exception (1)	L\u1ed7i kh\u1edfi t\u1ea1o mod / Java Exception (1)
+Dihentikan Pengguna (SIGINT 130)	Ng\u01b0\u1eddi d\u00f9ng \u0111\u00e3 d\u1eebng (SIGINT 130)
+Native Driver Abort (SIGABRT 134)	Driver g\u1ed1c b\u1ecb h\u1ee7y (SIGABRT 134)
+Kehabisan Memori RAM / OOM (SIGKILL 137)	H\u1ebft RAM / OOM (SIGKILL 137)
+Crash Driver Grafis / Segfault (SIGSEGV 139)	Driver \u0111\u1ed3 h\u1ecda b\u1ecb crash / Segfault (SIGSEGV 139)
+Kegagalan Bootstrap Mesin Virtual (-1)	M\u00e1y \u1ea3o kh\u1edfi \u0111\u1ed9ng th\u1ea5t b\u1ea1i (-1)
+Kode Keluar {0}	M\u00e3 tho\u00e1t {0}
+Untuk detail penyebabnya, silahkan periksa file log. Jika Anda tidak bisa menyelesaikan masalah sendiri, silakan kirim file log kepada seseorang atau tim yang dapat menganalisisnya. Jangan hanya mengambil screenshot dari layar saat ini, karena screenshot tidak bisa memberikan informasi teknis yang cukup untuk menyelesaikan masalah.	\u0110\u1ec3 bi\u1ebft chi ti\u1ebft nguy\u00ean nh\u00e2n, h\u00e3y ki\u1ec3m tra t\u1ec7p nh\u1eadt k\u00fd. N\u1ebfu b\u1ea1n kh\u00f4ng t\u1ef1 gi\u1ea3i quy\u1ebft \u0111\u01b0\u1ee3c, h\u00e3y g\u1eedi t\u1ec7p nh\u1eadt k\u00fd cho ng\u01b0\u1eddi ho\u1eb7c nh\u00f3m c\u00f3 th\u1ec3 ph\u00e2n t\u00edch. \u0110\u1eebng ch\u1ec9 ch\u1ee5p \u1ea3nh m\u00e0n h\u00ecnh hi\u1ec7n t\u1ea1i, v\u00ec \u1ea3nh ch\u1ee5p m\u00e0n h\u00ecnh kh\u00f4ng cung c\u1ea5p \u0111\u1ee7 th\u00f4ng tin k\u1ef9 thu\u1eadt \u0111\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1.
+JVM digugurkan karena sinyal fatal {0} ({1}).	JVM b\u1ecb h\u1ee7y do t\u00edn hi\u1ec7u nghi\u00eam tr\u1ecdng {0} ({1}).
+File log tidak ditemukan.	Kh\u00f4ng t\u00ecm th\u1ea5y t\u1ec7p nh\u1eadt k\u00fd.
+Log Crash NovaCraft - {0}	Nhật ký crash NovaCraft - {0}
+Bagikan Log Crash: {0}	Chia s\u1ebb nh\u1eadt k\u00fd crash: {0}
+Tidak ada aplikasi untuk membagikan file ini.	Kh\u00f4ng c\u00f3 \u1ee9ng d\u1ee5ng n\u00e0o \u0111\u1ec3 chia s\u1ebb t\u1ec7p n\u00e0y.
+Gagal membagikan file: {0}	Kh\u00f4ng th\u1ec3 chia s\u1ebb t\u1ec7p: {0}
+Konten log kosong.	N\u1ed9i dung nh\u1eadt k\u00fd tr\u1ed1ng.
+Gagal mengunggah log (HTTP {0}): {1}	Kh\u00f4ng th\u1ec3 t\u1ea3i nh\u1eadt k\u00fd l\u00ean (HTTP {0}): {1}
+Server mclo.gs tidak mengembalikan URL.	M\u00e1y ch\u1ee7 mclo.gs kh\u00f4ng tr\u1ea3 v\u1ec1 URL.
+File log tidak ditemukan: {0}	Kh\u00f4ng t\u00ecm th\u1ea5y t\u1ec7p nh\u1eadt k\u00fd: {0}
+Tombol kedua	Ph\u00edm th\u1ee9 hai
+Pilih tombol	Ch\u1ecdn ph\u00edm
+Ditekan bersamaan dengan tombol utama	Nh\u1ea5n c\u00f9ng l\u00fac v\u1edbi ph\u00edm ch\u00ednh
+Ketuk kategori, lalu ketuk tombolnya	Ch\u1ea1m v\u00e0o m\u1ed9t nh\u00f3m, r\u1ed3i ch\u1ea1m v\u00e0o ph\u00edm
+Cari tombol	T\u00ecm ph\u00edm
+Ketik nama tombol, misalnya Shift atau F3	Nh\u1eadp t\u00ean ph\u00edm, v\u00ed d\u1ee5 Shift ho\u1eb7c F3
+Tidak ada yang cocok	Kh\u00f4ng c\u00f3 k\u1ebft qu\u1ea3 ph\u00f9 h\u1ee3p
+Cari tombol (W, Shift, F3, Tab...)	T\u00ecm ph\u00edm (W, Shift, F3, Tab...)
+Mouse	Chu\u1ed9t
+Gerakan	Di chuy\u1ec3n
+Aksi	H\u00e0nh \u0111\u1ed9ng
+Angka & Hotbar	S\u1ed1 & Hotbar
+Fungsi (F1-F12)	Ch\u1ee9c n\u0103ng (F1-F12)
+Modifier & Kontrol	Ph\u00edm b\u1ed5 tr\u1ee3 & \u0111i\u1ec1u khi\u1ec3n
+Navigasi	\u0110i\u1ec1u h\u01b0\u1edbng
+Alfabet (A - Z)	B\u1ea3ng ch\u1eef c\u00e1i (A - Z)
+Simbol	K\u00fd hi\u1ec7u
+Umum	Chung
+Modifier	B\u1ed5 tr\u1ee3
+Alfabet	Ch\u1eef c\u00e1i
+Angka	S\u1ed1
+None	Kh\u00f4ng c\u00f3
+Key {0}	Ph\u00edm {0}
+Mouse Kiri (Attack/Break)	Chu\u1ed9t tr\u00e1i (\u0110\u00e1nh/Ph\u00e1)
+Mouse Kanan (Use/Place)	Chu\u1ed9t ph\u1ea3i (D\u00f9ng/\u0110\u1eb7t)
+Mouse Tengah (Pick Block)	Chu\u1ed9t gi\u1eefa (Ch\u1ecdn kh\u1ed1i)
+Mouse Tombol 4	N\u00fat chu\u1ed9t 4
+Mouse Tombol 5	N\u00fat chu\u1ed9t 5
+Scroll Wheel (Slide Naik/Turun)	Con l\u0103n (Cu\u1ed9n l\u00ean/xu\u1ed1ng)
+W (Maju)	W (Ti\u1ebfn)
+A (Kiri)	A (Tr\u00e1i)
+S (Mundur)	S (L\u00f9i)
+D (Kanan)	D (Ph\u1ea3i)
+SPACE (Lompat)	SPACE (Nh\u1ea3y)
+LEFT SHIFT (Sneak/Jongkok)	LEFT SHIFT (C\u00fai xu\u1ed1ng)
+LEFT CTRL (Sprint/Lari)	LEFT CTRL (Ch\u1ea1y nhanh)
+E (Inventory)	E (T\u00fai \u0111\u1ed3)
+Q (Drop Item)	Q (V\u1ee9t v\u1eadt ph\u1ea9m)
+F (Swap Hand)	F (\u0110\u1ed5i tay)
+T (Buka Chat)	T (M\u1edf chat)
+/ (Buka Command)	/ (M\u1edf l\u1ec7nh)
+ENTER (Kirim/Pilih)	ENTER (G\u1eedi/Ch\u1ecdn)
+ESCAPE (Pause/Menu)	ESCAPE (T\u1ea1m d\u1eebng/Menu)
+TAB (Daftar Player)	TAB (Danh s\u00e1ch ng\u01b0\u1eddi ch\u01a1i)
+BACKSPACE (Hapus)	BACKSPACE (X\u00f3a)
+F1 (Sembunyikan HUD)	F1 (\u1ea8n HUD)
+F2 (Screenshot)	F2 (Ch\u1ee5p m\u00e0n h\u00ecnh)
+F3 (Debug Layar)	F3 (M\u00e0n h\u00ecnh g\u1ee1 l\u1ed7i)
+F4 (Shader / Spectator)	F4 (Shader / Quan s\u00e1t)
+F5 (Ubah Perspektif)	F5 (\u0110\u1ed5i g\u00f3c nh\u00ecn)
+F8 (Cinematic Camera)	F8 (Camera \u0111i\u1ec7n \u1ea3nh)
+F11 (Fullscreen)	F11 (To\u00e0n m\u00e0n h\u00ecnh)
+1 (Slot 1)	1 (\u00d4 1)
+2 (Slot 2)	2 (\u00d4 2)
+3 (Slot 3)	3 (\u00d4 3)
+4 (Slot 4)	4 (\u00d4 4)
+5 (Slot 5)	5 (\u00d4 5)
+6 (Slot 6)	6 (\u00d4 6)
+7 (Slot 7)	7 (\u00d4 7)
+8 (Slot 8)	8 (\u00d4 8)
+9 (Slot 9)	9 (\u00d4 9)
+Panah Atas (UP)	M\u0169i t\u00ean l\u00ean (UP)
+Panah Bawah (DOWN)	M\u0169i t\u00ean xu\u1ed1ng (DOWN)
+Panah Kiri (LEFT)	M\u0169i t\u00ean tr\u00e1i (LEFT)
+Panah Kanan (RIGHT)	M\u0169i t\u00ean ph\u1ea3i (RIGHT)
+KURUNG BUKA ( [ { )	NGO\u1eb6C M\u1ede ( [ { )
+KURUNG TUTUP ( ] } )	NGO\u1eb6C \u0110\u00d3NG ( ] } )
+Numpad . (Titik)	Numpad . (D\u1ea5u ch\u1ea5m)
+Numpad / (Bagi)	Numpad / (Chia)
+Numpad * (Kali)	Numpad * (Nh\u00e2n)
+Numpad - (Kurang)	Numpad - (Tr\u1eeb)
+Numpad + (Tambah)	Numpad + (C\u1ed9ng)
+Numpad = (Sama Dengan)	Numpad = (B\u1eb1ng)
+KONFIGURASI RENDERER	C\u1ea4U H\u00ccNH TR\u00ccNH K\u1ebeT XU\u1ea4T
+Tidak dapat membuka panel aplikasi	Kh\u00f4ng th\u1ec3 m\u1edf b\u1ea3ng \u0111i\u1ec1u khi\u1ec3n c\u1ee7a \u1ee9ng d\u1ee5ng
+Buka Panel Aplikasi {0}	M\u1edf b\u1ea3ng \u0111i\u1ec1u khi\u1ec3n \u1ee9ng d\u1ee5ng {0}
+Akses pengaturan driver native, benchmark, dan preferensi aplikasi	Truy c\u1eadp c\u00e0i \u0111\u1eb7t driver g\u1ed1c, benchmark v\u00e0 t\u00f9y ch\u1ecdn c\u1ee7a \u1ee9ng d\u1ee5ng
+Tidak ada environment variable yang dapat dikonfigurasi untuk renderer ini.	Tr\u00ecnh k\u1ebft xu\u1ea5t n\u00e0y kh\u00f4ng c\u00f3 bi\u1ebfn m\u00f4i tr\u01b0\u1eddng n\u00e0o \u0111\u1ec3 c\u1ea5u h\u00ecnh.
+PENGATURAN ENVIRONMENT VARIABLES	C\u00c0I \u0110\u1eb6T BI\u1ebeN M\u00d4I TR\u01af\u1edcNG
+Pengaturan direset ke default	\u0110\u00e3 \u0111\u1eb7t l\u1ea1i c\u00e0i \u0111\u1eb7t v\u1ec1 m\u1eb7c \u0111\u1ecbnh
+RESET DEFAULT	\u0110\u1eb6T L\u1ea0I M\u1eb6C \u0110\u1ecaNH
+SIMPAN & TUTUP	L\u01afU & \u0110\u00d3NG
+Nilai aktif: 	Gi\u00e1 tr\u1ecb hi\u1ec7n t\u1ea1i: 
+Masukkan nilai (opsional)	Nh\u1eadp gi\u00e1 tr\u1ecb (t\u00f9y ch\u1ecdn)
+Auto (Rekomendasi)	T\u1ef1 \u0111\u1ed9ng (Khuy\u00ean d\u00f9ng)
+Otomatis Cerdas	T\u1ef1 \u0111\u1ed9ng th\u00f4ng minh
+Otomatis memilih renderer paling optimal & stabil berdasarkan versi Minecraft yang dijalankan.	T\u1ef1 \u0111\u1ed9ng ch\u1ecdn tr\u00ecnh k\u1ebft xu\u1ea5t t\u1ed1i \u01b0u v\u00e0 \u1ed5n \u0111\u1ecbnh nh\u1ea5t theo phi\u00ean b\u1ea3n Minecraft \u0111ang ch\u1ea1y.
+Semua Versi Minecraft	T\u1ea5t c\u1ea3 phi\u00ean b\u1ea3n Minecraft
+Rekomendasi Utama (Mali & Adreno)	Khuy\u00ean d\u00f9ng nh\u1ea5t (Mali & Adreno)
+Wrapper modern OpenGL ES 3.x langsung di atas driver resmi sistem. Paling stabil dan FPS maksimal untuk GPU Mali & Adreno di MC modern (1.17 \u2013 26.3).	Wrapper OpenGL ES 3.x hi\u1ec7n \u0111\u1ea1i ch\u1ea1y tr\u1ef1c ti\u1ebfp tr\u00ean driver ch\u00ednh th\u1ee9c c\u1ee7a h\u1ec7 th\u1ed1ng. \u1ed4n \u0111\u1ecbnh nh\u1ea5t v\u00e0 FPS t\u1ed1i \u0111a cho GPU Mali & Adreno tr\u00ean MC m\u1edbi (1.17 \u2013 26.3).
+Pustaka grafis OpenGL 4.0 MobileGlues untuk Minecraft 1.17 \u2013 1.21.1. Kompatibilitas tinggi dengan berbagai GPU mobile termasuk Mali.	Th\u01b0 vi\u1ec7n \u0111\u1ed3 h\u1ecda OpenGL 4.0 MobileGlues cho Minecraft 1.17 \u2013 1.21.1. T\u01b0\u01a1ng th\u00edch cao v\u1edbi nhi\u1ec1u GPU di \u0111\u1ed9ng, k\u1ec3 c\u1ea3 Mali.
+Paling Stabil untuk MC Lama	\u1ed4n \u0111\u1ecbnh nh\u1ea5t cho MC c\u0169
+Wrapper OpenGL ES 2.0 klasik. Kompatibel untuk Minecraft 1.7.10 \u2013 1.16.5 dan perangkat spek rendah.	Wrapper OpenGL ES 2.0 c\u1ed5 \u0111i\u1ec3n. T\u01b0\u01a1ng th\u00edch v\u1edbi Minecraft 1.7.10 \u2013 1.16.5 v\u00e0 thi\u1ebft b\u1ecb c\u1ea5u h\u00ecnh th\u1ea5p.
+Menerjemahkan OpenGL desktop 4.6 ke Vulkan. Mendukung mod shader modern (Iris/Oculus) & mod tingkat lanjut.	D\u1ecbch OpenGL m\u00e1y t\u00ednh 4.6 sang Vulkan. H\u1ed7 tr\u1ee3 mod shader hi\u1ec7n \u0111\u1ea1i (Iris/Oculus) v\u00e0 c\u00e1c mod n\u00e2ng cao.
+Khusus GPU Adreno	Ch\u1ec9 d\u00e0nh cho GPU Adreno
+Driver Mesa Gallium Freedreno open-source dioptimalkan khusus untuk chipset Snapdragon / GPU Adreno.	Driver m\u00e3 ngu\u1ed3n m\u1edf Mesa Gallium Freedreno \u0111\u01b0\u1ee3c t\u1ed1i \u01b0u ri\u00eang cho chip Snapdragon / GPU Adreno.
+Pustaka grafis MobileGL (Vulkan & GLES backend)	Th\u01b0 vi\u1ec7n \u0111\u1ed3 h\u1ecda MobileGL (backend Vulkan & GLES)
+Renderer eksternal dari APK: {0} ({1})	Tr\u00ecnh k\u1ebft xu\u1ea5t ngo\u00e0i t\u1eeb APK: {0} ({1})
+Plugin Eksternal	Plugin ngo\u00e0i
+Renderer APK: {0} ({1})	Tr\u00ecnh k\u1ebft xu\u1ea5t APK: {0} ({1})
+Close	\u0110\u00f3ng
+mclo.gs link	Li\u00ean k\u1ebft mclo.gs
+Crash Log	Nh\u1eadt k\u00fd crash
+LAUNCHER ERROR	L\u1ed6I LAUNCHER
+EXIT CODE {0}	M\u00c3 THO\u00c1T {0}
+TERMINAL LOG / STACK TRACE	NH\u1eacT K\u00dd TERMINAL / STACK TRACE
+Error: {0}	L\u1ed7i: {0}
+Impor layout kontrol?	Nh\u1eadp b\u1ed1 c\u1ee5c \u0111i\u1ec1u khi\u1ec3n?
+Ganti layout	Thay b\u1ed1 c\u1ee5c
+Layout tombol saat ini akan diganti dengan {0} tombol dari berkas ini.	B\u1ed1 c\u1ee5c n\u00fat hi\u1ec7n t\u1ea1i s\u1ebd \u0111\u01b0\u1ee3c thay b\u1eb1ng {0} n\u00fat t\u1eeb t\u1ec7p n\u00e0y.
+Berkas ini berisi {0} tombol makro yang mengetik chat atau perintah otomatis. Periksa dulu sebelum dipakai di server.	T\u1ec7p n\u00e0y c\u00f3 {0} n\u00fat macro t\u1ef1 \u0111\u1ed9ng g\u00f5 chat ho\u1eb7c l\u1ec7nh. H\u00e3y ki\u1ec3m tra tr\u01b0\u1edbc khi d\u00f9ng tr\u00ean m\u00e1y ch\u1ee7.
+Utama	Ch\u00ednh
+Navigasi & Numpad	\u0110i\u1ec1u h\u01b0\u1edbng & Numpad
+Ketuk tombol yang diinginkan	Ch\u1ea1m v\u00e0o ph\u00edm b\u1ea1n mu\u1ed1n
+# --- editor.tsv ---
+# Editor tata letak kontrol
+\u2713 Layout tombol in-game disimpan!	\u2713 \u0110\u00e3 l\u01b0u b\u1ed1 c\u1ee5c n\u00fat trong game!
+Selesai	Xong
+Kembali	Quay l\u1ea1i
+Tombol baru ditambahkan di tengah layar!	\u0110\u00e3 th\u00eam n\u00fat m\u1edbi \u1edf gi\u1eefa m\u00e0n h\u00ecnh!
++ TOMBOL	+ N\u00daT
+Joystick WASD ditambahkan!	\u0110\u00e3 th\u00eam joystick WASD!
+\u2713 Layout GUI berhasil disimpan!	\u2713 \u0110\u00e3 l\u01b0u b\u1ed1 c\u1ee5c GUI!
+PENGATURAN TOMBOL	C\u00c0I \u0110\u1eb6T N\u00daT
+Posisi: {0}% x {1}%	V\u1ecb tr\u00ed: {0}% x {1}%
+Label Teks Tombol:	Nh\u00e3n v\u0103n b\u1ea3n c\u1ee7a n\u00fat:
+\ud83d\udd12 Tetap	\ud83d\udd12 C\u1ed1 \u0111\u1ecbnh
+Label tombol...	Nh\u00e3n n\u00fat...
+Tipe Kontrol:	Lo\u1ea1i \u0111i\u1ec1u khi\u1ec3n:
+\ud83d\udd79 Virtual Analog Joystick (WASD)	\ud83d\udd79 Joystick analog \u1ea3o (WASD)
+Analog 8-arah halus menggerakkan karakter menggantikan tombol W, A, S, D.	C\u1ea7n analog 8 h\u01b0\u1edbng m\u01b0\u1ee3t \u0111i\u1ec1u khi\u1ec3n nh\u00e2n v\u1eadt thay cho c\u00e1c ph\u00edm W, A, S, D.
+Ukuran Joystick (Diameter):	K\u00edch th\u01b0\u1edbc joystick (\u0111\u01b0\u1eddng k\u00ednh):
+Transparansi (Opacity):	\u0110\u1ed9 trong su\u1ed1t (Opacity):
+Lari otomatis:	T\u1ef1 \u0111\u1ed9ng ch\u1ea1y nhanh:
+Dorong sampai tepi lingkaran untuk berlari. Matikan bila ingin berlari lewat tombol CTRL sendiri.	\u0110\u1ea9y t\u1edbi m\u00e9p v\u00f2ng tr\u00f2n \u0111\u1ec3 ch\u1ea1y nhanh. H\u00e3y t\u1eaft n\u1ebfu b\u1ea1n mu\u1ed1n t\u1ef1 ch\u1ea1y b\u1eb1ng n\u00fat CTRL ri\u00eang.
+Tombol / Aksi Input:	N\u00fat / h\u00e0nh \u0111\u1ed9ng nh\u1eadp:
+Indikator FPS In-Game	Ch\u1ec9 b\u00e1o FPS trong game
+Toggle Keyboard Layar	B\u1eadt/t\u1eaft b\u00e0n ph\u00edm \u1ea3o
+Sembunyikan/Tampilkan GUI	\u1ea8n/hi\u1ec7n GUI
+Buka Menu (pengaturan dan keluar)	M\u1edf menu (c\u00e0i \u0111\u1eb7t v\u00e0 tho\u00e1t)
+Aksi Sistem Launcher	H\u00e0nh \u0111\u1ed9ng h\u1ec7 th\u1ed1ng c\u1ee7a launcher
+Mouse Kiri (Attack)	Chu\u1ed9t tr\u00e1i (\u0110\u00e1nh)
+Mouse Kanan (Use)	Chu\u1ed9t ph\u1ea3i (D\u00f9ng)
+Mouse Tengah (Pick)	Chu\u1ed9t gi\u1eefa (Ch\u1ecdn)
+Mouse Btn {0}	N\u00fat chu\u1ed9t {0}
+Key Code {0}	M\u00e3 ph\u00edm {0}
+Ubah >	\u0110\u1ed5i >
+Lebar (Width):	Chi\u1ec1u r\u1ed9ng:
+Tinggi (Height):	Chi\u1ec1u cao:
+Kebulatan Sudut:	\u0110\u1ed9 bo g\u00f3c:
+Mode Toggle:	Ch\u1ebf \u0111\u1ed9 b\u1eadt/t\u1eaft:
+Sekali tap untuk kunci	Ch\u1ea1m m\u1ed9t l\u1ea7n \u0111\u1ec3 kh\u00f3a
+\u26a1 FITUR MAKRO	\u26a1 T\u00cdNH N\u0102NG MACRO
+Jadikan tombol ini sebagai makro otomatis	Bi\u1ebfn n\u00fat n\u00e0y th\u00e0nh macro t\u1ef1 \u0111\u1ed9ng
+Pilih Mode Makro:	Ch\u1ecdn ch\u1ebf \u0111\u1ed9 macro:
+\u2328 Chat/Perintah	\u2328 Chat/L\u1ec7nh
+Ketik otomatis	T\u1ef1 \u0111\u1ed9ng g\u00f5
+\ud83d\udd17 Kombinasi	\ud83d\udd17 T\u1ed5 h\u1ee3p
+Multi-Key	Nhi\u1ec1u ph\u00edm
+\u26a1 Turbo Click	\u26a1 Click turbo
+Auto-clicker	T\u1ef1 \u0111\u1ed9ng click
+Teks / Perintah yang diketik otomatis:	V\u0103n b\u1ea3n / l\u1ec7nh \u0111\u01b0\u1ee3c g\u00f5 t\u1ef1 \u0111\u1ed9ng:
+Misal: /gamemode creative atau /home	V\u00ed d\u1ee5: /gamemode creative ho\u1eb7c /home
+Template Cepat:	M\u1eabu nhanh:
+Urutan Key Kombinasi:	Th\u1ee9 t\u1ef1 ph\u00edm trong t\u1ed5 h\u1ee3p:
+Hapus Semua	X\u00f3a t\u1ea5t c\u1ea3
+Belum ada key kombinasi. Tambahkan key di bawah.	Ch\u01b0a c\u00f3 ph\u00edm n\u00e0o trong t\u1ed5 h\u1ee3p. H\u00e3y th\u00eam ph\u00edm b\u00ean d\u01b0\u1edbi.
+Tambah Key ke Kombinasi	Th\u00eam ph\u00edm v\u00e0o t\u1ed5 h\u1ee3p
+Tambah Cepat:	Th\u00eam nhanh:
+Dieksekusi berurutan dari atas (#1) ke bawah saat ditekan.	\u0110\u01b0\u1ee3c th\u1ef1c hi\u1ec7n l\u1ea7n l\u01b0\u1ee3t t\u1eeb tr\u00ean (#1) xu\u1ed1ng d\u01b0\u1edbi khi nh\u1ea5n.
+Interval Auto-Click:	Kho\u1ea3ng c\u00e1ch auto-click:
+Tombol akan menekan & melepas berulang-ulang sangat cepat secara otomatis saat ditekan.	N\u00fat s\u1ebd t\u1ef1 \u0111\u1ed9ng nh\u1ea5n v\u00e0 nh\u1ea3 li\u00ean t\u1ee5c r\u1ea5t nhanh khi b\u1ea1n gi\u1eef.
+Tombol dihapus	\u0110\u00e3 x\u00f3a n\u00fat
+HAPUS TOMBOL	X\u00d3A N\u00daT
+\ud83d\udd12 Tombol sistem tidak dapat dihapus	\ud83d\udd12 Kh\u00f4ng th\u1ec3 x\u00f3a n\u00fat h\u1ec7 th\u1ed1ng
+MODE IN-GAME \u00b7 Geser tombol sesuai HUD game lalu klik SELESAI	CH\u1ebe \u0110\u1ed8 TRONG GAME \u00b7 K\u00e9o n\u00fat cho kh\u1edbp HUD c\u1ee7a game r\u1ed3i ch\u1ea1m XONG
+Reset Layout GUI?	\u0110\u1eb7t l\u1ea1i b\u1ed1 c\u1ee5c GUI?
+Semua posisi tombol dan kustomisasi akan dikembalikan ke tata letak awal standar NovaCraft.	M\u1ecdi v\u1ecb tr\u00ed n\u00fat v\u00e0 t\u00f9y ch\u1ec9nh s\u1ebd \u0111\u01b0\u1ee3c kh\u00f4i ph\u1ee5c v\u1ec1 b\u1ed1 c\u1ee5c m\u1eb7c \u0111\u1ecbnh chu\u1ea9n c\u1ee7a NovaCraft.
+Layout direset ke standar	\u0110\u00e3 \u0111\u1eb7t l\u1ea1i b\u1ed1 c\u1ee5c v\u1ec1 m\u1eb7c \u0111\u1ecbnh
+Tampil saat:	Hi\u1ec3n th\u1ecb khi:
+Selalu	Lu\u00f4n lu\u00f4n
+Saat main	Khi ch\u01a1i
+Saat menu	Trong menu
+Menu = inventori, chat, dan layar lain di dalam game.	Menu = t\u00fai \u0111\u1ed3, chat v\u00e0 c\u00e1c m\u00e0n h\u00ecnh kh\u00e1c trong game.
+Semua tombol	T\u1ea5t c\u1ea3 n\u00fat
+# --- game.tsv ---
+# Menu in-game, loading, dan dialog kecil
+Tombol	N\u00fat
+Atur tombol	Ch\u1ec9nh n\u00fat
+TAMPILAN	GIAO DI\u1ec6N
+Resolusi render	\u0110\u1ed9 ph\u00e2n gi\u1ea3i k\u1ebft xu\u1ea5t
+Hemat 50%	Ti\u1ebft ki\u1ec7m 50%
+Seimbang 75%	C\u00e2n b\u1eb1ng 75%
+Penuh 100%	\u0110\u1ea7y \u0111\u1ee7 100%
+Pin FPS di layar	Ghim FPS tr\u00ean m\u00e0n h\u00ecnh
+Tetap tampil saat tombol layar disembunyikan	V\u1eabn hi\u1ec3n th\u1ecb khi c\u00e1c n\u00fat tr\u00ean m\u00e0n h\u00ecnh b\u1ecb \u1ea9n
+KAMERA DAN KURSOR	CAMERA V\u00c0 CON TR\u1ece
+Kecepatan kamera	T\u1ed1c \u0111\u1ed9 camera
+Kecepatan kursor	T\u1ed1c \u0111\u1ed9 con tr\u1ecf
+Mode sentuh	Ch\u1ebf \u0111\u1ed9 c\u1ea3m \u1ee9ng
+Geser	Tr\u01b0\u1ee3t
+Ketuk	Ch\u1ea1m
+Geser: layar jadi trackpad. Ketuk: jari langsung jadi kursor.	Tr\u01b0\u1ee3t: m\u00e0n h\u00ecnh ho\u1ea1t \u0111\u1ed9ng nh\u01b0 trackpad. Ch\u1ea1m: ng\u00f3n tay tr\u1edf th\u00e0nh con tr\u1ecf tr\u1ef1c ti\u1ebfp.
+Tahan tombol pukul atau lompat lalu geser jari untuk memutar kamera. Matikan untuk PvP.	Gi\u1eef n\u00fat \u0111\u00e1nh ho\u1eb7c nh\u1ea3y r\u1ed3i tr\u01b0\u1ee3t ng\u00f3n tay \u0111\u1ec3 xoay camera. T\u1eaft khi ch\u01a1i PvP.
+PINTAS	PH\u00cdM T\u1eaeT
+Kamera	Camera
+Jeda	T\u1ea1m d\u1eebng
+Pemain	Ng\u01b0\u1eddi ch\u01a1i
+Sembunyi HUD	\u1ea8n HUD
+Keluar dari game	Tho\u00e1t game
+Keluar dari game?	Tho\u00e1t game?
+Minecraft akan dihentikan dan kamu kembali ke launcher. Dunia yang belum tersimpan bisa hilang.	Minecraft s\u1ebd b\u1ecb d\u1eebng v\u00e0 b\u1ea1n quay l\u1ea1i launcher. Th\u1ebf gi\u1edbi ch\u01b0a l\u01b0u c\u00f3 th\u1ec3 b\u1ecb m\u1ea5t.
+sisa RAM	RAM c\u00f2n
+PANAS	N\u00d3NG
+Ketuk ikon gerigi atau angka FPS di layar untuk membuka menu. Keluar dari game lewat tombol merah di dalam menu.	Ch\u1ea1m v\u00e0o bi\u1ec3u t\u01b0\u1ee3ng b\u00e1nh r\u0103ng ho\u1eb7c s\u1ed1 FPS tr\u00ean m\u00e0n h\u00ecnh \u0111\u1ec3 m\u1edf menu. Tho\u00e1t game b\u1eb1ng n\u00fat \u0111\u1ecf trong menu.
+Bug itu hal yang biasa, karena tiada yang sepurna melainkan tuhan yang maha kuasa.	L\u1ed7i (bug) l\u00e0 chuy\u1ec7n b\u00ecnh th\u01b0\u1eddng, v\u00ec kh\u00f4ng g\u00ec ho\u00e0n h\u1ea3o ngo\u00e0i \u0110\u1ea5ng To\u00e0n N\u0103ng.
+Matikan Vertical Sync (VSync) di pengaturan Renderer jika mengalami stuttering atau layar blank hitam setelah logo Mojang.	H\u00e3y t\u1eaft Vertical Sync (VSync) trong c\u00e0i \u0111\u1eb7t Tr\u00ecnh k\u1ebft xu\u1ea5t n\u1ebfu b\u1ecb gi\u1eadt ho\u1eb7c m\u00e0n h\u00ecnh \u0111en tr\u1ed1ng sau logo Mojang.
+Jika tampilan layar Minecraft terpotong atau vertikal, aktifkan rotasi otomatis HP dan posisikan layar mendatar (Landscape) sebelum menekan Mainkan.	N\u1ebfu m\u00e0n h\u00ecnh Minecraft b\u1ecb c\u1eaft ho\u1eb7c hi\u1ec3n th\u1ecb d\u1ecdc, h\u00e3y b\u1eadt t\u1ef1 \u0111\u1ed9ng xoay c\u1ee7a \u0111i\u1ec7n tho\u1ea1i v\u00e0 \u0111\u1eb7t m\u00e0n h\u00ecnh n\u1eb1m ngang (Landscape) tr\u01b0\u1edbc khi nh\u1ea5n CH\u01a0I.
+Gunakan MobileGlues Renderer untuk efisiensi baterai dan kompatibilitas shaderpack terbaik.	H\u00e3y d\u00f9ng tr\u00ecnh k\u1ebft xu\u1ea5t MobileGlues \u0111\u1ec3 ti\u1ebft ki\u1ec7m pin v\u00e0 t\u01b0\u01a1ng th\u00edch shaderpack t\u1ed1t nh\u1ea5t.
+Jika Minecraft crash saat startup pada GPU Mali/Adreno, coba aktifkan 'DISABLE_SUBGROUP' di pengaturan renderer.	N\u1ebfu Minecraft b\u1ecb crash khi kh\u1edfi \u0111\u1ed9ng tr\u00ean GPU Mali/Adreno, h\u00e3y th\u1eed b\u1eadt 'DISABLE_SUBGROUP' trong c\u00e0i \u0111\u1eb7t tr\u00ecnh k\u1ebft xu\u1ea5t.
+Aktifkan OpenGL NoError di pengaturan MobileGlues untuk meningkatkan FPS saat bermain.	B\u1eadt OpenGL NoError trong c\u00e0i \u0111\u1eb7t MobileGlues \u0111\u1ec3 t\u0103ng FPS khi ch\u01a1i.
+Gunakan tombol HIDE GUI untuk menyembunyikan tombol virtual di layar saat bermain dengan keyboard & mouse fisik.	D\u00f9ng n\u00fat HIDE GUI \u0111\u1ec3 \u1ea9n c\u00e1c n\u00fat \u1ea3o tr\u00ean m\u00e0n h\u00ecnh khi ch\u01a1i b\u1eb1ng b\u00e0n ph\u00edm v\u00e0 chu\u1ed9t th\u1eadt.
+Atur alokasi RAM sesuai spesifikasi HP: 2GB\u20133GB sudah sangat cukup untuk Minecraft versi 1.20+ tanpa modpack berat.	H\u00e3y \u0111\u1eb7t RAM ph\u00f9 h\u1ee3p v\u1edbi \u0111i\u1ec7n tho\u1ea1i: 2GB\u20133GB l\u00e0 qu\u00e1 \u0111\u1ee7 cho Minecraft 1.20+ khi kh\u00f4ng d\u00f9ng modpack n\u1eb7ng.
+Ubah sensitivitas kursor di Pengaturan Kontrol untuk membidik dan mengarahkan pandangan lebih akurat.	Thay \u0111\u1ed5i \u0111\u1ed9 nh\u1ea1y con tr\u1ecf trong c\u00e0i \u0111\u1eb7t \u0110i\u1ec1u khi\u1ec3n \u0111\u1ec3 ng\u1eafm v\u00e0 nh\u00ecn xung quanh ch\u00ednh x\u00e1c h\u01a1n.
+Pilih Vulkan Driver Turnip di perangkat Snapdragon untuk performa grafis dan stabilitas maksimal.	H\u00e3y ch\u1ecdn driver Vulkan Turnip tr\u00ean thi\u1ebft b\u1ecb Snapdragon \u0111\u1ec3 c\u00f3 hi\u1ec7u n\u0103ng \u0111\u1ed3 h\u1ecda v\u00e0 \u0111\u1ed9 \u1ed5n \u0111\u1ecbnh t\u1ed1t nh\u1ea5t.
+Kamu bisa menyesuaikan posisi dan ukuran tombol kontrol sesukamu di menu Kustomisasi Tombol.	B\u1ea1n c\u00f3 th\u1ec3 t\u00f9y ch\u1ec9nh v\u1ecb tr\u00ed v\u00e0 k\u00edch th\u01b0\u1edbc c\u00e1c n\u00fat \u0111i\u1ec1u khi\u1ec3n theo \u00fd mu\u1ed1n trong menu T\u00f9y ch\u1ec9nh n\u00fat.
+Gunakan fitur Import Addon untuk memasang Modpack (.mrpack), Mod (.jar), dan Resource Pack secara instan!	D\u00f9ng t\u00ednh n\u0103ng Import Addon \u0111\u1ec3 c\u00e0i modpack (.mrpack), mod (.jar) v\u00e0 resource pack ngay l\u1eadp t\u1ee9c!
+Tekan tombol ESC di layar untuk membuka pause menu atau kembali ke menu sebelumnya.	Nh\u1ea5n n\u00fat ESC tr\u00ean m\u00e0n h\u00ecnh \u0111\u1ec3 m\u1edf menu t\u1ea1m d\u1eebng ho\u1eb7c quay l\u1ea1i menu tr\u01b0\u1edbc.
+Tekan tombol F3 untuk melihat informasi koordinat, biome, dan grafik performa FPS di dalam game.	Nh\u1ea5n n\u00fat F3 \u0111\u1ec3 xem t\u1ecda \u0111\u1ed9, biome v\u00e0 bi\u1ec3u \u0111\u1ed3 hi\u1ec7u n\u0103ng FPS trong game.
+Aktifkan mode Fullscreen di Pengaturan untuk mengabaikan notch/kamera depan dan memperluas pandangan.	B\u1eadt ch\u1ebf \u0111\u1ed9 To\u00e0n m\u00e0n h\u00ecnh trong C\u00e0i \u0111\u1eb7t \u0111\u1ec3 b\u1ecf qua tai th\u1ecf/camera tr\u01b0\u1edbc v\u00e0 m\u1edf r\u1ed9ng t\u1ea7m nh\u00ecn.
+Memuat Minecraft {0}	\u0110ang t\u1ea3i Minecraft {0}
+Tutup loading	\u0110\u00f3ng m\u00e0n h\u00ecnh t\u1ea3i
+Menyiapkan mesin Java dan grafis...	\u0110ang chu\u1ea9n b\u1ecb Java v\u00e0 c\u00f4ng c\u1ee5 \u0111\u1ed3 h\u1ecda...
+Izin penyimpanan	Quy\u1ec1n truy c\u1eadp b\u1ed9 nh\u1edb
+NovaCraft menyimpan dunia, mod, dan pengaturan di folder aplikasi novacraft agar kompatibel penuh dengan Android 11+ tanpa memerlukan izin penyimpanan berlebih.	NovaCraft lưu thế giới, mod và cài đặt trong thư mục ứng dụng novacraft để tương thích hoàn toàn với Android 11+ mà không cần quyền bộ nhớ mở rộng.
+Android tidak lagi memerlukan izin akses semua file pada Android 11+. Gunakan Impor Addon atau pengelola file SAF jika ingin menambahkan mod eksternal.	Android 11+ không còn yêu cầu quyền truy cập tất cả tệp. Hãy dùng Nhập Addon hoặc trình chọn tệp hệ thống (SAF) để thêm mod bên ngoài.
+Semua data tersimpan aman di folder novacraft dan otomatis dipindahkan dari lokasi lama bila ada.	Mọi dữ liệu được lưu an toàn trong thư mục novacraft và tự động di chuyển từ vị trí cũ nếu có.
+Hapus instance?	X\u00f3a instance?
+Semua dunia, mod, savegame, dan konfigurasi di instance ini akan dihapus permanen dan tidak bisa dikembalikan.	T\u1ea5t c\u1ea3 th\u1ebf gi\u1edbi, mod, b\u1ea3n l\u01b0u v\u00e0 c\u1ea5u h\u00ecnh trong instance n\u00e0y s\u1ebd b\u1ecb x\u00f3a v\u0129nh vi\u1ec5n v\u00e0 kh\u00f4ng th\u1ec3 kh\u00f4i ph\u1ee5c.
+Perender tidak cocok	Tr\u00ecnh k\u1ebft xu\u1ea5t kh\u00f4ng t\u01b0\u01a1ng th\u00edch
+Tetap jalankan	V\u1eabn ch\u1ea1y
+Perender ini tidak didukung secara resmi untuk Minecraft {0}. Memaksakannya bisa membuat tampilan rusak, layar membeku, atau game crash. Lanjutkan?	Tr\u00ecnh k\u1ebft xu\u1ea5t n\u00e0y kh\u00f4ng \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3 ch\u00ednh th\u1ee9c cho Minecraft {0}. \u00c9p d\u00f9ng c\u00f3 th\u1ec3 g\u00e2y l\u1ed7i h\u00ecnh \u1ea3nh, \u0111\u00f3ng b\u0103ng m\u00e0n h\u00ecnh ho\u1eb7c game b\u1ecb crash. Ti\u1ebfp t\u1ee5c?
+Dukungan resmi: {0}	H\u1ed7 tr\u1ee3 ch\u00ednh th\u1ee9c: {0}
+Mengunduh game	\u0110ang t\u1ea3i game
+Menyiapkan file game...	\u0110ang chu\u1ea9n b\u1ecb t\u1ec7p game...
+# Pembaruan otomatis dan rekam layar (tambahan)
+Rekam layar	Quay m\u00e0n h\u00ecnh
+Merekam	\u0110ang quay
+Dijeda	T\u1ea1m d\u1eebng
+Ketuk untuk mulai	Ch\u1ea1m \u0111\u1ec3 b\u1eaft \u0111\u1ea7u
+Merekam layar	\u0110ang quay m\u00e0n h\u00ecnh
+Ketuk Berhenti untuk menyimpan rekaman.	Ch\u1ea1m D\u1eebng \u0111\u1ec3 l\u01b0u b\u1ea3n quay.
+Berhenti	D\u1eebng
+Merekam {0}x{1} \u00b7 {2} fps	\u0110ang quay {0}x{1} \u00b7 {2} fps
+Izin merekam layar tidak diberikan	Ch\u01b0a \u0111\u01b0\u1ee3c c\u1ea5p quy\u1ec1n quay m\u00e0n h\u00ecnh
+Izin mikrofon ditolak, merekam tanpa suara	Quy\u1ec1n micro b\u1ecb t\u1eeb ch\u1ed1i, quay kh\u00f4ng c\u00f3 \u00e2m thanh
+Perekam layar tidak tersedia di HP ini	\u0110i\u1ec7n tho\u1ea1i n\u00e0y kh\u00f4ng h\u1ed7 tr\u1ee3 quay m\u00e0n h\u00ecnh
+Perekam layar tidak tersedia di HP ini.	\u0110i\u1ec7n tho\u1ea1i n\u00e0y kh\u00f4ng h\u1ed7 tr\u1ee3 quay m\u00e0n h\u00ecnh.
+HP ini tidak punya encoder video perangkat keras. Rekaman dibatalkan supaya game tidak lag.	\u0110i\u1ec7n tho\u1ea1i n\u00e0y kh\u00f4ng c\u00f3 b\u1ed9 m\u00e3 h\u00f3a video ph\u1ea7n c\u1ee9ng. \u0110\u00e3 h\u1ee7y quay \u0111\u1ec3 tr\u00f2 ch\u01a1i kh\u00f4ng b\u1ecb gi\u1eadt.
+Ruang penyimpanan kurang untuk merekam.	Kh\u00f4ng \u0111\u1ee7 dung l\u01b0\u1ee3ng \u0111\u1ec3 quay.
+Ruang penyimpanan penuh. Rekaman disimpan dan dihentikan.	B\u1ed9 nh\u1edb \u0111\u00e3 \u0111\u1ea7y. B\u1ea3n quay \u0111\u00e3 \u0111\u01b0\u1ee3c l\u01b0u v\u00e0 d\u1eebng l\u1ea1i.
+Perekam mengalami kesalahan. Rekaman dihentikan.	Tr\u00ecnh quay g\u1eb7p l\u1ed7i. \u0110\u00e3 d\u1eebng quay.
+Tangkap layar dihentikan oleh sistem. Rekaman disimpan.	H\u1ec7 th\u1ed1ng \u0111\u00e3 d\u1eebng vi\u1ec7c ghi m\u00e0n h\u00ecnh. B\u1ea3n quay \u0111\u00e3 \u0111\u01b0\u1ee3c l\u01b0u.
+Rekaman terlalu singkat, tidak disimpan.	B\u1ea3n quay qu\u00e1 ng\u1eafn n\u00ean kh\u00f4ng \u0111\u01b0\u1ee3c l\u01b0u.
+Rekaman disimpan di Movies/NovaCraft	Đã lưu bản quay vào Movies/NovaCraft
+Rekaman disimpan: {0}	\u0110\u00e3 l\u01b0u b\u1ea3n quay: {0}
+HP terlalu panas. Rekaman disimpan dan dihentikan agar game tetap lancar.	\u0110i\u1ec7n tho\u1ea1i qu\u00e1 n\u00f3ng. B\u1ea3n quay \u0111\u00e3 \u0111\u01b0\u1ee3c l\u01b0u v\u00e0 d\u1eebng l\u1ea1i \u0111\u1ec3 tr\u00f2 ch\u01a1i v\u1eabn m\u01b0\u1ee3t.
+Gagal memulai rekaman: {~0}	Kh\u00f4ng th\u1ec3 b\u1eaft \u0111\u1ea7u quay: {0}
+Gagal menyiapkan rekaman: {0}	Kh\u00f4ng th\u1ec3 chu\u1ea9n b\u1ecb quay: {0}
+REKAM	QUAY
+Berhenti merekam	D\u1eebng quay
+Game saja	Ch\u1ec9 tr\u00f2 ch\u01a1i
+Dengan tombol	K\u00e8m n\u00fat
+Rekaman dijeda selama menu terbuka dan lanjut otomatis saat menu ditutup.	B\u1ea3n quay t\u1ea1m d\u1eebng khi menu m\u1edf v\u00e0 t\u1ef1 ti\u1ebfp t\u1ee5c khi menu \u0111\u00f3ng.
+Tombol layar ikut terekam di video.	C\u00e1c n\u00fat tr\u00ean m\u00e0n h\u00ecnh s\u1ebd xu\u1ea5t hi\u1ec7n trong video.
+Tombol layar disembunyikan dari video (tetap bisa disentuh).	C\u00e1c n\u00fat tr\u00ean m\u00e0n h\u00ecnh \u0111\u01b0\u1ee3c \u1ea9n kh\u1ecfi video (v\u1eabn b\u1ea5m \u0111\u01b0\u1ee3c).
+izin tangkap layar tidak valid	quy\u1ec1n ghi m\u00e0n h\u00ecnh kh\u00f4ng h\u1ee3p l\u1ec7
+tidak bisa membuat berkas di Movies	kh\u00f4ng th\u1ec3 t\u1ea1o t\u1ec7p trong Movies
+tidak bisa membuka berkas rekaman	kh\u00f4ng th\u1ec3 m\u1edf t\u1ec7p b\u1ea3n quay
+# --- home.tsv ---
+# Beranda dan sidebar
+Memproses berkas...	\u0110ang x\u1eed l\u00fd t\u1ec7p...
+Video dipasang sebagai latar. Suara dan ambient diatur di Pengaturan > Tampilan	\u0110\u00e3 \u0111\u1eb7t video l\u00e0m h\u00ecnh n\u1ec1n. \u00c2m thanh v\u00e0 \u00e1nh s\u00e1ng m\u00f4i tr\u01b0\u1eddng \u0111\u01b0\u1ee3c ch\u1ec9nh trong C\u00e0i \u0111\u1eb7t > Giao di\u1ec7n
+Latar belakang diganti	\u0110\u00e3 \u0111\u1ed5i h\u00ecnh n\u1ec1n
+Terlalu besar: foto atau GIF maksimal 30 MB, video maksimal 200 MB dan resolusi 2560 px	Qu\u00e1 l\u1edbn: \u1ea3nh ho\u1eb7c GIF t\u1ed1i \u0111a 30 MB, video t\u1ed1i \u0111a 200 MB v\u00e0 \u0111\u1ed9 ph\u00e2n gi\u1ea3i 2560 px
+Berkas tidak bisa dipakai. Pakai foto, GIF, atau video MP4 (H.264)	Kh\u00f4ng d\u00f9ng \u0111\u01b0\u1ee3c t\u1ec7p n\u00e0y. H\u00e3y d\u00f9ng \u1ea3nh, GIF ho\u1eb7c video MP4 (H.264)
+Silakan buat atau pilih akun terlebih dahulu!	H\u00e3y t\u1ea1o ho\u1eb7c ch\u1ecdn t\u00e0i kho\u1ea3n tr\u01b0\u1edbc!
+Menyiapkan OpenJDK ({0})...	\u0110ang chu\u1ea9n b\u1ecb OpenJDK ({0})...
+Instalasi selesai! Tekan PLAY untuk bermain.	C\u00e0i \u0111\u1eb7t xong! Nh\u1ea5n CH\u01a0I \u0111\u1ec3 b\u1eaft \u0111\u1ea7u.
+Gagal mengunduh: {~0}	T\u1ea3i xu\u1ed1ng th\u1ea5t b\u1ea1i: {0}
+Meluncurkan {0}...	\u0110ang kh\u1edfi ch\u1ea1y {0}...
+Gagal menyiapkan OpenJDK: {~0}	Kh\u00f4ng th\u1ec3 chu\u1ea9n b\u1ecb OpenJDK: {0}
+Membuka folder instance...	\u0110ang m\u1edf th\u01b0 m\u1ee5c instance...
+Latar belakang dikembalikan ke bawaan	\u0110\u00e3 kh\u00f4i ph\u1ee5c h\u00ecnh n\u1ec1n m\u1eb7c \u0111\u1ecbnh
+Instance {0} berhasil dibuat!	\u0110\u00e3 t\u1ea1o instance {0}!
+Instance {0} dibuat. Mengunduh game...	\u0110\u00e3 t\u1ea1o instance {0}. \u0110ang t\u1ea3i game...
+Unduhan dibatalkan. Tekan UNDUH untuk melanjutkan.	\u0110\u00e3 h\u1ee7y t\u1ea3i xu\u1ed1ng. Nh\u1ea5n T\u1ea2I XU\u1ed0NG \u0111\u1ec3 ti\u1ebfp t\u1ee5c.
+Instance {0} berhasil dihapus!	\u0110\u00e3 x\u00f3a instance {0}!
+Tambah akun	Th\u00eam t\u00e0i kho\u1ea3n
+Ganti akun	\u0110\u1ed5i t\u00e0i kho\u1ea3n
+Ganti latar belakang	\u0110\u1ed5i h\u00ecnh n\u1ec1n
+Ganti instance	\u0110\u1ed5i instance
+UNDUH	T\u1ea2I XU\u1ed0NG
+Buka folder instance	M\u1edf th\u01b0 m\u1ee5c instance
+Belum ada instance	Ch\u01b0a c\u00f3 instance n\u00e0o
+Buat instance Minecraft pertamamu untuk mulai bermain.	H\u00e3y t\u1ea1o instance Minecraft \u0111\u1ea7u ti\u00ean c\u1ee7a b\u1ea1n \u0111\u1ec3 b\u1eaft \u0111\u1ea7u ch\u01a1i.
+TAMBAH	TH\u00caM
+Video tidak bisa diputar di HP ini, latar memakai gambar diam	\u0110i\u1ec7n tho\u1ea1i n\u00e0y kh\u00f4ng ph\u00e1t \u0111\u01b0\u1ee3c video n\u00ean h\u00ecnh n\u1ec1n d\u00f9ng \u1ea3nh t\u0129nh
+LATAR BELAKANG	H\u00ccNH N\u1ec0N
+Foto paling ringan. GIF bergerak dengan ringan. Video paling halus dan bisa HD 60 fps (MP4 H.264, maksimal 200 MB), tapi memakai baterai lebih banyak. Suara video, ambient, dan hemat baterai diatur di Pengaturan > Tampilan.	\u1ea2nh nh\u1eb9 nh\u1ea5t. GIF chuy\u1ec3n \u0111\u1ed9ng v\u1edbi t\u1ea3i nh\u1eb9. Video m\u01b0\u1ee3t nh\u1ea5t v\u00e0 c\u00f3 th\u1ec3 l\u00e0 HD 60 fps (MP4 H.264, t\u1ed1i \u0111a 200 MB), nh\u01b0ng t\u1ed1n pin h\u01a1n. \u00c2m thanh video, \u00e1nh s\u00e1ng m\u00f4i tr\u01b0\u1eddng v\u00e0 ti\u1ebft ki\u1ec7m pin \u0111\u01b0\u1ee3c ch\u1ec9nh trong C\u00e0i \u0111\u1eb7t > Giao di\u1ec7n.
+PILIH FOTO / GIF / VIDEO	CH\u1eccN \u1ea2NH / GIF / VIDEO
+KEMBALI KE BAWAAN	KH\u00d4I PH\u1ee4C M\u1eb6C \u0110\u1ecaNH
+PILIH INSTANCE	CH\u1eccN INSTANCE
+Belum ada instance. Buat yang pertama di bawah.	Ch\u01b0a c\u00f3 instance n\u00e0o. H\u00e3y t\u1ea1o instance \u0111\u1ea7u ti\u00ean b\u00ean d\u01b0\u1edbi.
+TAMBAH INSTANCE	TH\u00caM INSTANCE
+# --- horizon.tsv ---
+# Mesin Rust (Horizon)
+Mesin Rust belum disertakan di build ini. Cara menambahkannya ada di docs/rust-engine.md.	Engine Rust ch\u01b0a \u0111\u01b0\u1ee3c \u0111\u01b0a v\u00e0o b\u1ea3n build n\u00e0y. C\u00e1ch th\u00eam: docs/rust-engine.md.
+Mesin Rust butuh Android 9 (API 28) ke atas.	Engine Rust y\u00eau c\u1ea7u Android 9 (API 28) tr\u1edf l\u00ean.
+Mesin Rust hanya tersedia untuk perangkat 64-bit (arm64-v8a).	Engine Rust ch\u1ec9 kh\u1ea3 d\u1ee5ng cho thi\u1ebft b\u1ecb 64-bit (arm64-v8a).
+RAM HP ini terbatas untuk mesin Rust (disarankan 4 GB ke atas). Game bisa tertutup sendiri.	RAM c\u1ee7a \u0111i\u1ec7n tho\u1ea1i n\u00e0y kh\u00e1 h\u1ea1n ch\u1ebf \u0111\u1ed1i v\u1edbi engine Rust (khuy\u1ebfn ngh\u1ecb t\u1eeb 4 GB tr\u1edf l\u00ean). Game c\u00f3 th\u1ec3 t\u1ef1 tho\u00e1t.
+Mesin Rust gagal dibuka: {0}	Kh\u00f4ng th\u1ec3 m\u1edf engine Rust: {0}
+MESIN RUST (HORIZON)	ENGINE RUST (HORIZON)
+Mesin Rust menggantikan seluruh client Java Minecraft: tanpa Java, tanpa mod Fabric, Forge, atau NeoForge.	Engine Rust thay th\u1ebf to\u00e0n b\u1ed9 client Java c\u1ee7a Minecraft: kh\u00f4ng c\u1ea7n Java v\u00e0 kh\u00f4ng d\u00f9ng mod Fabric, Forge hay NeoForge.
+Hanya mendukung Minecraft {0}. Sumber daya game (sekitar 500 MiB) diunduh mesinnya sendiri saat pertama dibuka.	Ch\u1ec9 h\u1ed7 tr\u1ee3 Minecraft {0}. Ch\u00ednh engine s\u1ebd t\u1ea3i t\u00e0i nguy\u00ean game (kho\u1ea3ng 500 MiB) \u1edf l\u1ea7n m\u1edf \u0111\u1ea7u ti\u00ean.
+Eksperimental: butuh Android 9 ke atas dan perangkat 64-bit (arm64-v8a).	Th\u1eed nghi\u1ec7m: y\u00eau c\u1ea7u Android 9 tr\u1edf l\u00ean v\u00e0 thi\u1ebft b\u1ecb 64-bit (arm64-v8a).
+Tanpa Java	Kh\u00f4ng d\u00f9ng Java
+# Shader dan Resource Pack untuk mesin Rust
+Jenis berkas ini belum didukung mesin Rust.	Lo\u1ea1i t\u1ec7p n\u00e0y ch\u01b0a \u0111\u01b0\u1ee3c engine Rust h\u1ed7 tr\u1ee3.
+Nama berkas tidak cocok untuk mesin Rust (terlalu panjang atau berisi karakter terlarang).	T\u00ean t\u1ec7p kh\u00f4ng ph\u00f9 h\u1ee3p v\u1edbi engine Rust (qu\u00e1 d\u00e0i ho\u1eb7c ch\u1ee9a k\u00fd t\u1ef1 b\u1ecb c\u1ea5m).
+Mesin Rust hanya menerima berkas .zip di sini.	Engine Rust ch\u1ec9 nh\u1eadn t\u1ec7p .zip \u1edf \u0111\u00e2y.
+Berkas lebih dari 256 MB, terlalu besar untuk mesin Rust.	T\u1ec7p l\u1edbn h\u01a1n 256 MB, qu\u00e1 l\u1edbn \u0111\u1ed1i v\u1edbi engine Rust.
+Arsip rusak atau tidak bisa dibaca.	T\u1ec7p n\u00e9n b\u1ecb h\u1ecfng ho\u1eb7c kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c.
+Arsip berisi terlalu banyak berkas.	T\u1ec7p n\u00e9n ch\u1ee9a qu\u00e1 nhi\u1ec1u t\u1ec7p.
+Arsip berisi path berbahaya atau ganda, jadi tidak dipasang.	T\u1ec7p n\u00e9n ch\u1ee9a \u0111\u01b0\u1eddng d\u1eabn kh\u00f4ng an to\u00e0n ho\u1eb7c tr\u00f9ng l\u1eb7p n\u00ean kh\u00f4ng \u0111\u01b0\u1ee3c c\u00e0i.
+Isi arsip terlalu besar setelah dibuka (lebih dari 512 MB).	T\u1ec7p n\u00e9n qu\u00e1 l\u1edbn sau khi gi\u1ea3i n\u00e9n (h\u01a1n 512 MB).
+Metadata resource pack (pack.mcmeta) tidak valid.	Si\u00eau d\u1eef li\u1ec7u resource pack (pack.mcmeta) kh\u00f4ng h\u1ee3p l\u1ec7.
+Berkas ini bukan resource pack: pack.mcmeta tidak ditemukan di dasar arsip.	T\u1ec7p n\u00e0y kh\u00f4ng ph\u1ea3i resource pack: kh\u00f4ng t\u00ecm th\u1ea5y pack.mcmeta \u1edf g\u1ed1c t\u1ec7p n\u00e9n.
+Berkas ini bukan shader pack: folder shaders tidak ditemukan di dasar arsip.	T\u1ec7p n\u00e0y kh\u00f4ng ph\u1ea3i shader pack: kh\u00f4ng t\u00ecm th\u1ea5y th\u01b0 m\u1ee5c shaders \u1edf g\u1ed1c t\u1ec7p n\u00e9n.
+Ini shader asli Horizon. Pasang dari sumber Horizon di layar Jelajah (format .hshader).	\u0110\u00e2y l\u00e0 shader g\u1ed1c c\u1ee7a Horizon. H\u00e3y c\u00e0i t\u1eeb ngu\u1ed3n Horizon tr\u00ean m\u00e0n h\u00ecnh Duy\u1ec7t (\u0111\u1ecbnh d\u1ea1ng .hshader).
+Tidak ada berkas .zip yang cocok di versi ini.	Kh\u00f4ng c\u00f3 t\u1ec7p .zip ph\u00f9 h\u1ee3p trong phi\u00ean b\u1ea3n n\u00e0y.
+Sumber tidak memberi sidik jari berkas, jadi unduhan tidak bisa diperiksa.	Ngu\u1ed3n kh\u00f4ng cung c\u1ea5p m\u00e3 ki\u1ec3m tra c\u1ee7a t\u1ec7p n\u00ean kh\u00f4ng th\u1ec3 x\u00e1c minh b\u1ea3n t\u1ea3i xu\u1ed1ng.
+Gagal menyimpan berkas ke folder mesin Rust.	Kh\u00f4ng th\u1ec3 l\u01b0u t\u1ec7p v\u00e0o th\u01b0 m\u1ee5c c\u1ee7a engine Rust.
+Pengaturan game belum dibuat. Buka game sekali, masuk ke Pengaturan dan ubah satu opsi, lalu coba lagi.	C\u00e0i \u0111\u1eb7t game ch\u01b0a \u0111\u01b0\u1ee3c t\u1ea1o. H\u00e3y m\u1edf game m\u1ed9t l\u1ea7n, v\u00e0o C\u00e0i \u0111\u1eb7t v\u00e0 \u0111\u1ed5i m\u1ed9t t\u00f9y ch\u1ecdn, r\u1ed3i th\u1eed l\u1ea1i.
+Gagal menyimpan pilihan ke pengaturan mesin.	Kh\u00f4ng th\u1ec3 l\u01b0u l\u1ef1a ch\u1ecdn v\u00e0o c\u00e0i \u0111\u1eb7t c\u1ee7a engine.
+Memeriksa {0}...	\u0110ang ki\u1ec3m tra {0}...
+Gagal membuka berkas yang dipilih	Kh\u00f4ng th\u1ec3 m\u1edf t\u1ec7p \u0111\u00e3 ch\u1ecdn
+Coba ubah kata kunci	H\u00e3y th\u1eed \u0111\u1ed5i t\u1eeb kh\u00f3a
+Mesin Rust: hidupkan saklar di daftar Terpasang untuk memakainya. Berlaku saat game dibuka lagi.	Engine Rust: b\u1eadt c\u00f4ng t\u1eafc trong danh s\u00e1ch \u0110\u00e3 c\u00e0i \u0111\u1ec3 d\u00f9ng. C\u00f3 hi\u1ec7u l\u1ef1c v\u00e0o l\u1ea7n m\u1edf game ti\u1ebfp theo.
+Shader di mesin Rust masih tahap uji dan bisa memberatkan HP.	Shader tr\u00ean engine Rust v\u1eabn \u0111ang th\u1eed nghi\u1ec7m v\u00e0 c\u00f3 th\u1ec3 l\u00e0m n\u1eb7ng \u0111i\u1ec7n tho\u1ea1i n\u00e0y.
+# Mod mesin Rust (.hmod), modul bawaan, dan katalog Horizon
+Mod mesin Rust berformat .hmod, bukan .jar Fabric atau Forge.	Mod c\u1ee7a engine Rust d\u00f9ng \u0111\u1ecbnh d\u1ea1ng .hmod, kh\u00f4ng ph\u1ea3i t\u1ec7p .jar c\u1ee7a Fabric hay Forge.
+Berkas mod lebih dari 32 MB, terlalu besar untuk mesin Rust.	T\u1ec7p mod l\u1edbn h\u01a1n 32 MB, qu\u00e1 l\u1edbn cho engine Rust.
+Isi mod terlalu besar setelah dibuka (lebih dari 64 MB).	Mod qu\u00e1 l\u1edbn sau khi gi\u1ea3i n\u00e9n (h\u01a1n 64 MB).
+Ini bukan mod Horizon: horizon-mod.toml tidak ada di dasar arsip.	\u0110\u00e2y kh\u00f4ng ph\u1ea3i mod Horizon: kh\u00f4ng t\u00ecm th\u1ea5y horizon-mod.toml \u1edf g\u1ed1c c\u1ee7a t\u1ec7p n\u00e9n.
+Manifest mod (horizon-mod.toml) tidak valid atau tidak didukung.	Manifest c\u1ee7a mod (horizon-mod.toml) kh\u00f4ng h\u1ee3p l\u1ec7 ho\u1eb7c kh\u00f4ng \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3.
+Mod ini tidak membawa kode (mod.wasm) dan bukan mod konten (kemampuan registries), jadi tidak bisa dipasang.	Mod n\u00e0y kh\u00f4ng c\u00f3 m\u00e3 (mod.wasm) v\u00e0 kh\u00f4ng ph\u1ea3i mod n\u1ed9i dung (quy\u1ec1n registries), n\u00ean kh\u00f4ng th\u1ec3 c\u00e0i \u0111\u1eb7t.
+Kode mod (mod.wasm) lebih dari 32 MB.	M\u00e3 c\u1ee7a mod (mod.wasm) l\u1edbn h\u01a1n 32 MB.
+Sudah ada mod berbentuk folder dengan id yang sama. Hapus yang lama dulu.	\u0110\u00e3 c\u00f3 m\u1ed9t mod d\u1ea1ng th\u01b0 m\u1ee5c v\u1edbi c\u00f9ng id. H\u00e3y x\u00f3a mod c\u0169 tr\u01b0\u1edbc.
+Gagal menyimpan pilihan mod ke pengaturan mesin.	Kh\u00f4ng th\u1ec3 l\u01b0u l\u1ef1a ch\u1ecdn mod v\u00e0o c\u00e0i \u0111\u1eb7t engine.
+Mod hanya bisa dihidupkan di APK 64-bit.	Ch\u1ec9 c\u00f3 th\u1ec3 b\u1eadt mod trong APK 64-bit.
+Mod tidak ditemukan atau manifest-nya tidak bisa dibaca.	Kh\u00f4ng t\u00ecm th\u1ea5y mod ho\u1eb7c kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c manifest c\u1ee7a n\u00f3.
+Tahan tombol Z untuk zoom; bisa diatur di Options > Mods dalam game	Gi\u1eef ph\u00edm Z \u0111\u1ec3 thu ph\u00f3ng; ch\u1ec9nh trong Options > Mods trong game
+Peta kecil yang bisa diatur di sudut layar	B\u1ea3n \u0111\u1ed3 nh\u1ecf c\u00f3 th\u1ec3 t\u00f9y ch\u1ec9nh \u1edf g\u00f3c m\u00e0n h\u00ecnh
+Resep dan kegunaan item di samping inventori	C\u00f4ng th\u1ee9c v\u00e0 c\u00f4ng d\u1ee5ng c\u1ee7a v\u1eadt ph\u1ea9m b\u00ean c\u1ea1nh t\u00fai \u0111\u1ed3
+Modul F3 yang bisa diatur untuk layar debug	C\u00e1c m\u00f4-\u0111un c\u00f3 th\u1ec3 t\u00f9y ch\u1ec9nh cho m\u00e0n h\u00ecnh debug F3
+Resep	C\u00f4ng th\u1ee9c
+Katalog Horizon tidak bisa dibaca. Coba lagi nanti.	Kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c danh m\u1ee5c Horizon. H\u00e3y th\u1eed l\u1ea1i sau.
+Katalog Horizon memakai format yang lebih baru. Perbarui NovaCraft.	Danh mục Horizon dùng định dạng mới hơn. Hãy cập nhật NovaCraft.
+Tidak ada berkas yang cocok di versi ini.	Kh\u00f4ng c\u00f3 t\u1ec7p ph\u00f9 h\u1ee3p trong phi\u00ean b\u1ea3n n\u00e0y.
+Katalog tidak memberi sidik jari SHA-256, jadi unduhan tidak bisa diperiksa.	Danh m\u1ee5c kh\u00f4ng cung c\u1ea5p m\u00e3 b\u0103m SHA-256 n\u00ean kh\u00f4ng th\u1ec3 ki\u1ec3m tra b\u1ea3n t\u1ea3i.
+Alamat unduhan tidak dikenali, jadi ditolak.	\u0110\u1ecba ch\u1ec9 t\u1ea3i xu\u1ed1ng kh\u00f4ng \u0111\u01b0\u1ee3c nh\u1eadn di\u1ec7n n\u00ean \u0111\u00e3 b\u1ecb t\u1eeb ch\u1ed1i.
+Ukuran berkas tidak sama dengan yang tertulis di katalog, jadi tidak dipasang.	K\u00edch th\u01b0\u1edbc t\u1ec7p kh\u00f4ng kh\u1edbp v\u1edbi danh m\u1ee5c n\u00ean kh\u00f4ng \u0111\u01b0\u1ee3c c\u00e0i.
+Memuat data dari Horizon...	\u0110ang t\u1ea3i d\u1eef li\u1ec7u t\u1eeb Horizon...
+Gagal memuat dari Horizon	Kh\u00f4ng t\u1ea3i \u0111\u01b0\u1ee3c t\u1eeb Horizon
+Mod mesin Rust berformat .hmod (bukan .jar Fabric atau Forge). Mod berkode dipasang dalam keadaan mati; hidupkan setelah memeriksa izinnya di Options > Mods dalam game.	Mod c\u1ee7a engine Rust d\u00f9ng \u0111\u1ecbnh d\u1ea1ng .hmod (kh\u00f4ng ph\u1ea3i t\u1ec7p .jar c\u1ee7a Fabric hay Forge). Mod c\u00f3 m\u00e3 \u0111\u01b0\u1ee3c c\u00e0i \u1edf tr\u1ea1ng th\u00e1i t\u1eaft; h\u00e3y b\u1eadt sau khi xem quy\u1ec1n c\u1ee7a ch\u00fang trong Options > Mods trong game.
+Konten	N\u1ed9i dung
+Berkode	C\u00f3 m\u00e3
+# Katalog Horizon untuk shader dan resource pack
+Ini bukan shader asli Horizon: horizon-shaders.toml tidak ditemukan di dasar arsip.	\u0110\u00e2y kh\u00f4ng ph\u1ea3i shader g\u1ed1c c\u1ee7a Horizon: kh\u00f4ng t\u00ecm th\u1ea5y horizon-shaders.toml \u1edf th\u01b0 m\u1ee5c g\u1ed1c c\u1ee7a t\u1ec7p n\u00e9n.
+Shader asli Horizon terlalu besar (berkas lebih dari 16 MB, isi lebih dari 8 MB, atau ada berkas yang terlalu besar).	Shader g\u1ed1c c\u1ee7a Horizon qu\u00e1 l\u1edbn (t\u1ec7p tr\u00ean 16 MB, n\u1ed9i dung tr\u00ean 8 MB, ho\u1eb7c c\u00f3 t\u1ec7p b\u00ean trong qu\u00e1 l\u1edbn).
+Sumber Horizon: shader asli mesin Rust (.hshader).	Ngu\u1ed3n Horizon: shader g\u1ed1c c\u1ee7a engine Rust (.hshader).
+Sumber Modrinth: shader klasik, kompatibilitas dengan mesin Rust masih terbatas.	Ngu\u1ed3n Modrinth: shader c\u1ed5 \u0111i\u1ec3n, kh\u1ea3 n\u0103ng t\u01b0\u01a1ng th\u00edch v\u1edbi engine Rust v\u1eabn c\u00f2n h\u1ea1n ch\u1ebf.
+Sumber Horizon: resource pack yang dibuat atau diuji untuk mesin Rust.	Ngu\u1ed3n Horizon: resource pack \u0111\u01b0\u1ee3c t\u1ea1o ho\u1eb7c th\u1eed nghi\u1ec7m cho engine Rust.
+Coba ubah kata kunci atau pindah ke sumber Modrinth	H\u00e3y th\u1eed \u0111\u1ed5i t\u1eeb kh\u00f3a ho\u1eb7c chuy\u1ec3n sang ngu\u1ed3n Modrinth
+# Panduan Mesin Rust (docs/rust-engine.md)
+Buka panduan (docs/rust-engine.md)	M\u1edf h\u01b0\u1edbng d\u1eabn (docs/rust-engine.md)
+Panduan Mesin Rust (docs/rust-engine.md)	H\u01b0\u1edbng d\u1eabn Engine Rust (docs/rust-engine.md)
+Panduan Mesin Rust (Horizon)	H\u01b0\u1edbng d\u1eabn Engine Rust (Horizon)
+Syarat perangkat 64-bit, cara membangun mesin, pengaturan Rust, mod .hmod, shader, dan pemecahan masalah.	Y\u00eau c\u1ea7u 64-bit, c\u00e1ch build engine, c\u00e0i \u0111\u1eb7t Rust, mod .hmod, shader v\u00e0 x\u1eed l\u00fd s\u1ef1 c\u1ed1.
+Buka	M\u1edf
+Buka di GitHub	M\u1edf tr\u00ean GitHub
+Memuat panduan...	\u0110ang t\u1ea3i h\u01b0\u1edbng d\u1eabn...
+Gagal membaca berkas panduan.	Kh\u00f4ng th\u1ec3 \u0111\u1ecdc t\u1ec7p h\u01b0\u1edbng d\u1eabn.
+Kamu tetap dapat membuka docs/rust-engine.md langsung melalui halaman GitHub proyek.	B\u1ea1n v\u1eabn c\u00f3 th\u1ec3 m\u1edf docs/rust-engine.md tr\u1ef1c ti\u1ebfp tr\u00ean trang GitHub c\u1ee7a d\u1ef1 \u00e1n.
+Disalin ke papan klip	\u0110\u00e3 sao ch\u00e9p v\u00e0o khay nh\u1edb t\u1ea1m
+Tidak dapat membuka tautan	Kh\u00f4ng th\u1ec3 m\u1edf li\u00ean k\u1ebft
+Versi aktif real-time Horizon: Minecraft {0} (otomatis diperbarui). Sumber daya game (~500 MiB) diunduh mesin saat pertama dibuka.	Phiên bản Horizon thời gian thực: Minecraft {0} (tự động cập nhật). Tài nguyên game (~500 MiB) sẽ được engine tải ở lần mở đầu tiên.
+Mod Horizon eksternal harus berformat .hmod.	Mod Horizon bên ngoài phải có định dạng .hmod.
+Shader Horizon harus berformat .hshader atau .zip.	Shader Horizon phải có định dạng .hshader hoặc .zip.
+Resource pack Horizon harus berformat .zip.	Resource pack Horizon phải có định dạng .zip.
+Berkas .hmod / .hshader hanya untuk instance mesin Rust (Horizon).	Tệp .hmod / .hshader chỉ dùng cho instance engine Rust (Horizon).
+# --- instances.tsv ---
+# Tambah/Ubah instance, unduhan, Java
+Semua	T\u1ea5t c\u1ea3
+Buat Instance Baru	T\u1ea1o instance m\u1edbi
+NAMA INSTANCE	T\u00caN INSTANCE
+Memuat loader Fabric...	\u0110ang t\u1ea3i Fabric loader...
+\u26a0\ufe0f Fabric belum tersedia untuk {0}	\u26a0\ufe0f Fabric ch\u01b0a kh\u1ea3 d\u1ee5ng cho {0}
+SPESIFIKASI TARGET	TH\u00d4NG S\u1ed0 M\u1ee4C TI\u00caU
+Memuat Fabric...	\u0110ang t\u1ea3i Fabric...
+Fabric Tidak Tersedia	Fabric kh\u00f4ng kh\u1ea3 d\u1ee5ng
+Buat Instance Sekarang	T\u1ea1o instance ngay
+Cari versi ({0})...	T\u00ecm phi\u00ean b\u1ea3n ({0})...
+DAFTAR VERSI	DANH S\u00c1CH PHI\u00caN B\u1ea2N
+{0} versi ditemukan	T\u00ecm th\u1ea5y {0} phi\u00ean b\u1ea3n
+Memuat manifest Mojang...	\u0110ang t\u1ea3i manifest c\u1ee7a Mojang...
+Tidak ada versi yang cocok	Kh\u00f4ng c\u00f3 phi\u00ean b\u1ea3n ph\u00f9 h\u1ee3p
+Nama	T\u00ean
+Nama instance	T\u00ean instance
+Lihat mod	Xem mod
+{0} terpasang	\u0110\u00e3 c\u00e0i {0}
+Hapus '{0}'?	X\u00f3a '{0}'?
+Semua world, mod, dan file instance dihapus permanen.	T\u1ea5t c\u1ea3 th\u1ebf gi\u1edbi, mod v\u00e0 t\u1ec7p c\u1ee7a instance s\u1ebd b\u1ecb x\u00f3a v\u0129nh vi\u1ec5n.
+Ya, hapus	C\u00f3, x\u00f3a
+Nama instance tidak boleh kosong	T\u00ean instance kh\u00f4ng \u0111\u01b0\u1ee3c \u0111\u1ec3 tr\u1ed1ng
+Instance berhasil diperbarui!	\u0110\u00e3 c\u1eadp nh\u1eadt instance!
+Simpan	L\u01b0u
+Mengambil metadata versi {0}...	\u0110ang l\u1ea5y si\u00eau d\u1eef li\u1ec7u c\u1ee7a phi\u00ean b\u1ea3n {0}...
+Versi {0} tidak ditemukan di manifest Mojang	Kh\u00f4ng t\u00ecm th\u1ea5y phi\u00ean b\u1ea3n {0} trong manifest c\u1ee7a Mojang
+Membaca konfigurasi versi...	\u0110ang \u0111\u1ecdc c\u1ea5u h\u00ecnh phi\u00ean b\u1ea3n...
+Mengunduh client Minecraft ({0} / {1} MB - {2}%)...	\u0110ang t\u1ea3i client Minecraft ({0} / {1} MB - {2}%)...
+Mengunduh libraries ({0}/{1})...	\u0110ang t\u1ea3i th\u01b0 vi\u1ec7n ({0}/{1})...
+Memverifikasi asset index {0}...	\u0110ang x\u00e1c minh asset index {0}...
+Mengunduh aset game ({0}/{1})...	\u0110ang t\u1ea3i t\u00e0i nguy\u00ean game ({0}/{1})...
+Menyiapkan Fabric Loader...	\u0110ang chu\u1ea9n b\u1ecb Fabric Loader...
+Tidak dapat menemukan Fabric loader untuk versi {0}	Kh\u00f4ng t\u00ecm th\u1ea5y Fabric loader cho phi\u00ean b\u1ea3n {0}
+Mengambil profil Fabric ({0})...	\u0110ang l\u1ea5y h\u1ed3 s\u01a1 Fabric ({0})...
+Gagal memuat profil Fabric: {~0}	Kh\u00f4ng th\u1ec3 t\u1ea3i h\u1ed3 s\u01a1 Fabric: {0}
+Mengunduh library Fabric ({0}/{1})...	\u0110ang t\u1ea3i th\u01b0 vi\u1ec7n Fabric ({0}/{1})...
+Instalasi selesai!	C\u00e0i \u0111\u1eb7t xong!
+Alamat unduhan ditolak karena tidak memakai HTTPS: {0}	\u0110\u1ecba ch\u1ec9 t\u1ea3i xu\u1ed1ng b\u1ecb t\u1eeb ch\u1ed1i v\u00ec kh\u00f4ng d\u00f9ng HTTPS: {0}
+Isi unduhan tidak cocok dengan sidik jari resmi: {0}	N\u1ed9i dung t\u1ea3i xu\u1ed1ng kh\u00f4ng kh\u1edbp v\u1edbi m\u00e3 b\u0103m (hash) ch\u00ednh th\u1ee9c: {0}
+Tidak dapat memuat versi Fabric untuk {0}	Kh\u00f4ng th\u1ec3 t\u1ea3i c\u00e1c phi\u00ean b\u1ea3n Fabric cho {0}
+Gagal memuat profil Fabric untuk {0} ({1})	Kh\u00f4ng th\u1ec3 t\u1ea3i h\u1ed3 s\u01a1 Fabric cho {0} ({1})
+Mengekstrak Java Runtime ({0} universal)...	\u0110ang gi\u1ea3i n\u00e9n Java Runtime ({0} universal)...
+Mengekstrak runtime universal ({0})	\u0110ang gi\u1ea3i n\u00e9n runtime universal ({0})
+Mengekstrak Java Runtime ({0} bin-{1})...	\u0110ang gi\u1ea3i n\u00e9n Java Runtime ({0} bin-{1})...
+Mengekstrak native binary ({0} {1})	\u0110ang gi\u1ea3i n\u00e9n t\u1ec7p nh\u1ecb ph\u00e2n g\u1ed1c ({0} {1})
+Memverifikasi izin sistem OpenJDK...	\u0110ang x\u00e1c minh quy\u1ec1n h\u1ec7 th\u1ed1ng c\u1ee7a OpenJDK...
+Verifikasi OpenJDK {0} tidak lengkap setelah ekstraksi.	Vi\u1ec7c x\u00e1c minh OpenJDK {0} ch\u01b0a \u0111\u1ea7y \u0111\u1ee7 sau khi gi\u1ea3i n\u00e9n.
+Ekstraksi OpenJDK {0} selesai!	\u0110\u00e3 gi\u1ea3i n\u00e9n xong OpenJDK {0}!
+Membongkar bytecode Java 8: {0} ({1}/{2})...	\u0110ang gi\u1ea3i n\u00e9n bytecode Java 8: {0} ({1}/{2})...
+Profil Fabric ({0}) belum terpasang. Silakan tekan tombol UNDUH pada instance!	H\u1ed3 s\u01a1 Fabric ({0}) ch\u01b0a \u0111\u01b0\u1ee3c c\u00e0i. H\u00e3y nh\u1ea5n n\u00fat T\u1ea2I XU\u1ed0NG tr\u00ean instance!
+Lokasi folder disalin ke clipboard:\n{0}	\u0110\u00e3 sao ch\u00e9p v\u1ecb tr\u00ed th\u01b0 m\u1ee5c v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m:\n{0}
+Buka Folder	M\u1edf th\u01b0 m\u1ee5c
+INSTANCE ARCHITECT	TR\u00ccNH T\u1ea0O INSTANCE
+Default: {0} {1}	M\u1eb7c \u0111\u1ecbnh: {0} {1}
+MOD LOADER ENGINE	TR\u00ccNH N\u1ea0P MOD
+Auto ({0})	T\u1ef1 \u0111\u1ed9ng ({0})
+Failed to download {0}: {1}	Kh\u00f4ng th\u1ec3 t\u1ea3i {0}: {1}
+Failed to download {0}	Kh\u00f4ng th\u1ec3 t\u1ea3i {0}
+Empty body for {0}	Ph\u1ea3n h\u1ed3i tr\u1ed1ng cho {0}
+HTTP Error {0} from {1}	L\u1ed7i HTTP {0} t\u1eeb {1}
+HTTP Error {0}	L\u1ed7i HTTP {0}
+Empty response body	Ph\u1ea3n h\u1ed3i tr\u1ed1ng
+Folder: {0}	Th\u01b0 m\u1ee5c: {0}
+Unable to resolve host "{0}": System DNS and Fallback DoH failed	Kh\u00f4ng th\u1ec3 ph\u00e2n gi\u1ea3i m\u00e1y ch\u1ee7 "{0}": DNS h\u1ec7 th\u1ed1ng v\u00e0 DoH d\u1ef1 ph\u00f2ng \u0111\u1ec1u th\u1ea5t b\u1ea1i
+Memuat versi Forge...	\u0110ang t\u1ea3i c\u00e1c phi\u00ean b\u1ea3n Forge...
+\u26a0\ufe0f Forge belum tersedia untuk {0}	\u26a0\ufe0f Forge ch\u01b0a kh\u1ea3 d\u1ee5ng cho {0}
+\u26a0\ufe0f Forge hanya untuk Minecraft 1.13 ke atas	\u26a0\ufe0f Forge ch\u1ec9 d\u00e0nh cho Minecraft 1.13 tr\u1edf l\u00ean
+Disarankan	Khuy\u00ean d\u00f9ng
+Terbaru	M\u1edbi nh\u1ea5t
+Memuat Forge...	\u0110ang t\u1ea3i Forge...
+Forge Tidak Tersedia	Forge kh\u00f4ng kh\u1ea3 d\u1ee5ng
+Profil Forge ({0}) belum terpasang. Silakan tekan tombol UNDUH pada instance!	H\u1ed3 s\u01a1 Forge ({0}) ch\u01b0a \u0111\u01b0\u1ee3c c\u00e0i. H\u00e3y nh\u1ea5n n\u00fat T\u1ea2I XU\u1ed0NG tr\u00ean instance!
+Mengunduh installer Forge {0}...	\u0110ang t\u1ea3i tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge {0}...
+Mengunduh library Forge ({0}/{1})...	\u0110ang t\u1ea3i th\u01b0 vi\u1ec7n Forge ({0}/{1})...
+Menyiapkan Java ({0})...	\u0110ang chu\u1ea9n b\u1ecb Java ({0})...
+Memasang Forge {0}...	\u0110ang c\u00e0i \u0111\u1eb7t Forge {0}...
+Memasang Forge {0} ({1}/{2})...	\u0110ang c\u00e0i \u0111\u1eb7t Forge {0} ({1}/{2})...
+Forge {0} terpasang	\u0110\u00e3 c\u00e0i \u0111\u1eb7t Forge {0}
+Tidak dapat menemukan Forge untuk versi {0}	Kh\u00f4ng t\u00ecm th\u1ea5y Forge cho phi\u00ean b\u1ea3n {0}
+Tidak ada versi Forge untuk {0}	Kh\u00f4ng c\u00f3 phi\u00ean b\u1ea3n Forge cho {0}
+Versi Forge belum dipilih	Ch\u01b0a ch\u1ecdn phi\u00ean b\u1ea3n Forge
+Forge hanya mendukung Minecraft 1.13 ke atas	Forge ch\u1ec9 h\u1ed7 tr\u1ee3 Minecraft 1.13 tr\u1edf l\u00ean
+Installer Forge {0} rusak atau tidak lengkap	Tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge {0} b\u1ecb h\u1ecfng ho\u1eb7c kh\u00f4ng \u0111\u1ea7y \u0111\u1ee7
+Format installer Forge ini tidak dikenali (Amber butuh Forge 1.13 ke atas)	Kh\u00f4ng nh\u1eadn d\u1ea1ng \u0111\u01b0\u1ee3c \u0111\u1ecbnh d\u1ea1ng tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge n\u00e0y (Amber c\u1ea7n Forge 1.13 tr\u1edf l\u00ean)
+Installer Forge untuk Minecraft {0}, bukan {1}	Tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge n\u00e0y d\u00e0nh cho Minecraft {0}, kh\u00f4ng ph\u1ea3i {1}
+Gagal mengunduh library Forge: {0}. Periksa koneksi lalu coba lagi.	Kh\u00f4ng t\u1ea3i \u0111\u01b0\u1ee3c th\u01b0 vi\u1ec7n Forge: {0}. H\u00e3y ki\u1ec3m tra k\u1ebft n\u1ed1i r\u1ed3i th\u1eed l\u1ea1i.
+Installer Forge selesai tetapi jar Minecraft hasil tambalan tidak ditemukan ({0})	Tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge \u0111\u00e3 ch\u1ea1y xong nh\u01b0ng kh\u00f4ng t\u00ecm th\u1ea5y jar Minecraft \u0111\u00e3 v\u00e1 ({0})
+Gagal menyiapkan Java {0}: {1}	Kh\u00f4ng chu\u1ea9n b\u1ecb \u0111\u01b0\u1ee3c Java {0}: {1}
+Installer Forge gagal (kode {0}): {1}	Tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge th\u1ea5t b\u1ea1i (m\u00e3 {0}): {1}
+Installer Forge gagal (kode {0})	Tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge th\u1ea5t b\u1ea1i (m\u00e3 {0})
+Mojang tidak menyediakan mappings untuk Minecraft {0}	Mojang kh\u00f4ng cung c\u1ea5p mappings cho Minecraft {0}
+Pemasangan Forge	C\u00e0i \u0111\u1eb7t Forge
+Memasang Forge	\u0110ang c\u00e0i \u0111\u1eb7t Forge
+Proses ini hanya berjalan sekali per versi Forge.	Qu\u00e1 tr\u00ecnh n\u00e0y ch\u1ec9 ch\u1ea1y m\u1ed9t l\u1ea7n cho m\u1ed7i phi\u00ean b\u1ea3n Forge.
+Forge dipasang sekali saat instance diunduh pertama kali.	Forge ch\u1ec9 \u0111\u01b0\u1ee3c c\u00e0i m\u1ed9t l\u1ea7n, khi instance \u0111\u01b0\u1ee3c t\u1ea3i xu\u1ed1ng l\u1ea7n \u0111\u1ea7u.
+Ruang penyimpanan tidak cukup untuk memasang Forge (tersisa {0} MB, butuh minimal {1} MB)	Kh\u00f4ng \u0111\u1ee7 dung l\u01b0\u1ee3ng \u0111\u1ec3 c\u00e0i Forge (c\u00f2n {0} MB, c\u1ea7n \u00edt nh\u1ea5t {1} MB)
+Memuat versi NeoForge...	\u0110ang t\u1ea3i c\u00e1c phi\u00ean b\u1ea3n NeoForge...
+\u26a0\ufe0f NeoForge belum tersedia untuk {0}	\u26a0\ufe0f NeoForge ch\u01b0a kh\u1ea3 d\u1ee5ng cho {0}
+\u26a0\ufe0f NeoForge hanya untuk Minecraft 1.20.2 ke atas	\u26a0\ufe0f NeoForge ch\u1ec9 d\u00e0nh cho Minecraft 1.20.2 tr\u1edf l\u00ean
+Memuat NeoForge...	\u0110ang t\u1ea3i NeoForge...
+NeoForge Tidak Tersedia	NeoForge kh\u00f4ng kh\u1ea3 d\u1ee5ng
+Profil NeoForge ({0}) belum terpasang. Silakan tekan tombol UNDUH pada instance!	H\u1ed3 s\u01a1 NeoForge ({0}) ch\u01b0a \u0111\u01b0\u1ee3c c\u00e0i. H\u00e3y nh\u1ea5n n\u00fat T\u1ea2I XU\u1ed0NG tr\u00ean instance!
+Mengunduh installer NeoForge {0}...	\u0110ang t\u1ea3i tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge {0}...
+Mengunduh library NeoForge ({0}/{1})...	\u0110ang t\u1ea3i th\u01b0 vi\u1ec7n NeoForge ({0}/{1})...
+Memasang NeoForge {0}...	\u0110ang c\u00e0i \u0111\u1eb7t NeoForge {0}...
+Memasang NeoForge {0} ({1}/{2})...	\u0110ang c\u00e0i \u0111\u1eb7t NeoForge {0} ({1}/{2})...
+NeoForge {0} terpasang	\u0110\u00e3 c\u00e0i \u0111\u1eb7t NeoForge {0}
+Tidak dapat menemukan NeoForge untuk versi {0}	Kh\u00f4ng t\u00ecm th\u1ea5y NeoForge cho phi\u00ean b\u1ea3n {0}
+Tidak ada versi NeoForge untuk {0}	Kh\u00f4ng c\u00f3 phi\u00ean b\u1ea3n NeoForge cho {0}
+Versi NeoForge belum dipilih	Ch\u01b0a ch\u1ecdn phi\u00ean b\u1ea3n NeoForge
+NeoForge hanya mendukung Minecraft 1.20.2 ke atas	NeoForge ch\u1ec9 h\u1ed7 tr\u1ee3 Minecraft 1.20.2 tr\u1edf l\u00ean
+Installer NeoForge {0} rusak atau tidak lengkap	Tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge {0} b\u1ecb h\u1ecfng ho\u1eb7c kh\u00f4ng \u0111\u1ea7y \u0111\u1ee7
+Format installer NeoForge ini tidak dikenali (Amber butuh NeoForge 1.20.2 ke atas)	Kh\u00f4ng nh\u1eadn d\u1ea1ng \u0111\u01b0\u1ee3c \u0111\u1ecbnh d\u1ea1ng tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge n\u00e0y (Amber c\u1ea7n NeoForge 1.20.2 tr\u1edf l\u00ean)
+Installer NeoForge untuk Minecraft {0}, bukan {1}	Tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge n\u00e0y d\u00e0nh cho Minecraft {0}, kh\u00f4ng ph\u1ea3i {1}
+Gagal mengunduh library NeoForge: {0}. Periksa koneksi lalu coba lagi.	Kh\u00f4ng t\u1ea3i \u0111\u01b0\u1ee3c th\u01b0 vi\u1ec7n NeoForge: {0}. H\u00e3y ki\u1ec3m tra k\u1ebft n\u1ed1i r\u1ed3i th\u1eed l\u1ea1i.
+Installer NeoForge selesai tetapi jar Minecraft hasil tambalan tidak ditemukan ({0})	Tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge \u0111\u00e3 ch\u1ea1y xong nh\u01b0ng kh\u00f4ng t\u00ecm th\u1ea5y jar Minecraft \u0111\u00e3 v\u00e1 ({0})
+Installer NeoForge gagal (kode {0}): {1}	Tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge th\u1ea5t b\u1ea1i (m\u00e3 {0}): {1}
+Installer NeoForge gagal (kode {0})	Tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge th\u1ea5t b\u1ea1i (m\u00e3 {0})
+Memasang NeoForge	\u0110ang c\u00e0i \u0111\u1eb7t NeoForge
+Proses ini hanya berjalan sekali per versi NeoForge.	Qu\u00e1 tr\u00ecnh n\u00e0y ch\u1ec9 ch\u1ea1y m\u1ed9t l\u1ea7n cho m\u1ed7i phi\u00ean b\u1ea3n NeoForge.
+NeoForge dipasang sekali saat instance diunduh pertama kali.	NeoForge ch\u1ec9 \u0111\u01b0\u1ee3c c\u00e0i m\u1ed9t l\u1ea7n, khi instance \u0111\u01b0\u1ee3c t\u1ea3i xu\u1ed1ng l\u1ea7n \u0111\u1ea7u.
+Ruang penyimpanan tidak cukup untuk memasang NeoForge (tersisa {0} MB, butuh minimal {1} MB)	Kh\u00f4ng \u0111\u1ee7 dung l\u01b0\u1ee3ng \u0111\u1ec3 c\u00e0i NeoForge (c\u00f2n {0} MB, c\u1ea7n \u00edt nh\u1ea5t {1} MB)
+Buat Instance	T\u1ea1o instance
+Cari versi...	T\u00ecm phi\u00ean b\u1ea3n...
+Memuat versi Minecraft...	\u0110ang t\u1ea3i c\u00e1c phi\u00ean b\u1ea3n Minecraft...
+Memuat versi yang didukung {0}...	\u0110ang t\u1ea3i c\u00e1c phi\u00ean b\u1ea3n \u0111\u01b0\u1ee3c {0} h\u1ed7 tr\u1ee3...
+Gagal memuat daftar versi Minecraft	Kh\u00f4ng t\u1ea3i \u0111\u01b0\u1ee3c danh s\u00e1ch phi\u00ean b\u1ea3n Minecraft
+Dirilis {0}	Ph\u00e1t h\u00e0nh {0}
+LOADER {0}	LOADER {0}
+Memuat loader {0}...	\u0110ang t\u1ea3i loader {0}...
+Loader {0} belum tersedia untuk Minecraft {1}	Loader {0} ch\u01b0a c\u00f3 cho Minecraft {1}
+Versi terbaru dipilih otomatis. Ketuk versi lain bila butuh loader yang lebih lama.	Phi\u00ean b\u1ea3n m\u1edbi nh\u1ea5t \u0111\u01b0\u1ee3c ch\u1ecdn t\u1ef1 \u0111\u1ed9ng. Ch\u1ea1m v\u00e0o phi\u00ean b\u1ea3n kh\u00e1c n\u1ebfu b\u1ea1n c\u1ea7n loader c\u0169 h\u01a1n.
+# --- minecraft26.tsv ---
+# Buat Instance: peringatan Minecraft 26.x ke atas dan pengecekan Vulkan HP
+MINECRAFT 26.X KE ATAS	MINECRAFT 26.X TR\u1ede L\u00caN
+Versi ini memakai Java 25 dan mesin grafis baru. Belum semua HP bisa menjalankannya, terutama yang driver Vulkan-nya lama atau kurang lengkap.	Phi\u00ean b\u1ea3n n\u00e0y d\u00f9ng Java 25 v\u00e0 c\u00f4ng c\u1ee5 \u0111\u1ed3 h\u1ecda m\u1edbi. Kh\u00f4ng ph\u1ea3i \u0111i\u1ec7n tho\u1ea1i n\u00e0o c\u0169ng ch\u1ea1y \u0111\u01b0\u1ee3c, nh\u1ea5t l\u00e0 m\u00e1y c\u00f3 tr\u00ecnh \u0111i\u1ec1u khi\u1ec3n Vulkan c\u0169 ho\u1eb7c thi\u1ebfu.
+Kalau game gagal dibuka, bisa jadi penyebabnya HP atau versi game ini, bukan launchernya. Coba ganti renderer di Pengaturan, atau pakai Minecraft 1.21.x.	N\u1ebfu game kh\u00f4ng m\u1edf \u0111\u01b0\u1ee3c, nguy\u00ean nh\u00e2n c\u00f3 th\u1ec3 l\u00e0 \u0111i\u1ec7n tho\u1ea1i ho\u1eb7c phi\u00ean b\u1ea3n game n\u00e0y, kh\u00f4ng ph\u1ea3i launcher. H\u00e3y th\u1eed tr\u00ecnh k\u1ebft xu\u1ea5t kh\u00e1c trong C\u00e0i \u0111\u1eb7t, ho\u1eb7c d\u00f9ng Minecraft 1.21.x.
+Memeriksa dukungan Vulkan HP ini...	\u0110ang ki\u1ec3m tra h\u1ed7 tr\u1ee3 Vulkan c\u1ee7a \u0111i\u1ec7n tho\u1ea1i n\u00e0y...
+Versi ini memakai OpenGL. Vulkan baru dipakai mulai Minecraft 26.2.	Phi\u00ean b\u1ea3n n\u00e0y d\u00f9ng OpenGL. Vulkan ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng t\u1eeb Minecraft 26.2.
+Pengecekan Vulkan tidak tersedia di build ini, jadi dukungan Vulkan HP belum bisa dipastikan.	B\u1ea3n build n\u00e0y kh\u00f4ng c\u00f3 c\u00f4ng c\u1ee5 ki\u1ec3m tra Vulkan n\u00ean ch\u01b0a th\u1ec3 x\u00e1c nh\u1eadn \u0111i\u1ec7n tho\u1ea1i c\u00f3 h\u1ed7 tr\u1ee3 Vulkan hay kh\u00f4ng.
+Pengecekan Vulkan tidak selesai. Driver Vulkan HP ini mungkin bermasalah, jadi Minecraft 26.2 ke atas berisiko gagal bila memakai Vulkan.	Vi\u1ec7c ki\u1ec3m tra Vulkan kh\u00f4ng ho\u00e0n t\u1ea5t. Tr\u00ecnh \u0111i\u1ec1u khi\u1ec3n Vulkan c\u1ee7a \u0111i\u1ec7n tho\u1ea1i n\u00e0y c\u00f3 th\u1ec3 g\u1eb7p v\u1ea5n \u0111\u1ec1, n\u00ean Minecraft 26.2 tr\u1edf l\u00ean c\u00f3 nguy c\u01a1 l\u1ed7i n\u1ebfu d\u00f9ng Vulkan.
+HP ini tidak punya driver Vulkan yang bisa dipakai. Minecraft 26.2 ke atas tidak bisa memakai Vulkan di sini; pilih Prefer OpenGL di pengaturan video game.	\u0110i\u1ec7n tho\u1ea1i n\u00e0y kh\u00f4ng c\u00f3 tr\u00ecnh \u0111i\u1ec1u khi\u1ec3n Vulkan d\u00f9ng \u0111\u01b0\u1ee3c. Minecraft 26.2 tr\u1edf l\u00ean kh\u00f4ng th\u1ec3 d\u00f9ng Vulkan \u1edf \u0111\u00e2y; h\u00e3y ch\u1ecdn Prefer OpenGL trong c\u00e0i \u0111\u1eb7t video c\u1ee7a game.
+Vulkan HP ini memenuhi syarat Minecraft 26.2 ke atas.	Vulkan c\u1ee7a \u0111i\u1ec7n tho\u1ea1i n\u00e0y \u0111\u00e1p \u1ee9ng y\u00eau c\u1ea7u c\u1ee7a Minecraft 26.2 tr\u1edf l\u00ean.
+Vulkan HP ini belum memenuhi syarat Minecraft 26.2 ke atas. Bila game memakai Vulkan, bisa gagal dimulai; pilih Prefer OpenGL di pengaturan video game.	Vulkan c\u1ee7a \u0111i\u1ec7n tho\u1ea1i n\u00e0y ch\u01b0a \u0111\u00e1p \u1ee9ng y\u00eau c\u1ea7u c\u1ee7a Minecraft 26.2 tr\u1edf l\u00ean. N\u1ebfu game d\u00f9ng Vulkan, game c\u00f3 th\u1ec3 kh\u00f4ng kh\u1edfi \u0111\u1ed9ng \u0111\u01b0\u1ee3c; h\u00e3y ch\u1ecdn Prefer OpenGL trong c\u00e0i \u0111\u1eb7t video c\u1ee7a game.
+# --- misc.tsv ---
+# Sisa teks: Home, kategori mod, pesan galat, toast in-game
+RAM bebas {0} GB	RAM tr\u1ed1ng {0} GB
+Otomatis	T\u1ef1 \u0111\u1ed9ng
+\u26a1 Optimization	\u26a1 T\u1ed1i \u01b0u h\u00f3a
+\u2699\ufe0f Technology	\u2699\ufe0f C\u00f4ng ngh\u1ec7
+\ud83e\ude84 Magic	\ud83e\ude84 Ph\u00e9p thu\u1eadt
+\ud83d\uddfa\ufe0f Adventure	\ud83d\uddfa\ufe0f Phi\u00eau l\u01b0u
+\ud83d\udee0\ufe0f Utility	\ud83d\udee0\ufe0f Ti\u1ec7n \u00edch
+\ud83c\udfa8 Decoration	\ud83c\udfa8 Trang tr\u00ed
+\ud83d\udcdc Quests	\ud83d\udcdc Nhi\u1ec7m v\u1ee5
+\u2728 Simplistic	\u2728 \u0110\u01a1n gi\u1ea3n
+\ud83c\udfdb\ufe0f Traditional	\ud83c\udfdb\ufe0f Truy\u1ec1n th\u1ed1ng
+\ud83c\udff0 Medieval	\ud83c\udff0 Trung c\u1ed5
+\ud83c\udf05 Realistic	\ud83c\udf05 Ch\u00e2n th\u1ef1c
+\ud83c\udfa8 Stylized	\ud83c\udfa8 C\u00e1ch \u0111i\u1ec7u
+\ud83d\udd2e Fantasy	\ud83d\udd2e Huy\u1ec1n \u1ea3o
+\ud83c\udf0d Worldgen	\ud83c\udf0d T\u1ea1o th\u1ebf gi\u1edbi
+Resource Pack (.zip)	G\u00f3i t\u00e0i nguy\u00ean (.zip)
+MOD LOADER	TR\u00ccNH N\u1ea0P MOD
+Lokal	C\u1ee5c b\u1ed9
+Mengunduh {0}...	\u0110ang t\u1ea3i {0}...
+Mengekstrak	\u0110ang gi\u1ea3i n\u00e9n
+{~0}: {1} ({2} file)	{0}: {1} ({2} t\u1ec7p)
+Snapdragon 6s 4G Gen 1, Adreno 610, RAM 4 GB, layar 90 Hz	Snapdragon 6s 4G Gen 1, Adreno 610, RAM 4 GB, m\u00e0n h\u00ecnh 90 Hz
+\ud83d\udccc FPS Di-Pin (Tetap tampil saat GUI disembunyikan)	\ud83d\udccc FPS \u0111\u01b0\u1ee3c ghim (v\u1eabn hi\u1ec7n khi \u1ea9n GUI)
+\ud83d\udcdc Menampilkan Live Log Minecraft	\ud83d\udcdc \u0110ang hi\u1ec7n nh\u1eadt k\u00fd tr\u1ef1c ti\u1ebfp c\u1ee7a Minecraft
+FPS Mode Normal (Mengikuti visibilitas GUI)	FPS ch\u1ebf \u0111\u1ed9 th\u01b0\u1eddng (theo vi\u1ec7c hi\u1ec7n/\u1ea9n GUI)
+Gagal menyiapkan OpenJDK ({0}): {~1}	Kh\u00f4ng th\u1ec3 chu\u1ea9n b\u1ecb OpenJDK ({0}): {1}
+LAUNCHER EXCEPTION	NGO\u1ea0I L\u1ec6 C\u1ee6A LAUNCHER
+Forge hanya mendukung Minecraft {0} ke atas	Forge ch\u1ec9 h\u1ed7 tr\u1ee3 Minecraft {0} tr\u1edf l\u00ean
+Installer Forge gagal	Tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge th\u1ea5t b\u1ea1i
+version.json di installer Forge tidak terbaca	Kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c version.json trong tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge
+Path library Forge tidak aman: {0}	\u0110\u01b0\u1eddng d\u1eabn th\u01b0 vi\u1ec7n Forge kh\u00f4ng an to\u00e0n: {0}
+dan {0} lainnya	v\u00e0 {0} m\u1ee5c kh\u00e1c
+Path mappings tidak aman: {0}	\u0110\u01b0\u1eddng d\u1eabn mappings kh\u00f4ng an to\u00e0n: {0}
+Alamat mappings Mojang kosong	\u0110\u1ecba ch\u1ec9 mappings c\u1ee7a Mojang tr\u1ed1ng
+install_profile.json tidak ada di installer Forge	Kh\u00f4ng c\u00f3 install_profile.json trong tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge
+install_profile.json tidak terbaca	Kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c install_profile.json
+{0} tidak ada di installer Forge	Kh\u00f4ng c\u00f3 {0} trong tr\u00ecnh c\u00e0i \u0111\u1eb7t Forge
+Tidak bisa membuat {0}	Kh\u00f4ng th\u1ec3 t\u1ea1o {0}
+HTTP {0} dari {1}	HTTP {0} t\u1eeb {1}
+Respons kosong dari {0}	Ph\u1ea3n h\u1ed3i tr\u1ed1ng t\u1eeb {0}
+Unduhan dibatalkan	\u0110\u00e3 h\u1ee7y t\u1ea3i xu\u1ed1ng
+Content-Range tidak cocok	Content-Range kh\u00f4ng kh\u1edbp
+Range ditolak	Range b\u1ecb t\u1eeb ch\u1ed1i
+Balasan kosong	Ph\u1ea3n h\u1ed3i tr\u1ed1ng
+Unduhan belum lengkap ({0} dari {1} byte)	T\u1ea3i xu\u1ed1ng ch\u01b0a \u0111\u1ee7 ({0}/{1} byte)
+Berkas kosong	T\u1ec7p tr\u1ed1ng
+balasan bukan daftar rilis	ph\u1ea3n h\u1ed3i kh\u00f4ng ph\u1ea3i danh s\u00e1ch b\u1ea3n ph\u00e1t h\u00e0nh
+NeoForge hanya mendukung Minecraft {0} ke atas	NeoForge ch\u1ec9 h\u1ed7 tr\u1ee3 Minecraft {0} tr\u1edf l\u00ean
+Installer NeoForge gagal	Tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge th\u1ea5t b\u1ea1i
+version.json di installer NeoForge tidak terbaca	Kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c version.json trong tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge
+Path library NeoForge tidak aman: {0}	\u0110\u01b0\u1eddng d\u1eabn th\u01b0 vi\u1ec7n NeoForge kh\u00f4ng an to\u00e0n: {0}
+install_profile.json tidak ada di installer NeoForge	Kh\u00f4ng c\u00f3 install_profile.json trong tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge
+{0} tidak ada di installer NeoForge	Kh\u00f4ng c\u00f3 {0} trong tr\u00ecnh c\u00e0i \u0111\u1eb7t NeoForge
+# --- mobileglues.tsv ---
+# Pengaturan > Game > Grafis: cache shader MobileGlues
+Cache shader MobileGlues	B\u1ed9 nh\u1edb \u0111\u1ec7m shader MobileGlues
+Menyimpan hasil terjemahan shader di HP, jadi game berikutnya memuat shader lebih cepat dan lebih sedikit patah-patah. Dimatikan = MobileGlues memakai pengaturan bawaannya tanpa cache. Berlaku saat game dijalankan berikutnya.	L\u01b0u shader \u0111\u00e3 d\u1ecbch tr\u00ean \u0111i\u1ec7n tho\u1ea1i, n\u00ean l\u1ea7n ch\u01a1i sau t\u1ea3i shader nhanh h\u01a1n v\u00e0 \u00edt gi\u1eadt h\u01a1n. T\u1eaft = MobileGlues d\u00f9ng m\u1eb7c \u0111\u1ecbnh c\u1ee7a n\u00f3, kh\u00f4ng c\u00f3 b\u1ed9 nh\u1edb \u0111\u1ec7m. C\u00f3 hi\u1ec7u l\u1ef1c l\u1ea7n ch\u1ea1y game ti\u1ebfp theo.
+# --- mods.tsv ---
+# Layar Mod, Mod terpasang, Impor Addon, dan pesan pemasangan
+mods	mod
+modpacks	modpack
+shaderpacks	shaderpack
+resourcepacks	resource pack
+datapacks	datapack
+format yang didukung	\u0111\u1ecbnh d\u1ea1ng \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3
+File "{0}" diabaikan! Format yang didukung untuk {~1} hanya {~2}	\u0110\u00e3 b\u1ecf qua t\u1ec7p "{0}"! \u0110\u1ecbnh d\u1ea1ng duy nh\u1ea5t \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3 cho {1} l\u00e0 {2}
+{0} file diabaikan karena format tidak didukung ({~1})!	\u0110\u00e3 b\u1ecf qua {0} t\u1ec7p v\u00ec \u0111\u1ecbnh d\u1ea1ng kh\u00f4ng \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3 ({1})!
+Membaca arsip modpack...	\u0110ang \u0111\u1ecdc t\u1ec7p n\u00e9n modpack...
+Berhasil mengimpor dan memasang {0} modpack!	\u0110\u00e3 nh\u1eadp v\u00e0 c\u00e0i {0} modpack!
+Gagal mengimpor modpack: {~0}	Kh\u00f4ng th\u1ec3 nh\u1eadp modpack: {0}
+Berhasil mengimpor {0} file {~1}!	\u0110\u00e3 nh\u1eadp {0} t\u1ec7p ({1})!
+Gagal mengimpor file: {~0}	Kh\u00f4ng th\u1ec3 nh\u1eadp t\u1ec7p: {0}
+Mencari versi...	\u0110ang t\u00ecm phi\u00ean b\u1ea3n...
+Tidak ada versi cocok untuk {0}!	Kh\u00f4ng c\u00f3 phi\u00ean b\u1ea3n t\u01b0\u01a1ng th\u00edch v\u1edbi {0}!
+Mengunduh...	\u0110ang t\u1ea3i xu\u1ed1ng...
+Modpack {0} berhasil dipasang!	\u0110\u00e3 c\u00e0i modpack {0}!
+Berhasil memasang {0} beserta {1} dependensi!	\u0110\u00e3 c\u00e0i {0} c\u00f9ng {1} ph\u1ea7n ph\u1ee5 thu\u1ed9c!
+Berhasil memasang {0}!	\u0110\u00e3 c\u00e0i {0}!
+Memulai pengunduhan...	\u0110ang b\u1eaft \u0111\u1ea7u t\u1ea3i xu\u1ed1ng...
+Gagal terhubung ke Modrinth	Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i t\u1edbi Modrinth
+Pilih atau buat instance di Home untuk mulai memasang mod.	H\u00e3y ch\u1ecdn ho\u1eb7c t\u1ea1o instance \u1edf Trang ch\u1ee7 \u0111\u1ec3 b\u1eaft \u0111\u1ea7u c\u00e0i mod.
+Kembali ke Home	Quay l\u1ea1i Trang ch\u1ee7
+Terpasang ({0})	\u0110\u00e3 c\u00e0i ({0})
+Jelajah	Kh\u00e1m ph\u00e1
+Resource	T\u00e0i nguy\u00ean
+Cari di Modrinth...	T\u00ecm tr\u00ean Modrinth...
+Cari di {0} item...	T\u00ecm trong {0} m\u1ee5c...
+World: {0}	Th\u1ebf gi\u1edbi: {0}
+Tidak ada world	Kh\u00f4ng c\u00f3 th\u1ebf gi\u1edbi
+Semua versi	T\u1ea5t c\u1ea3 phi\u00ean b\u1ea3n
+Pilih instance terlebih dahulu!	H\u00e3y ch\u1ecdn instance tr\u01b0\u1edbc!
+Impor	Nh\u1eadp
+Belum ada world di instance ini. Buka game untuk membuat world terlebih dahulu.	Instance n\u00e0y ch\u01b0a c\u00f3 th\u1ebf gi\u1edbi n\u00e0o. H\u00e3y m\u1edf game \u0111\u1ec3 t\u1ea1o m\u1ed9t th\u1ebf gi\u1edbi tr\u01b0\u1edbc.
+Belum ada {~0} terpasang di instance ini	Instance n\u00e0y ch\u01b0a c\u00e0i {0} n\u00e0o
+Tidak ada item yang cocok	Kh\u00f4ng c\u00f3 m\u1ee5c n\u00e0o ph\u00f9 h\u1ee3p
+Jelajahi Modrinth	Kh\u00e1m ph\u00e1 Modrinth
+Memuat data dari Modrinth...	\u0110ang t\u1ea3i d\u1eef li\u1ec7u t\u1eeb Modrinth...
+Gagal memuat dari Modrinth	Kh\u00f4ng th\u1ec3 t\u1ea3i t\u1eeb Modrinth
+Terjadi kesalahan jaringan	\u0110\u00e3 x\u1ea3y ra l\u1ed7i m\u1ea1ng
+Tidak ada hasil cocok untuk Minecraft {0} ({1})	Kh\u00f4ng c\u00f3 k\u1ebft qu\u1ea3 ph\u00f9 h\u1ee3p v\u1edbi Minecraft {0} ({1})
+Tidak ada hasil ditemukan untuk kata kunci ini	Kh\u00f4ng t\u00ecm th\u1ea5y k\u1ebft qu\u1ea3 cho t\u1eeb kh\u00f3a n\u00e0y
+Coba ubah kata kunci atau nonaktifkan filter versi	H\u00e3y th\u1eed \u0111\u1ed5i t\u1eeb kh\u00f3a ho\u1eb7c t\u1eaft b\u1ed9 l\u1ecdc phi\u00ean b\u1ea3n
+Cari di semua versi Minecraft	T\u00ecm trong t\u1ea5t c\u1ea3 phi\u00ean b\u1ea3n Minecraft
+Sebelumnya	Tr\u01b0\u1edbc
+Selanjutnya	Sau
+Pilih instance	Ch\u1ecdn instance
+Pilih world	Ch\u1ecdn th\u1ebf gi\u1edbi
+Hapus modpack?	X\u00f3a modpack?
+Hapus {~0}?	X\u00f3a {0}?
+Yakin ingin menghapus modpack "{0}"? Semua mod yang terpasang dari modpack ini juga akan dihapus dari instance.	B\u1ea1n c\u00f3 ch\u1eafc mu\u1ed1n x\u00f3a modpack "{0}"? T\u1ea5t c\u1ea3 mod \u0111\u00e3 c\u00e0i t\u1eeb modpack n\u00e0y c\u0169ng s\u1ebd b\u1ecb x\u00f3a kh\u1ecfi instance.
+Yakin ingin menghapus "{0}" dari instance ini?	B\u1ea1n c\u00f3 ch\u1eafc mu\u1ed1n x\u00f3a "{0}" kh\u1ecfi instance n\u00e0y?
+Modpack dan semua mod berhasil dihapus!	\u0110\u00e3 x\u00f3a modpack v\u00e0 t\u1ea5t c\u1ea3 mod c\u1ee7a n\u00f3!
+{0} berhasil dihapus!	\u0110\u00e3 x\u00f3a {0}!
+Mengimpor & memasang modpack	\u0110ang nh\u1eadp & c\u00e0i modpack
+Membaca daftar mod dan mengunduh file...	\u0110ang \u0111\u1ecdc danh s\u00e1ch mod v\u00e0 t\u1ea3i t\u1ec7p...
+{0} / {1} file mod	{0} / {1} t\u1ec7p mod
+Launcher sedang membaca daftar mod dan mengunduh modpack. Mohon tunggu.	Launcher \u0111ang \u0111\u1ecdc danh s\u00e1ch mod v\u00e0 t\u1ea3i modpack. Vui l\u00f2ng \u0111\u1ee3i.
+Tangkapan layar	\u1ea2nh ch\u1ee5p m\u00e0n h\u00ecnh
+Pratinjau gambar	Xem tr\u01b0\u1edbc h\u00ecnh \u1ea3nh
+NONAKTIF	\u0110\u00c3 T\u1eaeT
+Tidak ada deskripsi	Kh\u00f4ng c\u00f3 m\u00f4 t\u1ea3
+oleh {0}	b\u1edfi {0}
+Unduh...	T\u1ea3i xu\u1ed1ng...
+Terpasang	\u0110\u00e3 c\u00e0i
+Pasang pack	C\u00e0i g\u00f3i
+Pasang	C\u00e0i
+Versi dipilih	Phi\u00ean b\u1ea3n \u0111\u00e3 ch\u1ecdn
+Sedang mengunduh dan memasang...	\u0110ang t\u1ea3i v\u00e0 c\u00e0i \u0111\u1eb7t...
+Sudah terpasang	\u0110\u00e3 \u0111\u01b0\u1ee3c c\u00e0i
+Pasang modpack	C\u00e0i modpack
+Pasang ke instance	C\u00e0i v\u00e0o instance
+Versi ({0})	Phi\u00ean b\u1ea3n ({0})
+Screenshot	\u1ea2nh ch\u1ee5p m\u00e0n h\u00ecnh
+Deskripsi	M\u00f4 t\u1ea3
+Tidak ada ringkasan deskripsi.	Kh\u00f4ng c\u00f3 m\u00f4 t\u1ea3 t\u00f3m t\u1eaft.
+Tidak ada versi yang didukung	Kh\u00f4ng c\u00f3 phi\u00ean b\u1ea3n \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3
+Proyek ini tidak punya rilis yang cocok dengan Minecraft {0} ({1}).	D\u1ef1 \u00e1n n\u00e0y kh\u00f4ng c\u00f3 b\u1ea3n ph\u00e1t h\u00e0nh t\u01b0\u01a1ng th\u00edch v\u1edbi Minecraft {0} ({1}).
+Versi {0} \u00b7 MC {1}	Phi\u00ean b\u1ea3n {0} \u00b7 MC {1}
+Modpack diekstrak langsung ke instance (overrides, konfigurasi, dan manifest).	Modpack \u0111\u01b0\u1ee3c gi\u1ea3i n\u00e9n tr\u1ef1c ti\u1ebfp v\u00e0o instance (overrides, c\u1ea5u h\u00ecnh v\u00e0 manifest).
+Dependensi wajib ikut terpasang otomatis.	C\u00e1c ph\u1ea7n ph\u1ee5 thu\u1ed9c b\u1eaft bu\u1ed9c s\u1ebd \u0111\u01b0\u1ee3c c\u00e0i t\u1ef1 \u0111\u1ed9ng.
+Mod terpasang	Mod \u0111\u00e3 c\u00e0i
+Belum ada resource pack	Ch\u01b0a c\u00f3 resource pack n\u00e0o
+Belum ada shader	Ch\u01b0a c\u00f3 shader n\u00e0o
+Belum ada mod terpasang	Ch\u01b0a c\u00e0i mod n\u00e0o
+Pasang lewat menu Mod di sidebar.	H\u00e3y c\u00e0i qua menu Mod \u1edf thanh b\u00ean.
+Nonaktif \u00b7 {0}	\u0110\u00e3 t\u1eaft \u00b7 {0}
+PASANG ADDON EKSTERNAL	C\u00c0I ADDON NGO\u00c0I
+Pemasang Addon	Tr\u00ecnh c\u00e0i Addon
+Tipe file: {0} \u00b7 Siap dipasang	Lo\u1ea1i t\u1ec7p: {0} \u00b7 S\u1eb5n s\u00e0ng c\u00e0i \u0111\u1eb7t
+KATEGORI ADDON	LO\u1ea0I ADDON
+TARGET INSTANCE MINECRAFT	INSTANCE MINECRAFT \u0110\u00cdCH
+\u26a0\ufe0f Belum ada instance Minecraft yang dibuat! Buat instance terlebih dahulu di Dashboard.	\u26a0\ufe0f Ch\u01b0a c\u00f3 instance Minecraft n\u00e0o \u0111\u01b0\u1ee3c t\u1ea1o! H\u00e3y t\u1ea1o instance \u1edf Trang ch\u1ee7 tr\u01b0\u1edbc.
+Memasang addon...	\u0110ang c\u00e0i addon...
+Gagal: {~0}	Th\u1ea5t b\u1ea1i: {0}
+Mempersiapkan pemasangan...	\u0110ang chu\u1ea9n b\u1ecb c\u00e0i \u0111\u1eb7t...
+\u2713 Berhasil memasang "{0}" ke {1}!	\u2713 \u0110\u00e3 c\u00e0i "{0}" v\u00e0o {1}!
+Terjadi kesalahan yang tidak diketahui	\u0110\u00e3 x\u1ea3y ra l\u1ed7i kh\u00f4ng x\u00e1c \u0111\u1ecbnh
+Gagal memasang: {~0}	Kh\u00f4ng th\u1ec3 c\u00e0i \u0111\u1eb7t: {0}
+MEMASANG...	\u0110ANG C\u00c0I...
+PASANG SEKARANG	C\u00c0I NGAY
+{0} mod terpasang	\u0110\u00e3 c\u00e0i {0} mod
+Menyalin file {0}...	\u0110ang sao ch\u00e9p t\u1ec7p {0}...
+Gagal membaca file sumber	Kh\u00f4ng th\u1ec3 \u0111\u1ecdc t\u1ec7p ngu\u1ed3n
+Membaca daftar modpack...	\u0110ang \u0111\u1ecdc danh s\u00e1ch modpack...
+Modrinth API error code: {0}	M\u00e3 l\u1ed7i API Modrinth: {0}
+Empty response	Ph\u1ea3n h\u1ed3i tr\u1ed1ng
+Gagal mengambil detail project: {~0}	Kh\u00f4ng th\u1ec3 l\u1ea5y chi ti\u1ebft d\u1ef1 \u00e1n: {0}
+Gagal mengambil versi project: {~0}	Kh\u00f4ng th\u1ec3 l\u1ea5y c\u00e1c phi\u00ean b\u1ea3n c\u1ee7a d\u1ef1 \u00e1n: {0}
+Mengekstrak dan menyiapkan modpack...	\u0110ang gi\u1ea3i n\u00e9n v\u00e0 chu\u1ea9n b\u1ecb modpack...
+Menyelesaikan dependensi: {0}...	\u0110ang x\u1eed l\u00fd ph\u1ea7n ph\u1ee5 thu\u1ed9c: {0}...
+Membaca daftar modpack ({0} mod ditemukan)...	\u0110ang \u0111\u1ecdc danh s\u00e1ch modpack (t\u00ecm th\u1ea5y {0} mod)...
+Mengunduh mod ({0}/{1}): {2}...	\u0110ang t\u1ea3i mod ({0}/{1}): {2}...
+Mod sudah ada ({0}/{1}): {2}	Mod \u0111\u00e3 c\u00f3 s\u1eb5n ({0}/{1}): {2}
+Mengekstrak konfigurasi modpack...	\u0110ang gi\u1ea3i n\u00e9n c\u1ea5u h\u00ecnh modpack...
+Mengekstrak file arsip modpack...	\u0110ang gi\u1ea3i n\u00e9n c\u00e1c t\u1ec7p c\u1ee7a modpack...
+Selesai! {0} mod berhasil dipasang.	Xong! \u0110\u00e3 c\u00e0i {0} mod.
+Selesai dengan catatan: {0} mod terpasang, {1} file gagal atau dilewati. Coba pasang ulang bila ada mod yang kurang.	Ho\u00e0n t\u1ea5t k\u00e8m l\u01b0u \u00fd: \u0111\u00e3 c\u00e0i {0} mod, {1} t\u1ec7p th\u1ea5t b\u1ea1i ho\u1eb7c b\u1ecb b\u1ecf qua. H\u00e3y th\u1eed c\u00e0i l\u1ea1i n\u1ebfu thi\u1ebfu mod n\u00e0o.
+Modpack ini membutuhkan {0}, sedangkan NovaCraft saat ini hanya mendukung Fabric.	Modpack này cần {0}, trong khi NovaCraft hiện chỉ hỗ trợ Fabric.
+Modpack ini membutuhkan Fabric. Buat instance Fabric dulu, lalu pasang modpack di instance itu.	Modpack n\u00e0y c\u1ea7n Fabric. H\u00e3y t\u1ea1o instance Fabric tr\u01b0\u1edbc, r\u1ed3i c\u00e0i modpack v\u00e0o instance \u0111\u00f3.
+Modpack ini untuk Minecraft {0}, sedangkan instance ini memakai {1}. Pilih atau buat instance dengan versi yang sama.	Modpack n\u00e0y d\u00e0nh cho Minecraft {0}, trong khi instance n\u00e0y d\u00f9ng {1}. H\u00e3y ch\u1ecdn ho\u1eb7c t\u1ea1o instance c\u00f3 c\u00f9ng phi\u00ean b\u1ea3n.
+Alamat unduhan ditolak karena tidak memakai HTTPS	\u0110\u1ecba ch\u1ec9 t\u1ea3i xu\u1ed1ng b\u1ecb t\u1eeb ch\u1ed1i v\u00ec kh\u00f4ng d\u00f9ng HTTPS
+Gagal mengunduh file: HTTP {0}	Kh\u00f4ng th\u1ec3 t\u1ea3i t\u1ec7p: HTTP {0}
+Body stream kosong	Lu\u1ed3ng d\u1eef li\u1ec7u tr\u1ed1ng
+Gagal menyimpan file unduhan	Kh\u00f4ng th\u1ec3 l\u01b0u t\u1ec7p \u0111\u00e3 t\u1ea3i
+Berkas {0} rusak atau berubah di jalan (sidik jari tidak cocok), jadi tidak dipasang.	T\u1ec7p {0} b\u1ecb h\u1ecfng ho\u1eb7c b\u1ecb thay \u0111\u1ed5i khi t\u1ea3i (m\u00e3 b\u0103m kh\u00f4ng kh\u1edbp) n\u00ean kh\u00f4ng \u0111\u01b0\u1ee3c c\u00e0i.
+Isi modpack terlalu besar, pemasangan dibatalkan.	N\u1ed9i dung modpack qu\u00e1 l\u1edbn, \u0111\u00e3 h\u1ee7y vi\u1ec7c c\u00e0i \u0111\u1eb7t.
+Modpack ini membutuhkan {0}, sedangkan NovaCraft saat ini hanya mendukung Fabric, Forge, dan NeoForge.	Modpack này cần {0}, trong khi NovaCraft hiện chỉ hỗ trợ Fabric, Forge và NeoForge.
+Modpack ini membutuhkan Forge. Buat instance Forge dulu, lalu pasang modpack di instance itu.	Modpack n\u00e0y c\u1ea7n Forge. H\u00e3y t\u1ea1o instance Forge tr\u01b0\u1edbc, r\u1ed3i c\u00e0i modpack v\u00e0o instance \u0111\u00f3.
+Modpack ini membutuhkan NeoForge. Buat instance NeoForge dulu, lalu pasang modpack di instance itu.	Modpack n\u00e0y c\u1ea7n NeoForge. H\u00e3y t\u1ea1o instance NeoForge tr\u01b0\u1edbc, r\u1ed3i c\u00e0i modpack v\u00e0o instance \u0111\u00f3.
+# Tampilan baru layar Mod: filter, sumber, dan label kartu
+Kategori	Danh mục
+Versi	Phiên bản
+Urutkan	Sắp xếp
+Relevansi	Liên quan
+Unduhan	Lượt tải
+Pengikut	Người theo dõi
+Diperbarui	Mới cập nhật
+Semua loader	Tất cả loader
+Pilih kategori	Chọn danh mục
+Pilih versi	Chọn phiên bản
+Pilih loader	Chọn loader
+Cari mod...	Tìm mod...
+Cari modpack...	Tìm modpack...
+Cari shader...	Tìm shader...
+Cari resource pack...	Tìm resource pack...
+Cari datapack...	Tìm datapack...
+CurseForge belum tersedia di versi ini	CurseForge chưa khả dụng ở phiên bản này
+Optimasi	Tối ưu hóa
+Teknologi	Công nghệ
+Sihir	Phép thuật
+Petualangan	Phiêu lưu
+Utilitas	Tiện ích
+Dekorasi	Trang trí
+Perlengkapan	Trang bị
+Makanan	Thức ăn
+Penyimpanan	Lưu trữ
+Pustaka	Thư viện
+Realistis	Chân thực
+Fantasi	Giả tưởng
+# Home baru dan layar kelola konten instance
+INSTANCE AKTIF	INSTANCE ĐANG DÙNG
+Mod & konten	Mod & nội dung
+Tambah	Thêm
+# Layar Akun dan Pengaturan baru
+Tentang	Giới thiệu
+Cari pengaturan...	Tìm cài đặt...
+Perekaman layar	Quay màn hình
+Latar	Hình nền
+Foto, GIF, atau video	Ảnh, GIF hoặc video
+Redupkan latar	Làm tối hình nền
+Seberapa gelap latar di layar selain Home.	Độ tối của hình nền ở các màn hình ngoài Trang chủ.
+Tema	Chủ đề
+Aksen warna	Màu nhấn
+Warna tombol dan penanda terpilih di seluruh launcher.	Màu của nút và dấu chọn trên toàn launcher.
+Gaya tampilan	Kiểu hiển thị
+Default memakai tema AmberLauncher sendiri. Liquid Glass memburamkan latar di belakang panel dan tombol.	Mặc định dùng giao diện riêng của AmberLauncher. Liquid Glass làm mờ nền phía sau các bảng và nút.
+Liquid Glass butuh Android 12 ke atas. Di HP ini otomatis memakai Default.	Liquid Glass cần Android 12 trở lên. Điện thoại này tự dùng Mặc định.
+Bahasa teks di launcher. Berlaku langsung tanpa memulai ulang.	Ngôn ngữ văn bản của launcher. Áp dụng ngay, không cần khởi động lại.
+Pengaturan khusus untuk renderer yang sedang dipakai.	Cài đặt riêng cho renderer đang dùng.
+Atur	Cấu hình
+Tata letak kontrol	Bố cục điều khiển
+Aplikasi	Ứng dụng
+Informasi aplikasi, lisensi GPL-3.0, dan kredit.	Thông tin ứng dụng, giấy phép GPL-3.0 và ghi công.
+Reset ke default	Đặt lại mặc định
+Semua pengaturan kembali ke bawaan. Perubahan lain tersimpan otomatis.	Mọi cài đặt trở về mặc định. Các thay đổi khác được lưu tự động.
+Belum ada akun	Chưa có tài khoản
+Pilih akun untuk bermain	Chọn tài khoản để chơi
+Akun aktif untuk bermain	Tài khoản đang dùng để chơi
+Jenis akun	Loại tài khoản
+Status login	Trạng thái đăng nhập
+Klasik	Cổ điển
+Tersambung	Đã kết nối
+Perlu disegarkan	Cần làm mới
+Segarkan login	Làm mới đăng nhập
+Menyegarkan...	Đang làm mới...
+Login berhasil disegarkan	Đã làm mới đăng nhập
+Gagal menyegarkan login	Không thể làm mới đăng nhập
+worlds	thế giới
+Dunia	Thế giới
+Rekomendasi Dunia	Đề xuất thế giới
+Impor Dunia	Nhập thế giới
+Cari dunia & map di katalog...	Tìm thế giới & bản đồ...
+Pasang dunia	Cài thế giới
+Dunia Minecraft Java (.zip)	Thế giới Minecraft Java (.zip)
+Dunia {0} berhasil dipasang!	Đã cài thế giới {0}!
+Berhasil mengimpor dan memasang {0} dunia!	Đã nhập và cài {0} thế giới!
+Gagal mengimpor dunia: {~0}	Không thể nhập thế giới: {0}
+Belum ada dunia tersimpan di instance ini	Instance này chưa có thế giới nào
+Jelajahi Toko Dunia	Khám phá Cửa hàng Thế giới
+Mengimpor & memasang dunia	Đang nhập & cài đặt thế giới
+Dunia diekstrak langsung ke folder saves instance ini.	Thế giới sẽ được giải nén trực tiếp vào thư mục saves của instance này.
+{0} Dunia	{0} Thế giới
+Impor Dunia Java	Nhập thế giới Java
+Pilih arsip .zip atau folder dunia Minecraft Java (berisi level.dat).	Chọn tệp nén .zip hoặc thư mục thế giới Minecraft Java (có chứa level.dat).
+Arsip Dunia Java (.zip)	Tệp nén thế giới Java (.zip)
+Pilih berkas .zip map Minecraft Java	Chọn tệp .zip bản đồ Minecraft Java
+Folder Dunia Java	Thư mục thế giới Java
+Pilih folder save yang berisi level.dat & region/	Chọn thư mục save chứa level.dat & region/
+Memeriksa folder dunia Java...	Đang kiểm tra thư mục thế giới Java...
+Dunia harus memiliki konfigurasi Minecraft Java Edition resmi dari Mojang (level.dat NBT + folder region/).	Thế giới phải có cấu hình Minecraft Java Edition chính thức của Mojang (level.dat NBT + thư mục region/).
+Akses folder dibatasi oleh sistem Android 11+. Pilih folder dunia Java di lokasi yang diizinkan.	Quyền truy cập thư mục bị hạn chế bởi hệ thống Android 11+. Hãy chọn thư mục thế giới Java ở vị trí được phép.
+# --- news.tsv ---
+# Real-time Minecraft News & Versions dialog
+Berita & Versi Minecraft	Tin tức & Phiên bản Minecraft
+Pembaruan langsung dari server resmi Mojang	Cập nhật trực tiếp từ máy chủ chính thức của Mojang
+Pembaruan langsung dari server Mojang · {0}	Cập nhật trực tiếp từ Mojang · {0}
+Mengambil berita & versi terbaru dari Mojang...	Đang tải tin tức & phiên bản mới nhất từ Mojang...
+Gagal memuat berita waktu nyata	Không thể tải tin tức thời gian thực
+Coba lagi	Thử lại
+Rilis Terbaru	Bản phát hành mới nhất
+Snapshot Terbaru	Snapshot mới nhất
+Versi Java	Phiên bản Java
+Berita	Tin tức
+Tidak ada item pada kategori ini	Không có mục nào trong danh mục này
+Lihat catatan perubahan	Xem ghi chú bản vá
+Baca selengkapnya	Đọc thêm
+Memuat catatan perubahan...	Đang tải ghi chú bản vá...
+Buka di Browser	Mở trong trình duyệt
+Segarkan	Làm mới
+Segarkan daftar versi	Làm mới danh sách phiên bản
+Gagal memperbarui daftar versi terbaru	Không thể làm mới danh sách phiên bản mới nhất
+Tidak dapat terhubung ke server resmi Mojang.	Không thể kết nối tới máy chủ chính thức của Mojang.
+Gagal memuat detail catatan rilis.	Không thể tải chi tiết ghi chú bản vá.
+Rilis resmi terbaru di manifest Mojang ({0}).	Bản phát hành chính thức mới nhất trong manifest Mojang ({0}).
+Snapshot pengembangan terbaru di manifest Mojang ({0}).	Bản snapshot phát triển mới nhất trong manifest Mojang ({0}).
+Rilis	Phát hành
+Snapshot	Snapshot
+Cari versi (mis. 1.21.4) atau judul berita...	Tìm phiên bản (vd: 1.21.4) hoặc tiêu đề...
+Tidak ada versi atau berita yang cocok	Không tìm thấy phiên bản hoặc tin tức phù hợp
+Reset pencarian	Đặt lại tìm kiếm
+Menampilkan cache terakhir · Gagal menyegarkan	Đang hiển thị bản lưu · Làm mới thất bại
+Menampilkan cache · Menyinkronkan pembaruan...	Đang hiển thị bản lưu · Đang đồng bộ cập nhật...
+TERBARU	MỚI
+Tautan terkait	Liên kết liên quan
+Salin catatan	Sao chép ghi chú
+Disalin ke papan klip	Đã sao chép vào khay nhớ tạm
+Versi	Phiên bản
+Tipe	Loại
+# --- pelengkap.tsv ---
+# Kalimat yang sebelumnya belum punya terjemahan (hasil audit 10 Nov 2026)
+Penunjuk (Default)	Con tr\u1ecf (M\u1eb7c \u0111\u1ecbnh)
+Penunjuk (Kursor Teks)	Con tr\u1ecf (Con tr\u1ecf v\u0103n b\u1ea3n)
+Penunjuk (Tangan)	Con tr\u1ecf (B\u00e0n tay)
+Penunjuk (Crosshair)	Con tr\u1ecf (T\u00e2m ng\u1eafm)
+Penunjuk (Atas/Bawah)	Con tr\u1ecf (L\u00ean/Xu\u1ed1ng)
+Penunjuk (Kiri/Kanan)	Con tr\u1ecf (Tr\u00e1i/Ph\u1ea3i)
+Penunjuk (Pindahkan)	Con tr\u1ecf (Di chuy\u1ec3n)
+Penunjuk (Tidak Diizinkan)	Con tr\u1ecf (Kh\u00f4ng \u0111\u01b0\u1ee3c ph\u00e9p)
+Bentuk biasa. Dipakai di semua versi Minecraft.	H\u00ecnh d\u1ea1ng th\u00f4ng th\u01b0\u1eddng. D\u00f9ng \u1edf m\u1ecdi phi\u00ean b\u1ea3n Minecraft.
+MC 1.21.9+: dipakai saat kursor di atas kolom teks.	MC 1.21.9+: d\u00f9ng khi con tr\u1ecf n\u1eb1m tr\u00ean \u00f4 nh\u1eadp v\u0103n b\u1ea3n.
+MC 1.21.9+: dipakai saat kursor di atas komponen yang bisa diklik.	MC 1.21.9+: d\u00f9ng khi con tr\u1ecf n\u1eb1m tr\u00ean th\u00e0nh ph\u1ea7n c\u00f3 th\u1ec3 nh\u1ea5p.
+MC 1.21.9+: bentuk crosshair.	MC 1.21.9+: h\u00ecnh t\u00e2m ng\u1eafm.
+MC 1.21.9+: dipakai di komponen yang bisa digulir ke atas/bawah.	MC 1.21.9+: d\u00f9ng \u1edf th\u00e0nh ph\u1ea7n c\u00f3 th\u1ec3 cu\u1ed9n l\u00ean/xu\u1ed1ng.
+MC 1.21.9+: dipakai di komponen penggeser (slider).	MC 1.21.9+: d\u00f9ng \u1edf th\u00e0nh ph\u1ea7n thanh tr\u01b0\u1ee3t (slider).
+MC 1.21.9+: bentuk pindahkan.	MC 1.21.9+: h\u00ecnh d\u1ea1ng di chuy\u1ec3n.
+MC 1.21.9+: dipakai di komponen yang dinonaktifkan.	MC 1.21.9+: d\u00f9ng \u1edf th\u00e0nh ph\u1ea7n b\u1ecb v\u00f4 hi\u1ec7u h\u00f3a.
+Lebih dari separuh RAM HP: game bisa ditutup sendiri oleh Android.	H\u01a1n m\u1ed9t n\u1eeda RAM c\u1ee7a \u0111i\u1ec7n tho\u1ea1i: Android c\u00f3 th\u1ec3 t\u1ef1 \u0111\u00f3ng game.
+Penunjuk kursor	Con tr\u1ecf chu\u1ed9t
+Mouse fisik	Chu\u1ed9t th\u1eadt
+Pakai kursor sistem Android	D\u00f9ng con tr\u1ecf h\u1ec7 th\u1ed1ng Android
+Mati (bawaan): mouse menggerakkan kursor launcher di menu game, jadi gambar, ukuran, dan hotspot kursor di atas berlaku. Nyalakan bila mouse lebih nyaman dengan penunjuk bawaan Android.	T\u1eaft (m\u1eb7c \u0111\u1ecbnh): chu\u1ed9t \u0111i\u1ec1u khi\u1ec3n con tr\u1ecf c\u1ee7a launcher trong menu game, n\u00ean h\u00ecnh \u1ea3nh, k\u00edch th\u01b0\u1edbc v\u00e0 hotspot \u1edf tr\u00ean s\u1ebd \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng. B\u1eadt n\u1ebfu b\u1ea1n th\u1ea5y chu\u1ed9t d\u1ec5 d\u00f9ng h\u01a1n v\u1edbi con tr\u1ecf m\u1eb7c \u0111\u1ecbnh c\u1ee7a Android.
+Kecepatan kursor mouse	T\u1ed1c \u0111\u1ed9 con tr\u1ecf chu\u1ed9t
+Pengali di atas sensitivitas kursor virtual, hanya untuk mouse fisik di menu game. 100% = sama.	H\u1ec7 s\u1ed1 nh\u00e2n th\u00eam v\u00e0o \u0111\u1ed9 nh\u1ea1y con tr\u1ecf \u1ea3o, ch\u1ec9 \u00e1p d\u1ee5ng cho chu\u1ed9t th\u1eadt trong menu game. 100% = gi\u1eef nguy\u00ean.
+Kecepatan kamera mouse	T\u1ed1c \u0111\u1ed9 camera c\u1ee7a chu\u1ed9t
+Pengali di atas sensitivitas kamera, hanya untuk mouse fisik saat bermain. 100% = sama.	H\u1ec7 s\u1ed1 nh\u00e2n th\u00eam v\u00e0o \u0111\u1ed9 nh\u1ea1y camera, ch\u1ec9 \u00e1p d\u1ee5ng cho chu\u1ed9t th\u1eadt khi \u0111ang ch\u01a1i. 100% = gi\u1eef nguy\u00ean.
+Gambar tidak bisa dibaca	Kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c h\u00ecnh \u1ea3nh
+Ganti gambar	\u0110\u1ed5i h\u00ecnh \u1ea3nh
+Pilih gambar	Ch\u1ecdn h\u00ecnh \u1ea3nh
+Tutup hotspot	\u0110\u00f3ng hotspot
+Atur hotspot	\u0110\u1eb7t hotspot
+Reset	\u0110\u1eb7t l\u1ea1i
+Hotspot adalah titik yang dihitung sebagai ujung kursor saat mengklik (titik merah di pratinjau).	Hotspot l\u00e0 \u0111i\u1ec3m \u0111\u01b0\u1ee3c t\u00ednh l\u00e0 \u0111\u1ea7u con tr\u1ecf khi nh\u1ea5p (ch\u1ea5m \u0111\u1ecf trong ph\u1ea7n xem tr\u01b0\u1edbc).
+Ubah kunci API	\u0110\u1ed5i kh\u00f3a API
+Kunci API CurseForge	Kh\u00f3a API CurseForge
+Kunci sudah tersimpan. Isi kunci baru untuk menggantinya, atau hapus kunci ini.	\u0110\u00e3 l\u01b0u kh\u00f3a. Nh\u1eadp kh\u00f3a m\u1edbi \u0111\u1ec3 thay th\u1ebf, ho\u1eb7c x\u00f3a kh\u00f3a n\u00e0y.
+CurseForge butuh kunci API. Tempel kunci dari email CurseForge. Kunci hanya disimpan di HP ini dan hanya dikirim ke CurseForge.	CurseForge c\u1ea7n kh\u00f3a API. D\u00e1n kh\u00f3a t\u1eeb email c\u1ee7a CurseForge. Kh\u00f3a ch\u1ec9 \u0111\u01b0\u1ee3c l\u01b0u tr\u00ean \u0111i\u1ec7n tho\u1ea1i n\u00e0y v\u00e0 ch\u1ec9 \u0111\u01b0\u1ee3c g\u1eedi \u0111\u1ebfn CurseForge.
+Tempel kunci di sini	D\u00e1n kh\u00f3a v\u00e0o \u0111\u00e2y
+Kunci API CurseForge belum diisi.	Ch\u01b0a nh\u1eadp kh\u00f3a API CurseForge.
+Kunci API CurseForge ditolak (kode {0}). Periksa kuncinya lalu isi ulang.	Kh\u00f3a API CurseForge b\u1ecb t\u1eeb ch\u1ed1i (m\u00e3 {0}). H\u00e3y ki\u1ec3m tra kh\u00f3a r\u1ed3i nh\u1eadp l\u1ea1i.
+CurseForge membatasi permintaan. Tunggu sebentar lalu coba lagi.	CurseForge \u0111ang gi\u1edbi h\u1ea1n s\u1ed1 y\u00eau c\u1ea7u. H\u00e3y ch\u1edd m\u1ed9t l\u00e1t r\u1ed3i th\u1eed l\u1ea1i.
+CurseForge API error: kode {0}	L\u1ed7i API CurseForge: m\u00e3 {0}
+Respons kosong dari CurseForge	Ph\u1ea3n h\u1ed3i tr\u1ed1ng t\u1eeb CurseForge
+Respons CurseForge tidak dikenali	Kh\u00f4ng nh\u1eadn d\u1ea1ng \u0111\u01b0\u1ee3c ph\u1ea3n h\u1ed3i c\u1ee7a CurseForge
+CurseForge hanya menampilkan {0} hasil pertama. Persempit pencarian.	CurseForge ch\u1ec9 hi\u1ec3n th\u1ecb {0} k\u1ebft qu\u1ea3 \u0111\u1ea7u ti\u00ean. H\u00e3y thu h\u1eb9p t\u00ecm ki\u1ebfm.
+Id CurseForge tidak valid	ID CurseForge kh\u00f4ng h\u1ee3p l\u1ec7
+Detail CurseForge kosong	Chi ti\u1ebft CurseForge tr\u1ed1ng
+Penulis melarang unduhan lewat launcher. Unduh manual dari situs CurseForge.	T\u00e1c gi\u1ea3 kh\u00f4ng cho ph\u00e9p t\u1ea3i qua launcher. H\u00e3y t\u1ea3i th\u1ee7 c\u00f4ng t\u1eeb trang web CurseForge.
+File mod harus berformat .jar	T\u1ec7p mod ph\u1ea3i \u1edf \u0111\u1ecbnh d\u1ea1ng .jar
+File modpack harus berformat .mrpack atau .zip	T\u1ec7p modpack ph\u1ea3i \u1edf \u0111\u1ecbnh d\u1ea1ng .mrpack ho\u1eb7c .zip
+File {0} harus berformat .zip	T\u1ec7p {0} ph\u1ea3i \u1edf \u0111\u1ecbnh d\u1ea1ng .zip
+Mencari alamat unduhan mod dari CurseForge...	\u0110ang t\u00ecm \u0111\u1ecba ch\u1ec9 t\u1ea3i mod t\u1eeb CurseForge...
+Mesin Rust baru mendukung akun Offline dan Microsoft. Pilih salah satunya di tab Akun.	Engine Rust hi\u1ec7n m\u1edbi h\u1ed7 tr\u1ee3 t\u00e0i kho\u1ea3n Offline v\u00e0 Microsoft. H\u00e3y ch\u1ecdn m\u1ed9t trong hai \u1edf tab T\u00e0i kho\u1ea3n.
+Nama akun offline untuk mesin Rust harus 1 sampai 16 karakter tanpa spasi. Buat akun offline baru di tab Akun.	T\u00ean t\u00e0i kho\u1ea3n offline cho engine Rust ph\u1ea3i d\u00e0i t\u1eeb 1 \u0111\u1ebfn 16 k\u00fd t\u1ef1 v\u00e0 kh\u00f4ng c\u00f3 kho\u1ea3ng tr\u1eafng. H\u00e3y t\u1ea1o t\u00e0i kho\u1ea3n offline m\u1edbi \u1edf tab T\u00e0i kho\u1ea3n.
+Akun Microsoft ini belum login lengkap. Masuk lagi lewat tab Akun.	T\u00e0i kho\u1ea3n Microsoft n\u00e0y ch\u01b0a \u0111\u0103ng nh\u1eadp \u0111\u1ea7y \u0111\u1ee7. H\u00e3y \u0111\u0103ng nh\u1eadp l\u1ea1i \u1edf tab T\u00e0i kho\u1ea3n.
+Pertama kali dibuka: mesin mengunduh sumber daya game (sekitar 500 MiB). Biarkan sampai selesai, game langsung dimulai setelahnya.	L\u1ea7n m\u1edf \u0111\u1ea7u ti\u00ean: engine s\u1ebd t\u1ea3i t\u00e0i nguy\u00ean game (kho\u1ea3ng 500 MiB). H\u00e3y \u0111\u1ec3 n\u00f3 ch\u1ea1y xong, game s\u1ebd b\u1eaft \u0111\u1ea7u ngay sau \u0111\u00f3.
+Folder data mesin tidak bisa dibuat	Kh\u00f4ng t\u1ea1o \u0111\u01b0\u1ee3c th\u01b0 m\u1ee5c d\u1eef li\u1ec7u c\u1ee7a engine
+Berkas peluncuran tidak bisa disimpan	Kh\u00f4ng l\u01b0u \u0111\u01b0\u1ee3c t\u1ec7p kh\u1edfi ch\u1ea1y
+Tidak bisa menyimpan {0}	Kh\u00f4ng l\u01b0u \u0111\u01b0\u1ee3c {0}
+Menyembunyikan bilah navigasi dan bilah status saat bermain. Mati secara bawaan: di sebagian HP bisa membuat game macet.	\u1ea8n thanh \u0111i\u1ec1u h\u01b0\u1edbng v\u00e0 thanh tr\u1ea1ng th\u00e1i khi ch\u01a1i. M\u1eb7c \u0111\u1ecbnh t\u1eaft: tr\u00ean m\u1ed9t s\u1ed1 \u0111i\u1ec7n tho\u1ea1i c\u00f3 th\u1ec3 khi\u1ebfn game b\u1ecb treo.
+Tidak ada versi Forge yang didukung	Kh\u00f4ng c\u00f3 phi\u00ean b\u1ea3n Forge n\u00e0o \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3
+Tidak ada versi NeoForge yang didukung	Kh\u00f4ng c\u00f3 phi\u00ean b\u1ea3n NeoForge n\u00e0o \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3
+Tidak dapat memuat daftar versi Fabric	Kh\u00f4ng t\u1ea3i \u0111\u01b0\u1ee3c danh s\u00e1ch phi\u00ean b\u1ea3n Fabric
+Ruang penyimpanan tinggal {0} MB. Kosongkan minimal 500 MB lalu coba unduh lagi.	Dung l\u01b0\u1ee3ng l\u01b0u tr\u1eef ch\u1ec9 c\u00f2n {0} MB. H\u00e3y gi\u1ea3i ph\u00f3ng \u00edt nh\u1ea5t 500 MB r\u1ed3i t\u1ea3i l\u1ea1i.
+Unduhan game	T\u1ea3i game
+Mengunduh Minecraft	\u0110ang t\u1ea3i Minecraft
+Unduhan lanjut di latar belakang. Jangan tutup paksa aplikasi.	Qu\u00e1 tr\u00ecnh t\u1ea3i ti\u1ebfp t\u1ee5c \u1edf n\u1ec1n. \u0110\u1eebng bu\u1ed9c d\u1eebng \u1ee9ng d\u1ee5ng.
+Menyalakan mode performa stabil sistem dan V-Sync Zink, serta membatasi skala resolusi maksimal {0}%.	B\u1eadt ch\u1ebf \u0111\u1ed9 hi\u1ec7u n\u0103ng \u1ed5n \u0111\u1ecbnh c\u1ee7a h\u1ec7 th\u1ed1ng v\u00e0 V-Sync c\u1ee7a Zink, \u0111\u1ed3ng th\u1eddi gi\u1edbi h\u1ea1n t\u1ef7 l\u1ec7 \u0111\u1ed9 ph\u00e2n gi\u1ea3i t\u1ed1i \u0111a \u1edf {0}%.
+# --- rust-settings.tsv ---
+# Pengaturan > Rust (tab pengaturan mesin Rust)
+Mesin Rust	Engine Rust
+Performa	Hi\u1ec7u n\u0103ng
+Layar	M\u00e0n h\u00ecnh
+Permainan	Ch\u01a1i game
+Mesin Rust (Horizon)	Engine Rust (Horizon)
+Pengganti seluruh client Java: tanpa JVM dan tanpa mod Java.	Thay th\u1ebf to\u00e0n b\u1ed9 client Java: kh\u00f4ng c\u00f3 JVM v\u00e0 kh\u00f4ng d\u00f9ng mod Java.
+Tidak tersedia	Kh\u00f4ng kh\u1ea3 d\u1ee5ng
+Siap	S\u1eb5n s\u00e0ng
+Sumber daya game	T\u00e0i nguy\u00ean game
+Diunduh otomatis saat PLAY pertama, sekitar 500 MiB.	T\u1ef1 t\u1ea3i \u1edf l\u1ea7n PLAY \u0111\u1ea7u ti\u00ean, kho\u1ea3ng 500 MiB.
+Belum diunduh	Ch\u01b0a t\u1ea3i
+Versi Minecraft	Phi\u00ean b\u1ea3n Minecraft
+Satu-satunya versi yang dikerjakan mesin ini.	Phi\u00ean b\u1ea3n duy nh\u1ea5t engine n\u00e0y h\u1ed7 tr\u1ee3.
+Berlaku untuk instance Rust	\u00c1p d\u1ee5ng cho instance Rust
+Pilihan di tab ini dipakai instance Rust saja dan berlaku pada PLAY berikutnya. Instance Vanilla, Fabric, dan Forge tidak terpengaruh.	C\u00e1c l\u1ef1a ch\u1ecdn \u1edf tab n\u00e0y ch\u1ec9 d\u00f9ng cho instance Rust v\u00e0 c\u00f3 hi\u1ec7u l\u1ef1c \u1edf l\u1ea7n PLAY ti\u1ebfp theo. Instance Vanilla, Fabric v\u00e0 Forge kh\u00f4ng b\u1ecb \u1ea3nh h\u01b0\u1edfng.
+Renderer Rust	Renderer Rust
+Kompatibel paling aman untuk semua HP. Vulkan cepat memakai batching GPU. OpenGL ES masih eksperimental.	T\u01b0\u01a1ng th\u00edch l\u00e0 an to\u00e0n nh\u1ea5t tr\u00ean m\u1ecdi \u0111i\u1ec7n tho\u1ea1i. Vulkan nhanh d\u00f9ng batching GPU. OpenGL ES v\u1eabn \u0111ang th\u1eed nghi\u1ec7m.
+Vulkan kompatibel	Vulkan t\u01b0\u01a1ng th\u00edch
+Vulkan cepat	Vulkan nhanh
+Skala resolusi Rust	T\u1ec9 l\u1ec7 \u0111\u1ed9 ph\u00e2n gi\u1ea3i Rust
+Menurunkan resolusi render membuat game lebih ringan, gambar jadi lebih buram.	Gi\u1ea3m \u0111\u1ed9 ph\u00e2n gi\u1ea3i render gi\u00fap game nh\u1eb9 h\u01a1n nh\u01b0ng h\u00ecnh \u1ea3nh s\u1ebd m\u1edd h\u01a1n.
+Laju layar	T\u1ea7n s\u1ed1 qu\u00e9t
+Permintaan ke Android, bukan batas FPS game. Laju yang tidak didukung layar bisa diabaikan.	\u0110\u00e2y l\u00e0 y\u00eau c\u1ea7u g\u1eedi Android, kh\u00f4ng ph\u1ea3i gi\u1edbi h\u1ea1n FPS. T\u1ea7n s\u1ed1 m\u00e0 m\u00e0n h\u00ecnh kh\u00f4ng h\u1ed7 tr\u1ee3 c\u00f3 th\u1ec3 b\u1ecb b\u1ecf qua.
+Bawaan sistem	M\u1eb7c \u0111\u1ecbnh h\u1ec7 th\u1ed1ng
+Petunjuk performa	G\u1ee3i \u00fd hi\u1ec7u n\u0103ng
+Memberi tahu Android bahwa game butuh performa stabil. Hanya berguna di HP yang mendukungnya.	B\u00e1o cho Android bi\u1ebft game c\u1ea7n hi\u1ec7u n\u0103ng \u1ed5n \u0111\u1ecbnh. Ch\u1ec9 c\u00f3 \u00edch tr\u00ean \u0111i\u1ec7n tho\u1ea1i h\u1ed7 tr\u1ee3.
+Batas pekerja chunk	Gi\u1edbi h\u1ea1n worker chunk
+Batas pekerja yang membuat dan merakit chunk, bukan semua utas aplikasi. Nilai kecil mengurangi beban CPU tetapi memuat dunia lebih lambat.	Gi\u1edbi h\u1ea1n s\u1ed1 worker t\u1ea1o v\u00e0 gh\u00e9p chunk, kh\u00f4ng ph\u1ea3i m\u1ecdi lu\u1ed3ng c\u1ee7a \u1ee9ng d\u1ee5ng. Gi\u00e1 tr\u1ecb nh\u1ecf gi\u1ea3m t\u1ea3i CPU nh\u01b0ng t\u1ea3i th\u1ebf gi\u1edbi ch\u1eadm h\u01a1n.
+Tanpa batas	Kh\u00f4ng gi\u1edbi h\u1ea1n
+Cache RAM	B\u1ed9 nh\u1edb \u0111\u1ec7m RAM
+Suara yang sudah didekode (80%) dan buffer mesh kosong (20%), dibuat ulang dengan kualitas sama. Bukan batas total RAM atau VRAM. Nilai kecil bisa menambah kerja CPU.	\u00c2m thanh \u0111\u00e3 gi\u1ea3i m\u00e3 (80%) v\u00e0 b\u1ed9 \u0111\u1ec7m mesh tr\u1ed1ng (20%), \u0111\u01b0\u1ee3c t\u1ea1o l\u1ea1i v\u1edbi c\u00f9ng ch\u1ea5t l\u01b0\u1ee3ng. Kh\u00f4ng ph\u1ea3i gi\u1edbi h\u1ea1n t\u1ed5ng RAM hay VRAM. Gi\u00e1 tr\u1ecb nh\u1ecf c\u00f3 th\u1ec3 t\u0103ng vi\u1ec7c cho CPU.
+Bawaan (80 MiB)	M\u1eb7c \u0111\u1ecbnh (80 MiB)
+Arah layar	H\u01b0\u1edbng m\u00e0n h\u00ecnh
+Arah layar saat bermain. Bawaannya landscape.	H\u01b0\u1edbng m\u00e0n h\u00ecnh khi ch\u01a1i. M\u1eb7c \u0111\u1ecbnh l\u00e0 ngang.
+Landscape	Ngang
+Landscape terbalik	Ngang ng\u01b0\u1ee3c
+Portrait	D\u1ecdc
+Portrait terbalik	D\u1ecdc ng\u01b0\u1ee3c
+Rasio layar	T\u1ec9 l\u1ec7 khung h\u00ecnh
+Membatasi tampilan game ke rasio tertentu. Asli mengikuti rasio layar HP.	Gi\u1edbi h\u1ea1n khung nh\u00ecn game theo m\u1ed9t t\u1ec9 l\u1ec7. G\u1ed1c theo t\u1ec9 l\u1ec7 m\u00e0n h\u00ecnh c\u1ee7a \u0111i\u1ec7n tho\u1ea1i.
+Asli	G\u1ed1c
+Layar penuh imersif	To\u00e0n m\u00e0n h\u00ecnh \u0111\u1eafm ch\u00ecm
+Menyembunyikan bilah navigasi dan bilah status saat bermain.	\u1ea8n thanh \u0111i\u1ec1u h\u01b0\u1edbng v\u00e0 thanh tr\u1ea1ng th\u00e1i khi ch\u01a1i.
+Hindari poni layar	Tr\u00e1nh tai th\u1ecf m\u00e0n h\u00ecnh
+Menggeser tampilan game agar tidak tertutup lubang kamera atau poni.	D\u1ecbch khung game \u0111\u1ec3 l\u1ed7 camera ho\u1eb7c tai th\u1ecf kh\u00f4ng che m\u1ea5t.
+Kontrol NovaCraft	Điều khiển NovaCraft
+Posisi, ukuran, dan tombol layar mengikuti editor kontrol NovaCraft, jadi hanya ada satu set kontrol. Matikan untuk memakai kontrol bawaan mesin. Berlaku di PLAY berikutnya.	Các nút trên màn hình theo trình chỉnh điều khiển của NovaCraft (vị trí, kích thước và nút), nên chỉ có một bộ điều khiển. Tắt để dùng điều khiển của engine. Áp dụng ở lần PLAY tiếp theo.
+Perangkat input	Thi\u1ebft b\u1ecb nh\u1eadp
+Otomatis memilih sendiri antara layar sentuh, keyboard dan mouse, atau gamepad sesuai yang terpasang.	T\u1ef1 \u0111\u1ed9ng ch\u1ecdn gi\u1eefa c\u1ea3m \u1ee9ng, b\u00e0n ph\u00edm v\u00e0 chu\u1ed9t, ho\u1eb7c tay c\u1ea7m t\u00f9y thi\u1ebft b\u1ecb \u0111ang k\u1ebft n\u1ed1i.
+Layar sentuh	M\u00e0n h\u00ecnh c\u1ea3m \u1ee9ng
+Keyboard dan mouse	B\u00e0n ph\u00edm v\u00e0 chu\u1ed9t
+Server otomatis	M\u00e1y ch\u1ee7 t\u1ef1 v\u00e0o
+Kosongkan untuk bermain di dunia sendiri. Bila diisi, PLAY langsung masuk ke server ini.	\u0110\u1ec3 tr\u1ed1ng \u0111\u1ec3 ch\u01a1i th\u1ebf gi\u1edbi ri\u00eang. N\u1ebfu \u0111i\u1ec1n, PLAY s\u1ebd v\u00e0o th\u1eb3ng m\u00e1y ch\u1ee7 n\u00e0y.
+Contoh: mc.contoh.com:25565	V\u00ed d\u1ee5: mc.vidu.com:25565
+Setel ulang pengaturan Rust	\u0110\u1eb7t l\u1ea1i c\u00e0i \u0111\u1eb7t Rust
+Mengembalikan semua pilihan di tab ini ke bawaan mesin. Instance dan dunia tidak disentuh.	\u0110\u01b0a m\u1ecdi l\u1ef1a ch\u1ecdn \u1edf tab n\u00e0y v\u1ec1 m\u1eb7c \u0111\u1ecbnh c\u1ee7a engine. Instance v\u00e0 th\u1ebf gi\u1edbi kh\u00f4ng b\u1ecb \u0111\u1ee5ng t\u1edbi.
+Setel ulang	\u0110\u1eb7t l\u1ea1i
+Pengaturan Rust dikembalikan ke bawaan.	\u0110\u00e3 \u0111\u1eb7t l\u1ea1i c\u00e0i \u0111\u1eb7t Rust v\u1ec1 m\u1eb7c \u0111\u1ecbnh.
+Mode performa	Ch\u1ebf \u0111\u1ed9 hi\u1ec7u n\u0103ng
+Normal memakai bawaan mesin. Super hemat menurunkan jarak render, partikel, awan, dan bayangan. Hemat baterai membatasi 60 FPS dengan VSync. FPS maksimum melepas batas FPS dan mematikan VSync. Mode ini mengubah pengaturan video game saat PLAY.	B\u00ecnh th\u01b0\u1eddng d\u00f9ng m\u1eb7c \u0111\u1ecbnh c\u1ee7a engine. Si\u00eau ti\u1ebft ki\u1ec7m gi\u1ea3m t\u1ea7m render, h\u1ea1t, m\u00e2y v\u00e0 b\u00f3ng. Ti\u1ebft ki\u1ec7m pin gi\u1edbi h\u1ea1n 60 FPS v\u1edbi VSync. FPS t\u1ed1i \u0111a b\u1ecf gi\u1edbi h\u1ea1n FPS v\u00e0 t\u1eaft VSync. C\u00e1c ch\u1ebf \u0111\u1ed9 n\u00e0y thay \u0111\u1ed5i c\u00e0i \u0111\u1eb7t video c\u1ee7a game khi nh\u1ea5n PLAY.
+Normal	B\u00ecnh th\u01b0\u1eddng
+Super hemat	Si\u00eau ti\u1ebft ki\u1ec7m
+Hemat baterai	Ti\u1ebft ki\u1ec7m pin
+FPS maksimum	FPS t\u1ed1i \u0111a
+Kurangi animasi game	Gi\u1ea3m ho\u1ea1t \u1ea3nh trong game
+Mematikan tekstur beranimasi, fade chunk, goyangan kamera saat berjalan, dan blur menu. Lebih ringan di HP lemah.	T\u1eaft texture ho\u1ea1t \u1ea3nh, hi\u1ec7u \u1ee9ng m\u1edd d\u1ea7n chunk, l\u1eafc camera khi \u0111i b\u1ed9 v\u00e0 l\u00e0m m\u1edd menu. Nh\u1eb9 h\u01a1n tr\u00ean m\u00e1y y\u1ebfu.
+Menu garis tiga	Menu ba g\u1ea1ch
+Tombol bergaris tiga di layar game yang membuka menu cepat mesin (preset, kontrol, pengaturan). Warnanya mengikuti tema NovaCraft. Berlaku di PLAY berikutnya.	Nút ba gạch trên màn hình game mở menu nhanh của engine (preset, điều khiển, cài đặt). Màu sắc theo giao diện NovaCraft. Áp dụng ở lần PLAY tiếp theo.
+Sederhanakan daun (eksperimental)	\u0110\u01a1n gi\u1ea3n h\u00f3a t\u00e1n l\u00e1 (th\u1eed nghi\u1ec7m)
+Menyederhanakan dedaunan yang rapat agar lebih ringan. Tampilan daun berubah dan fitur ini masih eksperimental. Berlaku di PLAY berikutnya.	\u0110\u01a1n gi\u1ea3n h\u00f3a t\u00e1n l\u00e1 d\u00e0y \u0111\u1eb7c \u0111\u1ec3 game nh\u1eb9 h\u01a1n. H\u00ecnh d\u1ea1ng l\u00e1 s\u1ebd thay \u0111\u1ed5i v\u00e0 t\u00ednh n\u0103ng n\u00e0y v\u1eabn \u0111ang th\u1eed nghi\u1ec7m. \u00c1p d\u1ee5ng \u1edf l\u1ea7n PLAY ti\u1ebfp theo.
+Unggah chunk cepat	T\u1ea3i chunk nhanh
+Menaikkan jatah unggah mesh chunk ke GPU menjadi 4 MiB per frame, dibuat untuk mengurangi tersendat saat bergerak dan memuat dunia. Menyala secara bawaan. Matikan bila game malah terasa patah-patah. Berlaku di PLAY berikutnya.	N\u00e2ng h\u1ea1n m\u1ee9c t\u1ea3i mesh chunk l\u00ean GPU th\u00e0nh 4 MiB m\u1ed7i khung h\u00ecnh, nh\u1eb1m gi\u1ea3m gi\u1eadt khi di chuy\u1ec3n v\u00e0 t\u1ea3i th\u1ebf gi\u1edbi. M\u1eb7c \u0111\u1ecbnh b\u1eadt. H\u00e3y t\u1eaft n\u1ebfu game l\u1ea1i gi\u1eadt h\u01a1n. \u00c1p d\u1ee5ng \u1edf l\u1ea7n PLAY ti\u1ebfp theo.
+Diagnostik	Ch\u1ea9n \u0111o\u00e1n
+Rekam performa	Ghi hi\u1ec7u n\u0103ng
+Merekam waktu frame dan pembuatan chunk saat bermain (sampai 30 menit) ke laporan di HP ini. Laporan tidak berisi akun, chat, atau nama dunia. Perekaman menambah sedikit beban, jadi matikan lagi bila tidak diperlukan. Berlaku di PLAY berikutnya.	Ghi th\u1eddi gian khung h\u00ecnh v\u00e0 vi\u1ec7c t\u1ea1o chunk khi b\u1ea1n ch\u01a1i (t\u1ed1i \u0111a 30 ph\u00fat) v\u00e0o m\u1ed9t b\u00e1o c\u00e1o tr\u00ean \u0111i\u1ec7n tho\u1ea1i n\u00e0y. B\u00e1o c\u00e1o kh\u00f4ng ch\u1ee9a t\u00e0i kho\u1ea3n, chat hay t\u00ean th\u1ebf gi\u1edbi. Vi\u1ec7c ghi l\u00e0m t\u0103ng nh\u1eb9 t\u1ea3i, n\u00ean h\u00e3y t\u1eaft khi kh\u00f4ng c\u1ea7n. \u00c1p d\u1ee5ng \u1edf l\u1ea7n PLAY ti\u1ebfp theo.
+Bagikan laporan performa	Chia s\u1ebb b\u00e1o c\u00e1o hi\u1ec7u n\u0103ng
+Mengirim laporan rekaman terakhir lewat aplikasi pilihanmu, misalnya untuk dilampirkan saat melaporkan game yang lambat.	G\u1eedi b\u00e1o c\u00e1o ghi g\u1ea7n nh\u1ea5t qua \u1ee9ng d\u1ee5ng b\u1ea1n ch\u1ecdn, v\u00ed d\u1ee5 \u0111\u1ec3 \u0111\u00ednh k\u00e8m khi b\u00e1o c\u00e1o game ch\u1ea1y ch\u1eadm.
+Belum ada laporan performa. Nyalakan Rekam performa, mainkan sebentar, lalu coba lagi.	Chưa có báo cáo hiệu năng. Hãy bật Ghi hiệu năng, chơi một lúc rồi thử lại.
+Antarmuka internal Horizon	Giao diện bên trong Horizon
+Buka menu peluncur bawaan Horizon untuk mengelola profil, dunia, sumber daya, mod Horizon, atau masuk ke game dari dalam Horizon.	Mở menu trình khởi chạy tích hợp sẵn của Horizon để quản lý hồ sơ, thế giới, tài nguyên, mod Horizon hoặc vào game từ bên trong Horizon.
+Buka UI	Mở UI
+Masuk lewat UI Horizon saat PLAY	Mở giao diện Horizon khi nhấn PLAY
+Saat menyala, tombol PLAY pada instance Rust akan membuka layar internal Horizon terlebih dahulu daripada langsung masuk ke game.	Khi bật, nhấn PLAY trên instance Rust sẽ mở giao diện bên trong của Horizon trước thay vì vào thẳng game.
+UI Horizon	Giao diện Horizon
+Versi Minecraft Horizon	Phiên bản Minecraft Horizon
+Otomatis menerima pembaruan versi Minecraft {0} secara real-time.	Tự động nhận cập nhật phiên bản Minecraft {0} theo thời gian thực.
+Sinkron real-time: aktif {0} · Mojang 26.x terbaru {1}.	Đồng bộ thời gian thực: đang dùng {0} · Mojang 26.x mới nhất {1}.
+{0} · Cek	{0} · Kiểm tra
+Versi aktif Horizon: {0}	Phiên bản Horizon đang dùng: {0}
+Gaya UI internal Horizon	Kiểu giao diện bên trong Horizon
+Tampilan visual baru khusus NovaCraft saat membuka antarmuka internal Horizon.	Giao diện trực quan mới dành riêng cho NovaCraft khi mở trình khởi chạy bên trong Horizon.
+Buka menu peluncur bawaan Horizon bergaya NovaCraft untuk mengelola profil, dunia, sumber daya, mod Horizon, atau masuk ke game.	Mở menu tích hợp của Horizon theo phong cách NovaCraft để quản lý hồ sơ, thế giới, tài nguyên, mod Horizon hoặc vào game.
+# --- settings.tsv ---
+# Pengaturan
+{0} GB RAM \u00b7 {1} inti CPU	{0} GB RAM \u00b7 {1} nh\u00e2n CPU
+Memori	B\u1ed9 nh\u1edb
+Grafis	\u0110\u1ed3 h\u1ecda
+Kontrol	\u0110i\u1ec1u khi\u1ec3n
+Tampilan	Giao di\u1ec7n
+Memori game (RAM)	B\u1ed9 nh\u1edb game (RAM)
+Terlalu besar untuk HP ini, game dan HP bisa jadi lambat.	Qu\u00e1 l\u1edbn so v\u1edbi \u0111i\u1ec7n tho\u1ea1i n\u00e0y, game v\u00e0 m\u00e1y c\u00f3 th\u1ec3 b\u1ecb ch\u1eadm.
+Batas memori Java (-Xmx). Lebih besar tidak selalu lebih cepat.	Gi\u1edbi h\u1ea1n b\u1ed9 nh\u1edb Java (-Xmx). L\u1edbn h\u01a1n kh\u00f4ng ph\u1ea3i l\u00fac n\u00e0o c\u0169ng nhanh h\u01a1n.
+1,5 GB	1,5 GB
+Argumen JVM tambahan	Tham s\u1ed1 JVM b\u1ed5 sung
+Opsional, untuk pengguna mahir. Salah isi bisa membuat game gagal jalan.	T\u00f9y ch\u1ecdn, d\u00e0nh cho ng\u01b0\u1eddi d\u00f9ng n\u00e2ng cao. Nh\u1eadp sai c\u00f3 th\u1ec3 khi\u1ebfn game kh\u00f4ng ch\u1ea1y \u0111\u01b0\u1ee3c.
+Contoh: -XX:+UseG1GC	V\u00ed d\u1ee5: -XX:+UseG1GC
+Konfigurasi renderer	C\u1ea5u h\u00ecnh tr\u00ecnh k\u1ebft xu\u1ea5t
+Optimasi otomatis options.txt	T\u1ef1 \u0111\u1ed9ng t\u1ed1i \u01b0u options.txt
+Mematikan awan dan bayangan secara otomatis supaya FPS lebih tinggi.	T\u1ef1 \u0111\u1ed9ng t\u1eaft m\u00e2y v\u00e0 b\u00f3ng \u0111\u1ed5 \u0111\u1ec3 FPS cao h\u01a1n.
+Skala resolusi layar	T\u1ef7 l\u1ec7 \u0111\u1ed9 ph\u00e2n gi\u1ea3i m\u00e0n h\u00ecnh
+Lebih kecil = FPS lebih tinggi, gambar lebih buram.	Nh\u1ecf h\u01a1n = FPS cao h\u01a1n, h\u00ecnh \u1ea3nh m\u1edd h\u01a1n.
+Driver Vulkan	Driver Vulkan
+Pilih implementasi driver Vulkan yang dipakai sistem/game.	Ch\u1ecdn b\u1ea3n driver Vulkan m\u00e0 h\u1ec7 th\u1ed1ng/game s\u1eed d\u1ee5ng.
+API grafis	API \u0111\u1ed3 h\u1ecda
+Atur API grafis yang dipakai Minecraft modern 26.2+.	Ch\u1ecdn API \u0111\u1ed3 h\u1ecda m\u00e0 Minecraft \u0111\u1eddi m\u1edbi 26.2+ s\u1eed d\u1ee5ng.
+Gunakan driver Vulkan sistem	D\u00f9ng driver Vulkan c\u1ee7a h\u1ec7 th\u1ed1ng
+Paksa pakai driver Vulkan bawaan HP (bukan Turnip). Memengaruhi renderer Zink.	Bu\u1ed9c d\u00f9ng driver Vulkan c\u00f3 s\u1eb5n tr\u00ean \u0111i\u1ec7n tho\u1ea1i (kh\u00f4ng ph\u1ea3i Turnip). \u1ea2nh h\u01b0\u1edfng \u0111\u1ebfn tr\u00ecnh k\u1ebft xu\u1ea5t Zink.
+V-Sync Zink	V-Sync Zink
+Sinkronisasi vertikal untuk renderer Kopper Zink lewat antarmuka sistem.	\u0110\u1ed3ng b\u1ed9 d\u1ecdc cho tr\u00ecnh k\u1ebft xu\u1ea5t Kopper Zink th\u00f4ng qua giao di\u1ec7n h\u1ec7 th\u1ed1ng.
+Bahasa teks di launcher. Ikuti sistem memakai bahasa HP.	Ng\u00f4n ng\u1eef c\u1ee7a ch\u1eef trong launcher. "Theo h\u1ec7 th\u1ed1ng" d\u00f9ng ng\u00f4n ng\u1eef c\u1ee7a \u0111i\u1ec7n tho\u1ea1i.
+Latar Beranda	H\u00ecnh n\u1ec1n Trang ch\u1ee7
+Foto paling ringan, GIF bergerak dengan ringan, video paling halus (HD, bisa 60 fps) tapi memakai baterai lebih banyak.	\u1ea2nh nh\u1eb9 nh\u1ea5t, GIF chuy\u1ec3n \u0111\u1ed9ng v\u1edbi t\u1ea3i nh\u1eb9, video m\u01b0\u1ee3t nh\u1ea5t (HD, t\u1ed1i \u0111a 60 fps) nh\u01b0ng t\u1ed1n pin h\u01a1n.
+Ganti latar	\u0110\u1ed5i h\u00ecnh n\u1ec1n
+Gerakkan GIF dan video	Ph\u00e1t chuy\u1ec3n \u0111\u1ed9ng GIF v\u00e0 video
+Matikan untuk menampilkan gambar diam saja. Paling hemat baterai dan RAM.	T\u1eaft \u0111\u1ec3 ch\u1ec9 hi\u1ec3n th\u1ecb \u1ea3nh t\u0129nh. Ti\u1ebft ki\u1ec7m pin v\u00e0 RAM nh\u1ea5t.
+Jeda saat Hemat Baterai	T\u1ea1m d\u1eebng khi Ti\u1ebft ki\u1ec7m pin
+GIF dan video berhenti otomatis selama mode Hemat Baterai HP menyala.	GIF v\u00e0 video t\u1ef1 \u0111\u1ed9ng d\u1eebng khi ch\u1ebf \u0111\u1ed9 Ti\u1ebft ki\u1ec7m pin c\u1ee7a \u0111i\u1ec7n tho\u1ea1i \u0111ang b\u1eadt.
+Suara video	\u00c2m thanh video
+Bawaan mati. Otomatis bisu bila aplikasi lain sedang memutar musik.	M\u1eb7c \u0111\u1ecbnh t\u1eaft. T\u1ef1 \u0111\u1ed9ng t\u1eaft ti\u1ebfng khi \u1ee9ng d\u1ee5ng kh\u00e1c \u0111ang ph\u00e1t nh\u1ea1c.
+Volume video	\u00c2m l\u01b0\u1ee3ng video
+Cahaya lembut di sidebar dan tepi kartu Beranda. Warnanya mengikuti isi GIF atau video. Tidak berlaku untuk foto.	\u00c1nh s\u00e1ng d\u1ecbu \u1edf thanh b\u00ean v\u00e0 vi\u1ec1n c\u00e1c th\u1ebb Trang ch\u1ee7. M\u00e0u s\u1eafc theo n\u1ed9i dung GIF ho\u1eb7c video. Kh\u00f4ng \u00e1p d\u1ee5ng cho \u1ea3nh.
+Kekuatan ambient	C\u01b0\u1eddng \u0111\u1ed9 \u00e1nh s\u00e1ng m\u00f4i tr\u01b0\u1eddng
+Kustomisasi kontrol virtual	T\u00f9y ch\u1ec9nh \u0111i\u1ec1u khi\u1ec3n \u1ea3o
+Ubah tata letak tombol, ukuran, transparansi, scroll hotbar, dan pemetaan tombol Minecraft.	Thay \u0111\u1ed5i b\u1ed1 c\u1ee5c n\u00fat, k\u00edch th\u01b0\u1edbc, \u0111\u1ed9 trong su\u1ed1t, cu\u1ed9n thanh c\u00f4ng c\u1ee5 nhanh (hotbar) v\u00e0 \u00e1nh x\u1ea1 ph\u00edm Minecraft.
+Buka editor	M\u1edf tr\u00ecnh ch\u1ec9nh s\u1eeda
+Mode mouse di menu	Ch\u1ebf \u0111\u1ed9 chu\u1ed9t trong menu
+Sentuh tombol atau slot menu langsung di mana jari menekan.	Ch\u1ea1m tr\u1ef1c ti\u1ebfp v\u00e0o n\u00fat ho\u1eb7c \u00f4 menu \u1edf v\u1ecb tr\u00ed ng\u00f3n tay nh\u1ea5n.
+Geser jari untuk menggerakkan kursor virtual, ketuk layar untuk klik.	Tr\u01b0\u1ee3t ng\u00f3n tay \u0111\u1ec3 di chuy\u1ec3n con tr\u1ecf \u1ea3o, ch\u1ea1m v\u00e0o m\u00e0n h\u00ecnh \u0111\u1ec3 nh\u1ea5p.
+Click (langsung)	Click (tr\u1ef1c ti\u1ebfp)
+Pukul lewat layar	\u0110\u00e1nh b\u1eb1ng c\u00e1ch ch\u1ea1m m\u00e0n h\u00ecnh
+Ketuk atau tahan di area kosong layar untuk memukul. Matikan supaya menggeser kamera tidak ikut memukul; pakai tombol pukul.	Ch\u1ea1m ho\u1eb7c gi\u1eef v\u00e0o v\u00f9ng tr\u1ed1ng tr\u00ean m\u00e0n h\u00ecnh \u0111\u1ec3 \u0111\u00e1nh. H\u00e3y t\u1eaft \u0111\u1ec3 vi\u1ec7c k\u00e9o xoay camera kh\u00f4ng v\u00f4 t\u00ecnh \u0111\u00e1nh; h\u00e3y d\u00f9ng n\u00fat \u0111\u00e1nh.
+Sensitivitas kamera	\u0110\u1ed9 nh\u1ea1y camera
+Kecepatan memutar pandangan di dalam game.	T\u1ed1c \u0111\u1ed9 xoay g\u00f3c nh\u00ecn trong game.
+Sensitivitas kursor virtual	\u0110\u1ed9 nh\u1ea1y con tr\u1ecf \u1ea3o
+Kecepatan kursor saat berada di menu Minecraft.	T\u1ed1c \u0111\u1ed9 con tr\u1ecf khi \u1edf trong menu Minecraft.
+Ukuran kursor virtual	K\u00edch th\u01b0\u1edbc con tr\u1ecf \u1ea3o
+Mode mouse fisik (auto-hide)	Ch\u1ebf \u0111\u1ed9 chu\u1ed9t th\u1eadt (t\u1ef1 \u1ea9n)
+Sembunyikan kursor virtual otomatis jika mouse eksternal tersambung.	T\u1ef1 \u0111\u1ed9ng \u1ea9n con tr\u1ecf \u1ea3o khi c\u00f3 chu\u1ed9t ngo\u00e0i k\u1ebft n\u1ed1i.
+Perubahan tersimpan otomatis	Thay \u0111\u1ed5i \u0111\u01b0\u1ee3c l\u01b0u t\u1ef1 \u0111\u1ed9ng
+Pengaturan di-reset ke default!	\u0110\u00e3 \u0111\u1eb7t l\u1ea1i c\u00e0i \u0111\u1eb7t v\u1ec1 m\u1eb7c \u0111\u1ecbnh!
+Reset default	\u0110\u1eb7t l\u1ea1i m\u1eb7c \u0111\u1ecbnh
+PILIH RENDERER GRAFIK	CH\u1eccN TR\u00ccNH K\u1ebeT XU\u1ea4T \u0110\u1ed2 H\u1eccA
+Sesuaikan backend grafis dengan Minecraft & GPU perangkat	Ch\u1ecdn backend \u0111\u1ed3 h\u1ecda ph\u00f9 h\u1ee3p v\u1edbi Minecraft v\u00e0 GPU c\u1ee7a thi\u1ebft b\u1ecb
+Renderer diubah ke: {0}	\u0110\u00e3 \u0111\u1ed5i tr\u00ecnh k\u1ebft xu\u1ea5t sang: {0}
+Konfigurasi {0}	C\u1ea5u h\u00ecnh {0}
+Kesesuaian: {0}	\u0110\u1ed9 t\u01b0\u01a1ng th\u00edch: {0}
+PERINGATAN DRIVER ADRENO	C\u1ea2NH B\u00c1O DRIVER ADRENO
+Launcher mendeteksi perangkatmu menggunakan GPU Adreno. Mengaktifkan opsi ini dapat menyebabkan perender Zink tidak berfungsi atau crash. Apakah Anda yakin ingin mengaktifkannya?	Launcher ph\u00e1t hi\u1ec7n thi\u1ebft b\u1ecb c\u1ee7a b\u1ea1n d\u00f9ng GPU Adreno. B\u1eadt t\u00f9y ch\u1ecdn n\u00e0y c\u00f3 th\u1ec3 khi\u1ebfn tr\u00ecnh k\u1ebft xu\u1ea5t Zink kh\u00f4ng ho\u1ea1t \u0111\u1ed9ng ho\u1eb7c b\u1ecb crash. B\u1ea1n c\u00f3 ch\u1eafc mu\u1ed1n b\u1eadt kh\u00f4ng?
+AKTIFKAN	B\u1eacT
+Mode GC (pembersih memori Java)	Ch\u1ebf \u0111\u1ed9 GC (b\u1ed9 d\u1ecdn d\u1eb9p b\u1ed9 nh\u1edb Java)
+Kunci layar 60 Hz	Kh\u00f3a m\u00e0n h\u00ecnh \u1edf 60 Hz
+# Pembaruan otomatis dan rekam layar (tambahan)
+Kualitas rekaman layar	Ch\u1ea5t l\u01b0\u1ee3ng quay m\u00e0n h\u00ecnh
+Makin kecil makin ringan untuk HP. Hemat 540p, Ringan 720p, Tajam 1080p.	C\u00e0ng nh\u1ecf c\u00e0ng nh\u1eb9 cho \u0111i\u1ec7n tho\u1ea1i. Ti\u1ebft ki\u1ec7m 540p, Nh\u1eb9 720p, N\u00e9t 1080p.
+Hemat	Ti\u1ebft ki\u1ec7m
+Ringan	Nh\u1eb9
+Tajam	N\u00e9t
+FPS rekaman	FPS khi quay
+30 fps jauh lebih ringan. 60 fps hanya untuk HP yang kuat.	30 fps nh\u1eb9 h\u01a1n nhi\u1ec1u. 60 fps ch\u1ec9 d\u00e0nh cho \u0111i\u1ec7n tho\u1ea1i m\u1ea1nh.
+Isi rekaman	N\u1ed9i dung b\u1ea3n quay
+Game saja: tombol layar disembunyikan dari video (tetap bisa disentuh). Dengan tombol: tombol layar ikut terekam. Bisa diganti juga dari menu dalam game.	Ch\u1ec9 tr\u00f2 ch\u01a1i: c\u00e1c n\u00fat tr\u00ean m\u00e0n h\u00ecnh \u0111\u01b0\u1ee3c \u1ea9n kh\u1ecfi video (v\u1eabn b\u1ea5m \u0111\u01b0\u1ee3c). K\u00e8m n\u00fat: c\u00e1c n\u00fat tr\u00ean m\u00e0n h\u00ecnh c\u0169ng \u0111\u01b0\u1ee3c quay. B\u1ea1n c\u0169ng c\u00f3 th\u1ec3 \u0111\u1ed5i trong menu khi ch\u01a1i.
+Rekam suara mikrofon	Quay \u00e2m thanh micro
+Menambahkan suara dari mikrofon ke rekaman. Suara game belum ikut terekam.	Th\u00eam \u00e2m thanh t\u1eeb micro v\u00e0o b\u1ea3n quay. \u00c2m thanh tr\u00f2 ch\u01a1i ch\u01b0a \u0111\u01b0\u1ee3c quay.
+Hentikan rekaman saat HP terlalu panas	D\u1eebng quay khi \u0111i\u1ec7n tho\u1ea1i qu\u00e1 n\u00f3ng
+Menyimpan rekaman dan berhenti otomatis supaya game tidak ikut melambat karena panas.	T\u1ef1 \u0111\u1ed9ng l\u01b0u b\u1ea3n quay v\u00e0 d\u1eebng \u0111\u1ec3 tr\u00f2 ch\u01a1i kh\u00f4ng b\u1ecb ch\u1eadm v\u00ec n\u00f3ng.
+Hotbar sentuh	Thanh nhanh c\u1ea3m \u1ee9ng
+Ketuk hotbar di bagian bawah layar untuk memilih slot, seperti di Minecraft Bedrock. Posisi slot mengikuti GUI scale game.	Ch\u1ea1m v\u00e0o thanh nhanh \u1edf cu\u1ed1i m\u00e0n h\u00ecnh \u0111\u1ec3 ch\u1ecdn \u00f4, gi\u1ed1ng Minecraft Bedrock. V\u1ecb tr\u00ed c\u00e1c \u00f4 theo t\u1ef7 l\u1ec7 GUI c\u1ee7a tr\u00f2 ch\u01a1i.
+Geser kamera dari tombol	Xoay camera khi k\u00e9o n\u00fat
+Menahan tombol pukul, pakai, atau lompat lalu menggeser jari ikut memutar kamera. Matikan supaya pandangan tidak bergeser saat bertarung (PvP).	Gi\u1eef n\u00fat \u0111\u00e1nh, d\u00f9ng ho\u1eb7c nh\u1ea3y r\u1ed3i tr\u01b0\u1ee3t ng\u00f3n tay s\u1ebd xoay camera. T\u1eaft \u0111\u1ec3 g\u00f3c nh\u00ecn kh\u00f4ng b\u1ecb l\u1ec7ch khi chi\u1ebfn \u0111\u1ea5u (PvP).
+Dukungan TouchController	H\u1ed7 tr\u1ee3 TouchController
+Eksperimental. Bila mod TouchController terpasang dan tersambung, sentuhan saat bermain juga diteruskan ke mod. Tombol dan mouse virtual launcher tetap aktif, jadi keduanya bisa dipakai bersamaan.	Th\u1eed nghi\u1ec7m. N\u1ebfu mod TouchController \u0111\u00e3 c\u00e0i v\u00e0 k\u1ebft n\u1ed1i, thao t\u00e1c ch\u1ea1m khi ch\u01a1i c\u0169ng \u0111\u01b0\u1ee3c chuy\u1ec3n cho mod. N\u00fat v\u00e0 chu\u1ed9t \u1ea3o c\u1ee7a launcher v\u1eabn ho\u1ea1t \u0111\u1ed9ng, n\u00ean c\u00f3 th\u1ec3 d\u00f9ng c\u1ea3 hai c\u00f9ng l\u00fac.
+# Mode Hemat, kunci layar 60 Hz umum, dan GC untuk HP RAM kecil
+Optimasi HP RAM kecil	T\u1ed1i \u01b0u cho \u0111i\u1ec7n tho\u1ea1i RAM th\u1ea5p
+RAM HP ini {0} MB, jadi cara kerja pembersih memori Java bisa disetel.	\u0110i\u1ec7n tho\u1ea1i n\u00e0y c\u00f3 {0} MB RAM, n\u00ean c\u00f3 th\u1ec3 tinh ch\u1ec9nh c\u00e1ch b\u1ed9 d\u1ecdn d\u1eb9p b\u1ed9 nh\u1edb Java ho\u1ea1t \u0111\u1ed9ng.
+Serial: paling ringan untuk prosesor, jeda GC sedikit lebih panjang. Coba bila game sering tersendat.	Serial: nh\u1eb9 nh\u1ea5t cho b\u1ed9 x\u1eed l\u00fd, th\u1eddi gian d\u1eebng GC d\u00e0i h\u01a1n m\u1ed9t ch\u00fat. H\u00e3y th\u1eed n\u1ebfu game th\u01b0\u1eddng b\u1ecb gi\u1eadt.
+Bawaan: tanpa flag GC tambahan dari launcher.	M\u1eb7c \u0111\u1ecbnh: kh\u00f4ng th\u00eam c\u1edd GC n\u00e0o t\u1eeb launcher.
+Otomatis: G1 dengan memori terbatas, cocok untuk kebanyakan HP. Coba ini dulu.	T\u1ef1 \u0111\u1ed9ng: G1 v\u1edbi b\u1ed9 nh\u1edb gi\u1edbi h\u1ea1n, ph\u00f9 h\u1ee3p v\u1edbi \u0111a s\u1ed1 \u0111i\u1ec7n tho\u1ea1i. H\u00e3y th\u1eed c\u00e1ch n\u00e0y tr\u01b0\u1edbc.
+Berlaku saat game dijalankan berikutnya. Untuk membandingkan, lihat baris [Kinerja] di log game.	C\u00f3 hi\u1ec7u l\u1ef1c \u1edf l\u1ea7n ch\u1ea1y game ti\u1ebfp theo. \u0110\u1ec3 so s\u00e1nh, xem c\u00e1c d\u00f2ng [Kinerja] trong nh\u1eadt k\u00fd game.
+Mode Hemat	Ch\u1ebf \u0111\u1ed9 Ti\u1ebft ki\u1ec7m
+Untuk HP yang cepat panas atau baterainya cepat habis.	D\u00e0nh cho \u0111i\u1ec7n tho\u1ea1i nhanh n\u00f3ng ho\u1eb7c hao pin.
+Nyalakan Mode Hemat	B\u1eadt Ch\u1ebf \u0111\u1ed9 Ti\u1ebft ki\u1ec7m
+Menyalakan mode performa stabil sistem dan V-Sync Zink, serta membatasi skala resolusi maksimal 80%.	B\u1eadt ch\u1ebf \u0111\u1ed9 hi\u1ec7u n\u0103ng \u1ed5n \u0111\u1ecbnh c\u1ee7a h\u1ec7 th\u1ed1ng v\u00e0 V-Sync c\u1ee7a Zink, \u0111\u1ed3ng th\u1eddi gi\u1edbi h\u1ea1n t\u1ef7 l\u1ec7 \u0111\u1ed9 ph\u00e2n gi\u1ea3i t\u1ed1i \u0111a 80%.
+Berlaku saat game dijalankan berikutnya. Dimatikan kembali, setelan sebelumnya dipulihkan.	C\u00f3 hi\u1ec7u l\u1ef1c \u1edf l\u1ea7n ch\u1ea1y game ti\u1ebfp theo. T\u1eaft \u0111i s\u1ebd kh\u00f4i ph\u1ee5c c\u00e0i \u0111\u1eb7t tr\u01b0\u1edbc \u0111\u00f3.
+Layar 90/120 Hz dikunci 60 Hz saat main supaya gerak lebih rata dan sedikit lebih hemat panas. Cocok bila game jarang mencapai 90 FPS. HUD FPS menampilkan Hz yang aktif.	M\u00e0n h\u00ecnh 90/120 Hz \u0111\u01b0\u1ee3c kh\u00f3a \u1edf 60 Hz khi ch\u01a1i \u0111\u1ec3 chuy\u1ec3n \u0111\u1ed9ng m\u01b0\u1ee3t h\u01a1n v\u00e0 \u0111\u1ee1 n\u00f3ng h\u01a1n m\u1ed9t ch\u00fat. Ph\u00f9 h\u1ee3p n\u1ebfu game hi\u1ebfm khi \u0111\u1ea1t 90 FPS. HUD FPS hi\u1ec3n th\u1ecb Hz \u0111ang ho\u1ea1t \u0111\u1ed9ng.
+Cadangan & bagikan layout	Sao l\u01b0u & chia s\u1ebb b\u1ed1 c\u1ee5c
+Simpan tata letak tombol ke berkas .json untuk dicadangkan atau dibagikan, atau muat dari berkas milik orang lain.	L\u01b0u b\u1ed1 c\u1ee5c n\u00fat v\u00e0o t\u1ec7p .json \u0111\u1ec3 sao l\u01b0u ho\u1eb7c chia s\u1ebb, ho\u1eb7c t\u1ea3i t\u1eeb t\u1ec7p c\u1ee7a ng\u01b0\u1eddi kh\u00e1c.
+Ekspor	Xu\u1ea5t
+Layout kontrol disimpan ke berkas	\u0110\u00e3 l\u01b0u b\u1ed1 c\u1ee5c \u0111i\u1ec1u khi\u1ec3n v\u00e0o t\u1ec7p
+Gagal menyimpan berkas	Kh\u00f4ng th\u1ec3 l\u01b0u t\u1ec7p
+Berkas terlalu besar untuk layout kontrol	T\u1ec7p qu\u00e1 l\u1edbn \u0111\u1ec3 l\u00e0m b\u1ed1 c\u1ee5c \u0111i\u1ec1u khi\u1ec3n
+Berkas tidak berisi tombol	T\u1ec7p kh\u00f4ng ch\u1ee9a n\u00fat n\u00e0o
+Berkas ini bukan layout kontrol yang valid	T\u1ec7p n\u00e0y kh\u00f4ng ph\u1ea3i b\u1ed1 c\u1ee5c \u0111i\u1ec1u khi\u1ec3n h\u1ee3p l\u1ec7
+Layout kontrol diimpor ({0} tombol)	\u0110\u00e3 nh\u1eadp b\u1ed1 c\u1ee5c \u0111i\u1ec1u khi\u1ec3n ({0} n\u00fat)
+# Log game: simpan otomatis dan bagikan
+Log game	Nh\u1eadt k\u00fd game
+Setiap keluar dari Minecraft, log sesi itu disimpan otomatis (10 terakhir), tanpa token akun. Bila ada masalah, misalnya shader tidak termuat, bagikan log terbaru ke pengembang.	M\u1ed7i l\u1ea7n tho\u00e1t Minecraft, nh\u1eadt k\u00fd c\u1ee7a phi\u00ean \u0111\u00f3 \u0111\u01b0\u1ee3c t\u1ef1 \u0111\u1ed9ng l\u01b0u (10 b\u1ea3n g\u1ea7n nh\u1ea5t), kh\u00f4ng ch\u1ee9a token t\u00e0i kho\u1ea3n. N\u1ebfu c\u00f3 s\u1ef1 c\u1ed1, v\u00ed d\u1ee5 shader kh\u00f4ng t\u1ea3i \u0111\u01b0\u1ee3c, h\u00e3y chia s\u1ebb nh\u1eadt k\u00fd m\u1edbi nh\u1ea5t cho nh\u00e0 ph\u00e1t tri\u1ec3n.
+Belum ada log. Mainkan game sekali lalu keluar; log tersimpan otomatis.	Ch\u01b0a c\u00f3 nh\u1eadt k\u00fd. H\u00e3y ch\u01a1i game m\u1ed9t l\u1ea7n r\u1ed3i tho\u00e1t; nh\u1eadt k\u00fd s\u1ebd t\u1ef1 \u0111\u1ed9ng \u0111\u01b0\u1ee3c l\u01b0u.
+Log terbaru	Nh\u1eadt k\u00fd m\u1edbi nh\u1ea5t
+Log sebelumnya	Nh\u1eadt k\u00fd tr\u01b0\u1edbc
+Bagikan	Chia s\u1ebb
+Hapus semua log	X\u00f3a t\u1ea5t c\u1ea3 nh\u1eadt k\u00fd
+Ketuk lagi untuk menghapus	Ch\u1ea1m l\u1ea1i \u0111\u1ec3 x\u00f3a
+Log dihapus.	\u0110\u00e3 x\u00f3a nh\u1eadt k\u00fd.
+Log launcher	Nh\u1eadt k\u00fd launcher
+Kejadian di dalam launcher di luar game, misalnya unduhan, login, dan pesan galat. Bagikan bila masalahnya muncul sebelum game dimulai.	Nh\u1eefng g\u00ec x\u1ea3y ra b\u00ean trong launcher ngo\u00e0i game, v\u00ed d\u1ee5 t\u1ea3i xu\u1ed1ng, \u0111\u0103ng nh\u1eadp v\u00e0 th\u00f4ng b\u00e1o l\u1ed7i. H\u00e3y chia s\u1ebb n\u1ebfu s\u1ef1 c\u1ed1 xu\u1ea5t hi\u1ec7n tr\u01b0\u1edbc khi game b\u1eaft \u0111\u1ea7u.
+Menyiapkan log...	\u0110ang chu\u1ea9n b\u1ecb nh\u1eadt k\u00fd...
+Gagal menyiapkan log launcher.	Kh\u00f4ng th\u1ec3 chu\u1ea9n b\u1ecb nh\u1eadt k\u00fd launcher.
+Lokasi: {0}	V\u1ecb tr\u00ed: {0}
+Kirim lewat WhatsApp, Telegram, atau Google Drive dari tombol Bagikan, atau ambil langsung dari folder itu lewat pengelola berkas.	G\u1eedi qua WhatsApp, Telegram ho\u1eb7c Google Drive b\u1eb1ng n\u00fat Chia s\u1ebb, ho\u1eb7c l\u1ea5y tr\u1ef1c ti\u1ebfp t\u1eeb th\u01b0 m\u1ee5c \u0111\u00f3 b\u1eb1ng tr\u00ecnh qu\u1ea3n l\u00fd t\u1ec7p.
+Plugin native library	Plugin thư viện gốc
+Belum ada plugin terpasang	Chưa cài plugin nào
+Pasang APK plugin native library (format Zalith/FCL) yang dibutuhkan mod, misalnya Distant Horizons, lalu ketuk untuk memindai ulang.	Cài APK plugin thư viện gốc (định dạng Zalith/FCL) mà mod cần, ví dụ Distant Horizons, rồi chạm để quét lại.
+Pindai	Quét
+Memindai...	Đang quét...
+Pindai ulang plugin	Quét lại plugin
+Gunakan setelah memasang atau menghapus plugin. Plugin juga dipindai otomatis tiap game dijalankan.	Dùng sau khi cài hoặc gỡ plugin. Plugin cũng được quét tự động mỗi lần trò chơi khởi động.
+Kontrol sentuh	Điều khiển cảm ứng
+Kamera dan kursor	Camera và con trỏ
+Controller dan mouse fisik	Tay cầm và chuột vật lý
+Lanjutan	Nâng cao
+Langsung bisa dipakai	Dùng được ngay
+Tidak perlu dinyalakan atau diatur. Colok controller (gamepad) lalu main: stick kiri jalan, stick kanan kamera, A lompat, RT pukul, LT pasang, Y inventaris, Start = Esc. Di menu stick menggerakkan kursor. Mouse dan keyboard fisik juga langsung bisa dipakai. Tombol layar tersembunyi sendiri saat controller atau mouse dipakai. Kecepatan stick mengikuti sensitivitas kamera dan kursor di atas. Bila mod controller (mis. Controlify) terdeteksi, controller langsung diserahkan ke mod.	Không cần bật hay cài đặt gì. Cắm tay cầm (gamepad) rồi chơi: cần trái để đi, cần phải xoay camera, A nhảy, RT đánh, LT đặt/dùng, Y mở túi đồ, Start = Esc. Trong menu, cần gạt di chuyển con trỏ. Chuột và bàn phím vật lý cũng dùng được ngay. Nút trên màn hình tự ẩn khi dùng tay cầm hoặc chuột. Tốc độ cần gạt theo độ nhạy camera và con trỏ ở trên. Nếu phát hiện mod tay cầm (ví dụ Controlify), tay cầm được giao thẳng cho mod.
+Mode tema	Chế độ giao diện
+Pilih tampilan Gelap, Terang, atau mengikuti tema sistem Android.	Chọn giao diện Tối, Sáng hoặc theo chủ đề hệ thống Android.
+Gelap	Tối
+Terang	Sáng
+Izin aplikasi	Quyền ứng dụng
+Izin notifikasi	Quyền thông báo
+Status unduhan, pemasangan mod/loader, dan kontrol rekam layar.	Trạng thái tải xuống, cài mod/loader và điều khiển quay màn hình.
+Diizinkan	Đã cấp
+Izinkan	Cấp quyền
+Izin notifikasi sudah aktif.	Quyền thông báo đã được bật.
+Izin notifikasi diaktifkan.	Đã bật quyền thông báo.
+Izin notifikasi ditolak. Anda bisa mengaturnya lewat Pengaturan sistem.	Quyền thông báo bị từ chối. Bạn có thể bật lại trong Cài đặt hệ thống.
+Izin mikrofon	Quyền micro
+Opsional untuk merekam suara mikrofon saat merekam layar game.	Tùy chọn để thu âm từ micro khi quay màn hình game.
+Izin mikrofon sudah aktif.	Quyền micro đã được bật.
+Izin mikrofon diaktifkan.	Đã bật quyền micro.
+Izin mikrofon ditolak. Anda bisa mengaturnya lewat Pengaturan sistem.	Quyền micro bị từ chối. Bạn có thể bật lại trong Cài đặt hệ thống.
+Izin penyimpanan (Android 11+)	Quyền bộ nhớ (Android 11+)
+Dibatasi aturan Android 11+: memakai folder privat novacraft dan pemilih SAF tanpa melewati pembatasan sistem.	Hạn chế theo Android 11+: dùng thư mục riêng novacraft và bộ chọn SAF, không bỏ chặn giới hạn hệ thống.
+Dibatasi	Hạn chế
+Pembatasan penyimpanan Android 11+ aktif dan tidak dilewati.	Giới hạn bộ nhớ Android 11+ đang bật và được giữ nguyên.
+Izin penyimpanan	Quyền bộ nhớ
+Akses baca/tulis berkas lokal untuk perangkat Android 10 ke bawah.	Quyền đọc/ghi tệp cục bộ cho thiết bị Android 10 trở xuống.
+Izin penyimpanan sudah aktif.	Quyền bộ nhớ đã được bật.
+Izin penyimpanan diaktifkan.	Đã bật quyền bộ nhớ.
+Izin penyimpanan ditolak. Anda bisa mengaturnya lewat Pengaturan sistem.	Quyền bộ nhớ bị từ chối. Bạn có thể bật lại trong Cài đặt hệ thống.
+Pengaturan izin sistem	Cài đặt quyền hệ thống
+Buka halaman izin aplikasi Android untuk mengelola akses secara manual.	Mở trang quyền ứng dụng Android để quản lý thủ công.
+Tidak dapat membuka pengaturan izin aplikasi.	Không thể mở trang cài đặt quyền ứng dụng.
+# --- skin.tsv ---
+# Wardrobe: skin dan jubah
+Gagal memuat jubah: {0}	Kh\u00f4ng th\u1ec3 t\u1ea3i \u00e1o cho\u00e0ng: {0}
+Memvalidasi skin...	\u0110ang x\u00e1c th\u1ef1c skin...
+Skin dimuat di preview ({0}) \u2014 Klik Simpan untuk menerapkan	\u0110\u00e3 t\u1ea3i skin v\u00e0o b\u1ea3n xem tr\u01b0\u1edbc ({0}) \u2014 Nh\u1ea5n L\u01b0u \u0111\u1ec3 \u00e1p d\u1ee5ng
+File tidak valid	T\u1ec7p kh\u00f4ng h\u1ee3p l\u1ec7
+Memvalidasi cape...	\u0110ang x\u00e1c th\u1ef1c \u00e1o cho\u00e0ng...
+Cape kustom dimuat di preview \u2014 Klik Simpan untuk menerapkan	\u0110\u00e3 t\u1ea3i \u00e1o cho\u00e0ng t\u00f9y ch\u1ec9nh v\u00e0o b\u1ea3n xem tr\u01b0\u1edbc \u2014 Nh\u1ea5n L\u01b0u \u0111\u1ec3 \u00e1p d\u1ee5ng
+File cape tidak valid	T\u1ec7p \u00e1o cho\u00e0ng kh\u00f4ng h\u1ee3p l\u1ec7
+WARDROBE & CUSTOM SKIN	T\u1ee6 \u0110\u1ed2 & SKIN T\u00d9Y CH\u1ec8NH
+Kustomisasi tampilan skin dan jubah pemain Minecraft	T\u00f9y ch\u1ec9nh skin v\u00e0 \u00e1o cho\u00e0ng c\u1ee7a ng\u01b0\u1eddi ch\u01a1i Minecraft
+3D (DRAG / PUTAR)	3D (K\u00c9O / XOAY)
+Putar Otomatis	T\u1ef1 \u0111\u1ed9ng xoay
+Reset Kamera	\u0110\u1eb7t l\u1ea1i camera
+Jalan	\u0110i b\u1ed9
+Diam	\u0110\u1ee9ng y\u00ean
+Lari	Ch\u1ea1y
+Sapa	V\u1eaby tay
+KUSTOM SKIN	SKIN T\u00d9Y CH\u1ec8NH
+JUBAH / CAPE	\u00c1O CHO\u00c0NG
+Sistem Skin & Jubah Ely.by	H\u1ec7 th\u1ed1ng skin & \u00e1o cho\u00e0ng Ely.by
+Akun Ely.by menggunakan server skinsystem terpusat. Untuk mengganti skin atau tipe model lengan, silakan unggah langsung melalui website resmi ely.by agar tersinkronisasi in-game.	T\u00e0i kho\u1ea3n Ely.by d\u00f9ng m\u00e1y ch\u1ee7 skinsystem t\u1eadp trung. \u0110\u1ec3 \u0111\u1ed5i skin ho\u1eb7c ki\u1ec3u tay, h\u00e3y t\u1ea3i l\u00ean tr\u1ef1c ti\u1ebfp tr\u00ean trang web ch\u00ednh th\u1ee9c ely.by \u0111\u1ec3 \u0111\u1ed3ng b\u1ed9 v\u00e0o game.
+KUNJUNGI ACCOUNT.ELY.BY	TRUY C\u1eacP ACCOUNT.ELY.BY
+PILIH FILE SKIN (.PNG)	CH\u1eccN T\u1ec6P SKIN (.PNG)
+TIPE MODEL LENGAN:	KI\u1ec2U TAY:
+Model Klasik dipilih (Preview) \u2014 Klik Simpan	\u0110\u00e3 ch\u1ecdn ki\u1ec3u Classic (xem tr\u01b0\u1edbc) \u2014 Nh\u1ea5n L\u01b0u
+Lengan tebal (4px)	Tay d\u00e0y (4px)
+Model Slim dipilih (Preview) \u2014 Klik Simpan	\u0110\u00e3 ch\u1ecdn ki\u1ec3u Slim (xem tr\u01b0\u1edbc) \u2014 Nh\u1ea5n L\u01b0u
+Lengan ramping (3px)	Tay m\u1ea3nh (3px)
+Skin direset ke default Steve (Preview) \u2014 Klik Simpan	\u0110\u00e3 \u0111\u1eb7t l\u1ea1i skin v\u1ec1 Steve m\u1eb7c \u0111\u1ecbnh (xem tr\u01b0\u1edbc) \u2014 Nh\u1ea5n L\u01b0u
+\u21ba Reset ke Skin Default (Klasik)	\u21ba \u0110\u1eb7t l\u1ea1i v\u1ec1 skin m\u1eb7c \u0111\u1ecbnh (Classic)
+JUBAH RESMI MINECRAFT.NET:	\u00c1O CHO\u00c0NG CH\u00cdNH TH\u1ee8C T\u1eea MINECRAFT.NET:
+Memuat jubah dari Minecraft.net...	\u0110ang t\u1ea3i \u00e1o cho\u00e0ng t\u1eeb Minecraft.net...
+Akun Microsoft Anda belum memiliki jubah resmi di Minecraft.net.	T\u00e0i kho\u1ea3n Microsoft c\u1ee7a b\u1ea1n ch\u01b0a c\u00f3 \u00e1o cho\u00e0ng ch\u00ednh th\u1ee9c n\u00e0o tr\u00ean Minecraft.net.
+Jubah dilepas (Preview) \u2014 Klik Simpan	\u0110\u00e3 g\u1ee1 \u00e1o cho\u00e0ng (xem tr\u01b0\u1edbc) \u2014 Nh\u1ea5n L\u01b0u
+Tanpa Jubah (Lepas Cape)	Kh\u00f4ng \u00e1o cho\u00e0ng (g\u1ee1 \u00e1o cho\u00e0ng)
+Jubah {0} dipilih (Preview) \u2014 Klik Simpan	\u0110\u00e3 ch\u1ecdn \u00e1o cho\u00e0ng {0} (xem tr\u01b0\u1edbc) \u2014 Nh\u1ea5n L\u01b0u
+AKTIF DI MOJANG	\u0110ANG D\u00d9NG TR\u00caN MOJANG
+Sistem Skin & Cape Ely.by	H\u1ec7 th\u1ed1ng skin & \u00e1o cho\u00e0ng Ely.by
+Akun Ely.by menggunakan server skinsystem resmi. Seluruh skin dan jubah dikelola langsung melalui website ely.by dan akan otomatis tampil di dalam game.	T\u00e0i kho\u1ea3n Ely.by d\u00f9ng m\u00e1y ch\u1ee7 skinsystem ch\u00ednh th\u1ee9c. M\u1ecdi skin v\u00e0 \u00e1o cho\u00e0ng \u0111\u01b0\u1ee3c qu\u1ea3n l\u00fd tr\u1ef1c ti\u1ebfp tr\u00ean trang web ely.by v\u00e0 s\u1ebd t\u1ef1 \u0111\u1ed9ng hi\u1ec7n trong game.
+BUKA WEBSITE ELY.BY	M\u1ede TRANG WEB ELY.BY
+PILIH FILE CAPE KUSTOM (.PNG)	CH\u1eccN T\u1ec6P \u00c1O CHO\u00c0NG T\u00d9Y CH\u1ec8NH (.PNG)
+ATAU PILIH PRESET JUBAH:	HO\u1eb6C CH\u1eccN M\u1eaaU \u00c1O CHO\u00c0NG:
+Cape dilepas (Preview) \u2014 Klik Simpan	\u0110\u00e3 g\u1ee1 \u00e1o cho\u00e0ng (xem tr\u01b0\u1edbc) \u2014 Nh\u1ea5n L\u01b0u
+Menyinkronkan ke Minecraft.net...	\u0110ang \u0111\u1ed3ng b\u1ed9 l\u00ean Minecraft.net...
+Gagal memperbarui Minecraft.net: {~0}	Kh\u00f4ng th\u1ec3 c\u1eadp nh\u1eadt Minecraft.net: {0}
+Perubahan berhasil diterapkan ke Minecraft.net!	\u0110\u00e3 \u00e1p d\u1ee5ng thay \u0111\u1ed5i l\u00ean Minecraft.net!
+Skin & Cape berhasil disimpan!	\u0110\u00e3 l\u01b0u skin & \u00e1o cho\u00e0ng!
+SIMPAN KE MOJANG	L\u01afU L\u00caN MOJANG
+SIMPAN PERUBAHAN	L\u01afU THAY \u0110\u1ed4I
+Jubah Resmi Minecraft	\u00c1o cho\u00e0ng ch\u00ednh th\u1ee9c c\u1ee7a Minecraft
+Jubah Aktif Minecraft	\u00c1o cho\u00e0ng Minecraft \u0111ang d\u00f9ng
+{0} Cape	\u00c1o cho\u00e0ng {0}
+Gagal memuat jubah Minecraft.	Kh\u00f4ng th\u1ec3 t\u1ea3i \u00e1o cho\u00e0ng Minecraft.
+Respon profil kosong	Ph\u1ea3n h\u1ed3i h\u1ed3 s\u01a1 tr\u1ed1ng
+Gagal mengubah jubah.	Kh\u00f4ng th\u1ec3 \u0111\u1ed5i \u00e1o cho\u00e0ng.
+Gagal mengunggah skin.	Kh\u00f4ng th\u1ec3 t\u1ea3i skin l\u00ean.
+Gagal membaca file dari penyimpanan.	Kh\u00f4ng th\u1ec3 \u0111\u1ecdc t\u1ec7p t\u1eeb b\u1ed9 nh\u1edb.
+Format skin tidak valid. Ukuran harus 64x64 atau 64x32 piksel.	\u0110\u1ecbnh d\u1ea1ng skin kh\u00f4ng h\u1ee3p l\u1ec7. K\u00edch th\u01b0\u1edbc ph\u1ea3i l\u00e0 64x64 ho\u1eb7c 64x32 pixel.
+Format cape tidak valid. Ukuran harus 64x32 atau 128x64 piksel.	\u0110\u1ecbnh d\u1ea1ng \u00e1o cho\u00e0ng kh\u00f4ng h\u1ee3p l\u1ec7. K\u00edch th\u01b0\u1edbc ph\u1ea3i l\u00e0 64x32 ho\u1eb7c 128x64 pixel.
+Tanpa Cape	Kh\u00f4ng \u00e1o cho\u00e0ng
+Reset / Lepas cape	\u0110\u1eb7t l\u1ea1i / g\u1ee1 \u00e1o cho\u00e0ng
+Klasik merah resmi Mojang	M\u00e0u \u0111\u1ecf c\u1ed5 \u0111i\u1ec3n ch\u00ednh th\u1ee9c c\u1ee7a Mojang
+Creeper emas peringatan 15 tahun	Creeper v\u00e0ng k\u1ef7 ni\u1ec7m 15 n\u0103m
+Jubah biru kehormatan migrasi	\u00c1o cho\u00e0ng xanh vinh danh ng\u01b0\u1eddi chuy\u1ec3n t\u00e0i kho\u1ea3n
+Motif sakura edisi 1.20	H\u1ecda ti\u1ebft hoa anh \u0111\u00e0o, b\u1ea3n 1.20
+Edisi emas pencipta	B\u1ea3n v\u00e0ng c\u1ee7a ng\u01b0\u1eddi s\u00e1ng t\u1ea1o
+Edisi Java & Bedrock bundle	B\u1ea3n g\u00f3i Java & Bedrock
+# --- typing.tsv ---
+# Pengaturan > Kontrol sentuh: preview ketikan (bar di atas keyboard layar)
+Preview ketikan	Xem tr\u01b0\u1edbc n\u1ed9i dung g\u00f5
+Saat keyboard layar terbuka, huruf yang kamu ketik tampil di bar kecil tepat di atas keyboard supaya bisa diperiksa sebelum dikirim. Hanya menampilkan yang kamu ketik sejak keyboard dibuka.	Khi b\u00e0n ph\u00edm tr\u00ean m\u00e0n h\u00ecnh m\u1edf, c\u00e1c ch\u1eef b\u1ea1n g\u00f5 hi\u1ec7n trong m\u1ed9t thanh nh\u1ecf ngay ph\u00eda tr\u00ean b\u00e0n ph\u00edm \u0111\u1ec3 b\u1ea1n ki\u1ec3m tra tr\u01b0\u1edbc khi g\u1eedi. Ch\u1ec9 hi\u1ec3n th\u1ecb nh\u1eefng g\u00ec b\u1ea1n g\u00f5 t\u1eeb khi b\u00e0n ph\u00edm m\u1edf.
+Ketikanmu tampil di sini	N\u1ed9i dung b\u1ea1n g\u00f5 hi\u1ec7n \u1edf \u0111\u00e2y
+# --- update.tsv ---
+# Pembaruan aplikasi (pop-up versi baru dari GitHub)
+Pembaruan tersedia	C\u00f3 b\u1ea3n c\u1eadp nh\u1eadt
+Versi {0} sudah tersedia. Kamu memakai versi {1}.	\u0110\u00e3 c\u00f3 phi\u00ean b\u1ea3n {0}. B\u1ea1n \u0111ang d\u00f9ng phi\u00ean b\u1ea3n {1}.
+Yang baru	C\u00f3 g\u00ec m\u1edbi
+Lewati	B\u1ecf qua
+Unduh	T\u1ea3i xu\u1ed1ng
+# Pengecekan, unduhan, dan pemasangan pembaruan
+Unduhan terputus. Ketuk Coba lagi; unduhan dilanjutkan dari bagian yang sudah ada.	T\u1ea3i xu\u1ed1ng b\u1ecb gi\u00e1n \u0111o\u1ea1n. Ch\u1ea1m Th\u1eed l\u1ea1i; s\u1ebd ti\u1ebfp t\u1ee5c t\u1eeb ph\u1ea7n \u0111\u00e3 t\u1ea3i.
+Ruang penyimpanan tidak cukup. Kosongkan sekitar {0} MB lalu coba lagi.	Kh\u00f4ng \u0111\u1ee7 dung l\u01b0\u1ee3ng. H\u00e3y gi\u1ea3i ph\u00f3ng kho\u1ea3ng {0} MB r\u1ed3i th\u1eed l\u1ea1i.
+Berkas hasil unduhan rusak (tidak cocok dengan yang di GitHub). Ketuk Coba lagi untuk mengunduh ulang.	T\u1ec7p \u0111\u00e3 t\u1ea3i b\u1ecb h\u1ecfng (kh\u00f4ng kh\u1edbp v\u1edbi t\u1ec7p tr\u00ean GitHub). Ch\u1ea1m Th\u1eed l\u1ea1i \u0111\u1ec3 t\u1ea3i l\u1ea1i.
+Berkas APK tidak ditemukan di GitHub (kode 404). Mungkin rilisnya sudah dihapus.	Kh\u00f4ng t\u00ecm th\u1ea5y t\u1ec7p APK tr\u00ean GitHub (m\u00e3 404). C\u00f3 th\u1ec3 b\u1ea3n ph\u00e1t h\u00e0nh \u0111\u00e3 b\u1ecb x\u00f3a.
+GitHub menolak unduhan (kode 403). Coba lagi nanti.	GitHub t\u1eeb ch\u1ed1i t\u1ea3i xu\u1ed1ng (m\u00e3 403). H\u00e3y th\u1eed l\u1ea1i sau.
+GitHub membalas kode {0} saat mengunduh.	GitHub tr\u1ea3 v\u1ec1 m\u00e3 {0} khi t\u1ea3i xu\u1ed1ng.
+Balasan GitHub kosong.	Ph\u1ea3n h\u1ed3i t\u1eeb GitHub tr\u1ed1ng.
+Balasan GitHub terlalu besar.	Ph\u1ea3n h\u1ed3i t\u1eeb GitHub qu\u00e1 l\u1edbn.
+GitHub sedang bermasalah (kode {0}). Coba lagi nanti.	GitHub \u0111ang g\u1eb7p s\u1ef1 c\u1ed1 (m\u00e3 {0}). H\u00e3y th\u1eed l\u1ea1i sau.
+GitHub membalas kode {0}.	GitHub tr\u1ea3 v\u1ec1 m\u00e3 {0}.
+Tidak ada koneksi internet.	Kh\u00f4ng c\u00f3 k\u1ebft n\u1ed1i internet.
+Koneksi terlalu lambat. Coba lagi.	K\u1ebft n\u1ed1i qu\u00e1 ch\u1eadm. H\u00e3y th\u1eed l\u1ea1i.
+Koneksi aman ke GitHub gagal. Periksa tanggal dan jam HP.	K\u1ebft n\u1ed1i an to\u00e0n t\u1edbi GitHub th\u1ea5t b\u1ea1i. H\u00e3y ki\u1ec3m tra ng\u00e0y v\u00e0 gi\u1edd c\u1ee7a \u0111i\u1ec7n tho\u1ea1i.
+Koneksi internet terputus. Coba lagi.	M\u1ea5t k\u1ebft n\u1ed1i internet. H\u00e3y th\u1eed l\u1ea1i.
+Terjadi kesalahan yang tidak terduga.	\u0110\u00e3 x\u1ea3y ra l\u1ed7i kh\u00f4ng mong mu\u1ed1n.
+Batas permintaan GitHub tercapai (biasanya karena banyak orang memakai jaringan yang sama). Coba lagi sekitar pukul {0}.	\u0110\u00e3 \u0111\u1ea1t gi\u1edbi h\u1ea1n y\u00eau c\u1ea7u c\u1ee7a GitHub (th\u01b0\u1eddng do nhi\u1ec1u ng\u01b0\u1eddi d\u00f9ng chung m\u1ed9t m\u1ea1ng). H\u00e3y th\u1eed l\u1ea1i v\u00e0o kho\u1ea3ng {0}.
+Unduhan gagal: {0}	T\u1ea3i xu\u1ed1ng th\u1ea5t b\u1ea1i: {0}
+Berkas pembaruan hilang. Ketuk Coba lagi untuk mengunduh ulang.	Kh\u00f4ng t\u00ecm th\u1ea5y t\u1ec7p c\u1eadp nh\u1eadt. Ch\u1ea1m Th\u1eed l\u1ea1i \u0111\u1ec3 t\u1ea3i l\u1ea1i.
+Game masih berjalan. Tutup game dulu supaya tidak ada data yang hilang, lalu coba lagi.	Tr\u00f2 ch\u01a1i v\u1eabn \u0111ang ch\u1ea1y. H\u00e3y \u0111\u00f3ng tr\u00f2 ch\u01a1i tr\u01b0\u1edbc \u0111\u1ec3 kh\u00f4ng m\u1ea5t d\u1eef li\u1ec7u, r\u1ed3i th\u1eed l\u1ea1i.
+Pemasangan gagal: {0}	C\u00e0i \u0111\u1eb7t th\u1ea5t b\u1ea1i: {0}
+Pemasangan dibatalkan.	\u0110\u00e3 h\u1ee7y c\u00e0i \u0111\u1eb7t.
+Berkas pembaruan tidak bisa dibaca sebagai APK. Ketuk Coba lagi untuk mengunduh ulang.	Kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c t\u1ec7p c\u1eadp nh\u1eadt d\u01b0\u1edbi d\u1ea1ng APK. Ch\u1ea1m Th\u1eed l\u1ea1i \u0111\u1ec3 t\u1ea3i l\u1ea1i.
+Berkas ini bukan APK NovaCraft.	Tệp này không phải APK của NovaCraft.
+APK ini tidak lebih baru dari versi yang terpasang.	APK n\u00e0y kh\u00f4ng m\u1edbi h\u01a1n phi\u00ean b\u1ea3n \u0111ang c\u00e0i.
+Tanda tangan APK berbeda dari aplikasi yang terpasang, jadi Android akan menolak pembaruan ini.	Ch\u1eef k\u00fd APK kh\u00e1c v\u1edbi \u1ee9ng d\u1ee5ng \u0111\u00e3 c\u00e0i, n\u00ean Android s\u1ebd t\u1eeb ch\u1ed1i b\u1ea3n c\u1eadp nh\u1eadt n\u00e0y.
+Pemasangan diblokir oleh sistem atau Play Protect.	H\u1ec7 th\u1ed1ng ho\u1eb7c Play Protect \u0111\u00e3 ch\u1eb7n vi\u1ec7c c\u00e0i \u0111\u1eb7t.
+Pemasangan diblokir oleh sistem atau Play Protect.{0}	H\u1ec7 th\u1ed1ng ho\u1eb7c Play Protect \u0111\u00e3 ch\u1eb7n vi\u1ec7c c\u00e0i \u0111\u1eb7t.{0}
+Android menolak pembaruan ini: tanda tangan atau versinya tidak cocok dengan aplikasi yang terpasang.	Android \u0111\u00e3 t\u1eeb ch\u1ed1i b\u1ea3n c\u1eadp nh\u1eadt n\u00e0y: ch\u1eef k\u00fd ho\u1eb7c phi\u00ean b\u1ea3n kh\u00f4ng kh\u1edbp v\u1edbi \u1ee9ng d\u1ee5ng \u0111\u00e3 c\u00e0i.
+Android menolak pembaruan ini: tanda tangan atau versinya tidak cocok dengan aplikasi yang terpasang.{0}	Android \u0111\u00e3 t\u1eeb ch\u1ed1i b\u1ea3n c\u1eadp nh\u1eadt n\u00e0y: ch\u1eef k\u00fd ho\u1eb7c phi\u00ean b\u1ea3n kh\u00f4ng kh\u1edbp v\u1edbi \u1ee9ng d\u1ee5ng \u0111\u00e3 c\u00e0i.{0}
+APK ini tidak cocok dengan HP kamu.	APK n\u00e0y kh\u00f4ng t\u01b0\u01a1ng th\u00edch v\u1edbi \u0111i\u1ec7n tho\u1ea1i c\u1ee7a b\u1ea1n.
+APK ini tidak cocok dengan HP kamu.{0}	APK n\u00e0y kh\u00f4ng t\u01b0\u01a1ng th\u00edch v\u1edbi \u0111i\u1ec7n tho\u1ea1i c\u1ee7a b\u1ea1n.{0}
+APK rusak atau tidak valid. Ketuk Coba lagi untuk mengunduh ulang.	APK b\u1ecb h\u1ecfng ho\u1eb7c kh\u00f4ng h\u1ee3p l\u1ec7. Ch\u1ea1m Th\u1eed l\u1ea1i \u0111\u1ec3 t\u1ea3i l\u1ea1i.
+APK rusak atau tidak valid. Ketuk Coba lagi untuk mengunduh ulang.{0}	APK b\u1ecb h\u1ecfng ho\u1eb7c kh\u00f4ng h\u1ee3p l\u1ec7. Ch\u1ea1m Th\u1eed l\u1ea1i \u0111\u1ec3 t\u1ea3i l\u1ea1i.{0}
+Ruang penyimpanan tidak cukup untuk memasang pembaruan.	Kh\u00f4ng \u0111\u1ee7 dung l\u01b0\u1ee3ng \u0111\u1ec3 c\u00e0i b\u1ea3n c\u1eadp nh\u1eadt.
+Ruang penyimpanan tidak cukup untuk memasang pembaruan.{0}	Kh\u00f4ng \u0111\u1ee7 dung l\u01b0\u1ee3ng \u0111\u1ec3 c\u00e0i b\u1ea3n c\u1eadp nh\u1eadt.{0}
+Pemasangan gagal.	C\u00e0i \u0111\u1eb7t th\u1ea5t b\u1ea1i.
+Pemasangan gagal.{0}	C\u00e0i \u0111\u1eb7t th\u1ea5t b\u1ea1i.{0}
+Balasan GitHub tidak bisa dibaca.	Kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c ph\u1ea3n h\u1ed3i t\u1eeb GitHub.
+Daftar rilis tersimpan tidak bisa dibaca.	Kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c danh s\u00e1ch b\u1ea3n ph\u00e1t h\u00e0nh \u0111\u00e3 l\u01b0u.
+Pembaruan	C\u1eadp nh\u1eadt
+Versi terpasang	Phi\u00ean b\u1ea3n \u0111\u00e3 c\u00e0i
+Memeriksa...	\u0110ang ki\u1ec3m tra...
+Lihat pembaruan	Xem b\u1ea3n c\u1eadp nh\u1eadt
+Buka	M\u1edf
+Periksa pembaruan	Ki\u1ec3m tra c\u1eadp nh\u1eadt
+Periksa otomatis	T\u1ef1 \u0111\u1ed9ng ki\u1ec3m tra
+Cek versi baru di GitHub setiap launcher dibuka (hanya beberapa KB). Kalau ada, muncul pop-up untuk mengunduh dan memasangnya.	Ki\u1ec3m tra phi\u00ean b\u1ea3n m\u1edbi tr\u00ean GitHub m\u1ed7i khi m\u1edf launcher (ch\u1ec9 v\u00e0i KB). N\u1ebfu c\u00f3, m\u1ed9t c\u1eeda s\u1ed5 s\u1ebd hi\u1ec7n ra \u0111\u1ec3 t\u1ea3i v\u00e0 c\u00e0i \u0111\u1eb7t.
+Semua rilis	T\u1ea5t c\u1ea3 b\u1ea3n ph\u00e1t h\u00e0nh
+Daftar versi dan catatan perubahannya di GitHub.	Danh s\u00e1ch phi\u00ean b\u1ea3n v\u00e0 ghi ch\u00fa thay \u0111\u1ed5i tr\u00ean GitHub.
+Buka GitHub	M\u1edf GitHub
+Pembaruan diunduh dan dipasang dari dalam launcher. Android tetap meminta satu kali konfirmasi pemasangan, dan game harus ditutup dulu.	B\u1ea3n c\u1eadp nh\u1eadt \u0111\u01b0\u1ee3c t\u1ea3i v\u00e0 c\u00e0i \u0111\u1eb7t ngay trong launcher. Android v\u1eabn y\u00eau c\u1ea7u x\u00e1c nh\u1eadn c\u00e0i \u0111\u1eb7t m\u1ed9t l\u1ea7n v\u00e0 ph\u1ea3i \u0111\u00f3ng tr\u00f2 ch\u01a1i tr\u01b0\u1edbc.
+Belum diperiksa. Ketuk Periksa pembaruan.	Ch\u01b0a ki\u1ec3m tra. Ch\u1ea1m Ki\u1ec3m tra c\u1eadp nh\u1eadt.
+Memeriksa pembaruan...	\u0110ang ki\u1ec3m tra c\u1eadp nh\u1eadt...
+Sudah versi terbaru. Diperiksa pukul {0}.	\u0110\u00e3 l\u00e0 phi\u00ean b\u1ea3n m\u1edbi nh\u1ea5t. Ki\u1ec3m tra l\u00fac {0}.
+Versi {0} sudah terbit, tetapi APK untuk HP ini ({1}) belum tersedia. Coba lagi nanti.	Phi\u00ean b\u1ea3n {0} \u0111\u00e3 ph\u00e1t h\u00e0nh, nh\u01b0ng APK cho \u0111i\u1ec7n tho\u1ea1i n\u00e0y ({1}) ch\u01b0a c\u00f3. H\u00e3y th\u1eed l\u1ea1i sau.
+Versi {0} tersedia.	Phi\u00ean b\u1ea3n {0} \u0111\u00e3 c\u00f3.
+Mengunduh versi {0}... {1}%	\u0110ang t\u1ea3i phi\u00ean b\u1ea3n {0}... {1}%
+Versi {0} siap dipasang.	Phi\u00ean b\u1ea3n {0} \u0111\u00e3 s\u1eb5n s\u00e0ng \u0111\u1ec3 c\u00e0i \u0111\u1eb7t.
+Butuh izin memasang aplikasi dari Android.	C\u1ea7n c\u1ea5p quy\u1ec1n c\u00e0i \u0111\u1eb7t \u1ee9ng d\u1ee5ng c\u1ee7a Android.
+Menunggu konfirmasi pemasangan dari Android...	\u0110ang ch\u1edd Android x\u00e1c nh\u1eadn c\u00e0i \u0111\u1eb7t...
+Ukuran unduhan: {0} MB	Dung l\u01b0\u1ee3ng t\u1ea3i: {0} MB
+Kamu sedang memakai data seluler, unduhan ini memakai kuota.	B\u1ea1n \u0111ang d\u00f9ng d\u1eef li\u1ec7u di \u0111\u1ed9ng, b\u1ea3n t\u1ea3i n\u00e0y s\u1ebd t\u1ed1n dung l\u01b0\u1ee3ng g\u00f3i c\u01b0\u1edbc.
+Mengunduh pembaruan	\u0110ang t\u1ea3i b\u1ea3n c\u1eadp nh\u1eadt
+Sembunyikan	\u1ea8n
+Unduhan berjalan selama launcher terbuka. Kalau terputus, ketuk Unduh lagi; lanjut dari bagian yang sudah ada.	Qu\u00e1 tr\u00ecnh t\u1ea3i ch\u1ea1y khi launcher \u0111ang m\u1edf. N\u1ebfu b\u1ecb gi\u00e1n \u0111o\u1ea1n, ch\u1ea1m T\u1ea3i xu\u1ed1ng l\u1ea7n n\u1eefa; s\u1ebd ti\u1ebfp t\u1ee5c t\u1eeb ph\u1ea7n \u0111\u00e3 t\u1ea3i.
+Siap dipasang	S\u1eb5n s\u00e0ng c\u00e0i \u0111\u1eb7t
+Versi {0} sudah diunduh dan diperiksa.	Phi\u00ean b\u1ea3n {0} \u0111\u00e3 \u0111\u01b0\u1ee3c t\u1ea3i v\u00e0 ki\u1ec3m tra.
+Android akan meminta konfirmasi pemasangan. Launcher tertutup selama pemasangan; buka lagi setelah selesai.	Android s\u1ebd y\u00eau c\u1ea7u x\u00e1c nh\u1eadn c\u00e0i \u0111\u1eb7t. Launcher s\u1ebd \u0111\u00f3ng trong khi c\u00e0i; h\u00e3y m\u1edf l\u1ea1i sau khi xong.
+Izin pemasangan diperlukan	C\u1ea7n quy\u1ec1n c\u00e0i \u0111\u1eb7t
+Android perlu izin agar NovaCraft bisa memasang pembaruannya sendiri.	Android cần được cấp quyền để NovaCraft tự cài bản cập nhật của mình.
+Nyalakan "Izinkan dari sumber ini", lalu kembali ke sini. Pemasangan dilanjutkan otomatis.	B\u1eadt "Cho ph\u00e9p t\u1eeb ngu\u1ed3n n\u00e0y", r\u1ed3i quay l\u1ea1i \u0111\u00e2y. Vi\u1ec7c c\u00e0i \u0111\u1eb7t s\u1ebd ti\u1ebfp t\u1ee5c t\u1ef1 \u0111\u1ed9ng.
+Memasang pembaruan	\u0110ang c\u00e0i b\u1ea3n c\u1eadp nh\u1eadt
+Ikuti konfirmasi dari Android. Launcher tertutup otomatis saat pemasangan selesai.	H\u00e3y l\u00e0m theo x\u00e1c nh\u1eadn c\u1ee7a Android. Launcher s\u1ebd t\u1ef1 \u0111\u00f3ng khi c\u00e0i \u0111\u1eb7t xong.
+Pembaruan gagal	C\u1eadp nh\u1eadt th\u1ea5t b\u1ea1i
+Coba lagi	Th\u1eed l\u1ea1i
+Pemasangan gagal. ({~0})	C\u00e0i \u0111\u1eb7t th\u1ea5t b\u1ea1i. ({0})
+layar konfirmasi tidak bisa dibuka	kh\u00f4ng th\u1ec3 m\u1edf m\u00e0n h\u00ecnh x\u00e1c nh\u1eadn

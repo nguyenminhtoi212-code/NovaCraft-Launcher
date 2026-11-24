@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+        #skin-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+    <script>
+        // Batasi render ke ~30 fps agar HP kelas menengah tidak terbebani
+        // (animasi karakter tetap halus, tapi GPU/CPU jauh lebih santai).
+        (function () {
+            var raf = window.requestAnimationFrame.bind(window);
+            var caf = window.cancelAnimationFrame.bind(window);
+            var seq = 0, pending = {};
+            window.requestAnimationFrame = function (cb) {
+                var id = ++seq;
+                var h = { t: 0, r: 0 };
+                h.t = setTimeout(function () {
+                    h.r = raf(function (ts) { delete pending[id]; cb(ts); });
+                }, 16);
+                pending[id] = h;
+                return id;
+            };
+            window.cancelAnimationFrame = function (id) {
+                var h = pending[id];
+                if (h) { clearTimeout(h.t); if (h.r) caf(h.r); delete pending[id]; }
+            };
+        })();
+    </script>
+    <script src="skinview3d.bundle.js"></script>
+</head>
+<body>
+<div id="skin-container"></div>
+<script src="skinview.js"></script>
+</body>
+</html>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:glEsVersion="0x00030000" android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- Rekam layar bawaan: service foreground bertipe mediaProjection (+ mikrofon bila dipilih) -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <!-- Pemasangan Forge: installer resmi berjalan di service foreground bertipe dataSync -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Auto-update: memasang APK pembaruan lewat PackageInstaller. Pembaruan berikutnya bisa tanpa konfirmasi di Android 12+ -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION" />
+
+    <application
+        android:name=".NuxApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NuxLauncher"
+        android:allowNativeHeapPointerTagging="false"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Alias: Open With Mod (.jar) -->
+        <activity-alias
+            android:name=".ImportModActivity"
+            android:targetActivity=".MainActivity"
+            android:label="novacraft launcher — Mod"
+            android:icon="@mipmap/ic_launcher"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.jar" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="application/java-archive" />
+                <data android:mimeType="application/x-java-archive" />
+                <data android:mimeType="application/x-jar" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Alias: Open With Modpack (.mrpack / .zip) -->
+        <activity-alias
+            android:name=".ImportModpackActivity"
+            android:targetActivity=".MainActivity"
+            android:label="novacraft launcher — Modpack"
+            android:icon="@mipmap/ic_launcher"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.mrpack" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.zip" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="application/zip" />
+                <data android:mimeType="application/x-zip-compressed" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Alias: Open With Resource Pack (.zip) -->
+        <activity-alias
+            android:name=".ImportResourcepackActivity"
+            android:targetActivity=".MainActivity"
+            android:label="novacraft launcher — Resource Pack"
+            android:icon="@mipmap/ic_launcher"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.zip" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="application/zip" />
+                <data android:mimeType="application/x-zip-compressed" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Alias: Open With Shaderpack (.zip) -->
+        <activity-alias
+            android:name=".ImportShaderpackActivity"
+            android:targetActivity=".MainActivity"
+            android:label="novacraft launcher — Shaderpack"
+            android:icon="@mipmap/ic_launcher"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.zip" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="application/zip" />
+                <data android:mimeType="application/x-zip-compressed" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Alias: Open With Mod Horizon (.hmod) -->
+        <activity-alias
+            android:name=".ImportHorizonModActivity"
+            android:targetActivity=".MainActivity"
+            android:label="novacraft launcher — Mod Horizon"
+            android:icon="@mipmap/ic_launcher"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.hmod" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="application/zip" />
+                <data android:mimeType="application/x-zip-compressed" />
+                <data android:mimeType="application/octet-stream" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Alias: Open With Shader Horizon (.hshader) -->
+        <activity-alias
+            android:name=".ImportHorizonShaderActivity"
+            android:targetActivity=".MainActivity"
+            android:label="novacraft launcher — Shader Horizon"
+            android:icon="@mipmap/ic_launcher"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.hshader" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="application/zip" />
+                <data android:mimeType="application/x-zip-compressed" />
+                <data android:mimeType="application/octet-stream" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Alias: Open With Dunia Minecraft Java (.zip) -->
+        <activity-alias
+            android:name=".ImportWorldActivity"
+            android:targetActivity=".MainActivity"
+            android:label="novacraft launcher — Dunia Java"
+            android:icon="@mipmap/ic_launcher"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.zip" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:mimeType="application/zip" />
+                <data android:mimeType="application/x-zip-compressed" />
+                <data android:mimeType="application/octet-stream" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name=".GameActivity"
+            android:exported="false"
+            android:process=":game"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|keyboard|navigation"
+            android:theme="@style/Theme.NuxLauncher" />
+
+        <!--
+            Mesin Rust (Horizon, MIT): NativeActivity yang memuat libhorizon_android.so. Pustakanya TIDAK ada di repo,
+            dipasang saat build oleh scripts/fetch-horizon-engine.sh (lihat docs/rust-engine.md); tanpanya activity ini
+            tidak pernah dibuka karena HorizonEngine.availability() menolaknya lebih dulu.
+            Proses :horizon sendiri karena mesinnya memanggil process::exit saat selesai, dan itu tidak boleh ikut
+            mematikan launcher. Nama kelas terikat pada fungsi JNI di pustaka native, jadi tidak boleh diganti.
+        -->
+        <activity
+            android:name="dev.horizon.android.HorizonActivity"
+            android:exported="false"
+            android:process=":horizon"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard|navigation|density|screenLayout"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/HorizonGameTheme">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="horizon_android" />
+        </activity>
+
+        <!-- Satu proses dengan GameActivity supaya perekam berbagi status dan mati bersama game -->
+        <service
+            android:name=".RecordService"
+            android:exported="false"
+            android:process=":game"
+            android:foregroundServiceType="mediaProjection|microphone" />
+
+        <!-- Proses :forge sendiri: hidup hanya selama installer Forge berjalan, lalu dimatikan (tanpa RAM tersisa) -->
+        <service
+            android:name=".ForgeInstallService"
+            android:exported="false"
+            android:process=":forge"
+            android:foregroundServiceType="dataSync" />
+
+        <!-- Penjaga proses selama Minecraft diunduh (proses utama, bukan proses sendiri) -->
+        <service
+            android:name=".DownloadKeepAliveService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+
+        <!--
+            Proses :vkcheck sendiri: pengecekan dukungan Vulkan memuat driver grafis HP, dan driver yang bermasalah
+            bisa menutup prosesnya. Dengan proses terpisah, yang mati hanya :vkcheck, bukan launcher. Hidup beberapa
+            detik lalu mematikan dirinya sendiri.
+        -->
+        <service
+            android:name=".VulkanCheckService"
+            android:exported="false"
+            android:process=":vkcheck" />
+
+        <activity
+            android:name=".ErrorActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|keyboard|navigation"
+            android:theme="@style/Theme.NuxLauncher" />
+
+        <!-- Hasil pemasangan pembaruan dari PackageInstaller (hanya sistem yang memegang PendingIntent-nya) -->
+        <receiver
+            android:name=".UpdateInstallReceiver"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+        <package android:name="com.fcl.plugin.mobileglues" />
+        <package android:name="com.bzlzhh.plugin.ngg" />
+        <package android:name="com.bzlzhh.plugin.ngg.angleless" />
+        <package android:name="ru.zdevs.zarchiver" />
+        <package android:name="com.discord" />
+        <package android:name="com.discord.ptb" />
+        <package android:name="com.discord.canary" />
+    </queries>
+
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema layar mesin Rust (Horizon) gaya NovaCraft Cosmic Obsidian. -->
+    <style name="HorizonGameTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#060B1D</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorAccent">#38BDF8</item>
+        <item name="android:statusBarColor">#060B1D</item>
+        <item name="android:navigationBarColor">#060B1D</item>
+    </style>
+</resources>

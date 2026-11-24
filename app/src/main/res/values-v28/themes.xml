@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NuxLauncher" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:statusBarColor">#09090B</item>
+        <item name="android:navigationBarColor">#09090B</item>
+        <item name="android:windowBackground">#09090B</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <!-- Dialog (Compose Dialog/AlertDialog ikut memakai ini) muncul dan hilang tanpa animasi jendela. -->
+        <item name="android:dialogTheme">@style/Theme.NuxLauncher.Dialog</item>
+    </style>
+
+    <style name="Theme.NuxLauncher.Dialog" parent="android:Theme.Material.Dialog">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>
