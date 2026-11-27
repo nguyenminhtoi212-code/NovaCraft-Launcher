@@ -1,6 +1,6 @@
-<div align="center">
+ <div align="center">
 
-<img width="120" height="120" src="app/src/main/res/drawable/img_novacraft_logo.png" />
+<img width="120" height="120" alt="1000413428" src="https://github.com/user-attachments/assets/37565f99-0859-4be7-9bea-7df4fb9c948a" />
 
 # NovaCraft Launcher
 
